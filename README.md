@@ -3,10 +3,10 @@ This GitHub repository hosts tmod files for all of my released mods for tModLoad
 
 ## Downloading & Installing a Mod:
 To download and install a mod from this repository, you do NOT need to fork or download the repository. Likewise, a GitHub account is NOT necessary. Simply follow the steps below;
-Step 1: Find the desired mod's tmod file in the repository (Code tab), and click on it to view it
-Step 2: When viewing the file, find a button near the right side of your screen that says 'Download raw file' when hovered over (It should be near another button with a pencil icon) and click it to download the tmod file
-Step 3: Once you have the tmod file, open your file explorer and find tML's Mods folder; move the tmod file there (Example filepath on Windows: C:\Users\[user name here]\Documents\My Games\Terraria\tModLoader\Mods)
-Step 4: Launch tModLoader and check your mods list to confirm the mod has been added to your lists. Activate and profit!
+- Step 1: Find the desired mod's tmod file in the repository (Code tab), and click on it to view it
+- Step 2: When viewing the file, find a button near the right side of your screen that says 'Download raw file' when hovered over (It should be near another button with a pencil icon) and click it to download the tmod file
+- Step 3: Once you have the tmod file, open your file explorer and find tML's Mods folder; move the tmod file there (Example filepath on Windows: C:\Users\[user name here]\Documents\My Games\Terraria\tModLoader\Mods)
+- Step 4: Launch tModLoader and check your mods list to confirm the mod has been added to your lists. Activate and profit!
 
 ## Concerning Open Source:
 Note that this repository does NOT have an open source license. It should only be used as an alternative method for downloading the hosted mods. 

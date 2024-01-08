@@ -1,0 +1,6 @@
+#Contributing Localization
+As noted in the main README file, localization contributions are welcomed and appreciated. If you desire to contribute localization to one of my mods, please note the below directions;
+- When your localization is ready, make a PR in this repository. Once I see the PR I'll make sure everything looks good and then merge it and download the .hjson file for use in the mod.
+- Your .hjson file should go in the same folder/namespace you found this file.
+- The .hjson file should follow the same naming convention as the english version. For example; Block's Info Accessories uses 'en-US_Mods.BInfoAcc.hjson' for English, and 'zh-Hans_Mods.BInfoAcc.hjson' for Simplified Chinese.
+- Some mods use the convention 'en-US_Mods' for their localization files and don't include the mod name. In this case, you should add a prefix with the mod's internal name so the respective mod can be easily identified. For example, Simplified Chinese localization for Arsenal would be 'Arsenal_Mod_zh-Hans.hjson' instead of just 'zh-Hans.hjson'.

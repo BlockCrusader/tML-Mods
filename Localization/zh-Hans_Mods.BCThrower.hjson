@@ -1,0 +1,1637 @@
+CommonTooltips: {
+	Stats: {
+		# ---------------
+		# Basic Stats:
+		# ---------------
+		PercentIncThrowDmg: 增加 {0}% 投掷伤害
+		PercentIncThrowCrit: 增加 {0}% 投掷暴击率
+		PercentIncThrowSpd: 增加 {0}% 投掷攻速
+		PercentIncThrowVelocity: 增加 {0}% 投掷物速度
+		PercentIncThrowKB: 增加 {0}% 投掷物击退力
+		PercentThrowConserv: "{0}% 的几率不消耗投掷物"
+		PercentDamageReduction: 减少 {0}% 受到的伤害
+		# ---------------
+		# Compound Stats:
+		# ---------------
+		PercentIncThrowDmgAndCrit: 增加 {0}% 投掷伤害和暴击率
+		PercentIncThrowDmgAndSpd: 增加 {0}% 投掷伤害和攻速
+		PercentIncThrowCritAndSpd: 增加 {0}% 投掷暴击率和攻速
+		PercentIncThrowVelAndDmg: 增加 {0}% 投掷物速度和伤害
+		PercentIncThrowVelAndCrit: 增加 {0}% 投掷物速度和暴击率
+		PercentIncThrowVelAndSpd: 增加 {0}% 投掷物速度和攻速
+		PercentIncThrowVelAndKB: 增加 {0}% 投掷物速度和击退力
+		PercentIncThrowAndMoveSpd: 增加 {0}% 移动速度和投掷攻速
+		PercentIncThrowVelAndMoveSpd: 增加 {0}% 移动速度和投掷物速度
+		PercentIncThrowDmgAndMoveSpd: 增加 {0}% 移动速度和投掷伤害
+		# ---------------
+		# Aggro:
+		# ---------------
+		# 200 or less Aggro Reduction
+		SlightReducedAggro: 敌人不太可能以你为攻击目标
+		# 201 to 399 Aggro Reduction
+		ReducedAggro: 敌人非常不可能以你为攻击目标
+		# 400 or more Aggro Reduction
+		GreatReducedAggro: 敌人极不可能以你为攻击目标
+		# ---------------
+		# Regen:
+		# ---------------
+		# +1 Regen
+		SlightRegen: 稍微增加生命再生速度
+		# +2 to +4 Regen
+		Regen: 增加生命再生速度
+		# +5 to +7 Regen
+		GreatRegen: 大幅增加生命再生速度
+		# +8 or more Regen
+		HugeRegen: 巨幅增加生命再生速度
+		# ---------------
+		# Converted armor:
+		# ---------------
+		FossilCrit: 增加 5% 远程和投掷伤害
+		FossilDmg: 增加 4% 远程和投掷暴击率
+		CrystalNinjaConserv:
+			'''
+			10% 的几率不消耗弹药
+			10% 的几率不消耗投掷物
+			'''
+		ShinobiHead:
+			'''
+			增加 2 个最大哨兵栏并增加 20% 召唤伤害
+			增加 15% 投掷伤害
+			'''
+		ShinobiBody:
+			'''
+			增加 20% 召唤伤害
+			增加 15% 投掷攻速
+			'''
+		ShinobiLegs:
+			'''
+			增加 20% 召唤伤害
+			增加 15% 投掷暴击率
+			'''
+	}
+
+	SetBonus: {
+		FossilBCThrower:
+			'''
+			20% 的几率不消耗弹药
+			20% 的几率不消耗投掷物
+			'''
+		NinjaBCThrower:
+			'''
+			增加 12% 移动速度
+			增加 12% 投掷物速度
+			'''
+		CrystalNinjaBCThrower:
+			'''
+			允许玩家猛冲向敌人
+			增加 5% 投掷伤害和暴击率
+			'''
+		Stealth:
+			'''
+			{$CommonTooltips.Stats.SlightRegen}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+		Feather:
+			'''
+			提高跳跃速度和摔落抗性
+			受到攻击时会发射出羽毛进行反击
+			'''
+		Master:
+			'''
+			增加 10% 投掷物速度
+			有几率闪避敌人攻击
+			'''
+		Akuma:
+			'''
+			投掷攻击有几率使敌人陷入混乱并点燃敌人
+			投掷攻击有时会发射火焰炸弹，会使敌人陷入混乱并点燃敌人
+			'''
+		Hidden:
+			'''
+			增加 10% 投掷暴击率
+			手持投掷武器并保持静止会积累潜行值
+			潜行值会增加下一次投掷攻击的伤害，并使得敌人不太可能以你为攻击目标
+			移动时不会失去潜行值，但有潜行值会降低移动速度
+			如果未持有投掷武器，潜行值会随着时间的推移而衰减
+			'''
+		DarkSet:
+			'''
+			20% 的几率不消耗投掷物
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			双击 {0} 传送到光标所在位置，并短暂地增强你的投掷武器
+			此效果有 15 秒冷却
+			'''
+		DarkTriggerUp: UP
+		DarkTriggerDown: DOWN
+		Winter:
+			'''
+			15% 的几率不消耗投掷物
+			{$CommonTooltips.Stats.GreatReducedAggro}
+			投掷攻击有 25% 的几率使造成三倍伤害
+			'''
+		Bionic:
+			'''
+			{$CommonTooltips.Stats.ReducedAggro}
+			击杀敌人后根据造成的伤害恢复部分生命值，并短暂地增强你的投掷武器
+			此效果有 6 秒冷却
+			'''
+		Void:
+			'''
+			33% 的几率不消耗投掷物
+			有几率吸收攻击，为你恢复生命值
+			生命值较低或连续多次未能触发该效果时，几率增加
+			吸收攻击还会生成一个短暂的空间裂隙撕裂敌人
+			'''
+	}
+
+	Config: {
+		DamageChange: 将此武器的伤害类型转化为投掷伤害
+		MagicTweaks: 移除的魔力消耗，但相应地降低伤害
+		DamageRebalance: 此武器的伤害数值也会相应调整，以与其他投掷武器保持一致
+		ArmorChange: 将这套盔甲的属性/套装效果更改为投手专用
+		ConvertWarning: 由于其原始的伤害类型，该武器在转换后只能获得通用（即非特定职业）词缀
+		ArsenalWarning:
+			'''
+			该武器来自“阿森纳：武器扩展模组”
+			如果未启用阿森纳模组，则此设置选项无效
+			'''
+	}
+
+	Shop: {
+		NinjaArmorCond: 在“其它原版改动”设置中启用“忍者盔甲由忍者NPC出售”选项
+		MasterScrollCond: 在夜晚，击败石巨人/光之女皇/猪龙鱼公爵后
+		DisciplineScrollCond: 在白天，击败除史莱姆以外的任意困难模式之前的Boss
+		ShadowspikeBallCond: 击败哥布林术士后
+	}
+
+	Flasks: {
+		FlaskBase: 近战、投掷和鞭子攻击
+		FlaskFire: 会点燃敌人
+		FlaskPoison: 对敌人施加中毒
+		FlaskCursed: 对敌人施加诅咒焰
+		FlaskGold: 使敌人掉落更多钱币
+		FlaskIchor: 减少敌人防御
+		FlaskParty: 会喷撒彩纸
+		FlaskNanites: 使敌人困惑
+		FlaskVenom: 对敌人施加酸性毒液
+	}
+}
+
+Items: {
+	StealthFacewrap: {
+		DisplayName: 隐匿面罩
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowDmg}"
+	}
+
+	StealthShirt: {
+		DisplayName: 隐匿上衣
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowVelocity}"
+	}
+
+	StealthPants: {
+		DisplayName: 隐匿靴子
+		Tooltip: "{$CommonItemTooltip.PercentIncreasedMovementSpeed}"
+	}
+
+	FeatherHeadgear: {
+		DisplayName: 天羽头盔
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.SlightRegen}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	FeatherShirt: {
+		DisplayName: 天羽胸甲
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowVelAndMoveSpd}"
+	}
+
+	FeatherPants: {
+		DisplayName: 天羽腿甲
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowAndMoveSpd}"
+	}
+
+	MasterJingasa: {
+		DisplayName: 大师头盔
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowSpd}
+			{$CommonTooltips.Stats.PercentThrowConserv@1}
+			'''
+	}
+
+	MasterYukata: {
+		DisplayName: 大师和服
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.SlightRegen}
+			'''
+	}
+
+	MasterGeta: {
+		DisplayName: 大师下駄
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.ReducedAggro}
+			'''
+	}
+
+	AkumaMask: {
+		DisplayName: 恶魔面具
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			'向敌人释放你内心的恶魔'
+			'''
+	}
+
+	AkumaMail: {
+		DisplayName: 恶魔大衣
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndSpd}
+			'摸起来还很温热'
+			'''
+	}
+
+	AkumaTabi: {
+		DisplayName: 恶魔分趾袜
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowVelAndMoveSpd}
+			'不，这不会让你冲刺'
+			'''
+	}
+
+	HiddenOneCowl: {
+		DisplayName: 无形者兜帽
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	HiddenOneRobes: {
+		DisplayName: 无形者长袍
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowVelAndCrit}
+			{$CommonTooltips.Stats.Regen}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	HiddenOneLeggings: {
+		DisplayName: 无形者护腿
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndMoveSpd}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	HallowedVisage: {
+		DisplayName: 神圣面甲
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd}
+			'''
+	}
+
+	AncientHallowedVisage: {
+		DisplayName: 远古神圣面罩
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd}
+			'''
+	}
+
+	UmbraCloth: {
+		DisplayName: 黯影布料
+		Tooltip: "'它诡异的衬里让人想起太阳的影子'"
+	}
+
+	DarkKnightHelmet: {
+		DisplayName: 黯夜骑士头盔
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	DarkKnightBreastplate: {
+		DisplayName: 黯夜骑士胸甲
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	DarkKnightGreaves: {
+		DisplayName: 黯夜骑士护胫
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowAndMoveSpd}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	ShatteredFlake: {
+		DisplayName: 碎雪结晶
+		Tooltip: ""
+	}
+
+	WinterHood: {
+		DisplayName: 寒冬兜帽
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCritAndSpd}
+			{$CommonTooltips.Stats.PercentDamageReduction@1}
+			{$CommonTooltips.Stats.SlightRegen}
+			'他是白色圣诞老人，他是雪先生……'
+			'''
+	}
+
+	WinterMail: {
+		DisplayName: 寒冬大衣
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd}
+			{$CommonTooltips.Stats.PercentDamageReduction@1}
+			{$CommonTooltips.Stats.Regen}
+			'不包括连指手套'
+			'''
+	}
+
+	WinterLeggings: {
+		DisplayName: 寒冬护腿
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$CommonTooltips.Stats.PercentDamageReduction@2}
+			{$CommonTooltips.Stats.Regen}
+			'宣告冬天的来临'
+			'''
+	}
+
+	BionicHeadgear: {
+		DisplayName: 仿生头盔
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'记忆破碎，真相不言自明……'
+			'''
+	}
+
+	BionicPlate: {
+		DisplayName: 仿生胸甲
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.PercentIncThrowSpd@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'大自然的规则！'
+			'''
+	}
+
+	BionicGreaves: {
+		DisplayName: 仿生护胫
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowVelocity}
+			{$CommonItemTooltip.PercentIncreasedMovementSpeed@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'站在这，我意识到……'
+			'''
+	}
+
+	VoidFragment: {
+		DisplayName: 虚空碎片
+		Tooltip: "'永存宇宙深渊之力渗透进这碎片中'"
+	}
+
+	VoidMask: {
+		DisplayName: 虚空面具
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.PercentIncThrowSpd@1}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndCrit@2}
+			{$CommonTooltips.Stats.PercentDamageReduction@3}
+			{$CommonTooltips.Stats.ReducedAggro}
+			'''
+	}
+
+	VoidPlate: {
+		DisplayName: 虚空胸甲
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.PercentIncThrowCrit@1}
+			{$CommonTooltips.Stats.PercentDamageReduction@2}
+			{$CommonTooltips.Stats.ReducedAggro}
+			'''
+	}
+
+	VoidGreaves: {
+		DisplayName: 虚空护胫
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmg}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd@1}
+			{$CommonItemTooltip.PercentIncreasedMovementSpeed@2}
+			{$CommonTooltips.Stats.PercentDamageReduction@3}
+			{$CommonTooltips.Stats.ReducedAggro}
+			'''
+	}
+
+	DragonScroll: {
+		DisplayName: 龙之卷轴
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCritAndSpd}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndKB}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			投掷攻击施加狱火
+			投掷暴击施加破晓
+			'阿宝说它是空白的！'
+			'''
+	}
+
+	DisciplineScroll: {
+		DisplayName: 惩戒卷轴
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowVelAndDmg}"
+	}
+
+	DexterityScroll: {
+		DisplayName: 机敏卷轴
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentThrowConserv}
+			{$CommonTooltips.Stats.PercentIncThrowSpd@1}
+			'''
+	}
+
+	GelatinGrip: {
+		DisplayName: 明胶手套
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentThrowConserv}
+			{$CommonTooltips.Stats.PercentIncThrowKB}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			'Mind the sticky fingers……'
+			'''
+	}
+
+	GrandmasterEmblem: {
+		DisplayName: 大师徽章
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowDmgAndCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelAndSpd}
+			'''
+	}
+
+	MasterScroll: {
+		DisplayName: 大师卷轴
+		Tooltip:
+			'''
+			增加 {0}% 投掷暴击率、攻速和投掷物速度
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	NinjaWarriorGear: {
+		DisplayName: 忍者武士装备
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentThrowConserv}
+			{$CommonTooltips.Stats.PercentIncThrowKB}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			允许玩家猛冲向敌人
+			有几率闪避敌人攻击
+			'''
+	}
+
+	SerenityBand: {
+		DisplayName: 沉着臂章
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			{$CommonTooltips.Stats.Regen}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	ShadowArmband: {
+		DisplayName: 暗影臂章
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.PercentIncThrowDmg@1}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@2}
+			{$CommonTooltips.Stats.GreatReducedAggro}
+			'''
+	}
+
+	ShinobiArmband: {
+		DisplayName: 忍法臂章
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.PercentIncThrowVelocity@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			'''
+	}
+
+	StealthHeadband: {
+		DisplayName: 隐匿头巾
+		Tooltip: "{$CommonTooltips.Stats.SlightReducedAggro}"
+	}
+
+	SunHeadband: {
+		DisplayName: 灼日头巾
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.PercentIncThrowCrit}
+			{$CommonTooltips.Stats.PercentIncThrowKB@1}
+			{$CommonTooltips.Stats.SlightReducedAggro}
+			投掷暴击施加狱火
+			'''
+	}
+
+	ThrowerEmblem: {
+		DisplayName: 投手徽章
+		Tooltip: "{$CommonTooltips.Stats.PercentIncThrowDmg}"
+	}
+
+	DexterityPotion: {
+		DisplayName: 机敏药水
+		Tooltip:
+			'''
+			10% 的几率不消耗投掷物
+			增加 5% 投掷攻速和投掷物速度
+			'''
+	}
+
+	StealthPotion: {
+		DisplayName: 隐匿药水
+		Tooltip:
+			'''
+			{$CommonTooltips.Stats.ReducedAggro}
+			根据敌人不以你为攻击攻击目标的可能性增加投掷暴击率
+			'''
+	}
+
+	ThrowingBoard: {
+		DisplayName: 投手标靶
+		Tooltip:
+			'''
+			增加投掷暴击率、投掷物速度和击退力
+			'正中靶心！'
+			'''
+	}
+
+	VoidSigil: {
+		DisplayName: 虚空魔符
+		Tooltip: 可飞行和缓慢坠落
+	}
+
+	ThrowingStar: {
+		DisplayName: 附魔手里剑
+		Tooltip: "'显然，这要投掷而非射击'"
+	}
+
+	ShadeStar: {
+		DisplayName: 腐化手里剑
+		Tooltip: 忽视敌人少量防御
+	}
+
+	GoreGouger: {
+		DisplayName: 猩红投刀
+		Tooltip: 穿透敌人
+	}
+
+	Rosethorn: {
+		DisplayName: 玫瑰花刺
+		Tooltip:
+			'''
+			命中时碎裂，放出尖刺
+			'每个投手都有自己的长处'
+			'''
+	}
+
+	Brimstone: {
+		DisplayName: 硫磺粘弹
+		Tooltip:
+			'''
+			粘附在物体表面和敌人身上，一段时间后引发火焰爆炸
+			'那里！'
+			'''
+	}
+
+	AirBurst: {
+		DisplayName: 空爆手榴弹
+		Tooltip:
+			'''
+			一种带有短引信的手榴弹，引信烧完后的爆炸会造成额外伤害
+			与物体表面和敌人碰撞时会爆炸，但造成的伤害较小
+			'投得真棒！'
+			'''
+	}
+
+	DarkSpike: {
+		DisplayName: 暗黑尖球
+		Tooltip:
+			'''
+			扔出一组尖钉球，刚扔出时可以粘附在物体表面上
+			'尖刺和球的折磨'
+			'''
+	}
+
+	FlyingSun: {
+		DisplayName: 向日飞盘
+		Tooltip: 向上掉落
+	}
+
+	SkyMine: {
+		DisplayName: 掘天尖球
+		Tooltip: 可以在空中悬浮
+	}
+
+	EtherianJavelin: {
+		DisplayName: 天国标枪
+		Tooltip: ""
+	}
+
+	Pyrosparker: {
+		DisplayName: 狱火弹珠
+		Tooltip:
+			'''
+			投出沿地面反弹的火球
+			一次可以投出的火球数量是有限的
+			'做马里奥！'
+			'''
+	}
+
+	StickySpikyBall: {
+		DisplayName: 粘黏尖球
+		Tooltip: "'尝试快速地说出这三个词三遍！'"
+	}
+
+	BouncySpikyBall: {
+		DisplayName: 弹力尖球
+		Tooltip: 弹弹弹
+	}
+
+	BrittleShiv: {
+		DisplayName: 脆骨投刀
+		Tooltip: 碰撞后碎裂为造成额外伤害的骨弹片
+	}
+
+	Needleblade: {
+		DisplayName: 毒刺飞针
+		Tooltip: 根据命中次数决定施加中毒的时间
+	}
+
+	JungleBomb: {
+		DisplayName: 孢子炸弹
+		Tooltip:
+			'''
+			爆炸后产生孢子云
+			'别和爆裂豆荚搞混了'
+			'''
+	}
+
+	StunBomb: {
+		DisplayName: 迷魂炸弹
+		Tooltip: 使敌人困惑并有概率点燃敌人
+	}
+
+	FireyPitchfork: {
+		DisplayName: 狱火叉
+		Tooltip: 点燃敌人
+	}
+
+	StingerStar: {
+		DisplayName: 毒刺手里剑
+		Tooltip:
+			'''
+			在碎裂时发射一束刺针
+			'小心别被扎到'
+			'''
+	}
+
+	ShadowspikeBall: {
+		DisplayName: 暗影焰尖球
+		Tooltip: 根据命中次数决定施加暗影焰的时间
+	}
+
+	ChargedSkyMine: {
+		DisplayName: 碎天尖球
+		Tooltip:
+			'''
+			在空中悬浮一段时间后爆炸
+			爆炸造成双倍伤害
+			'''
+	}
+
+	Caltrop: {
+		DisplayName: 蒺藜
+		Tooltip: ""
+	}
+
+	Kunai: {
+		DisplayName: 苦无
+		Tooltip: "'有链子吗？'"
+	}
+
+	BlastCrystal: {
+		DisplayName: 水晶摔炮
+		Tooltip:
+			'''
+			产生耀眼的爆炸，释放破坏性碎片，有几率使敌人困惑
+			碎片无视敌人部分防御
+			'''
+	}
+
+	CursedMolotov: {
+		DisplayName: 莫洛托夫咒焰酒
+		Tooltip:
+			'''
+			让敌人受到诅咒焰的爆炸
+			在一定时间内照亮附近着火的区域
+			'''
+	}
+
+	GoldenJar: {
+		DisplayName: 黄金罐
+		Tooltip:
+			'''
+			爆炸产生灵液黄金雨
+			'这是……？我的天！'
+			'''
+	}
+
+	Glaive: {
+		DisplayName: 圆盘飞刃
+		Tooltip: "'别和长柄武器搞混了'"
+	}
+
+	SandShuriken: {
+		DisplayName: 禁戒飞刃
+		Tooltip: 碰撞后释放沙尘
+	}
+
+	JotunHatchet: {
+		DisplayName: 寒霜飞斧
+		Tooltip: 黏附在敌人身上，短暂降低其防御
+	}
+
+	Equilibrium: {
+		DisplayName: 阴阳标枪
+		Tooltip:
+			'''
+			交替扔出黑白标枪
+			黑色标枪钉住敌人
+			白色标枪穿透敌人
+			'''
+	}
+
+	AssassinNeedle: {
+		DisplayName: 刺客飞针
+		Tooltip: 忽视 15 点防御
+	}
+
+	ShinobiTag: {
+		DisplayName: 忍法符咒
+		Tooltip:
+			'''
+			扔出符咒，这些符咒会粘附在敌人身上并爆炸
+			连续将多个符咒粘附在敌人身上会延迟并同步爆炸
+			根据同时引爆的符咒数量增加爆炸的伤害
+			'''
+	}
+
+	Slimeslayer: {
+		DisplayName: 史莱姆飞刀
+		Tooltip: 扔出水晶碎块和弹力明胶
+	}
+
+	DivineStar: {
+		DisplayName: 神圣手里剑
+		Tooltip:
+			'''
+			随着击中敌人而增加威力，最后一击时产生爆炸
+			穿透墙壁
+			'''
+	}
+
+	ReinforcedEtherianJavelin: {
+		DisplayName: 强力天国标枪
+		Tooltip: "'一点额外的金属显然会有很大的帮助'"
+	}
+
+	BlastCap: {
+		DisplayName: 真菌摔炮
+		Tooltip:
+			'''
+			释放真菌孢子
+			'禁物'
+			'''
+	}
+
+	SawbladeCleaver: {
+		DisplayName: 锯片切割机
+		Tooltip:
+			'''
+			忽视 15 点防御
+			碎裂时释放能量火花
+			'就像扔电锯一样！'
+			'''
+	}
+
+	EnergyCore: {
+		DisplayName: 械能核心
+		Tooltip: 释放伤害敌人的能量光环
+	}
+
+	SeekerLance: {
+		DisplayName: 求索标枪
+		Tooltip:
+			'''
+			扔出追踪的标枪
+			'无处可藏'
+			'''
+	}
+
+	ShadowboundTalisman: {
+		DisplayName: 黯影符咒
+		Tooltip:
+			'''
+			扔出追踪的符咒，这些符咒会粘附在敌人身上并爆炸
+			连续将多个符咒粘附在敌人身上会延迟并同步爆炸
+			根据同时引爆的符咒数量增加爆炸的伤害
+			'迎接你的命定之死'
+			'''
+	}
+
+	EclipseCutter: {
+		DisplayName: 黯影屠刀
+		Tooltip: ""
+	}
+
+	ChlorophyteJavelin: {
+		DisplayName: 叶绿标枪
+		Tooltip: 飞行时留下孢子云
+	}
+
+	ChlorophyteDagger: {
+		DisplayName: 叶绿投刀
+		Tooltip: 弹力十足
+	}
+
+	UmbraBite: {
+		DisplayName: 黯影尖球
+		Tooltip: 速度越慢，伤害越高
+	}
+
+	MourningMolotov: {
+		DisplayName: 莫洛托夫哀悼酒
+		Tooltip:
+			'''
+			让敌人受到狱火的爆炸
+			在一定时间内照亮附近着火的区域
+			'''
+	}
+
+	FishronFang: {
+		DisplayName: 锋鲨投刀
+		Tooltip: 有几率对附近的敌人产生影响
+	}
+
+	Eternity: {
+		DisplayName: 不朽
+		Tooltip: 消失时释放迷你永不消失的彩虹
+	}
+
+	Sporenade: {
+		DisplayName: 孢子手榴弹
+		Tooltip:
+			'''
+			爆炸成四处飘散的孢子，追踪下方的敌人
+			'不要与孢子炸弹搞混……'
+			'''
+	}
+
+	BlastBauble: {
+		DisplayName: 彩球手榴弹
+		Tooltip:
+			'''
+			产生许多破坏性的碎片
+			'非常适合DIY家庭防御'
+			'''
+	}
+
+	FrostFang: {
+		DisplayName: 碎雪投刀
+		Tooltip:
+			'''
+			穿透敌人并施加冻伤
+			破碎成寒冰碎片，有可能造成额外伤害
+			'不仅仅是粘在舌头上……'
+			'''
+	}
+
+	FlockoMitt: {
+		DisplayName: 碎雪手套
+		Tooltip:
+			'''
+			扔出结晶雪花，轻微追踪敌人
+			'开始下雪'
+			'''
+	}
+
+	DisruptionLance: {
+		DisplayName: 崩解标枪
+		Tooltip:
+			'''
+			扔出粘附在敌人身上的标枪头
+			敌人随时间受到持续伤害，并可能陷入困惑状态
+			'''
+	}
+
+	FracturedSpike: {
+		DisplayName: 断裂英雄尖球
+		Tooltip: 扔出产生额外碎片的尖球
+	}
+
+	FallenFury: {
+		DisplayName: 断裂英雄投刀
+		Tooltip: 扔出随距离降低伤害的投刀
+	}
+
+	EnchantedEtherianJavelin: {
+		DisplayName: 附魔天国标枪
+		Tooltip: "'实际使用之前，很难分辨出它们的不同之处'"
+	}
+
+	PlasmaGrenade: {
+		DisplayName: 等离子手榴弹
+		Tooltip:
+			'''
+			粘附在物体表面和敌人身上，然后爆炸
+			粘附时造成额外伤害
+			'瓦特瓦特瓦特'
+			'''
+	}
+
+	Hypercutter: {
+		DisplayName: 超速切割刀
+		Tooltip:
+			'''
+			扔出短距离的飞刀，附近有敌人时变成连锁能量光束
+			'说出那句话，勇度'
+			'''
+	}
+
+	ShockMine: {
+		DisplayName: 电离尖球
+		Tooltip:
+			'''
+			扔出空中悬浮的尖球，尖球之间由电光束连接
+			敌人穿过电光束时会受到伤害
+			'''
+	}
+
+	OblivionPiercer: {
+		DisplayName: 虚空投刀
+		Tooltip:
+			'''
+			倾斜穿透敌人和墙壁的投刀
+			'虚空的凝视并不温柔……'
+			'''
+	}
+
+	DarkStar: {
+		DisplayName: 虚空手里剑
+		Tooltip:
+			'''
+			命中时额外产生较小的手里剑和撕碎敌人的空间漩涡
+			手里剑飞行时伤害逐渐增加
+			'它并不仁慈'
+			'''
+	}
+
+	LuminiteBit: {
+		DisplayName: 夜明尖球
+		Tooltip:
+			'''
+			扔出空中悬浮的夜明矿，命中时可能产生较小的碎片
+			碎片会自行朝光标方向攻击
+			忽视敌人大量防御
+			'''
+	}
+
+	MoonRune: {
+		DisplayName: 夜明符咒
+		Tooltip:
+			'''
+			扔出追踪的夜明符咒，这些符咒会粘附在敌人身上并爆炸
+			连续将多个符咒粘附在敌人身上会延迟并同步爆炸
+			根据同时引爆的符咒数量增加爆炸的伤害和半径，并有几率召唤幻影矢攻击敌人
+			'夜明符咒！夜明符咒真的存在！'
+			'''
+	}
+
+	LunaticLance: {
+		DisplayName: 夜明标枪
+		Tooltip:
+			'''
+			扔出注入日耀、旋涡、星云、星尘或虚空力量的标枪
+			根据注入的月之力量，标枪产生不同的效果
+			'''
+	}
+
+	JarOfDirt: {
+		DisplayName: 泥土罐
+		Tooltip:
+			'''
+			让目标变脏，使它们受到更多伤害
+			'我有一罐泥土！我有一罐泥土！'
+			'''
+	}
+
+	CopyrightInfringementMissile: {
+		DisplayName: 红牙火箭
+		Tooltip:
+			'''
+			扔出一个逐渐加速并爆炸的大型导弹
+			爆炸造成额外伤害
+			'只有一个人也能引爆全尺寸的导弹'
+			'''
+	}
+
+	JadeStar: {
+		DisplayName: 翡翠苦无
+		Tooltip:
+			'''
+			一次扔出大量苦无
+			'只有被选中的少数人才能掌握'
+			'''
+	}
+
+	SuperSpikyBall: {
+		DisplayName: 超级尖球
+		Tooltip:
+			'''
+			超级弹力
+			'它是超弹的，还是超级刺人的？'
+			'''
+	}
+
+	HungeringSpear: {
+		DisplayName: 饥渴标枪
+		Tooltip: 命中时偷取生命值
+	}
+
+	SpikyBomb: {
+		DisplayName: 感应粘弹
+		Tooltip:
+			'''
+			扔出最多十颗粘在物块上的粘弹，有敌人靠近时会自动爆炸
+			<right>手动引爆所有粘弹以造成额外伤害
+			粘弹在粘附到表面之前爆炸造成的伤害会减少
+			'……还有卡布利-Y！'
+			'''
+	}
+
+	WiseMysticTome: {
+		DisplayName: 智慧神秘符咒
+		Tooltip:
+			'''
+			扔出一个魔法符咒，命中时释放出挥发性的元素攻击
+			'里面的咒语难以理解，所以你不妨直接把它扔给你的敌人'
+			'''
+	}
+}
+
+NPCs: {
+	Ninja: {
+		DisplayName: 忍者
+
+		Names: {
+			0: Machigai
+			1: Gaiden
+			2: Raiden
+			3: Sam
+			4: Samuel
+			5: Travis
+			6: Lee
+			7: Shifu
+			8: Chan
+			9: Kai
+			10: Rodrigues
+			11: Dale
+			12: Altair
+			13: Kohga
+			14: Orion
+			15: Jinx
+			16: Minos
+			17: Occam
+			18: Cronin
+			19: Obi
+		}
+
+		ChatDialogue: {
+			Rescue: 啊，终于自由了。哦，史莱姆，现在你的审判时刻到了。泰拉人，感谢你为我的自由所做的一切。
+			Normal0: 啊，欢迎 {0}。让我用我的商品来回报你的英勇。
+			Normal1: 当你在地底深处时，我正在研究飞刀。
+			Normal2: 要知道，我可以确保我的飞刀从不失手。那些满是灰尘的罐子都是小菜一碟。
+			Rare0: 为什么每个人都问我是否卖拉面？我为什么会卖拉面？
+			Rare1: 呃，这些衣服上还有史莱姆残留物……
+			Rare2: 你知道有些人认为远程武器和投掷武器是一样的吗？这很荒谬。
+			Armor: 我看到你已经穿上了忍者的盔甲！希望没有人会把你和我弄混……
+			Night: 黑夜是忍者工作的最佳时机。学会利用阴影，不要害怕它们。
+			BloodMoon: 除非你有足够的勇气把这当作练习的机会，否则我不建议你今晚去户外……
+			Rain: 啊，雨声很舒缓。更好的是，它可以掩盖你的脚步声。
+			Storm: 小心你扔出去的东西，我们不希望成为导电棒，对吧？
+			Party: 我们忍者更喜欢生活在阴影和寂静中，但偶尔来电喧嚣和欢乐放松一下也是不错的。
+			WindyDay: 今天要小心强逆风；你扔出去的东西可能会砸到你自己！
+			Graveyard: 这片雾可能会让人感到不安，但它也可以隐藏你的身影。
+			SlimeRain: 醒醒，泰拉人；我们还有史莱姆没烧完呢。
+			PostPlant: 你可能想留意一下地牢的忍者骷髅。据说我的祖先中的一群人是诅咒的受害者。
+			PostQS: 你是说有第二只皇家史莱姆？嗯，我很高兴现在两者都被打败了。干得好。
+			Goblin: 我想知道{0}是否介意我把那些尖刺球从他手上拿走……
+			Tavernkeep: 我从未想过麦芽酒可以作为有效的投掷武器，但{0}向我展示了事实并非如此！我想你懂得的。
+			Demo: 我本来想试试手榴弹，但{0}坚持认为那是他的专业……
+			Dryad: 许多故事讲述了树妖的英雄事迹。有{0}陪着我们真是荣幸。
+		}
+
+		TownNPCMood: {
+			FarFromHome: 我似乎离我的住所很远了……
+			NoHome: 如果有个住的地方我会非常感激……
+			Content: 我很平静。
+			LoveSpace: 我很喜欢这里的宁静。
+			DislikeCrowded: 邻居们制造的噪音很难让我静下心来冥想……
+			HateCrowded: 这么多人在周围，对我来说练习投掷很不安全……
+			LikeBiome: "{BiomeName}提供了很多隐藏自己的机会。原始的风景也很不错。"
+			DislikeBiome: 嗯，{BiomeName}让我想起了我们曾经尝试成为忍者海盗的那次……结果一点也不好。
+			HateBiome: "{BiomeName}的恶劣环境对身体和心灵都有危害。我宁愿不在这里冒险。"
+			LoveNPC: 啊，{NPCName}是向导团的成员吗？我们忍者与向导之间有着深厚的联系；任何成员都是我的好朋友。
+			LikeNPC: 我觉得{NPCName}的智慧值得尊敬。
+			DislikeNPC: "{NPCName}需要学习一些微妙的技巧……"
+			HateNPC: "{NPCName}不断地试图卖手里剑，这真的挑战我的耐心。难道他不明白那些是我的商品吗？"
+			LikeNPC_Princess: "{NPCName}对忍者的方式很感兴趣。她学习的热情既有趣又真诚。"
+			Princess_LovesNPC: 当{NPCName}给我展示他酷炫的忍者技巧时，真的很有趣！
+		}
+
+		BestiaryEntry: An enigmatic shinobi rescued from King Slime. He prefers to not talk about that incident, but will happily supply handy throwing gear and techniques.
+		Census.SpawnCondition: 击败史莱姆王并营救 {$NPCs.SlimedNinja.DisplayName}
+	}
+
+	SlimedNinja: {
+		DisplayName: 黏黏忍者
+
+		TownNPCMood: {
+			DislikeCrowded: ""
+			LoveSpace: ""
+			FarFromHome: ""
+			NoHome: ""
+			Content: ""
+			HateCrowded: ""
+			LikeNPC_Princess: ""
+			Princess_LovesNPC: ""
+		}
+	}
+}
+
+Buffs: {
+	DarkKnightBuff: {
+		DisplayName: 黯夜伏击
+		Description: 投掷武器被增强了
+	}
+
+	DarkKnightCooldown: {
+		DisplayName: 黯夜转位
+		Description: 黯夜骑士传送正在冷却
+	}
+
+	BionicBuff: {
+		DisplayName: 仿生刺激
+		Description: 电解质能恢复你的活力，并增强你的投掷攻击
+	}
+
+	Stealth: {
+		DisplayName: 隐匿
+		Description: 敌人不太可能以你为攻击目标，增加投掷暴击率
+	}
+
+	Dexterity: {
+		DisplayName: 机敏
+		Description: 有几率不消耗投掷物，增加投掷攻速和投掷物速度
+	}
+
+	DeadlyPrecision: {
+		DisplayName: 致命一击
+		Description: 增加投掷暴击率、投掷物速度和击退力
+	}
+
+	RosethornDebuff: {
+		DisplayName: 玫瑰花刺
+		Description: 敌人被花刺钉在原地
+	}
+
+	GoreGougerDebuff: {
+		DisplayName: 猩红切割
+		Description: 敌人正在出血
+	}
+
+	FireyPitchforkDebuff: {
+		DisplayName: 狱火禁锢
+		Description: 敌人被狱火叉钉在原地
+	}
+
+	JotunHatchetDebuff: {
+		DisplayName: 寒霜撕裂
+		Description: 敌人的防御降低了
+	}
+
+	EquilibriumDebuff: {
+		DisplayName: 黑色禁锢
+		Description: 黑色标枪流干了敌人的生命
+	}
+
+	FrostFangDebuff: {
+		DisplayName: 碎雪禁锢
+		Description: 敌人被碎雪投刀钉在原地
+	}
+
+	DisruptionLanceDebuff: {
+		DisplayName: 困惑
+		Description: 敌人的生命机能被干扰了
+	}
+
+	LunaticLanceDebuff: {
+		DisplayName: 虚空禁锢
+		Description: 敌人被夜明标枪钉在原地
+	}
+
+	Dirty: {
+		DisplayName: 脏脏
+		Description: 你受到额外伤害，因为你脏了！
+	}
+}
+
+Emotes.NinjaEmote.Command: 忍者
+
+Projectiles: {
+	FeatherArmorProj.DisplayName: 天羽
+	AkumaArmorProj.DisplayName: 恶魔炸弹
+	VoidArmorProj.DisplayName: 空间裂隙
+	ShadeStarProj.DisplayName: 腐化手里剑
+	ThrowingStarProj.DisplayName: 附魔手里剑
+	GoreGougerProj.DisplayName: 猩红投刀
+	RosethornProj.DisplayName: 玫瑰花刺
+	RosethornSpike.DisplayName: 玫瑰花刺
+	DarkSpikeProj.DisplayName: 暗黑尖球
+	AirBurstProj.DisplayName: 空爆手榴弹
+	BrimstoneProj.DisplayName: 硫磺粘弹
+	FlyingSunProj.DisplayName: 向日飞盘
+	SkyMineProj.DisplayName: 掘天尖球
+	EtherianJavelinProj.DisplayName: 天国标枪
+	PyrosparkerProj.DisplayName: 狱火弹珠
+	BouncySpikyBallProj.DisplayName: 弹力尖球
+	StickySpikyBallProj.DisplayName: 粘性尖球
+	BrittleShivProj.DisplayName: 脆骨投刀
+	BrittleShivShrapnel.DisplayName: 脆骨投刀
+	NeedlebladeProj.DisplayName: 毒刺飞针
+	JungleBombGas.DisplayName: 孢子炸弹
+	JungleBombProj.DisplayName: 孢子炸弹
+	StunBombProj.DisplayName: 迷魂炸弹
+	FireyPitchforkProj.DisplayName: 狱火叉
+	StingerStarProj.DisplayName: 毒刺手里剑
+	StingerStarStinger.DisplayName: 毒刺手里剑
+	CaltropProj.DisplayName: 蒺藜
+	ChargedSkyMineProj.DisplayName: 碎天尖球
+	ShadowspikeBallProj.DisplayName: 暗影焰尖球
+	KunaiProj.DisplayName: 苦无
+	BlastCrystalProj.DisplayName: 水晶摔炮
+	BlastCrystalShard.DisplayName: 水晶摔炮
+	CursedMolotovFire.DisplayName: 莫洛托夫咒焰酒
+	CursedMolotovProj.DisplayName: 莫洛托夫咒焰酒
+	GoldenJarIchor.DisplayName: 黄金罐
+	GoldenJarProj.DisplayName: 黄金罐
+	GlaiveProj.DisplayName: 圆盘飞刃
+	SandShurikenSand.DisplayName: 禁戒飞刃
+	SandShurikenProj.DisplayName: 禁戒飞刃
+	JotunHatchetProj.DisplayName: 寒霜飞斧
+	EquilibriumProjB.DisplayName: 黑色标枪
+	EquilibriumProjW.DisplayName: 白色标枪
+	AssassinNeedleProj.DisplayName: 刺客飞针
+	ShinobiTagProj.DisplayName: 忍法符咒
+	SlimeslayerSpike.DisplayName: 史莱姆飞刀
+	SlimeslayerGlob.DisplayName: 史莱姆飞刀
+	DivineStarProj.DisplayName: 神圣手里剑
+	ReinforcedEtherianJavelinProj.DisplayName: 强力天国标枪
+	BlastCapProj.DisplayName: 真菌摔炮
+	BlastCapFungi.DisplayName: 真菌摔炮
+	SawbladeCleaverSpark.DisplayName: 锯片切割机
+	SawbladeCleaverProj.DisplayName: 锯片切割机
+	EnergyCoreProj.DisplayName: 械能核心
+	SeekerLanceProj.DisplayName: 求索标枪
+	ShadowboundTalismanProj.DisplayName: 黯影符咒
+	EclipseCutterProj.DisplayName: 黯影屠刀
+	ChlorophyteJavelinProj.DisplayName: 叶绿标枪
+	ChlorophyteDaggerProj.DisplayName: 叶绿投刀
+	UmbraBiteProj.DisplayName: 黯影尖球
+	MourningMolotovFire.DisplayName: 希腊火
+	MourningMolotovProj.DisplayName: 莫洛托夫哀悼酒
+	FishronFangProj.DisplayName: 锋鲨投刀
+	EternityProj.DisplayName: 不朽
+	EternityStar.DisplayName: 永不消失的彩虹
+	SporenadeSpore.DisplayName: 孢子手榴弹
+	SporenadeProj.DisplayName: 孢子手榴弹
+	BlastBaubleShard.DisplayName: 彩球手榴弹
+	BlastBaubleProj.DisplayName: 彩球手榴弹
+	FrostFangProj.DisplayName: 碎雪投刀
+	FrostFangShard.DisplayName: 碎雪投刀
+	FlockoMittProj.DisplayName: 碎雪手套
+	DisruptionLanceProj.DisplayName: 崩解标枪
+	FracturedSpikeProj.DisplayName: 断裂英雄尖球
+	FracturedSpikeShard.DisplayName: 断裂英雄尖球
+	FallenFuryProj.DisplayName: 断裂英雄投刀
+	EnchantedEtherianJavelinProj.DisplayName: 附魔天国标枪
+	PlasmaGrenadeProj.DisplayName: 等离子手榴弹
+	HypercutterProj.DisplayName: 超速切割刀
+	ShockMineProj.DisplayName: 电离尖球
+	OblivionPiercerProj.DisplayName: 虚空投刀
+	DarkStarMini.DisplayName: 虚空手里剑
+	DarkStarProj.DisplayName: 虚空手里剑
+	DarkStarVortex.DisplayName: 虚空手里剑
+	LuminiteBitShard.DisplayName: 夜明尖球
+	LuminiteBitProj.DisplayName: 夜明尖球
+	MoonRuneSphere.DisplayName: 夜明符咒
+	MoonRuneProj.DisplayName: 夜明符咒
+	MoonRuneEye.DisplayName: 夜明符咒
+	LunaticLanceBlast.DisplayName: 日耀夜明标枪
+	LunaticLanceClone.DisplayName: 星云夜明标枪
+	LunaticLanceFireball.DisplayName: 日耀夜明标枪
+	LunaticLanceHead.DisplayName: 星尘夜明标枪
+	LunaticLanceNebula.DisplayName: 星云夜明标枪
+	LunaticLanceSolar.DisplayName: 日耀夜明标枪
+	LunaticLanceStardust.DisplayName: 星尘夜明标枪
+	LunaticLanceVoid.DisplayName: 虚空夜明标枪
+	LunaticLanceVortex.DisplayName: 星璇夜明标枪
+	JarOfDirtProj.DisplayName: 泥土罐
+	CopyrightInfringementProj.DisplayName: 红牙火箭
+	SuperSpikyBallProj.DisplayName: 超级尖球
+	JadeStarMini.DisplayName: 翡翠苦无
+	JadeStarProj.DisplayName: 翡翠苦无
+	HungeringSpearHeal.DisplayName: 饥渴标枪
+	HungeringSpearProj.DisplayName: 饥渴标枪
+	SpikyBombProj.DisplayName: 感应粘弹
+	WiseMysticTomeProj.DisplayName: 智慧神秘符咒
+	WiseMysticTomeLightning.DisplayName: 智慧神秘符咒
+	SplitshotPellet.DisplayName: 智慧神秘符咒
+	WiseMysticTomeSplitshot.DisplayName: 智慧神秘符咒
+	WiseMysticTomeWaterspout.DisplayName: 智慧神秘符咒
+	ChlorophyteJavelinCloud.DisplayName: 叶绿标枪孢子云
+}
+
+Configs: {
+	ConversionConfig: {
+		DisplayName: 原版改动
+
+		assassinArmorConv: {
+			Label: "[i:4982] 水晶刺客盔甲重做"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.ArmorChange}
+				稍微增加盔甲的防御力
+				套装冲刺效果不变
+				'''
+		}
+
+		shinboiArmorConv: {
+			Label: "[i:3880] 渗透忍者盔甲重做"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.ArmorChange}
+				召唤伤害加成不变，近战攻速加成变为 boosts are kept, but melee speed (Which benefits whips) isn't
+				套装效果和防御力不变
+				'''
+		}
+
+		ninjaArmorConv: {
+			Label: "[i:256] 忍者盔甲回调"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.ArmorChange}
+				盔甲的防御力不变
+				新的属性和1.4版本之前的忍者盔甲不同
+				'''
+		}
+
+		biomeWepConv: {
+			Label: "[i:1571] 生物群系武器重做"
+			Tooltip:
+				'''
+				将腐化者之戟和吸血鬼刀的伤害类型转化为投掷伤害
+				转化为投掷武器后，腐化者之戟的伤害数值也会相应调整
+				一次只能转化一种武器，因此每个职业都有各自的生物群系武器
+				启用此选项后，腐化者之戟和吸血鬼刀可以在微光中相互转化
+				由于其原始的伤害类型，该武器在转换后只能获得通用（即非特定职业）词缀
+				'''
+		}
+
+		shadowflameKnifeConv: {
+			Label: "[i:3054] 暗影焰刀转化为投掷武器"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.DamageChange}
+				{$CommonTooltips.Config.ConvertWarning}
+				{$CommonTooltips.Config.DamageRebalance}
+				'''
+		}
+
+		flyingKnifeConv: {
+			Label: "[i:3030] 飞刀转化为投掷武器"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.DamageChange}
+				{$CommonTooltips.Config.ConvertWarning}
+				'''
+		}
+
+		flaskConv: {
+			Label: "[i:3105] 毒气瓶重做"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.DamageChange}
+				{$CommonTooltips.Config.ConvertWarning}
+				{$CommonTooltips.Config.MagicTweaks}
+				'''
+		}
+
+		magicDaggerConv: {
+			Label: "[i:517] 魔法飞刀重做"
+			Tooltip:
+				'''
+				{$CommonTooltips.Config.DamageChange}
+				{$CommonTooltips.Config.ConvertWarning}
+				{$CommonTooltips.Config.MagicTweaks}
+				'''
+		}
+
+		thrownWaterConv: {
+			Label: "[i:422] 投掷水瓶转化为投掷武器"
+			Tooltip:
+				'''
+				将原版的所有投掷水瓶转化为投掷武器
+				这会影响圣水、邪水和血水
+				注意，这些武器原本没有伤害类别
+				'''
+		}
+
+		airplaneConv: {
+			Label: "[i:4343] 纸飞机转化为投掷武器"
+			Tooltip: 将原版纸飞机的伤害类型转化为投掷伤害
+		}
+
+		thorwingKnifeConv: {
+			Label: "[i:279] 回调投刀"
+			Tooltip: 将原版投刀和毒刀的伤害类型转化为投掷伤害
+		}
+
+		grenadeConv: {
+			Label: "[i:168] 回调手榴弹"
+			Tooltip:
+				'''
+				将原版的手榴弹转化为投掷武器
+				这会影响（粘性/弹力）手榴弹、蜜蜂手榴弹、快乐手榴弹
+				其它爆炸物（炸弹、炸药等）不受影响
+				'''
+		}
+
+		shurikenConv: {
+			Label: "[i:42] 回调手里剑"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		starAniseConv: {
+			Label: "[i:1913] 回调星形茴香"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		boneJavConv: {
+			Label: "[i:3378] 回调骨头标枪"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		boneKnifeConv: {
+			Label: "[i:3379] 回调骨投刀"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		aleThrowerConv: {
+			Label: "[i:3821] 回调麦芽酒投掷器"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		molotovConv: {
+			Label: "[i:2590] 回调莫洛托夫鸡尾酒"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		boneConv: {
+			Label: "[i:154] 回调骨头"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		spikyBallConv: {
+			Label: "[i:161] 回调尖球"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		snowballConv: {
+			Label: "[i:949] 回调雪球"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		rottenEggConv: {
+			Label: "[i:1809] 回调臭蛋"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		javelinConv: {
+			Label: "[i:3094] 回调标枪"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+
+		daggerfishConv: {
+			Label: "[i:3197] 回调寒霜飞鱼"
+			Tooltip: "{$CommonTooltips.Config.DamageChange}"
+		}
+	}
+
+	TweaksConfig: {
+		DisplayName: 其它原版调整
+
+		visiblyFreeNinja: {
+			Label: 受困忍者可视性
+			Tooltip:
+				'''
+				一旦忍者NPC到达城镇，调整史莱姆王的贴图以移除被困在它体内的忍者
+				在忍者NPC未解锁的世界中无效
+				'''
+		}
+
+		moveNinjaArmor: {
+			Label: 忍者NPC出售忍者盔甲
+			Tooltip:
+				'''
+				从史莱姆王的掉落物中移除忍者盔甲，转为由忍者NPC出售
+				同时调整每件盔甲的售价为15银币
+				作为参考，其它盔甲的头部一般售价20银币，腿部和胸甲一般售价10银币
+				'''
+		}
+
+		moveShurikens: {
+			Label: 移除商人出售的手里剑
+			Tooltip: 商人不再出售手里剑，转为由忍者NPC出售
+		}
+
+		moveThrowingKnives: {
+			Label: 移除商人出售的投刀
+			Tooltip:
+				'''
+				商人不再出售投刀，转为由忍者NPC出售
+				注意，忍者会在任意夜晚出售投刀，而不是原版那样商人只在血月期间出售
+				'''
+		}
+
+		flasksAffectThrowingWeapons: {
+			Label: 灌注瓶影响投掷武器
+			Tooltip:
+				'''
+				允许原版的灌注瓶对造成投掷伤害的武器也起效
+				同时调整灌注瓶的物品提示以符合更改（Buff栏的提示没有更改）
+				此选项不影响由其它模组添加的灌注瓶
+				'''
+		}
+	}
+}

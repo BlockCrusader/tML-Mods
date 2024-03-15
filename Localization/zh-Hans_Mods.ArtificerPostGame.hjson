@@ -1,0 +1,393 @@
+CommonTooltips: {
+	SetBonus: {
+		Permarmor:
+			'''
+			+3 巧匠饰品栏
+			装备特殊能力饰品时，增加 12 点防御
+			未装备特殊能力饰品时，套装会提供未来之甲的效果
+			此效果有 40 秒冷却时间
+			'''
+		Supernova:
+			'''
+			+3 巧匠饰品栏
+			减少 25% 饰品能力冷却时间
+			激活饰品能力时会释放一股能量洪流引发巨大的爆炸，对周围的敌人造成重创
+			洪流冷却期间提升你的攻击和防御能力
+			'''
+		Paragon:
+			'''
+			+4 巧匠饰品栏
+			减少 25% 饰品能力冷却时间
+			战斗中自动激活饰品能力
+			双击 {0} 启用饰品能力自动激活
+			'''
+		KeywordUp: 上键
+		KeywordDown: 下键
+	}
+
+	AutoAbilityOn: 启用饰品能力自动激活！
+	AutoAbilityOff: 关闭饰品能力自动激活！
+	BonusAccessory: 套装奖励
+}
+
+Items: {
+	PermalloyBar: {
+		DisplayName: 坡莫合金锭
+		Tooltip: "'它的耐用性和多功能性都得到了完美的提升'"
+	}
+
+	PermarmorHelm: {
+		DisplayName: 坡莫合金头盔
+		Tooltip:
+			'''
+			增加 6% 伤害
+			增加 5% 暴击率
+			增加 40 最大魔力值
+			增加 2 召唤栏
+			'现在这是巧匠的盔甲'
+			'''
+	}
+
+	PermarmorPlate: {
+		DisplayName: 坡莫合金板甲
+		Tooltip:
+			'''
+			增加 18% 伤害
+			增加 4% 暴击率
+			'现在这是巧匠的盔甲'
+			'''
+	}
+
+	PermarmorGreaves: {
+		DisplayName: 坡莫合金护胫
+		Tooltip:
+			'''
+			增加 10% 伤害
+			增加 3% 暴击率
+			减少 10% 魔力消耗
+			10% 的几率不消耗弹药
+			增加 15% 移动速度
+			'现在这是巧匠的盔甲'
+			'''
+	}
+
+	CatCarrier: {
+		DisplayName: 战.辅.术.终端
+		Tooltip:
+			'''
+			呼叫战斗无人机为你而战
+			[placeholder]
+			'战斗辅助技术。那不是玩具，而是微型导弹发射井'
+			'''
+		AbilityDesc:
+			'''
+			激活无人机的攻击模式，持续5秒
+			在攻击模式下，无人机会追击目标并发射追踪导弹
+			'''
+	}
+
+	PermalloyProtector: {
+		DisplayName: 坡莫合金护盾
+		Tooltip:
+			'''
+			免疫击退
+			[placeholder]
+			减少 5% 受到的伤害，护盾发生器激活时减少 10%
+			初始增加 1 点防御，随时间推移最高可到 16 点
+			当你的护盾发生器处于激活状态或受到伤害时，防御加成将重置为 1
+			'''
+		AbilityDesc:
+			'''
+			在你的位置激活护盾发生器
+			在范围内的玩家所受伤害减少 40%
+			护盾发生器持续 15 秒
+			'''
+	}
+
+	OverclockDial: {
+		DisplayName: 超频刻表
+		Tooltip:
+			'''
+			减少 25% 饰品能力冷却时间
+			战斗中自动激活饰品能力
+			饰品能力冷却时，增加 10% 攻击、移动、挖掘和放置物块的速度
+			'''
+	}
+
+	PermachargeAugments: {
+		DisplayName: 永动外骨骼
+		Tooltip:
+			'''
+			显著提高穿戴者的移动能力
+			增加跳跃速度和受到摔落伤害的高度，并启用自动跳跃
+			攻击有几率对敌人造成强大而持久的冲击
+			为近战武器和鞭子启用自动挥舞，并增加 25% 攻击速度
+			'''
+	}
+
+	SupernovaFragment: {
+		DisplayName: 超新星碎片
+		Tooltip: "'其中蕴含着星际爆炸的无限能量'"
+	}
+
+	SupernovaHeadgear: {
+		DisplayName: 超新星头饰
+		Tooltip:
+			'''
+			增加 6% 伤害
+			增加 11% 暴击率
+			减少 10% 魔力消耗
+			10% 的几率不消耗弹药
+			增加 1 召唤栏
+			'释放星体的真正伟力'
+			'''
+	}
+
+	SupernovaCuirass: {
+		DisplayName: 超新星胸甲
+		Tooltip:
+			'''
+			增加 11% 伤害
+			增加 6% 暴击率
+			增加 2 召唤栏
+			提高生命再生速率
+			'释放星体的真正伟力'
+			'''
+	}
+
+	SupernovaGreaves: {
+		DisplayName: 超新星护胫
+		Tooltip:
+			'''
+			增加 40 最大魔力值
+			增加 8% 伤害和暴击率
+			增加 15% 移动速度
+			'释放星体的真正伟力'
+			'''
+	}
+
+	ArcanaStimulator5: {
+		DisplayName: 阿卡纳精华 Mk5
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			5 秒内回复 240 魔力
+			回复期间受到魔力病减益
+			'''
+	}
+
+	VitalStimulator5: {
+		DisplayName: 生命精华 Mk5
+		Tooltip: "[placeholder]"
+		AbilityDesc:
+			'''
+			5 秒内回复 180 生命
+			回复期间受到抗药性减益
+			'''
+	}
+
+	StarstrikeCore: {
+		DisplayName: 碎星核心
+		Tooltip:
+			'''
+			增加 4% 伤害和暴击率
+			减少 5% 受到的伤害
+			[placeholder]
+			'星河为你闪烁！'
+			'''
+		AbilityDesc:
+			'''
+			释放大量围绕你的恒星能量火花
+			火花将追踪附近的敌人，并在击中时引发毁灭性的新星爆炸
+			'''
+	}
+
+	SupernovaEmblem: {
+		DisplayName: 超新星徽章
+		Tooltip:
+			'''
+			增加 12% 伤害
+			减少 33% 饰品能力冷却时间
+			'''
+	}
+
+	GalactaGravpack: {
+		DisplayName: 流星背包
+		Tooltip:
+			'''
+			允许飞行和缓慢坠落
+			当在空中达到一定高度时，增加 5 点防御力
+			受到伤害时，释放一股能量流以击退攻击者
+			'''
+	}
+
+	ParagonParticle: {
+		DisplayName: 无暇粒子
+		Tooltip: "'潜力无穷'"
+	}
+
+	ParagonHeadpiece: {
+		DisplayName: 无暇头盔
+		Tooltip:
+			'''
+			增加 20 最大魔力值
+			增加 8% 伤害
+			增加 14% 暴击率
+			减少 5% 魔力消耗
+			5% 的几率不消耗弹药
+			增加 1 召唤栏
+			改善视力并在佩戴时提供大量光照
+			'巧匠技术的顶点'
+			'''
+	}
+
+	ParagonPlate: {
+		DisplayName: 无暇胸甲
+		Tooltip:
+			'''
+			增加 20 最大魔力值
+			增加 10% 伤害
+			增加 10% 暴击率
+			减少 5% 魔力消耗
+			5% 的几率不消耗弹药
+			增加 1 召唤栏
+			大幅提高生命再生速率
+			'巧匠技术的顶点'
+			'''
+	}
+
+	ParagonLeggings: {
+		DisplayName: 无暇护胫
+		Tooltip:
+			'''
+			增加 20 最大魔力值
+			增加 14% 伤害
+			增加 8% 暴击率
+			减少 5% 魔力消耗
+			5% 的几率不消耗弹药
+			增加 1 召唤栏
+			增加 25% 移动速度和加速度
+			'巧匠技术的顶点'
+			'''
+	}
+
+	ClimaxCatalyst: {
+		DisplayName: 终⊙焉催化剂
+		Tooltip:
+			'''
+			[placeholder]
+			'...就这样，战斗就结束了'
+			'''
+		AbilityDesc:
+			'''
+			释放一道强大得难以想象的能量光束，持续5秒
+			发射光束时，你无法普通攻击，但可以移动并缓慢转动光束
+			光束会释放额外的能量弹锥，并发出强烈的辐射伤害附近的敌人
+			'''
+	}
+
+	ArtificerApotheosis: {
+		DisplayName: 巧匠神性
+		Tooltip:
+			'''
+			[placeholder]
+			'敌人将见证终极巧匠的加冕典礼'
+			'''
+		AbilityDesc:
+			'''
+			治愈减益，恢复生命和魔力，并赋予以下效果：
+			增加 60% 伤害
+			减少 60% 受到的伤害
+			大幅增加生命和魔力再生速率
+			无限制的机翼和火箭靴飞行
+			无限翅膀和火箭靴飞行时间
+			增加移动速度和加速度
+			持续 20 秒
+			获得 60 秒的药水疾病
+			'''
+	}
+
+	RighteousRequiem: {
+		DisplayName: 正义安魂曲
+		Tooltip:
+			'''
+			增加 10% 暴击率
+			[placeholder]
+			缓慢恢复生命
+			稍微加强吸血能力
+			'献给 Jason 'Lienfors' Parker'
+			'愿你永垂不朽'
+			'''
+		AbilityDesc:
+			'''
+			释放大量吸血鬼刀，在击中敌人时偷取生命值
+			先释放一圈较小的刀刃，然后向光标位置释放较大的刀刃
+			当较大的刀刃治愈你时，附近的友军同样会受到部分治疗效果
+			'''
+	}
+
+	PermarmorAbilityDummy: {
+		DisplayName: 坡莫合金测试假人
+		Tooltip:
+			'''
+			[placeholder]
+			注意：此物品无法获得！
+			用于开发者测试坡莫合金的套装效果
+			在游戏中没有实际功能
+			如果你在没有使用物品浏览器或作弊模组的情况下获得此物品，那么一定是出了什么问题
+			'别想着装备它...'
+			'''
+	}
+}
+
+Buffs: {
+	SupernovaSurge: {
+		DisplayName: 超新星洪流
+		Description: 溢出的宇宙能量增强了你的攻击和防御！
+	}
+
+	PermarmorBuff: {
+		Description: 你的坡莫合金防御得到了加强，极大地减少了所受的伤害！
+		DisplayName: 坡莫合金守护
+	}
+
+	ElectrifiedEnemy2: {
+		DisplayName: 过载电击
+		Description: 敌人被过载的电流能量所困扰，持续受到伤害The enemy is overloaded with galvanic energy and taking constant damage
+	}
+
+	ManaStim5: {
+		DisplayName: 终极阿卡纳精华 Mk5
+		Description: 快速回复魔力
+	}
+
+	HPStim5: {
+		DisplayName: 终极生命精华 Mk5
+		Description: 快速回复生命
+	}
+
+	Apotheosis: {
+		DisplayName: 巧匠神性
+		Description: 你获得了难以置信的伤害、伤害减免、再生能力和移动速度的提升！
+	}
+
+	PermalloyProtection: {
+		DisplayName: 护盾发生器
+		Description: 附近的护盾发生器极大地减少了所受的伤害！
+	}
+}
+
+Projectiles: {
+	SupernovaBlast.DisplayName: 超新星洪流
+	StarstrikeBlast.DisplayName: 碎星核心冲击
+	LienKnife2.DisplayName: 正义安魂曲
+	LienKnife3.DisplayName: 正义安魂曲
+	LienLifesteal2.DisplayName: 正义安魂曲
+	FluxForceBlast.DisplayName: 波动冲击
+	ProtectorShield.DisplayName: 护盾发生器
+	DroneMissile.DisplayName: 战斗无人机导弹
+	DroneBeam.DisplayName: 战斗无人机激光
+	CatDrone.DisplayName: 战斗无人机
+	ClimaxDeathray.DisplayName: 终⊙焉催化剂
+	ClimaxBeam.DisplayName: 终⊙焉催化剂
+}

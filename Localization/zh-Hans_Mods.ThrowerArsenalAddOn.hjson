@@ -1,0 +1,201 @@
+Configs: {
+	Config: {
+		DisplayName: 阿森纳-投手拓展设置
+
+		hhgRework: {
+			Label: 神圣手雷重做
+			Tooltip:
+				'''
+				将此物品转化为投掷武器
+				同时调整了基础数据（如伤害）以作为武器的使用
+				并且，神圣手雷将不再破坏物块
+				'''
+		}
+
+		daggerConv: {
+			Label: 血红投刀转化为投掷武器
+			Tooltip:
+				'''
+				将此物品转化为投掷武器
+				此武器重铸时只会获得通用词缀
+				'''
+		}
+
+		tridentConv: {
+			Label: 诅咒三叉戟转化为投掷武器
+			Tooltip:
+				'''
+				将此物品转化为投掷武器
+				此武器重铸时只会获得通用词缀
+				'''
+		}
+
+		flaskConv: {
+			Label: 狱火烧瓶转化为投掷武器
+			Tooltip:
+				'''
+				将此物品转化为投掷武器
+				移除魔力消耗，但降低了伤害
+				此武器重铸时只会获得通用词缀
+				'''
+		}
+	}
+}
+
+Projectiles: {
+	HolyHandGrenadeProj.DisplayName: 神圣手雷
+	TrueTwilightPlungeClone.DisplayName: 真永夜投刀
+	TrueTwilightPlungeProj.DisplayName: 真永夜投刀
+	TwilightPlungeClone.DisplayName: 永夜投刀
+	TwilightPlungeProj.DisplayName: 永夜投刀
+	TrueDivineStarProj.DisplayName: 真神圣手里剑
+	TrueDivineStarBeam.DisplayName: 真神圣手里剑
+	TerraCutterSlash.DisplayName: 泰拉旋刃
+	TerraCutterProj.DisplayName: 泰拉旋刃
+	ChimeraMine.DisplayName: 喀迈拉
+	ChimeraProj.DisplayName: 喀迈拉
+	MechimeraLance.DisplayName: 机械奇美拉
+	MechimeraMayhemProj.DisplayName: 机械奇美拉
+	MechimeraMine.DisplayName: 机械奇美拉
+	EmpressChargeClone.DisplayName: 女皇的空灵之枪
+	EmpressChargeProj.DisplayName: 女皇的空灵之枪
+	BlockThrowerProj.DisplayName: Block的手套
+	UltimaProj.DisplayName: 天顶手里剑
+	UltimaOrbital.DisplayName: 天顶手里剑
+	VoidFissure.DisplayName: Void Fissure
+	SpacialRendProj.DisplayName: 虚空投斧
+	HorizonRazorProj.DisplayName: 虚空快刀
+	VoidEnergy.DisplayName: 虚空标枪
+	VoidbringerProj.DisplayName: 虚空标枪
+	VoidBlast.DisplayName: 虚空冲击波
+	DimensionalCollapseProj.DisplayName: 二向箔
+	SingularityMineProj.DisplayName: 奇点尖球
+	SingularityVortex.DisplayName: 奇点风暴
+	EntropicMatterProj.DisplayName: 熵能迸发
+	GrandStarProj.DisplayName: 至高手里剑
+	GrandStarMini.DisplayName: 至高手里剑
+	LunarFuryProj.DisplayName: 夜明投刀
+	LunarFurySpark.DisplayName: 夜明投刀
+}
+
+Items: {
+	TwilightPlunge: {
+		DisplayName: 永夜投刀
+		Tooltip: ""
+	}
+
+	TrueTwilightPlunge: {
+		DisplayName: 真永夜投刀
+		Tooltip: ""
+	}
+
+	TrueDivineStar: {
+		DisplayName: 真神圣手里剑
+		Tooltip: ""
+	}
+
+	TerraCutter: {
+		DisplayName: 泰拉旋刃
+		Tooltip: ""
+	}
+
+	MechimeraMayhem: {
+		DisplayName: 机械奇美拉
+		Tooltip: "'于混乱中重建秩序，在瑕疵中追求完美……'"
+	}
+
+	Chimera: {
+		DisplayName: 喀迈拉
+		Tooltip: "'这太疯狂了……可能还更离谱！'"
+	}
+
+	EmpressCharge: {
+		DisplayName: 女皇的空灵之枪
+		Tooltip: 投掷与棱镜一同贯穿敌人得到标枪
+		PrismaNerf: 泰拉棱镜存在时，减少伤害
+	}
+
+	BlockThrower: {
+		DisplayName: Block的手套
+		Tooltip:
+			'''
+			扔出土块
+			'非常适合冒充开发者！'
+			'Block的投手模组！'
+			'''
+	}
+
+	Ultima: {
+		DisplayName: 天顶手里剑
+		Tooltip: ""
+	}
+
+	SpacialRend: {
+		DisplayName: 虚空投斧
+		Tooltip:
+			'''
+			能够撕裂空间本身，以便对目标进行一系列叠加打击
+			'对皮克西非常有效，为什么不呢？'
+			'''
+	}
+
+	HorizonRazor: {
+		DisplayName: 虚空快刀
+		Tooltip: ""
+	}
+
+	Voidbringer: {
+		DisplayName: 虚空标枪
+		Tooltip:
+			'''
+			粘附在敌人和物块上，持续释放自动追踪的能量矢
+			'无人能逃脱永恒的虚空'
+			'''
+	}
+
+	DimensionalCollapse: {
+		DisplayName: 二向箔
+		Tooltip: ""
+	}
+
+	SingularityMine: {
+		DisplayName: 奇点尖球
+		Tooltip: ""
+	}
+
+	EntropicMatter: {
+		DisplayName: 熵能迸发
+		Tooltip:
+			'''
+			发射一团不稳定的物质，其精度不高，受玩家移动速度的影响
+			'将收容天体能量的不稳定碎片武器化？好吧，这似乎很安全'
+			'''
+	}
+
+	GrandStar: {
+		DisplayName: 至高手里剑
+		Tooltip: "'天选之人的武器'"
+	}
+
+	LunarFury: {
+		DisplayName: 夜明投刀
+		Tooltip: "'如今，陨落者升至天堂'"
+	}
+}
+
+Buffs: {
+	TrueTwilightPlungeDebuff: {
+		DisplayName: 永夜吞噬
+		Description: 黑暗能量逐渐侵蚀这个敌人的生命力
+	}
+
+	TerraCutterDebuff: {
+		DisplayName: 泰拉之怒
+		Description: 泰拉之力重击这个敌人
+	}
+
+	EmpressChargeDebuff: {
+		DisplayName: 光辉审判
+		Description: 棱镜般的光芒灼烧这个敌人
+	}
+}

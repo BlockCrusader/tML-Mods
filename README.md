@@ -10,7 +10,7 @@ To download and install a mod from this repository, you do NOT need to fork or d
 
 ## Concerning Open Source:
 Note that this repository does NOT have an open source license. It should only be used as an alternative method for downloading the hosted mods. 
-Most, but not all of my mods are open source; you should be able to use tModLoader's in-game extract function to view the source for such mods. If a mod's source cannot be extracted by tML, then it is not open source. If the mod can be extracted, then it should have an accompanying open-source license.
+However, most, but not all of my mods are open source; you should be able to use tModLoader's in-game extract function (Avalible when viewing the mod's description in your mods list) to view the source for such mods. If a mod's source cannot be extracted by tML, then it is not open source. If the mod can be extracted, then it should have an accompanying open-source license.
 
 ## Concerning Contributions:
 As a hobbyist modder, I am not accepting direct content contributions to my mods; I simply prefer to work on my own passion projects on my own. 

@@ -1,0 +1,402 @@
+CommonTooltips: {
+	SetBonus: {
+		Ataraxia:
+			'''
+			增加 10% 暴击率
+			允许玩家猛冲向敌人
+			敌人更不容易以你为攻击目标
+			玩家的状态每 10 秒会在阳面和阴面之间交替
+			阳面会增加造成的伤害和受到的伤害
+			阴面会减少造成的伤害和受到的伤害
+			'''
+		Nihilshade:
+			'''
+			有高概率闪避攻击
+			触发闪避后有 10 秒冷却
+			冷却期间敌人更不容易攻击你，并小幅增加生命再生
+			此外，触发闪避会生成一个攻击附近敌人的虚黯幻象，持续 5 秒
+			'''
+		Ascended:
+			'''
+			33% 的几率不消耗投掷物
+			当你受到致命伤害时，升华之力会守护你，并为你恢复最多 500 生命值
+			复活效果触发后有 5 分钟冷却
+			复活后 30 秒内增加 25% 伤害和暴击率
+			复活效果未进入冷却时增加生命再生，冷却时增加闪避攻击的几率
+			死亡后会留下一个升华之灵，它会攻击附近的敌人
+			'''
+	}
+}
+
+Items: {
+	AtaraxiaShard: {
+		DisplayName: 太极碎块
+		Tooltip: "'和谐的事物，完美的平衡，万物本应如此'"
+	}
+
+	AtaraxiaVisage: {
+		DisplayName: 太极头饰
+		Tooltip:
+			'''
+			增加 14% 投掷伤害
+			增加 4% 投掷暴击率
+			增加 12% 投掷物速度
+			敌人不容易以你为攻击目标
+			'''
+	}
+
+	AtaraxiaRobes: {
+		DisplayName: 太极长袍
+		Tooltip:
+			'''
+			增加 9% 投掷伤害
+			增加 5% 投掷暴击率
+			20% 的几率不消耗投掷物
+			增加生命再生
+			敌人不容易以你为攻击目标
+			'''
+	}
+
+	AtaraxiaLeggings: {
+		DisplayName: 太极护胫
+		Tooltip:
+			'''
+			增加 11% 投掷伤害
+			增加 3% 投掷暴击率
+			增加 9% 投掷攻速
+			增加 18% 移动速度
+			敌人不容易以你为攻击目标
+			'''
+	}
+
+	BalanceBand: {
+		DisplayName: 平衡臂章
+		Tooltip:
+			'''
+			增加 12% 投掷暴击率
+			增加 5% 投掷伤害
+			增加 5% 投掷物速度
+			增加生命再生
+			敌人更不容易以你为攻击目标
+			'太极碎块散发出祥和之气，让你思维更加敏锐'
+			'''
+	}
+
+	Duality: {
+		DisplayName: 二元性
+		Tooltip:
+			'''
+			投掷两支平行的标枪
+			白色标枪在飞行过程中伤害会逐渐增加，但击中目标后会减少伤害
+			黑色标枪在飞行过程中伤害会逐渐减少，但击中目标后会增加伤害
+			'''
+	}
+
+	ThousandfoldStinger: {
+		DisplayName: 千机针
+		Tooltip:
+			'''
+			忽视敌人全部防御
+			命中敌人时有概率引发一系列额外的攻击
+			'''
+	}
+
+	MeditatorWard: {
+		DisplayName: 禅心灯
+		Tooltip:
+			'''
+			扔出一盏漂浮的附魔烛灯
+			烛灯会生成一道光环，伤害敌人并增加玩家的生命再生
+			当蜡烛对敌人造成伤害时，如果你处于它的光环范围内则会获得治疗
+			最多可以同时存在八盏烛灯
+			'平心静气...'
+			'''
+	}
+
+	TaijituThrow: {
+		DisplayName: 太极之掷
+		Tooltip:
+			'''
+			左键投掷阴，无视敌人一半的防御
+			右键投掷阳，暴击造成额外的伤害
+			如果阴阳碰撞，它们会融合并产生强大的爆炸
+			'相反相成'
+			'''
+	}
+
+	NihilshadeFragment: {
+		DisplayName: 虚黯碎片
+		Tooltip: "'矛盾的是，虚无的本质是纯粹'"
+	}
+
+	NihilshadeMask: {
+		DisplayName: 虚黯头盔
+		Tooltip:
+			'''
+			增加 13% 投掷伤害
+			增加 11% 投掷物速度和暴击率
+			增加 7% 投掷攻速
+			敌人不容易以你为攻击目标
+			'成为敌人最可怕的噩梦'
+			'''
+	}
+
+	NihilshadePlate: {
+		DisplayName: 虚黯板甲
+		Tooltip:
+			'''
+			增加 18% 投掷伤害
+			增加 7% 投掷暴击率
+			25% 的几率不消耗投掷物
+			敌人不容易以你为攻击目标
+			'十步杀一人，千里不留行'
+			'''
+	}
+
+	NihilshadeGreaves: {
+		DisplayName: 虚黯腿甲
+		Tooltip:
+			'''
+			增加 11% 投掷伤害
+			增加 9% 投掷物速度和攻击速度
+			增加 15% 移动速度
+			敌人更不容易以你为攻击目标
+			'事了拂衣去，深藏身与名'
+			'''
+	}
+
+	GrandmasterShinobiGear: {
+		DisplayName: 忍者宗师装备
+		Tooltip:
+			'''
+			20% 的几率不消耗投掷物
+			增加 20% 投掷物击退力
+			增加 10% 投掷物速度
+			允许玩家爬墙和猛冲
+			有几率闪避敌人攻击
+			'''
+	}
+
+	Harbinger: {
+		DisplayName: 先驱者
+		Tooltip:
+			'''
+			投掷一把先驱者飞刀和数把追踪者飞刀
+			追踪者飞刀初始无法对敌人造成伤害
+			当先驱者飞刀击中敌人时，附近的追踪者飞刀会获得追踪的能力，并可以对敌人造成伤害
+			'无处可逃'
+			'''
+	}
+
+	Nightshade: {
+		DisplayName: 夜影
+		Tooltip:
+			'''
+			扔出一枚能将敌人拉入漩涡的手里剑
+			击中目标时，会释放出一圈更小的手里剑
+			在飞行过程中会逐渐增加伤害
+			'功成'
+			'''
+	}
+
+	TerminusCharge: {
+		DisplayName: 终界符咒
+		Tooltip:
+			'''
+			可以黏附在敌人身上，对其造成持续伤害
+			如果它在空中爆炸，对所有目标造成额外伤害
+			'最终，一切都不复存在'
+			'''
+	}
+
+	AbyssGaze: {
+		DisplayName: 深渊凝视
+		Tooltip:
+			'''
+			扔出将敌人钉在原地的高速标枪
+			被钉住的敌人会将它们的痛苦传播给附近的敌人
+			'我可以告诉你为什么人们会发疯...'
+			'''
+	}
+
+	AscendentSpark: {
+		DisplayName: 升华火花
+		Tooltip: "'神话般的能量，拥有神明般的量级，据说能够同时启迪心灵与身体'"
+	}
+
+	AscendedJingasa: {
+		DisplayName: 飞升斗笠
+		Tooltip:
+			'''
+			增加 6% 投掷伤害
+			增加 20% 投掷暴击率
+			增加 15% 投掷物速度
+			敌人更不容易以你为攻击目标
+			'穿上这副超越尘世界限的盔甲'
+			'''
+	}
+
+	AscendedGarbs: {
+		DisplayName: 飞升战甲
+		Tooltip:
+			'''
+			增加 20% 投掷伤害
+			增加 6% 投掷暴击率
+			减少 10% 受到的伤害
+			增加生命再生
+			敌人不容易以你为攻击目标
+			'它的护手镶嵌着蕴含深不可测权能的水晶'
+			'''
+	}
+
+	AscendedGeta: {
+		DisplayName: 飞升木屐
+		Tooltip:
+			'''
+			增加 8% 投掷伤害和暴击率
+			增加 9% 投掷攻速
+			增加 25% 移动速度
+			敌人更不容易以你为攻击目标
+			'虽然外表看似简单，却跳动着神明般的力量'
+			'''
+	}
+
+	AscensionScroll: {
+		DisplayName: 飞升卷轴
+		Tooltip:
+			'''
+			增加 7% 投掷伤害和暴击率
+			增加 7% 投掷物速度和攻击速度
+			增加 7% 投掷物击退力
+			投掷攻击施加强力的火焰
+			投掷暴击造成额外伤害并有几率在区域内蔓延火焰
+			敌人不容易以你为攻击目标
+			'掌握着宇宙和生命本身的神圣秘密，但其内容只写着“42”...'
+			'''
+	}
+
+	Skadoosh: {
+		DisplayName: 无极拈花指
+		Tooltip:
+			'''
+			生成一个附着在目标身上的追踪火花
+			右键引爆所有附着的火花，形成毁灭性的爆炸
+			'哦，你也知道这一招?'
+			'''
+	}
+
+	AscendedShuriken: {
+		DisplayName: 飞升手里剑
+		Tooltip:
+			'''
+			仍出大量追踪敌人并附着其上的手里剑
+			'任何完整的刺客装备中必不可少的存在；没有任何威胁能够抵挡它的攻击'
+			'''
+	}
+
+	SkyShard: {
+		DisplayName: 苍穹尖球
+		Tooltip:
+			'''
+			扔出悬浮的尖球，击中目标或消失时会分裂成更小的碎片
+			击中后召唤从天而降的刀刃粉碎目标周围的空间，造成巨大的伤害
+			目标会在一段时间内持续受到额外的伤害
+			'天空正在坠落！当然，是对你的敌人而言'
+			'''
+	}
+
+	AuraOrbs: {
+		DisplayName: 飞升之珠
+		Tooltip:
+			'''
+			积蓄光环能量的球体
+			随着蓄力，飞升之珠的大小和伤害会提高
+			受到伤害会使飞升之珠变得更强
+			'愿光环与你同在'
+			'''
+	}
+}
+
+Buffs: {
+	AtaraxiaLight: {
+		Description: 增加造成的伤害和受到的伤害
+		DisplayName: 阳面
+	}
+
+	AtaraxiaDark: {
+		Description: 减少造成的伤害和受到的伤害
+		DisplayName: 阴面
+	}
+
+	ShadeShift: {
+		DisplayName: 虚黯转移
+		Description: 增加生命再生，减少仇恨值
+	}
+
+	AscendentSparks: {
+		DisplayName: 升华火花
+		Description: 敌人被一道耀眼的天光灼伤
+	}
+
+	AscendentRevive: {
+		DisplayName: 飞升
+		Description: 大幅增加伤害和暴击率
+	}
+
+	AscendentCool: {
+		DisplayName: 灵魂恢复
+		Description: 你超脱死亡的能力正在恢复
+	}
+
+	WardBurn: {
+		DisplayName: 禅心灯
+		Description: 敌人被附近的禅心灯击中
+	}
+
+	WardBuff: {
+		DisplayName: 冥想光环
+		Description: 附近的禅心灯增加了你的生命再生
+	}
+
+	AbyssGazeImpale: {
+		Description: 黑暗的标枪耗尽了敌人的生命
+		DisplayName: 深渊钉刺
+	}
+
+	AbyssGazeAura: {
+		Description: 原始的黑暗耗尽了敌人的生命力
+		DisplayName: 深渊凝视
+	}
+
+	SkyCut: {
+		DisplayName: 破裂苍穹
+		Description: 现实空间的结构将这个敌人撕裂！
+	}
+}
+
+Projectiles: {
+	NihilRazor.DisplayName: 虚黯
+	NihilClone.DisplayName: 虚黯幻象
+	AscendedSpirit.DisplayName: 升华之灵
+	SpiritBolt.DisplayName: Spirit Bolt
+	DualityProjW.DisplayName: 二元性
+	DualityProjB.DisplayName: 二元性
+	SmolStinger.DisplayName: 千机针
+	StingerProj.DisplayName: 千机针
+	WardCandle.DisplayName: 禅心灯
+	TaijituBomb.DisplayName: 太极之掷
+	YangProj.DisplayName: 太极之阳
+	YinProj.DisplayName: 太极之阴
+	NihilDaggerSmall.DisplayName: 追踪者飞刀
+	NihilDagger.DisplayName: 先驱者飞刀
+	NightshadeProj.DisplayName: 夜影
+	NightshadeSmol.DisplayName: 夜影
+	TerminusChargeProj.DisplayName: 终界符咒
+	AbyssGazeProj.DisplayName: 深渊凝视
+	SkadooshProj.DisplayName: 无极拈花指
+	AscendedShurikenProj.DisplayName: 飞升手里剑
+	SkyFractal.DisplayName: 苍穹尖球
+	SkyShardFrag.DisplayName: 苍穹尖球
+	SkyShardProj.DisplayName: 苍穹尖球
+	AuraSphere.DisplayName: 飞升之珠
+}

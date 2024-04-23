@@ -1,0 +1,274 @@
+CommonItemtooltip: {
+	ScannerCondition: Pendant une Lune de Sang ou une Éclipse, ou dans une variante de biome souterrain
+	MerchantSaleCondition: Activé dans la configuration
+	MerchantAccConditionG: "{$CommonItemtooltip.MerchantSaleCondition} & Lune Gibbeuse"
+	MerchantAccConditionQ: "{$CommonItemtooltip.MerchantSaleCondition} & Quartier de Lune"
+	MerchantAccConditionC: "{$CommonItemtooltip.MerchantSaleCondition} & Croissant de Lune"
+	LuckDisplay: "{0} Chance"
+	MinionDisplay: "{0}/{1} Emplacements de Sbires occupés"
+	SentryDisplay: "{0}/{1} Emplacements de Sentinelles occupés"
+	RegenDisplayFull: Vie Pleine
+	RegenDisplayPos: +{0} vie par seconde
+	RegenDisplayNeg: "{0} vie par seconde"
+	SpawnRateDisplayS: ~{0} apparition par seconde
+	SpawnRateDisplayP: ~{0} apparitions par seconde
+	SpawnCapDisplay: ~Limite d'apparition de {0} enemies
+	SpawnRateDisplayError: ERREUR: Taux d'apparition extrêmement haut/bas!
+	ComboDisplayNone: Aucun combo
+	ComboDisplayTime: "{0} coups (Durée: {1})"
+	ComboDisplayDmg: "{0} coups (Dmg total: {1})"
+	ComboError: ERREUR: Débordement de valeur
+	AggroDisplay: "{0} Aggro"
+	ManaDisplayFull: Mana pleine
+	ManaDisplayPos: +{0} mana par seconde
+	ManaDisplayNeg: "{0} mana par seconde"
+	SuffixThousand: " K"
+	SuffixMillion: " Mil"
+	SuffixBillion: " Bil"
+	SuffixSeconds: " secs"
+	SuffixMinutes: " mins"
+	SuffixHours: " hrs"
+}
+
+Biomes: {
+	Neutral: N/D
+
+	Vanilla: {
+		Space: Espace
+		Underworld: Enfer
+		Underground: Souterrain
+		Solar: Pilier Solaire
+		Vortex: Pilier de Vortex
+		Nebula: Pilier Nébuleux
+		Stardust: Pilier Astral
+		Meteor: Météorite
+		Dungeon: Donjon
+		Temple: Temple de la Jungle
+		Aether: Éther
+		Spider: Nid d'Araignées
+		Corruption: Corruption
+		Crimson: Cramin
+		Shroom: Champignons Luisants
+		Jungle: Jungle
+		Hallow: Sacré
+		Ocean: Océan
+		Snow: Toundra
+		Desert: Désert
+		Beehive: Ruche d'Abeilles
+		Granite: Cave de Granite
+		Marble: Cave de Marbre
+		Graveyard: Cimetière
+		Forest: Forêt
+		Town: Ville
+	}
+
+	Thorium.Depths: Profondeurs Aquatiques
+
+	Calamity: {
+		Astral: Infection Astrale
+		Crags: Rochers de Soufre
+		SulphurousSea: Mer Sulfureuse
+		SunkenSea: Mer Engloutie
+		AbyssMain: Les Abysses
+		Abyss1: Profondeurs Sulfuriques
+		Abyss2: Eaux Troubles
+		Abyss3: Bouches d'Aération Thermiques
+		Abyss4: Le Vide
+	}
+
+	Redemption: {
+		Lab: Laboratoire Abandonné
+		Soulless: Cavernes Sans Âme
+		Wasteland: Terrain Vague
+	}
+
+	Aequus.Crevice: Crevasse du Crabe
+	Confection.Confection: Confection
+
+	FFF: {
+		Celestial: Céleste
+		Garden: Jardin
+	}
+
+	Spirit: {
+		Reach: Bruyère
+		Spirit: Esprit
+		Asteroid: Champ d'astéroïdes
+	}
+
+	StarsAbove: {
+		Observatory: Observatoire Hyperborée
+		Astarte: Pilote Astarté
+		Bleached: Monde blanchi
+		Corvus: Corvus
+		Lyra: Lyra
+		Pyxis: Pyxis
+		Moon: Lune
+		StarSea: Mer d'étoiles
+	}
+
+	Depths.Depths: Profondeurs
+
+	Spooky: {
+		Spooky: Fantasmagorique
+		Catacomb: Catacombes
+	}
+
+	Verdant.Verdant: Verdoyant
+}
+
+Items: {
+	EngiRegistry: {
+		DisplayName: Registre de l'Ingénieur
+		Tooltip:
+			'''
+			Affiche la quantité d'Emplacements de Sentinelle que vous avez et combien sont occupés
+			'Tu t'approches dan-génieur-eusement de ta limite de sentinelles'
+			'''
+	}
+
+	AttendanceLog: {
+		DisplayName: Journal de Présences
+		Tooltip: Affiche la quantité d'Emplacements de Sbires que vous avez et combien sont occupés
+	}
+
+	FortuneMirror: {
+		DisplayName: Miroir de Fortune
+		Tooltip: Affiche la chance
+	}
+
+	HitMarker: {
+		DisplayName: Marqueur de Coup
+		Tooltip:
+			'''
+			Affiche le nombre de coups, la durée, et le total de dommage des combos
+			Un combo consiste des coups frappés consécutivement à moins de 3 secondes l'un de l'autre
+			'''
+	}
+
+	RSH: {
+		DisplayName: Compteur C.R.M.
+		Tooltip: Affiche le combo, la regénération de vie, et l'économie de mana
+	}
+
+	SafteyScanner: {
+		DisplayName: Scanneur de Sécurité
+		Tooltip: Affiche le taux d'apparition des ennemis
+	}
+
+	ScryingMirror: {
+		DisplayName: Miroir de Divination
+		Tooltip: Affiche la chance, les emplacements de sbires, et les emplacements de sentinelles
+	}
+
+	SmartHeart: {
+		DisplayName: Cœur Intelligent
+		Tooltip:
+			'''
+			Affiche la régénération et/ou la perte de vie
+			'Assure-toi de faire tes pas'
+			'''
+	}
+
+	BiomeCrystal: {
+		DisplayName: Cristal de Biome
+		Tooltip: Affiche le(s) biome(s) dans lequel vous vous situez
+	}
+
+	Magimeter: {
+		DisplayName: Magimètre
+		Tooltip: Affiche la régénération de mana, ou l'utilisation quand un item consommant la mana est utilisé
+	}
+
+	WantedPoster: {
+		DisplayName: Avis de Recherche
+		Tooltip:
+			'''
+			Affiche l'aggro, qui détermine la probabilité que les ennemies vous ciblent
+			'Ils ne se sont même pas souciés de la partie "ou vivant"...'
+			'''
+	}
+
+	ThreatAnalyzer: {
+		DisplayName: Analyseur de Menaces
+		Tooltip: Affiche le taux d'apparition, l'aggro, et le(s) biome(s)
+	}
+}
+
+InfoDisplays: {
+	SentryInfoDisplay.DisplayName: Sentinelles
+	MinionInfoDisplay.DisplayName: Sbires
+	LuckInfoDisplay.DisplayName: Chance
+	SpawnRateInfoDisplay.DisplayName: Taux d'Apparition
+	RegenInfoDisplay.DisplayName: Régén de Vie
+	ComboInfoDisplay.DisplayName: Combo
+	BiomeInfoDisplay.DisplayName: Biome(s) à proximité
+	AggroInfoDisplay.DisplayName: Aggro
+	ManaInfoDisplay.DisplayName: Économie de Mana
+}
+
+Configs: {
+	ConfigServer: {
+		DisplayName: Configuration Principale
+
+		easySell: {
+			Label: Marchand vend les nouveaux accessoires d'information
+			Tooltip:
+				'''
+				Quand mis à vrai, le Marchand vend les accessoires d'information de ce mod selon la phase de la lune
+				Bon si vous voulez une façon facile d'obtenir les nouveaux affichages d'information
+				'''
+		}
+
+		extendedRecipe: {
+			Label: Ajouter les nouveaux accessoires à la recette du PDA
+			Tooltip:
+				'''
+				Bascule si la reccette du PDA est écrasée de façon à exiger le Miroir de Divination, le Compteur C.R.M., et l'Analyseur de Menaces de ce mod
+				Si vous ne voulez pas vous taper plus de travail pour avoir votre cellulaire, essayez de désactiver ça
+				'''
+		}
+
+		updatedPhones: {
+			Label: Activer les nouveaux affichages d'inforation sur le PDA, le Téléphone Portable, et le Téléphone Coquillage
+			Tooltip:
+				'''
+				Détermine si le PDA et ses améliorations héritent des nouveaux affichages d'information de ce mod
+				Prend également en charge le Wishing Glass du mod Thorium
+				'''
+		}
+
+		refreshRate: {
+			Label: Taux de Mise à Jour des Informations
+			Tooltip:
+				'''
+				Certains affichages d'information (Taux/Limite d'Apparition et Biome) ne sont pas mis à jour à chaque image
+				Cela empêche du texte scintillant, et réduit le potentiel de création de lag
+				Le délai entre les mises à jour peut être personnalisé ici; la valeur établie est la quantité de ticks entre chaque mise à jour
+				Pour référence, 1 seconde = 60 ticks
+				'''
+		}
+
+		cycleRate: {
+			Label: Fréquence de Cycle d'Affichage d'Information
+			Tooltip:
+				'''
+				Certains affichages d'information (Taux/Limite d'Apparition, Combo, et Biome) ont plusieurs lignes d'information qu'il montrent en cycle
+				Ce comportement est similaire à celui de la Radio du Temps vanille pendant qu'une tempête de sable est active
+				Ce paramètre multiplie la vitesse à laquelle les différentes lignes d'information cyclent
+				'''
+		}
+
+		prioModBiomes: {
+			Label: L'affichage de Biomes Priorise les Biomes de Mods
+			Tooltip:
+				'''
+				Fait en sorte que l'affichage de biomes affiche les biomes de mods supportés avant les mods vanille (pour la plupart)
+				Tous les biomes environnants font quand-même partie du cycle; les biomes à plus haute priorité sont affichés plus tôt dans le cycle
+				L'affichage de biomes supporte les mods ci-bas:
+				'Thorium Mod', 'Calamity Mod', 'Mod of Redemption', 'The Stars Above', 'Spirit Mod', 'Spooky Mod', 'Confection Rebaked', 
+				'The Depths', 'Aequus', 'Verdant', 'Food, Furniture & Fun', and 'Remnants'
+				'''
+		}
+	}
+}

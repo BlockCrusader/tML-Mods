@@ -27,13 +27,13 @@ AwarenessMessages: {
 
 Configs: {
 	ConfigClient: {
-		DisplayName: Config (Client-side)
+		DisplayName: 设置值为折扣百分比（例：设置为 (玩家端)
 
 		Headers: {
-			HeaderEtc: Etc.
-			HeaderItemAccess: Item Buffs
-			HeaderNewItems: New Items
-			HeaderAwareness: Awareness
+			HeaderEtc: 其他
+			HeaderItemAccess: 物品增强
+			HeaderNewItems: mod新增物品
+			HeaderAwareness: 提示和预报
 		}
 
 		noTooltipChanges: {
@@ -194,12 +194,12 @@ Configs: {
 	}
 
 	ConfigServer: {
-		DisplayName: Config (Server-side)
+		DisplayName: 设置 (服务端)
 
 		Headers: {
-			HeaderItemAccess: Item Accessibility
-			HeaderNewItems: New Items
-			HeaderNPCs: NPC/Enemy Tweaks
+			HeaderItemAccess: 物品修改
+			HeaderNewItems: mod新增物品
+			HeaderNPCs: NPC/敌人调整
 		}
 
 		downgradeZapinator: {
@@ -408,7 +408,7 @@ Items: {
 	}
 
 	SandstormSlab: {
-		DisplayName: Sandstorm Slab
+		DisplayName: 沙暴石板
 		Tooltip:
 			'''
 			开始沙尘暴

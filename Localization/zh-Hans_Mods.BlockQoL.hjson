@@ -12,17 +12,17 @@ NewTooltips: {
 AwarenessMessages: {
 	rainStart: 雨滴开始从天空落下...
 	rainEnd: 天气放晴了！
-	windStart: A strong gale is picking up...
-	windEnd: The firece winds start to die down...
-	sandStart: Mighty winds arouse a desert sandstorm!
-	sandEnd: The desert surface becomes calm once more...
-	lanternStart: Beautiful lanterns fill the night sky!
-	lanternEnd: The lantern festival concludes...
-	starStart: Shooting stars dance in the atmosphere!
-	starEnd: The meteor shower has ended...
-	bloodEnd: The Blood Moon has passed!
-	eclipseEnd: The solar eclipse has ended!
-	HealRefresh: Healing Potions refreshed!
+	windStart: 狂风来袭!
+	windEnd: 大风开始减弱...
+	sandStart: 狂风卷起了一场沙尘暴！
+	sandEnd: 沙漠表面再次迎来了平静...
+	lanternStart: 华美的灯笼充满了夜空！
+	lanternEnd: 华灯宴结束了...
+	starStart: 流星从空中划过！
+	starEnd: 流星雨结束了...
+	bloodEnd: 血月落下了...
+	eclipseEnd: 日食结束了...
+	HealRefresh: 治疗药剂已刷新！
 }
 
 Configs: {
@@ -37,158 +37,158 @@ Configs: {
 		}
 
 		noTooltipChanges: {
-			Label: "[i:171] Prevent tooltip replacements"
+			Label: "[i:171] 不要替换提示"
 			Tooltip:
 				'''
-				Disables tooltip replacements/changes made by this mod, for compatibility purposes
-				Only turn this on if you need to; it can and will cause discrepencies between tooltips and functions
-				This does not impact features that add new tooltips instead of replacing existing ones
+				出于兼容性考虑, 禁用本mod的替换提示
+				只有在必要时打开; 可能会导致物品提示和实际效果出现差异
+				只影响被替换的提示
 				'''
 		}
 
 		potentLifeCrystal: {
-			Label: "[i:29] Potent Life Crystals"
+			Label: "[i:29] 强效生命水晶"
 			Tooltip:
 				'''
-				Causes Life Crystals to grant you (and only you) an additional 20 max life (total +40) per use
-				Life Crystals still only raise your max life to a cap of 400; this just make it faster to reach that limit
-				Ideal for particularly large multiplayer servers where there aren't enough Life Crystals to max out everyone
+				使（只有你）生命水晶每次使用额外获得 20 最大生命值(总共 +40)。
+				注意：生命水晶仍只能将最大生命值提高到 400
+				非常适合没有足够生命水晶让所有人都获得最大生命值的大型多人服务器
 				'''
 		}
 
 		potentLifeFruit: {
-			Label: "[i:1291] Potent Life Fruits"
+			Label: "[i:1291] 强效生命果"
 			Tooltip:
 				'''
-				Causes Life Fruits to grant you (and only you) an additional 5 max life (total +10) per use
-				Life Fruit still only raise your max life to a cap of 500; this just make it faster to reach that limit
-				Good for particularly large multiplayer servers, or if you don't like how long it takes to find Life Fruits
+				使（只有你）生命果每次使用额外获得 5 最大生命值(总共 +10)。
+				注意：生命果仍只能将最大生命值提高到 500
+				适合大型多人服务器和不喜欢找生命果的人
 				'''
 		}
 
 		passiveDiscount: {
-			Label: "[i:854] Discount Card works from inventory"
+			Label: "[i:854] 会员卡背包生效"
 			Tooltip:
 				'''
-				Makes it so that the Discount Card granted while it is in your inventory or Void Valut, similarly to info accessories
-				Also applies to the Greedy Ring, and the reforge discount from this mod's Club Goblin Card (and its upgrades)
+				使会员卡在背包或虚空保险库中时也能生效，类似于饰品
+				同样适用于 “贪婪戒指”, 以及本mod的 “哥布林俱乐部卡”（及其升级版）中的折扣
 				'''
 		}
 
 		goblinDiscount: {
-			Label: "[i:BlockQoL/GoblinCard] Club Goblin Card discount"
+			Label: "[i:BlockQoL/GoblinCard] 哥布林俱乐部卡"
 			Tooltip:
 				'''
-				The Club Goblin Card is a new accessory droped by the Goblin Tinkerer (when killed) at a 50% rate
-				It grants reduced reforge prices, as determined by this setting
-				The set value is the % off (Ex: When set to 30, you get 30% off reforge prices)
-				Set this to 0 to disable the discount entirley (The Card can still drop, though)
+				哥布林俱乐部卡是一个由哥布林工匠被杀死时以 50% 的概率掉落的新饰品
+				它可以降低重铸价格，具体由设置决定
+				设置值为折扣百分比（例：设置为 30 时，可获得 30% 的锻造价格折扣）
+				设为 0 可完全禁用折扣（但卡片仍然会掉落）
 				'''
 		}
 
 		manaGlow: {
-			Label: "[i:109] Mana Crystal glow"
+			Label: "[i:109] 发光魔力水晶"
 			Tooltip:
 				'''
-				Mana Crystals (in tile form) now emit a blue glow, making it much easier to spot them
-				This setting adjusts the intensity/brightness of the glow; higher values result in a stronger light
-				Set this to 0 to disable the glow
-				Mana Crystals don't naturally generate in tile form, so normally this will have no meaningful effect on gameplay 
+				法力水晶（物块）现在会发出蓝色光芒，使其更容易被发现
+				此设置可调整发光的强度/亮度；数值越高，光线越强
+				将此值设为 0 可禁用发光
+				法力水晶不会自然生成，这个功能通常不会对游戏产生有意义的影响 
 				'''
 		}
 
 		heartGlow: {
-			Label: "[i:29] Life Crystal glow"
+			Label: "[i:29] 发光生命水晶"
 			Tooltip:
 				'''
-				Life Crystals (in tile form) now emit a pink glow, making it much easier to spot them
-				This setting adjusts the intensity/brightness of the glow; higher values result in a stronger light
-				Set this to 0 to disable the glow
-				Note that this also affects Life Crystal Boulders
+				生命水晶（物块）现在会发出粉红色光芒，使其更容易被发现
+				此设置可调整发光的强度/亮度；数值越高，光线越强
+				将此值设为 0 可禁用发光
+				请注意，这也会影响巨型生命水晶
 				'''
 		}
 
 		lifeGlow: {
-			Label: "[i:1291] Life Fruit glow"
+			Label: "[i:1291] 发光生命果"
 			Tooltip:
 				'''
-				Life Fruit (in tile form) now emit a yellow glow, making it much easier to spot them
-				This setting adjusts the intensity/brightness of the glow; higher values result in a stronger light
-				Set this to 0 to disable the glow
+				生命果实（物块）现在会发出黄色光芒，使其更容易被发现
+				此设置可调整发光的强度/亮度；数值越高，光线越强
+				设置为 0 则禁用发光
 				'''
 		}
 
 		boosterChecklist: {
-			Label: "[i:5339] Permanent upgrades awareness"
-			Tooltip: Adds an extra tooltip to permanent upgrade items (Ex: Life Fruit, Artisan Loaf, etc.) once you've consumed the maximum amount possible
+			Label: "[i:5339] 永久升级提示"
+			Tooltip: 达到最大可使用数量后，为永久升级物品（例：生命果、工匠面包等）添加额外的提示
 		}
 
 		weatherAwareness: {
-			Label: "[i:4075] Weather awareness"
+			Label: "[i:4075] 天气提示"
 			Tooltip:
 				'''
-				Adds status messages that announce (to just you) when the Rain, Windy Day, and Sandstorm events begin or end
-				Note that the Windy Day status messages will be announced at any time (not just day) wind is sufficiently strong
+				添加了天气信息，（只向你）宣布雨天、大风和沙尘暴开始或结束的时间
+				请注意，“大风 ”状态信息将在风力足够大的任何时间（不只是白天）播放
 				'''
 		}
 
 		needRadioForWeather: {
-			Label: "[i:3037] Require Weather Radio for weather awareness"
+			Label: "[i:3037] 天气预报需要天气收音机"
 			Tooltip:
 				'''
-				Makes it so that the status messages from the Weather awareness feature can only occur when you have a Weather Radio (or better)
-				Recommended so that Weather awareness messages don't completely invalidate the Weather Radio's usefulness
+				使来自天气预报功能的状态消息只能在拥有天气收音机（或其升级）时出现
+				建议启用，以便天气预报不会完全使天气收音机失去意义
 				'''
 		}
 
 		calmNightAwareness: {
-			Label: "[i:4702] Lantern Night & Meteor Shower awareness"
+			Label: "[i:4702] 中秋节/流星雨提示"
 			Tooltip:
 				'''
-				Adds status messages that announce (to just you) when the Lantern Night and Meteor Shower events begin or end
-				(For those who aren't aware, Meteor Showers are peaceful events in which Fallen Stars fall much more frequently)
+				添加天气预报，（只向你）提示中秋节和流星雨开始和结束的时间
+				(对于不了解流星雨的人来说，流星雨只是一种流星更高几率坠落的和平事件）
 				'''
 		}
 
 		darkMoonAwareness: {
-			Label: "[i:2767] Blood Moon & Eclipse awareness"
+			Label: "[i:2767] 血月/日食提示"
 			Tooltip:
 				'''
-				Adds status messages that announce (to just you) when the Blood Moon and Solar Eclipse events end
-				Note that start messages aren't added, since they already exist in vanilla
+				添加天气预报，（只向你）提示血月和日食的结束
+				请注意，不会添加开始的播报，原版已经提供了
 				'''
 		}
 
 		shorterRespawn: {
-			Label: "[i:3231] Short respawn time"
+			Label: "[i:3231] 缩短重生时间"
 			Tooltip:
 				'''
-				Sets the time it takes for you to respawn after death, overriding vanilla logic
-				However, if a boss is active this feature will not take effect and the original respawn time will be used
-				For reference, the default respawn time is 10 seconds normally, or 15 seconds in Expert Mode or above
-				Set this to 0 to disable the feature and use default respawn times
+				设置你死后重生所需的时间，覆盖原版设定
+				如果有 Boss 正在活动，此功能不会生效，并使用默认重生时间
+				作为参考，默认重生时间为 10 秒，专家模式或以上为 15 秒
+				将其设置为 0 以禁用该功能并使用默认重生时间
 				'''
 		}
 
 		lowHealthThresh: {
-			Label: "[i:321] Low health awareness threshold"
+			Label: "[i:321] 低血量提示阈值"
 			Tooltip:
 				'''
-				This mod causes visual cues while you are at low health, and whenever you drop to low health
-				This setting determines the threshold for when you are considered to be at low health
-				The number set here is the percentage of health that is considered low (Ex: When set to 20, having <20% HP is considered low)
-				Upon dropping to low health, the player will display a Tombstone emote
-				While at low health, both the player and your health bar will pulse red
+				当你的血量状况不佳时, 以及每当血量下降时, 本mod会产生视觉提示
+				此设置设定玩家被视为血线不佳的阈值
+				这里设置的数字是触发提示时血量百分比（例：设置为 20 时, HP <20% 将触发提示）
+				当生命值降低时, 玩家将发送墓碑表情
+				当生命值较低时, 玩家和生命条都会呈红色闪烁
 				'''
 		}
 
 		healAwareness: {
-			Label: "[i:188] Healing Potion awareness"
+			Label: "[i:188] 治疗冷却提示"
 			Tooltip:
 				'''
-				Causes visual and sound cues to appear whenever Potion Sickness wears off (Meaning you can use another healing item)
-				When triggered, the player will emit red dust and display a Healing Potion emote
-				Additionally, a text popup will appear above the player's head, and a sound will play
+				每当药水病消失时就会出现视觉和声音提示 (此时你可以使用其他治疗物品)
+				触发时，玩家会发出红色粉尘并显示治疗药水表情
+				此外，玩家头顶上方会出现一个文本弹出窗口，并播放声音
 				'''
 		}
 	}

@@ -1,0 +1,439 @@
+NewTooltips: {
+	PotentLifeFruit: 永久增加 10 血量上限
+	PotentLifeCrystal: 永久增加 40 血量上限
+	ReforgeDiscount: 重铸价格减少 {0}%
+	BoosterUsed: 你已经使用了这个物品！
+	BoosterUsedWorld: 本世界中已经使用了这个物品！
+	BoosterUsedHeart: 你已经达到了生命水晶的上限！
+	BoosterUsedMana: 你已经达到了魔力水晶的上限！
+	BoosterUsedFruit: 你已经达到了生命果的上限！
+}
+
+AwarenessMessages: {
+	rainStart: 雨滴开始从天空落下...
+	rainEnd: 天气放晴了！
+	windStart: A strong gale is picking up...
+	windEnd: The firece winds start to die down...
+	sandStart: Mighty winds arouse a desert sandstorm!
+	sandEnd: The desert surface becomes calm once more...
+	lanternStart: Beautiful lanterns fill the night sky!
+	lanternEnd: The lantern festival concludes...
+	starStart: Shooting stars dance in the atmosphere!
+	starEnd: The meteor shower has ended...
+	bloodEnd: The Blood Moon has passed!
+	eclipseEnd: The solar eclipse has ended!
+	HealRefresh: Healing Potions refreshed!
+}
+
+Configs: {
+	ConfigClient: {
+		DisplayName: Config (Client-side)
+
+		Headers: {
+			HeaderEtc: Etc.
+			HeaderItemAccess: Item Buffs
+			HeaderNewItems: New Items
+			HeaderAwareness: Awareness
+		}
+
+		noTooltipChanges: {
+			Label: "[i:171] Prevent tooltip replacements"
+			Tooltip:
+				'''
+				Disables tooltip replacements/changes made by this mod, for compatibility purposes
+				Only turn this on if you need to; it can and will cause discrepencies between tooltips and functions
+				This does not impact features that add new tooltips instead of replacing existing ones
+				'''
+		}
+
+		potentLifeCrystal: {
+			Label: "[i:29] Potent Life Crystals"
+			Tooltip:
+				'''
+				Causes Life Crystals to grant you (and only you) an additional 20 max life (total +40) per use
+				Life Crystals still only raise your max life to a cap of 400; this just make it faster to reach that limit
+				Ideal for particularly large multiplayer servers where there aren't enough Life Crystals to max out everyone
+				'''
+		}
+
+		potentLifeFruit: {
+			Label: "[i:1291] Potent Life Fruits"
+			Tooltip:
+				'''
+				Causes Life Fruits to grant you (and only you) an additional 5 max life (total +10) per use
+				Life Fruit still only raise your max life to a cap of 500; this just make it faster to reach that limit
+				Good for particularly large multiplayer servers, or if you don't like how long it takes to find Life Fruits
+				'''
+		}
+
+		passiveDiscount: {
+			Label: "[i:854] Discount Card works from inventory"
+			Tooltip:
+				'''
+				Makes it so that the Discount Card granted while it is in your inventory or Void Valut, similarly to info accessories
+				Also applies to the Greedy Ring, and the reforge discount from this mod's Club Goblin Card (and its upgrades)
+				'''
+		}
+
+		goblinDiscount: {
+			Label: "[i:BlockQoL/GoblinCard] Club Goblin Card discount"
+			Tooltip:
+				'''
+				The Club Goblin Card is a new accessory droped by the Goblin Tinkerer (when killed) at a 50% rate
+				It grants reduced reforge prices, as determined by this setting
+				The set value is the % off (Ex: When set to 30, you get 30% off reforge prices)
+				Set this to 0 to disable the discount entirley (The Card can still drop, though)
+				'''
+		}
+
+		manaGlow: {
+			Label: "[i:109] Mana Crystal glow"
+			Tooltip:
+				'''
+				Mana Crystals (in tile form) now emit a blue glow, making it much easier to spot them
+				This setting adjusts the intensity/brightness of the glow; higher values result in a stronger light
+				Set this to 0 to disable the glow
+				Mana Crystals don't naturally generate in tile form, so normally this will have no meaningful effect on gameplay 
+				'''
+		}
+
+		heartGlow: {
+			Label: "[i:29] Life Crystal glow"
+			Tooltip:
+				'''
+				Life Crystals (in tile form) now emit a pink glow, making it much easier to spot them
+				This setting adjusts the intensity/brightness of the glow; higher values result in a stronger light
+				Set this to 0 to disable the glow
+				Note that this also affects Life Crystal Boulders
+				'''
+		}
+
+		lifeGlow: {
+			Label: "[i:1291] Life Fruit glow"
+			Tooltip:
+				'''
+				Life Fruit (in tile form) now emit a yellow glow, making it much easier to spot them
+				This setting adjusts the intensity/brightness of the glow; higher values result in a stronger light
+				Set this to 0 to disable the glow
+				'''
+		}
+
+		boosterChecklist: {
+			Label: "[i:5339] Permanent upgrades awareness"
+			Tooltip: Adds an extra tooltip to permanent upgrade items (Ex: Life Fruit, Artisan Loaf, etc.) once you've consumed the maximum amount possible
+		}
+
+		weatherAwareness: {
+			Label: "[i:4075] Weather awareness"
+			Tooltip:
+				'''
+				Adds status messages that announce (to just you) when the Rain, Windy Day, and Sandstorm events begin or end
+				Note that the Windy Day status messages will be announced at any time (not just day) wind is sufficiently strong
+				'''
+		}
+
+		needRadioForWeather: {
+			Label: "[i:3037] Require Weather Radio for weather awareness"
+			Tooltip:
+				'''
+				Makes it so that the status messages from the Weather awareness feature can only occur when you have a Weather Radio (or better)
+				Recommended so that Weather awareness messages don't completely invalidate the Weather Radio's usefulness
+				'''
+		}
+
+		calmNightAwareness: {
+			Label: "[i:4702] Lantern Night & Meteor Shower awareness"
+			Tooltip:
+				'''
+				Adds status messages that announce (to just you) when the Lantern Night and Meteor Shower events begin or end
+				(For those who aren't aware, Meteor Showers are peaceful events in which Fallen Stars fall much more frequently)
+				'''
+		}
+
+		darkMoonAwareness: {
+			Label: "[i:2767] Blood Moon & Eclipse awareness"
+			Tooltip:
+				'''
+				Adds status messages that announce (to just you) when the Blood Moon and Solar Eclipse events end
+				Note that start messages aren't added, since they already exist in vanilla
+				'''
+		}
+
+		shorterRespawn: {
+			Label: "[i:3231] Short respawn time"
+			Tooltip:
+				'''
+				Sets the time it takes for you to respawn after death, overriding vanilla logic
+				However, if a boss is active this feature will not take effect and the original respawn time will be used
+				For reference, the default respawn time is 10 seconds normally, or 15 seconds in Expert Mode or above
+				Set this to 0 to disable the feature and use default respawn times
+				'''
+		}
+
+		lowHealthThresh: {
+			Label: "[i:321] Low health awareness threshold"
+			Tooltip:
+				'''
+				This mod causes visual cues while you are at low health, and whenever you drop to low health
+				This setting determines the threshold for when you are considered to be at low health
+				The number set here is the percentage of health that is considered low (Ex: When set to 20, having <20% HP is considered low)
+				Upon dropping to low health, the player will display a Tombstone emote
+				While at low health, both the player and your health bar will pulse red
+				'''
+		}
+
+		healAwareness: {
+			Label: "[i:188] Healing Potion awareness"
+			Tooltip:
+				'''
+				Causes visual and sound cues to appear whenever Potion Sickness wears off (Meaning you can use another healing item)
+				When triggered, the player will emit red dust and display a Healing Potion emote
+				Additionally, a text popup will appear above the player's head, and a sound will play
+				'''
+		}
+	}
+
+	ConfigServer: {
+		DisplayName: Config (Server-side)
+
+		Headers: {
+			HeaderItemAccess: Item Accessibility
+			HeaderNewItems: New Items
+			HeaderNPCs: NPC/Enemy Tweaks
+		}
+
+		downgradeZapinator: {
+			Label: "[i:4348] Shimmer downgrades Orange Zapinator"
+			Tooltip: Makes it so that the Orange Zapinator transmutates into the Gray Zapinator, making the latter accessible in Hardmode
+		}
+
+		snowGlobeDrop: {
+			Label: "[i:602] Snow Globe out-of-season drop"
+			Tooltip:
+				'''
+				The Snow Globe (Frost Legion's summon item) can now be dropped by any enemy killed in the Snow or Ice biomes while in hardmode
+				This setting customizes the drop rate for the Snow Globe; the number set here represents the denominator of the drop (Ex: 100 => 1/100)
+				During a blizzard, an extra drop attempt is made, roughly doubling the drop rate
+				Additionally, Ice Mimics and Ice Golems have an additional drop attempt with x10 and x20 better odds, respectivley
+				Set this to 0 to disable the drop entirely
+				Note that this drop is independent of the Christmas event, which can still yield Snow Globes via. Present grab bags
+				'''
+		}
+
+		sellSunCompass: {
+			Label: "[i:BlockQoL/SunCompass] Sun Compass sale condition"
+			Tooltip:
+				'''
+				The Sun Compass is a new tool used to easily track down the Jungle Temple
+				It will be sold by the Witch Doctor based on progression, as determined by this setting
+				'''
+		}
+
+		sellExtractinator: {
+			Label: "[i:997] Purchasable Extractinator"
+			Tooltip:
+				'''
+				The Extractinator is now sold by the Demolitionist, providing a reliable source for the item
+				This setting customizes when (if at all) the Demoltionist will begin selling the Extractinator
+				'''
+		}
+
+		goldCreditRing: {
+			Label: "[i:3035] Greedy Ring inherits Gold Credit"
+			Tooltip:
+				'''
+				The Gold Credit is a new accessory which is a tinker of the Discount Card and Club Goblin Card (another new accessory)
+				This setting makes it so that the Greedy Ring uses the Gold Credit instead of the Discount Card, and inherits its reforge discount effect
+				'''
+		}
+
+		safeLarva: {
+			Label: "[i:1133] Larva must be mined"
+			Tooltip:
+				'''
+				When activated, this prevents the Larva background object (Which summons Queen Bee) from being destroyed by weapons' attacks
+				This means the Larva will only break when mined, preventing stray projectiles from accidently summoning Queen Bee
+				'''
+		}
+
+		cycloneDrop: {
+			Label: "[i:BlockQoL/LivingCyclone] Living Cyclone drop"
+			Tooltip:
+				'''
+				The Living Cyclone is a new consumable item which greatly increases wind speeds for a time
+				This item drops from all enemies while wind speeds are above 20 mph (Same as kite drop conditions)
+				The number set here represents the denominator of the drop rate (Ex: 100 => 1/100)
+				Alternativley, the Living Cyclone can be crafted with Souls of Flight, Feathers, and Clouds
+				Set this to 0 disable the drop entirely, and prevent the Living Cyclone from being crafted
+				Note: This item's effects are most noticible when used while wind speeds are low
+				'''
+		}
+
+		nimbusDrop: {
+			Label: "[i:BlockQoL/LostNimbus] Lost Nimbus drop"
+			Tooltip:
+				'''
+				The Lost Nimbus is a new consumable item which starts a rainstorm
+				This item drops from all enemies when above the surface (not underground) while it is raining
+				The number set here represents the denominator of the drop rate (Ex: 100 => 1/100)
+				Alternativley, the Lost Nimbus can be occassionally obtained as a fishing catch while fishing in the sky/space
+				Set this to 0 disable the drop entirely, and prevent the Lost Nimbus from being fished up
+				'''
+		}
+
+		slabDrop: {
+			Label: "[i:BlockQoL/SandstormSlab] Sandstorm Slab drop"
+			Tooltip:
+				'''
+				The Sandstorm Slab is a new consumable item which starts a sandstorm
+				This item drops from all enemies when in the desert during a sandstorm
+				The number set here represents the denominator of the drop rate (Ex: 100 => 1/100)
+				In addition to the above drop, most Underground Desert enemies can drop the Sandstorm Slab at all times, albeit at half the odds
+				Furthermore, Sand Elementals have x10 the odds when attempting to drop the Sandstorm Slab
+				Set this to 0 disable the drop entirely, including those of the Underground Desert enemies and Sand Elementals
+				Note: It is HIGHLY recommended to wait for high winds (<30 mph) before using this item! Otherwise, the sandstorm will be very short
+				'''
+		}
+
+		plantSummoner: {
+			Label: "[i:BlockQoL/SusBulb] Plantera Summon Item"
+			Tooltip:
+				'''
+				The Suspicious Looking Bulb is a new consumable item which manually summons Plantera
+				This setting determines if the item is obtainable, toggling the ability for Rosy Petals to drop
+				Rosy Petals are another new item used for crafting the Suspicious Looking Bulb, and drop from Plantera's Bulbs and Plantera herself
+				Helps expidate the process of rematching Plantera, and gives you more control over where you fight
+				'''
+		}
+
+		noMobGriefing: {
+			Label: "[i:169] No Antlion & Snow Balla Griefing"
+			Tooltip:
+				'''
+				Disables the Antlions' and Snow Ballas' ability to place sand/snow blocks with their projectiles
+				Instead, the projectiles drop their respective block as an item on-death
+				Note that blocks struck by these projectiles may still have their sloping affected (As though accomidating for the sand/snow to be placed adjacent to them)
+				'''
+		}
+
+		bossZen: {
+			Label: "[i:3117] Bosses greatly lower spawns"
+			Tooltip:
+				'''
+				Makes it so that when a boss is active, the spawn rate and spawn cap of enemies is reduced by 90%
+				Additionally, during the Pumpkin Moon and Frost Moon, Harpies and Wyverns are prevented from spawning
+				Helps prevent random enemy spawns from crashing your party and needlessly complicating a boss fight
+				'''
+		}
+
+		safeBoundNPCs: {
+			Label: "[i:3352] Bound NPC safety"
+			Tooltip:
+				'''
+				Prevents bound NPCs (and similar rescue-able entities, like the Golfer) from being damaged by enemies and the like
+				May be useful if you find bound NPCs often being killed before you can reach them
+				'''
+		}
+
+		safeCritters: {
+			Label: "[i:4767] Critter safety"
+			Tooltip:
+				'''
+				Prevents critters (Bunnies, worms, etc.) from being damaged by enemies and the like
+				This doesn't prevent the players from damaging critters; the Guide to Critter Companionship is still neccessary
+				'''
+		}
+
+		tougherNPCs: {
+			Label: "[i:5336] Town NPC bonus health"
+			Tooltip:
+				'''
+				Increases the HP of Town NPCs, Town Pets, and the Travelling and Skeleton Merchants
+				The increase is equal to the NPC's base HP (250 for all vanilla NPCs) multiplied by the number set here
+				For example, when set to 0.5, NPC HP will increase to 375 (+125, from 250 * 0.5), assuming it was 250 before
+				Additionally boosts NPC life regeneration by a similar factor
+				Good for if you find your NPCs to squishy in higher difficulties
+				Set this to 0 to disable the boost entirely
+				Note that NPC HP will NOT update on existing NPCs; they must despawn (killed) and respawn for the change to take place
+				This also means that NPC HP will NOT revert to original level even after disabling this mod!
+				'''
+		}
+
+		safePets: {
+			Label: "[i:4830] Town Pet safety"
+			Tooltip:
+				'''
+				Prevents Town Pets (Dog, Cat, Bunny, Slimes) from being damaged by enemies and the like
+				Keeps your pets safe since they can't defend themselves at all
+				'''
+		}
+	}
+}
+
+Projectiles.CompassBeam.DisplayName: Compass Beam
+
+Items: {
+	SunCompass: {
+		DisplayName: Sun Compass
+		Tooltip:
+			'''
+			Produces a harmless beam of light that points you towards the Lihzahrd Altar
+			The compass will fail if the Lihzahrd Altar is removed from the Jungle Temple
+			'Despite the name, it seems to lead you down into verdant depths, rather than towards the heavens'
+			'''
+	}
+
+	GoldCredit: {
+		DisplayName: Gold Credit
+		Tooltip:
+			'''
+			Shop prices reduced by 20%
+			[placeholder]
+			'Good news; I CAN give credit!'
+			'''
+	}
+
+	GoblinCard: {
+		DisplayName: Club Goblin Card
+		Tooltip:
+			'''
+			[placeholder]
+			'I'm just a small little goblin'
+			'''
+	}
+
+	SandstormSlab: {
+		DisplayName: Sandstorm Slab
+		Tooltip:
+			'''
+			Starts a sandstorm
+			Best used when wind speeds are particularly high, otherwise the sandstorm will only last momentarily
+			'You should've put that slab back'
+			'''
+	}
+
+	LostNimbus: {
+		DisplayName: Lost Nimbus
+		Tooltip: Starts a rainstorm
+	}
+
+	LivingCyclone: {
+		DisplayName: Living Cyclone
+		Tooltip:
+			'''
+			Causes strong winds to pick up
+			This effect is most prominent when used while wind speeds are low
+			'It... heccin... WIMDY'
+			'''
+	}
+
+	PlanteraPetal: {
+		DisplayName: Rosy Petal
+		Tooltip: Reminiscent of those strange bulbs in the jungle
+	}
+
+	SusBulb: {
+		DisplayName: Suspicious Looking Bulb
+		Tooltip: Summons Plantera
+	}
+}

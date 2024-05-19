@@ -203,126 +203,129 @@ Configs: {
 		}
 
 		downgradeZapinator: {
-			Label: "[i:4348] Shimmer downgrades Orange Zapinator"
-			Tooltip: Makes it so that the Orange Zapinator transmutates into the Gray Zapinator, making the latter accessible in Hardmode
+			Label: "[i:4348] 微光降级橙色冲击枪"
+			Tooltip: 使橙色冲击枪转变为灰色冲击枪, 后者可以在困难模式中使用
 		}
 
 		snowGlobeDrop: {
-			Label: "[i:602] Snow Globe out-of-season drop"
+			Label: "[i:602] 雪球全季节掉落"
 			Tooltip:
 				'''
-				The Snow Globe (Frost Legion's summon item) can now be dropped by any enemy killed in the Snow or Ice biomes while in hardmode
-				This setting customizes the drop rate for the Snow Globe; the number set here represents the denominator of the drop (Ex: 100 => 1/100)
-				During a blizzard, an extra drop attempt is made, roughly doubling the drop rate
-				Additionally, Ice Mimics and Ice Golems have an additional drop attempt with x10 and x20 better odds, respectivley
-				Set this to 0 to disable the drop entirely
-				Note that this drop is independent of the Christmas event, which can still yield Snow Globes via. Present grab bags
+				雪球（冰霜军团的召唤物品）现在可以在困难模式下在雪或冰生物群落中杀死任何敌人掉落
+				此设置可自定义雪球的掉落率; 此处设置的数字代表下降的分母 (例: 100 => 1/100)
+				在暴风雪期间，会有额外的掉落概率，掉落率大约翻倍
+				此外，冰模仿者和冰傀儡还有额外的掉落概率，分别是 10倍 和 20倍
+				将其设置为 0 以完全禁用掉落
+				请注意，此掉落控制与圣诞节无关，圣诞节仍然可以获得雪球
 				'''
 		}
 
 		sellSunCompass: {
-			Label: "[i:BlockQoL/SunCompass] Sun Compass sale condition"
+			Label: "[i:BlockQoL/SunCompass] 太阳罗盘出售条件"
 			Tooltip:
 				'''
-				The Sun Compass is a new tool used to easily track down the Jungle Temple
-				It will be sold by the Witch Doctor based on progression, as determined by this setting
+				太阳罗盘是一种用于追踪丛林神庙的新物品
+				巫医将根据此设置确定的进度出售它
 				'''
 		}
 
 		sellExtractinator: {
-			Label: "[i:997] Purchasable Extractinator"
+			Label: "[i:997] 提炼机购买"
 			Tooltip:
 				'''
-				The Extractinator is now sold by the Demolitionist, providing a reliable source for the item
-				This setting customizes when (if at all) the Demoltionist will begin selling the Extractinator
+				提炼机现在由爆破专家出售，为该物品提供了可靠的来源
+				此设置设定爆破专家何时（如果可以）开始销售提取器
 				'''
 		}
 
 		goldCreditRing: {
-			Label: "[i:3035] Greedy Ring inherits Gold Credit"
+			Label: "[i:3035] 贪婪之戒继承金卡"
 			Tooltip:
 				'''
-				The Gold Credit is a new accessory which is a tinker of the Discount Card and Club Goblin Card (another new accessory)
-				This setting makes it so that the Greedy Ring uses the Gold Credit instead of the Discount Card, and inherits its reforge discount effect
+				金卡是一个新饰品，是会员卡和哥布林俱乐部卡（另一个新饰品）的替代
+				此设置使贪婪戒指使用金卡代替折扣卡，并继承其重铸折扣效果
 				'''
 		}
 
 		safeLarva: {
-			Label: "[i:1133] Larva must be mined"
+			Label: "[i:1133] 幼虫只会被挖掘触发"
 			Tooltip:
 				'''
-				When activated, this prevents the Larva background object (Which summons Queen Bee) from being destroyed by weapons' attacks
-				This means the Larva will only break when mined, preventing stray projectiles from accidently summoning Queen Bee
+				激活后，这可以防止幼虫（召唤蜂王的物块）被武器攻击摧毁
+				这意味着幼虫只有在被开采时才会摧毁，防止流弹意外召唤蜂王
 				'''
 		}
 
 		cycloneDrop: {
-			Label: "[i:BlockQoL/LivingCyclone] Living Cyclone drop"
+			Label: "[i:BlockQoL/LivingCyclone] 风暴精灵掉落"
 			Tooltip:
 				'''
-				The Living Cyclone is a new consumable item which greatly increases wind speeds for a time
-				This item drops from all enemies while wind speeds are above 20 mph (Same as kite drop conditions)
-				The number set here represents the denominator of the drop rate (Ex: 100 => 1/100)
-				Alternativley, the Living Cyclone can be crafted with Souls of Flight, Feathers, and Clouds
-				Set this to 0 disable the drop entirely, and prevent the Living Cyclone from being crafted
-				Note: This item's effects are most noticible when used while wind speeds are low
+				风暴精灵是新的消耗品，可暂时大幅提高风速
+				当风速高于 20 英里/小时时，该物品会从所有敌人身上掉落（与风筝掉落条件相同）
+				这里设置的数字代表掉落率的分母 (例: 100 => 1/100)
+				另外, 风暴精灵可以用飞行之魂、羽毛和云制作
+				将其设置为 0 以完全禁用掉落，并禁用制作
+				注意：该物品的效果在风速较低时使用时最为明显
 				'''
 		}
 
 		nimbusDrop: {
-			Label: "[i:BlockQoL/LostNimbus] Lost Nimbus drop"
+			Label: "[i:BlockQoL/LostNimbus] 迷失雨云掉落"
 			Tooltip:
 				'''
-				The Lost Nimbus is a new consumable item which starts a rainstorm
-				This item drops from all enemies when above the surface (not underground) while it is raining
-				The number set here represents the denominator of the drop rate (Ex: 100 => 1/100)
-				Alternativley, the Lost Nimbus can be occassionally obtained as a fishing catch while fishing in the sky/space
-				Set this to 0 disable the drop entirely, and prevent the Lost Nimbus from being fished up
+				迷失雨云是新的消耗品，它会引发一场暴雨
+				下雨时，该物品会从处于地表上方的所有敌人身上掉落
+				这里设置的数字代表掉落率的分母 (例: 100 => 1/100)
+				另外, 迷失雨云有时可以在天空/太空钓鱼时获得
+				将其设置为 0 以完全禁用掉落，并防止迷失雨云被钓起
 				'''
 		}
 
 		slabDrop: {
-			Label: "[i:BlockQoL/SandstormSlab] Sandstorm Slab drop"
+			Label: "[i:BlockQoL/SandstormSlab] 沙暴石板掉落"
 			Tooltip:
 				'''
-				The Sandstorm Slab is a new consumable item which starts a sandstorm
-				This item drops from all enemies when in the desert during a sandstorm
-				The number set here represents the denominator of the drop rate (Ex: 100 => 1/100)
-				In addition to the above drop, most Underground Desert enemies can drop the Sandstorm Slab at all times, albeit at half the odds
-				Furthermore, Sand Elementals have x10 the odds when attempting to drop the Sandstorm Slab
-				Set this to 0 disable the drop entirely, including those of the Underground Desert enemies and Sand Elementals
-				Note: It is HIGHLY recommended to wait for high winds (<30 mph) before using this item! Otherwise, the sandstorm will be very short
+				沙暴石板是一种新的消耗品，可以引发沙尘暴
+				在沙尘暴期间的沙漠中，所有敌人都会掉落该物品
+				这里设置的数字代表掉落率的分母 (例: 100 => 1/100)
+				除了上述掉落之外，大多数地下沙漠敌人会随时掉落沙暴石板，但是几率只有一半
+				此外，沙元素掉落沙暴石板时的几率为 10倍
+				将其设置为 0 会完全禁用掉落，包括地下沙漠敌人和沙元素的掉落
+				注意：强烈建议等待大风 (>30 英里/小时) 时再使用此物品！不然沙尘暴的时间会很短
 				'''
 		}
 
 		plantSummoner: {
-			Label: "[i:BlockQoL/SusBulb] Plantera Summon Item"
+			Label: "[i:BlockQoL/SusBulb] 世纪之花召唤物"
 			Tooltip:
 				'''
-				The Suspicious Looking Bulb is a new consumable item which manually summons Plantera
-				This setting determines if the item is obtainable, toggling the ability for Rosy Petals to drop
-				Rosy Petals are another new item used for crafting the Suspicious Looking Bulb, and drop from Plantera's Bulbs and Plantera herself
-				Helps expidate the process of rematching Plantera, and gives you more control over where you fight
+				可疑花苞是一种新的消耗品，可以手动召唤世纪之花
+				此设置确定该物品是否可以获得，并切换玫瑰花瓣是否掉落
+				玫红花瓣是一种用于制作可疑花苞的新物品，由世纪之花的花苞和世纪之花本体掉落
+				帮助加快重新寻找世纪之花的速度，并让你更好地控制战斗地点
+				'我受够一次次挖大坑了'
 				'''
 		}
 
 		noMobGriefing: {
-			Label: "[i:169] No Antlion & Snow Balla Griefing"
+			Label: "[i:169] 禁用蚁狮和巴拉雪人投掷物块"
 			Tooltip:
 				'''
-				Disables the Antlions' and Snow Ballas' ability to place sand/snow blocks with their projectiles
-				Instead, the projectiles drop their respective block as an item on-death
-				Note that blocks struck by these projectiles may still have their sloping affected (As though accomidating for the sand/snow to be placed adjacent to them)
+				禁用蚁狮和巴拉雪人把它们的射弹转变成沙块/雪块的能力
+				相反, 它们会在死亡时将其各自的方块作为物品掉落
+				请注意, 被这些射弹击中的方块可能仍会受到影响 (就像将沙子/雪放置在它们附近一样)
+				'为什么它们不用打扫卫生？？？'
 				'''
 		}
 
 		bossZen: {
-			Label: "[i:3117] Bosses greatly lower spawns"
+			Label: "[i:3117] Boss存在时降低敌人刷新速度"
 			Tooltip:
 				'''
-				Makes it so that when a boss is active, the spawn rate and spawn cap of enemies is reduced by 90%
-				Additionally, during the Pumpkin Moon and Frost Moon, Harpies and Wyverns are prevented from spawning
-				Helps prevent random enemy spawns from crashing your party and needlessly complicating a boss fight
+				当存在活动的 Boss 时, 敌人的生成速度和生成上限减少 90%
+				此外, 在南瓜月和霜月期间, 阻止鹰身女妖和飞龙的生成
+				有助于防止随机出现的敌人破坏你的队形并使 Boss 战斗不必要地复杂化
+				'哦我的上帝我真的需要那个大便玉'
 				'''
 		}
 
@@ -330,75 +333,77 @@ Configs: {
 			Label: "[i:3352] Bound NPC safety"
 			Tooltip:
 				'''
-				Prevents bound NPCs (and similar rescue-able entities, like the Golfer) from being damaged by enemies and the like
-				May be useful if you find bound NPCs often being killed before you can reach them
+				防止被绑的 NPC （以及类似的可救援生物, 如高尔夫球手) 被敌人等伤害
+				如果您发现等待救援的'人质'经常在您到达之前就被杀死，这可能会很有用
+				'等等，如果人质死了那我们不是可以强攻了吗？'
 				'''
 		}
 
 		safeCritters: {
-			Label: "[i:4767] Critter safety"
+			Label: "[i:4767] 小动物安保协议"
 			Tooltip:
 				'''
-				Prevents critters (Bunnies, worms, etc.) from being damaged by enemies and the like
-				This doesn't prevent the players from damaging critters; the Guide to Critter Companionship is still neccessary
+				防止小动物（兔子、蠕虫等）被敌人等伤害
+				这并不能阻止玩家伤害小动物；小动物陪伴指南仍然是必要的
+				'它们到处都是, 我真的需要保护它们吗? '
 				'''
 		}
 
 		tougherNPCs: {
-			Label: "[i:5336] Town NPC bonus health"
+			Label: "[i:5336] 城镇NPC额外血量"
 			Tooltip:
 				'''
-				Increases the HP of Town NPCs, Town Pets, and the Travelling and Skeleton Merchants
-				The increase is equal to the NPC's base HP (250 for all vanilla NPCs) multiplied by the number set here
-				For example, when set to 0.5, NPC HP will increase to 375 (+125, from 250 * 0.5), assuming it was 250 before
-				Additionally boosts NPC life regeneration by a similar factor
-				Good for if you find your NPCs to squishy in higher difficulties
-				Set this to 0 to disable the boost entirely
-				Note that NPC HP will NOT update on existing NPCs; they must despawn (killed) and respawn for the change to take place
-				This also means that NPC HP will NOT revert to original level even after disabling this mod!
+				增加城镇NPC、城镇宠物、旅人和骷髅商人的生命值
+				增加量等于 NPC 的基础生命值 (所有原版 NPC 为 250)乘以此处设置的数字
+				例如, 当设置为0.5时, 假设之前血上限是250, NPC 的 HP 将增加到375 (+125, 250*0.5)
+				通过类似方式额外提高 NPC 生命再生能力
+				如果你发现你的 NPC 在高难度下很容易倒头就睡，那么这是一个好功能
+				将其设置为 0 以完全禁用增强
+				请注意, 不适用于现有 NPC; 必须消失 (被杀死) 并重生后才发生变化
+				这也意味着即使禁用此模组后, NPC 的 HP 也不会恢复到原始水平!
 				'''
 		}
 
 		safePets: {
-			Label: "[i:4830] Town Pet safety"
+			Label: "[i:4830] 城镇宠物安保协议"
 			Tooltip:
 				'''
-				Prevents Town Pets (Dog, Cat, Bunny, Slimes) from being damaged by enemies and the like
-				Keeps your pets safe since they can't defend themselves at all
+				防止城镇宠物（狗、猫、兔子、史莱姆）遭到伤害
+				'我们会确保您的宠物安全, 因为它们根本无法保护自己'
 				'''
 		}
 	}
 }
 
-Projectiles.CompassBeam.DisplayName: Compass Beam
+Projectiles.CompassBeam.DisplayName: 罗盘光束
 
 Items: {
 	SunCompass: {
-		DisplayName: Sun Compass
+		DisplayName: 太阳罗盘
 		Tooltip:
 			'''
-			Produces a harmless beam of light that points you towards the Lihzahrd Altar
-			The compass will fail if the Lihzahrd Altar is removed from the Jungle Temple
-			'Despite the name, it seems to lead you down into verdant depths, rather than towards the heavens'
+			产生一束无害的光束，将你引向丛林蜥蜴祭坛
+			如果丛林蜥蜴祭坛被从丛林神庙移走，罗盘将会失效
+			'尽管有着这个名字，但是它似乎会带你进入绿色的地狱，而不是通往天堂'
 			'''
 	}
 
 	GoldCredit: {
-		DisplayName: Gold Credit
+		DisplayName: 金卡
 		Tooltip:
 			'''
-			Shop prices reduced by 20%
+			商店折扣 20%
 			[placeholder]
-			'Good news; I CAN give credit!'
+			'喜报！我的信用卡审核通过了！'
 			'''
 	}
 
 	GoblinCard: {
-		DisplayName: Club Goblin Card
+		DisplayName: 哥布林会员卡
 		Tooltip:
 			'''
 			[placeholder]
-			'I'm just a small little goblin'
+			'...你知道的，我只是一个小小的哥布林'
 			'''
 	}
 
@@ -406,34 +411,46 @@ Items: {
 		DisplayName: Sandstorm Slab
 		Tooltip:
 			'''
-			Starts a sandstorm
-			Best used when wind speeds are particularly high, otherwise the sandstorm will only last momentarily
-			'You should've put that slab back'
+			开始沙尘暴
+			最好在风速特别大的时候使用，否则沙尘暴只会持续一会儿
+			'你应该把那块石板放回去，或者等我戴好口罩'
 			'''
 	}
 
 	LostNimbus: {
-		DisplayName: Lost Nimbus
-		Tooltip: Starts a rainstorm
+		DisplayName: 迷失雨云
+		Tooltip: 
+			'''
+			召唤一场暴雨
+			'哦这是谁丢掉的小雨云？'
+			'''
 	}
 
 	LivingCyclone: {
-		DisplayName: Living Cyclone
+		DisplayName: 风暴精灵
 		Tooltip:
 			'''
-			Causes strong winds to pick up
-			This effect is most prominent when used while wind speeds are low
-			'It... heccin... WIMDY'
+			唤来大风
+			在风速较低时使用时效果显著
+			'八级大狂风'
 			'''
 	}
 
 	PlanteraPetal: {
-		DisplayName: Rosy Petal
-		Tooltip: Reminiscent of those strange bulbs in the jungle
+		DisplayName: 玫红花瓣
+		Tooltip: 
+			'''
+			让人想起丛林中那些奇怪的花苞
+			'嗯...这是...金鱼草吗？'
+			'''
 	}
 
 	SusBulb: {
-		DisplayName: Suspicious Looking Bulb
-		Tooltip: Summons Plantera
+		DisplayName: 可疑花苞
+		Tooltip: 
+			'''
+			召唤世纪之花
+			'等等，那里不可以咬！'
+			'''
 	}
 }

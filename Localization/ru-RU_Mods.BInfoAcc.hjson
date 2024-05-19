@@ -1,0 +1,274 @@
+CommonItemtooltip: {
+	// ScannerCondition: Во время Кровавой Луны или Затмения, или в варианте подземного биома
+	// MerchantSaleCondition: Включено в конфигурации
+	// MerchantAccConditionG: "{$CommonItemtooltip.MerchantSaleCondition} & Растущая Луна"
+	// MerchantAccConditionQ: "{$CommonItemtooltip.MerchantSaleCondition} & Первая четверть"
+	// MerchantAccConditionC: "{$CommonItemtooltip.MerchantSaleCondition} & Полумесяц"
+	// LuckDisplay: "{0} Удача"
+	// MinionDisplay: "{0}/{1} Слоты миньонов заняты"
+	// SentryDisplay: "{0}/{1} Слоты для стражей заняты"
+	// RegenDisplayFull: Полная жизнь
+	// RegenDisplayPos: +{0} жизнь в секунду
+	// RegenDisplayNeg: "{0} жизнь в секунду"
+	// SpawnRateDisplayS: ~{0} спавн в секунду
+	// SpawnRateDisplayP: ~{0} спавн в секунду
+	// SpawnCapDisplay: ~{0}-лимит появления врагов
+	// SpawnRateDisplayError: ОШИБКА: Чрезвычайно высокая/низкая скорость появления!
+	// ComboDisplayNone: Нет комбо
+	// ComboDisplayTime: "{0} попадания (Продолжительность: {1})"
+	// ComboDisplayDmg: "{0} попадания (Общий урон: {1})"
+	// ComboError: ОШИБКА: переполнение значения
+	// AggroDisplay: "{0} Агрессивность"
+	// ManaDisplayFull: Полная мана
+	// ManaDisplayPos: +{0} мана в секунду
+	// ManaDisplayNeg: "{0} мана в секунду"
+	// SuffixThousand: " K"
+	// SuffixMillion: " Mil"
+	// SuffixBillion: " Bil"
+	// SuffixSeconds: " secs"
+	// SuffixMinutes: " mins"
+	// SuffixHours: " hrs"
+}
+
+Biomes: {
+	// Neutral: Н/Д 
+
+	Vanilla: {
+		// Space: Космос
+		// Underworld: Преисподняя
+		// Underground: Подземелье
+		// Solar: Солнечная башня
+		// Vortex: Вихревая башня
+		// Nebula: Башня туманности
+		// Stardust: Башня звездной пыли
+		// Meteor: Метеорит
+		// Dungeon: Подземелье
+		// Temple: Храм Джунглей
+		// Aether: Эфир
+		// Spider: Паучье гнездо
+		// Corruption: Искажение
+		// Crimson: Багрянец
+		// Shroom: Светящиеся грибы
+		// Jungle: Джунгли
+		// Hallow: Освящение
+		// Ocean: Океан
+		// Snow: Снег
+		// Desert: Пустыня
+		// Beehive: Пчелиный улей
+		// Granite: Гранитная пещера
+		// Marble: Мраморная пещера
+		// Graveyard: Кладбище
+		// Forest: Лес
+		// Town: Город
+	}
+
+	// Thorium.Depths: Водные глубины
+
+	Calamity: {
+		// Astral: Астральная инфекция
+		// Crags: Серные скалы
+		// SulphurousSea: Серное море
+		// SunkenSea: Затерянное море
+		// AbyssMain: Бездна
+		// Abyss1: Серные глубины
+		// Abyss2: Мутные воды
+		// Abyss3: Термальные источники
+		// Abyss4: Пустота
+	}
+
+	Redemption: {
+		// Lab: Заброшенная лаборатория
+		// Soulless: Бездушные пещеры
+		// Wasteland: Пустошь
+	}
+
+	// Aequus.Crevice: Крабовая расщелина
+	// Confection.Confection: Кондитерские изделия
+
+	FFF: {
+		// Celestial: Небесный
+		// Garden: Сад
+	}
+
+	Spirit: {
+		// Reach: Шиповник
+		// Spirit: Дух
+		// Asteroid: Астероидное поле
+	}
+
+	StarsAbove: {
+		// Observatory: Обсерватория Гиперборея
+		// Astarte: Драйвер Астарта
+		// Bleached: Отбеленный мир
+		// Corvus: Корвус
+		// Lyra: Лира
+		// Pyxis: Пиксис
+		// Moon: Луна
+		// StarSea: Море звезд
+	}
+
+	// Depths.Depths: Глубины
+
+	Spooky: {
+		// Spooky: Жуткий
+		// Catacomb: Катакомбы
+	}
+
+	// Verdant.Verdant: Зелёные насаждения
+}
+
+Items: {
+	EngiRegistry: {
+		// DisplayName: Реестр инженера
+		 Tooltip:
+			'''
+			Отображает количество имеющихся у вас слотов для стражей и сколько из них занято
+			'Инженер приближается к вашему пределу'
+			''' 
+	}
+
+	AttendanceLog: {
+		// DisplayName: Журнал посещаемости
+		// Tooltip: Отображает количество имеющихся у вас слотов для миньонов и количество занятых
+	}
+
+	FortuneMirror: {
+		// DisplayName: Зеркало Фортуны
+		// Tooltip: Отображает удачу
+	}
+
+	HitMarker: {
+		// DisplayName: Хит-маркер
+		 Tooltip:
+			'''
+			Отображает количество попаданий, продолжительность и общий урон комбо
+			Комбо состоят из ударов, которые вы нанесли последовательно с интервалом в 3 секунды
+			''' 
+	}
+
+	RSH: {
+		// DisplayName: C.R.M. Счётчик
+		// Tooltip: Отображает комбо, регенерацию жизни и экономию маны
+	}
+
+	SafteyScanner: {
+		// DisplayName: Сканер безопасности
+		// Tooltip: Отображает скорость появления врагов
+	}
+
+	ScryingMirror: {
+		// DisplayName: Гадающее зеркало
+		// Tooltip: Отображает удачу, слоты миньонов и слоты для часовых.
+	}
+
+	SmartHeart: {
+		// DisplayName: Умное сердце
+		 Tooltip:
+			'''
+			Отображает регенерацию и/или потерю жизни.
+			'Обязательно делайте свои шаги'
+			''' 
+	}
+
+	BiomeCrystal: {
+		// DisplayName: Кристалл Биома
+		// Tooltip: Отображает биом, в котором вы находитесь
+	}
+
+	Magimeter: {
+		// DisplayName: Магиметр
+		// Tooltip: Отображает регенерацию маны или ее использование при использовании предметов, потребляющих ману
+	}
+
+	WantedPoster: {
+		// DisplayName: Плакат о розыске
+		 Tooltip:
+			'''
+			Отображает агрессивность, которая определяет, насколько вероятно, что враги нацелятся на вас
+			'Не слово о "Живым или мёртвым"...'
+			''' 
+	}
+
+	ThreatAnalyzer: {
+		// DisplayName: Анализатор угроз
+		// Tooltip: Отображает скорость появления, агрессивность и биомы
+	}
+}
+
+InfoDisplays: {
+	// SentryInfoDisplay.DisplayName: Часовые
+	// MinionInfoDisplay.DisplayName: Миньоны
+	// LuckInfoDisplay.DisplayName: Удача
+	// SpawnRateInfoDisplay.DisplayName: Скорость появления
+	// RegenInfoDisplay.DisplayName: Регенерация жизни
+	// ComboInfoDisplay.DisplayName: Комбо
+	// BiomeInfoDisplay.DisplayName: Близлежащие биомы
+	// AggroInfoDisplay.DisplayName: Агрессивность
+	// ManaInfoDisplay.DisplayName: Экономия маны
+}
+
+Configs: {
+	ConfigServer: {
+		// DisplayName: Основная конфигурация
+
+		easySell: {
+			// Label: Торговец продает новые информационные аксессуары
+			 Tooltip:
+				'''
+				Если установлено значение true, торговец будет продавать информационные аксессуары этого мода в зависимости от фазы луны
+				Подходит, если вам нужен простой способ получить новые информационные дисплеи
+				''' 
+		}
+
+		extendedRecipe: {
+			// Label: Добавьте новые аксессуары в рецепт КПК
+			 Tooltip:
+				'''
+				Переключает, если рецепт КПК переопределен и требует использования Гадающего зеркала, C.R.M. Счетчика и анализатора угроз из этого мода.
+				Если вы не хотите преодолевать дополнительные препятствия для своего мобильного устройства, попробуйте отключить эту функцию
+				''' 
+		}
+
+		updatedPhones: {
+			// Label: Включите новые информационные дисплеи на КПК, Сотовом телефоне и Ракушкафоне.
+			 Tooltip:
+				'''
+				Определяет, наследует ли КПК и его обновления новую информацию из этого мода
+				Также поддерживает предмет «Стекло желаний» из Thorium мода
+				''' 
+		}
+
+		refreshRate: {
+			// Label: Частота обновления информации
+			 Tooltip:
+				'''
+				Некоторые информационные дисплеи (скорость появления/ограничение и биом) не обновляют информацию каждый кадр
+				Это необходимо для предотвращения мерцания текста и уменьшения вероятности задержек
+				Здесь можно настроить задержку между обновлениями; установленное значение — это количество тиков между каждым обновлением
+				Для справки: 1 секунда = 60 секунд
+				''' 
+		}
+
+		cycleRate: {
+			// Label: Частота цикла информационного дисплея
+			 Tooltip:
+				'''
+				Некоторые информационные дисплеи (скорость появления/ограничение, комбо и биом) имеют несколько строк информации, которые они отображают в цикле
+				Это поведение похоже на поведение ванильного метеорологического радио во время активной песчаной бури
+				Эта настройка увеличивает скорость циклического перемещения различных информационных строк
+				''' 
+		}
+
+		prioModBiomes: {
+			// Label: Кристалл биома отдает приоритет биомам модов
+			 Tooltip:
+				'''
+				Заставляет Кристалл биома отображать (поддерживаемые) модифицированные биомы раньше (большинства) ванильных биомов.
+				Все близлежащие биомы по-прежнему будут показаны; биомы с более высоким приоритетом отображаются раньше в цикле
+				Кристалл биома поддерживает указанные ниже моды:
+				'Thorium Mod', 'Calamity Mod', 'Mod of Redemption', 'The Stars Above', 'Spirit Mod', 'Spooky Mod', 'Confection Rebaked', 
+				'The Depths', 'Aequus', 'Verdant', 'Food, Furniture & Fun', and 'Remnants'
+				'''
+		}
+	}
+}

@@ -1,125 +1,125 @@
 CommonItemtooltip: {
-	// ScannerCondition: Во время Кровавой Луны или Затмения, или в варианте подземного биома
-	// MerchantSaleCondition: Включено в конфигурации
-	// MerchantAccConditionG: "{$CommonItemtooltip.MerchantSaleCondition} & Растущая Луна"
-	// MerchantAccConditionQ: "{$CommonItemtooltip.MerchantSaleCondition} & Первая четверть"
-	// MerchantAccConditionC: "{$CommonItemtooltip.MerchantSaleCondition} & Полумесяц"
-	// LuckDisplay: "{0} Удача"
-	// MinionDisplay: "{0}/{1} Занято слотов миньонов"
-	// SentryDisplay: "{0}/{1} Занято слотов часовых"
-	// RegenDisplayFull: Полное здоровье
-	// RegenDisplayPos: +{0} Здоровья в секунду
-	// RegenDisplayNeg: "{0} Здоровья в секунду"
-	// SpawnRateDisplayS: ~{0} Появления в секунду
-	// SpawnRateDisplayP: ~{0} Появления в секунду
-	// SpawnCapDisplay: ~{0}-лимит появления врагов
-	// SpawnRateDisplayError: ОШИБКА: Чрезвычайно высокая/низкая скорость появления!
-	// ComboDisplayNone: Нет комбо
-	// ComboDisplayTime: "{0} удар(ов) (Длительность: {1})"
-	// ComboDisplayDmg: "{0} удар(ов) (Общий урон: {1})"
-	// ComboError: ОШИБКА: Переполнение значения
-	// AggroDisplay: "{0} Агрессии"
-	// ManaDisplayFull: Полная мана
-	// ManaDisplayPos: +{0} мана в секунду
-	// ManaDisplayNeg: "{0} мана в секунду"
-	// SuffixThousand: " К"
-	// SuffixMillion: " МЛН"
-	// SuffixBillion: " МЛРД"
-	// SuffixSeconds: " сек"
-	// SuffixMinutes: " мин"
-	// SuffixHours: " час"
+	ScannerCondition: Во время Кровавой Луны или Затмения, или в варианте подземного биома
+	MerchantSaleCondition: Включено в конфигурации
+	MerchantAccConditionG: "{$CommonItemtooltip.MerchantSaleCondition} & Растущая Луна"
+	MerchantAccConditionQ: "{$CommonItemtooltip.MerchantSaleCondition} & Первая четверть"
+	MerchantAccConditionC: "{$CommonItemtooltip.MerchantSaleCondition} & Полумесяц"
+	LuckDisplay: "{0} Удача"
+	MinionDisplay: "{0}/{1} Занято слотов миньонов"
+	SentryDisplay: "{0}/{1} Занято слотов часовых"
+	RegenDisplayFull: Полное здоровье
+	RegenDisplayPos: +{0} Здоровья в секунду
+	RegenDisplayNeg: "{0} Здоровья в секунду"
+	SpawnRateDisplayS: ~{0} Появления в секунду
+	SpawnRateDisplayP: ~{0} Появления в секунду
+	SpawnCapDisplay: ~{0}-лимит появления врагов
+	SpawnRateDisplayError: ОШИБКА: Чрезвычайно высокая/низкая скорость появления!
+	ComboDisplayNone: Нет комбо
+	ComboDisplayTime: "{0} удар(ов) (Длительность: {1})"
+	ComboDisplayDmg: "{0} удар(ов) (Общий урон: {1})"
+	ComboError: ОШИБКА: Переполнение значения
+	AggroDisplay: "{0} Агрессии"
+	ManaDisplayFull: Полная мана
+	ManaDisplayPos: +{0} мана в секунду
+	ManaDisplayNeg: "{0} мана в секунду"
+	SuffixThousand: " К"
+	SuffixMillion: " МЛН"
+	SuffixBillion: " МЛРД"
+	SuffixSeconds: " сек"
+	SuffixMinutes: " мин"
+	SuffixHours: " час"
 }
 
 Biomes: {
-	// Neutral: Н/Д
+	Neutral: Н/Д
 
 	Vanilla: {
-		// Space: Космос
-		// Underworld: Преисподняя
-		// Underground: Подземелье
-		// Solar: Солнечная башня
-		// Vortex: Вихревая башня
-		// Nebula: Башня туманности
-		// Stardust: Башня звездной пыли
-		// Meteor: Метеорит
-		// Dungeon: Темница
-		// Temple: Храм Джунглей
-		// Aether: Эфир
-		// Spider: Паучье гнездо
-		// Corruption: Искажение
-		// Crimson: Багрянец
-		// Shroom: Светящиеся грибы
-		// Jungle: Джунгли
-		// Hallow: Освящение
-		// Ocean: Океан
-		// Snow: Снега
-		// Desert: Пустыня
-		// Beehive: Пчелиный улей
-		// Granite: Гранитная пещера
-		// Marble: Мраморная пещера
-		// Graveyard: Кладбище
-		// Forest: Лес
-		// Town: Город
+		Space: Космос
+		Underworld: Преисподняя
+		Underground: Подземелье
+		Solar: Солнечная башня
+		Vortex: Вихревая башня
+		Nebula: Башня туманности
+		Stardust: Башня звездной пыли
+		Meteor: Метеорит
+		Dungeon: Темница
+		Temple: Храм Джунглей
+		Aether: Эфир
+		Spider: Паучье гнездо
+		Corruption: Искажение
+		Crimson: Багрянец
+		Shroom: Светящиеся грибы
+		Jungle: Джунгли
+		Hallow: Освящение
+		Ocean: Океан
+		Snow: Снега
+		Desert: Пустыня
+		Beehive: Пчелиный улей
+		Granite: Гранитная пещера
+		Marble: Мраморная пещера
+		Graveyard: Кладбище
+		Forest: Лес
+		Town: Город
 	}
 
-	// Thorium.Depths: Водные глубины
+	Thorium.Depths: Водные глубины
 
 	Calamity: {
-		// Astral: Астральная инфекция
-		// Crags: Серные скалы
-		// SulphurousSea: Серное море
-		// SunkenSea: Затерянное море
-		// AbyssMain: Бездна
-		// Abyss1: Серные глубины
-		// Abyss2: Мутные воды
-		// Abyss3: Термальные источники
-		// Abyss4: Пустота
+		Astral: Астральная инфекция
+		Crags: Серные скалы
+		SulphurousSea: Серное море
+		SunkenSea: Затерянное море
+		AbyssMain: Бездна
+		Abyss1: Серные глубины
+		Abyss2: Мутные воды
+		Abyss3: Термальные источники
+		Abyss4: Пустота
 	}
 
 	Redemption: {
-		// Lab: Заброшенная лаборатория
-		// Soulless: Бездушные пещеры
-		// Wasteland: Пустошь
+		Lab: Заброшенная лаборатория
+		Soulless: Бездушные пещеры
+		Wasteland: Пустошь
 	}
 
-	// Aequus.Crevice: Крабовая расщелина
-	// Confection.Confection: Кондитерские изделия
+	Aequus.Crevice: Крабовая расщелина
+	Confection.Confection: Кондитерские изделия
 
 	FFF: {
-		// Celestial: Небесный
-		// Garden: Сад
+		Celestial: Небесный
+		Garden: Сад
 	}
 
 	Spirit: {
-		// Reach: Шиповник
-		// Spirit: Дух
-		// Asteroid: Астероидное поле
+		Reach: Шиповник
+		Spirit: Дух
+		Asteroid: Астероидное поле
 	}
 
 	StarsAbove: {
-		// Observatory: Обсерватория Гиперборея
-		// Astarte: Драйвер Астарта
-		// Bleached: Отбелённый мир
-		// Corvus: Корвус
-		// Lyra: Лира
-		// Pyxis: Пиксис
-		// Moon: Луна
-		// StarSea: Море Звезд
+		Observatory: Обсерватория Гиперборея
+		Astarte: Драйвер Астарта
+		Bleached: Отбелённый мир
+		Corvus: Корвус
+		Lyra: Лира
+		Pyxis: Пиксис
+		Moon: Луна
+		StarSea: Море Звезд
 	}
 
-	// Depths.Depths: Глубины
+	Depths.Depths: Глубины
 
 	Spooky: {
-		// Spooky: Жуткие
-		// Catacomb: Катакомбы
+		Spooky: Жуткие
+		Catacomb: Катакомбы
 	}
 
-	// Verdant.Verdant: Зелёные насаждения
+	Verdant.Verdant: Зелёные насаждения
 }
 
 Items: {
 	EngiRegistry: {
-		// DisplayName: Реестр Инженера
+		DisplayName: Реестр Инженера
 		Tooltip:
 			'''
 			Отображает количество имеющихся у вас слотов для часовых и количество занятых
@@ -128,17 +128,17 @@ Items: {
 	}
 
 	AttendanceLog: {
-		// DisplayName: Журнал Посещаемости
-		// Tooltip: Отображает количество имеющихся у вас слотов для миньонов и количество занятых
+		DisplayName: Журнал Посещаемости
+		Tooltip: Отображает количество имеющихся у вас слотов для миньонов и количество занятых
 	}
 
 	FortuneMirror: {
-		// DisplayName: Зеркало Фортуны
-		// Tooltip: Отображает удачу
+		DisplayName: Зеркало Фортуны
+		Tooltip: Отображает удачу
 	}
 
 	HitMarker: {
-		// DisplayName: Маркер Попаданий
+		DisplayName: Маркер Попаданий
 		Tooltip:
 			'''
 			Отображает количество попаданий, продолжительность и общий урон комбо
@@ -147,22 +147,22 @@ Items: {
 	}
 
 	RSH: {
-		// DisplayName: К.Р.М. Счётчик
-		// Tooltip: Отображает комбо, регенерацию здоровья и маны
+		DisplayName: К.Р.М. Счётчик
+		Tooltip: Отображает комбо, регенерацию здоровья и маны
 	}
 
 	SafteyScanner: {
-		// DisplayName: Сканер Безопасности
-		// Tooltip: Отображает скорость появления врагов
+		DisplayName: Сканер Безопасности
+		Tooltip: Отображает скорость появления врагов
 	}
 
 	ScryingMirror: {
-		// DisplayName: Зеркало Предсказаний
-		// Tooltip: Отображает удачу, слоты миньонов и часовых
+		DisplayName: Зеркало Предсказаний
+		Tooltip: Отображает удачу, слоты миньонов и часовых
 	}
 
 	SmartHeart: {
-		// DisplayName: Умное Сердце
+		DisplayName: Умное Сердце
 		Tooltip:
 			'''
 			Отображает регенерацию и/или потерю жизни.
@@ -171,17 +171,17 @@ Items: {
 	}
 
 	BiomeCrystal: {
-		// DisplayName: Кристалл Биома
-		// Tooltip: Отображает биомы, в которых вы находитесь
+		DisplayName: Кристалл Биома
+		Tooltip: Отображает биомы, в которых вы находитесь
 	}
 
 	Magimeter: {
-		// DisplayName: Магиметр
-		// Tooltip: Отображает регенерацию маны или ее использование при использовании предметов, потребляющих ману
+		DisplayName: Магиметр
+		Tooltip: Отображает регенерацию маны или ее использование при использовании предметов, потребляющих ману
 	}
 
 	WantedPoster: {
-		// DisplayName: Плакат Розыска
+		DisplayName: Плакат Розыска
 		Tooltip:
 			'''
 			Отображает агрессию, которая определяет, насколько вероятно, что враги нацелятся на вас
@@ -190,47 +190,47 @@ Items: {
 	}
 
 	ThreatAnalyzer: {
-		// DisplayName: Анализатор Угроз
-		// Tooltip: Отображает скорость появления, агрессию и биом(ы) 
+		DisplayName: Анализатор Угроз
+		Tooltip: Отображает скорость появления, агрессию и биом(ы) 
 	}
 }
 
 InfoDisplays: {
-	// SentryInfoDisplay.DisplayName: Часовые
-	// MinionInfoDisplay.DisplayName: Миньоны
-	// LuckInfoDisplay.DisplayName: Удача
-	// SpawnRateInfoDisplay.DisplayName: Скорость появления
-	// RegenInfoDisplay.DisplayName: Регенерация здоровья
-	// ComboInfoDisplay.DisplayName: Комбо
-	// BiomeInfoDisplay.DisplayName: Биом(ы) поблизости
-	// AggroInfoDisplay.DisplayName: Агрессия
-	// ManaInfoDisplay.DisplayName: Регенерация маны
+	SentryInfoDisplay.DisplayName: Часовые
+	MinionInfoDisplay.DisplayName: Миньоны
+	LuckInfoDisplay.DisplayName: Удача
+	SpawnRateInfoDisplay.DisplayName: Скорость появления
+	RegenInfoDisplay.DisplayName: Регенерация здоровья
+	ComboInfoDisplay.DisplayName: Комбо
+	BiomeInfoDisplay.DisplayName: Биом(ы) поблизости
+	AggroInfoDisplay.DisplayName: Агрессия
+	ManaInfoDisplay.DisplayName: Регенерация маны
 }
 
 Configs: {
 	ConfigServer: {
-		// DisplayName: Главный конфиг
+		DisplayName: Главный конфиг
 
 		easySell: {
-			// Label: Торговец продает новые аксессуары
+			Label: Торговец продает новые аксессуары
 			Tooltip:
 				'''
-				Если установлено значение вкл, торговец будет продавать информационные аксессуары этого мода в зависимости от фазы луны
+				Если установлено значение ВКЛ, торговец будет продавать информационные аксессуары этого мода в зависимости от фазы луны
 				Подходит, если вам нужен простой способ получить новые информационные дисплеи
 				'''
 		}
 
 		extendedRecipe: {
-			// Label: Добавьте новые аксессуары в рецепт КПК
+			Label: Добавить новые аксессуары в рецепт КПК
 			Tooltip:
 				'''
-				Если установлено значение вкл, требует использование Зеркала Предсказаний, К.Р.М. Счётчика и Анализатора Угроз из этого мода в рецепте КПК
+				Если установлено значение ВКЛ, требует использование Зеркала Предсказаний, К.Р.М. Счётчика и Анализатора Угроз из этого мода в рецепте КПК
 				Если вы не хотите преодолевать дополнительные препятствия в создании КПК, попробуйте отключить эту функцию	
 				'''
 		}
 
 		updatedPhones: {
-			// Label: Использовать новые информационные дисплеи в КПК, Смартфоне и Ракушкофоне
+			Label: Использовать новые информационные дисплеи в КПК, Смартфоне и Ракушкофоне
 			Tooltip:
 				'''
 				Определяет, наследует ли КПК и его обновления новую информацию из этого мода
@@ -239,7 +239,7 @@ Configs: {
 		}
 
 		refreshRate: {
-			// Label: Частота обновления информации
+			Label: Частота обновления информации
 			Tooltip:
 				'''
 				Некоторые информационные дисплеи (скорость/предел появления и биом) не обновляют информацию каждый кадр
@@ -250,7 +250,7 @@ Configs: {
 		}
 
 		cycleRate: {
-			// Label: Частота цикла отображения информации
+			Label: Частота цикла отображения информации
 			Tooltip:
 				'''
 				Некоторые информационные дисплеи (скорость/предел появления, комбо и биом) имеют несколько строк информации, которые они отображают в цикле
@@ -260,7 +260,7 @@ Configs: {
 		}
 
 		prioModBiomes: {
-			// Label: Дисплей биома отдаёт приоритет биомам модов
+			Label: Дисплей биома отдаёт приоритет биомам модов
 			Tooltip:
 				'''
 				Заставляет Кристалл биома отображать (поддерживаемые) модифицированные биомы раньше (большинства) ванильных биомов

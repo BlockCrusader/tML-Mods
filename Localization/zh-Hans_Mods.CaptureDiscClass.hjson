@@ -1,0 +1,1114 @@
+CommonTooltips: {
+	Stats: {
+		// IncTrailLength:增加捕猎碟轨迹长度
+		// IncCaptureDmg: 增加捕获伤害
+		// IncCaptureCrit: 增加捕获暴击率
+		// IncCaptureSpd: 增加捕获攻击速度
+		// IncCaptureKB: 增加捕获击退
+	}
+
+	SetBonus: {
+		/* Wayfarer:
+			'''
+			增加10%捕猎碟轨迹长度与捕获攻击速度
+			+1防御
+			''' */
+		/* Exotic:
+			'''
+			用捕猎碟画出形状时生成异国谐振
+			异国谐振会跟随光标并攻击附近的敌怪
+			''' */
+		/* Alloy:
+			'''
+			用捕猎碟圈入敌怪时获得5点额外防御
+			受到伤害时失去额外防御并短暂增加捕获伤害
+			受伤时会释放反击冲击波
+			''' */
+		/* Ancient:
+			'''
+			双击{0}召唤一个有意识的泰拉刃帮助你
+			激活时，泰拉刃将向你光标的方向猛砍
+			击中敌人会暂时增加捕获伤害
+			召唤泰拉刃有30秒冷却
+			''' */
+		/* Lunar:
+			'''
+			双击{0}转换进攻模式与防守模式
+			进攻模式会增加捕获暴击伤害,但会削弱防御与伤害减免
+			防守模式能大幅提高生命恢复,但会降低捕获伤害
+			''' */
+	}
+
+	// TriggerUp: UP
+	// TriggerDown: DOWN
+	/* ColoredEmitterTip:
+		'''
+		增加5%捕猎碟轨迹长度
+		视觉上改变捕猎碟轨迹的颜色
+		''' */
+	// TrailLengthPrefix: "{0}%捕猎碟轨迹长度"
+	/* DiscDesc:
+		'''
+		用追随光标的捕猎碟画出轨迹
+		被轨迹画出的封闭图形圈入的敌怪会受到伤害
+		''' */
+	// AutoDeployOn: 开启自动使用模式!
+	// AutoDeployOff: 关闭自动使用模式!
+	// NoNurseTRM:啊，我帮不了你什么，你的生命与这个奇怪的圆盘小玩意儿绑定了。你为什么要这么做？它看起来比你更脆弱！
+
+	TrailLengthTooltip: {
+		// Length0: 超短轨迹
+		// Length1: 很短轨迹
+		// Length2: 短轨迹
+		// Length3: 一般轨迹
+		// Length4: 长轨迹
+		// Length5: 很长轨迹
+		// Length6: 超长轨迹
+		// Length7: 极长轨迹
+	}
+
+	RecipeGroupText: {
+		// Gems: 任何宝石
+		// GoldPlatBar: 任何金锭
+		// SilvTungBar: 任何银锭
+		// CobaPallBar: 任何钴锭
+		// MythOricBar: 任何秘银锭
+		// AdamTitaBar: 任何精金锭
+	}
+}
+
+Items: {
+	DiscOnString: {
+		// DisplayName: 拴线碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			'或许应该叫它拴碟线？'
+			''' */
+	}
+
+	EnchantedDisc: {
+		// DisplayName: 附魔碟
+		// Tooltip: "{$CommonTooltips.DiscDesc}"
+	}
+
+	GemtechDisc: {
+		// DisplayName: 宝石碟
+		// Tooltip: "{$CommonTooltips.DiscDesc}"
+	}
+
+	HighTest: {
+		// DisplayName: 优质鱼线碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			'不只能用来钓鱼'
+			''' */
+	}
+
+	SilverLining: {
+		// DisplayName: 一线曙光
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			对接触轨迹的敌怪造成额外伤害
+			'去看更光明的一面'
+			''' */
+	}
+
+	ShortFuse: {
+		// DisplayName: 短引线
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			轨迹接触捕猎碟时产生爆炸
+			'真的那么短吗?'
+			''' */
+	}
+
+	TinkeredDisc: {
+		// DisplayName: 工匠碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			需要充能才能画出轨迹
+			保持光标不动可以充能一段时间
+			''' */
+	}
+
+	DarkPath: {
+		// DisplayName: 黑暗道路
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			敌怪触碰轨迹时受到伤害
+			无视少量防御
+			''' */
+	}
+
+	Bloodline: {
+		// DisplayName: 血线
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			伤害敌怪时暂时增加生命恢复
+			''' */
+	}
+
+	ArtAttack: {
+		// DisplayName: 艺术创想
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			对没有接触轨迹的敌怪造成额外伤害
+			'给他们秀一把!'
+			''' */
+	}
+
+	WildVine: {
+		// DisplayName: 狂野藤蔓
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			攻击视野外的敌怪伤害不会降低
+			''' */
+	}
+
+	PartyPopper: {
+		// DisplayName: 派对拉炮
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			画出封闭图形会释放伤害敌怪的彩纸爆破
+			'嗨起来!'
+			''' */
+	}
+
+	Livewire: {
+		// DisplayName: 输电线
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			电击捕猎碟和轨迹末端附近的敌怪
+			'警告：高压电'
+			''' */
+	}
+
+	CursedBinder: {
+		// DisplayName: 诅咒装订机
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			暂时降低击中敌怪的接触伤害
+			大多数敌怪被击中还会暂时降低移动速度 
+			''' */
+	}
+
+	HotStreak: {
+		// DisplayName: 热痕
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			被圈入或是触碰到轨迹的敌怪会被狱火焚烧
+			'太燃啦!'
+			''' */
+	}
+
+	DiscOfAncients: {
+		// DisplayName: 古老碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			两个古老灵魂围绕这个捕猎碟转动
+			''' */
+	}
+
+	MagicDisc: {
+		// DisplayName: 魔法碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			无视15点防御
+			攻击视野外的敌怪伤害不会降低
+			''' */
+	}
+
+	StringSpinner: {
+		// DisplayName: 纺丝机
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			暂时减速大部分敌怪
+			暴击会造成酸性毒液
+			''' */
+	}
+
+	IcingDisc: {
+		// DisplayName: 冰糕碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			玩家触碰轨迹可以增加生命恢复与移动速度
+			'甜的!'
+			''' */
+	}
+
+	SandLiner: {
+		// DisplayName: 沙漠划
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			可以一次性画出三个封闭图形
+			'尽量不要让浪花把它们冲走'
+			''' */
+	}
+
+	HallowedFocus: {
+		// DisplayName: 神圣焦点
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			可以通过充能大幅增加伤害
+			保持光标不动可以充能一段时间
+			''' */
+	}
+
+	RazoredgeDisc: {
+		// DisplayName: 锋刃碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			可以直接伤害接触的敌怪
+			'非常锋利，刀锋是等离子体制成的!'
+			''' */
+	}
+
+	Annulus: {
+		// DisplayName: 日环食
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			对触碰轨迹的敌怪造成额外伤害
+			''' */
+	}
+
+	OverclockDisc: {
+		// DisplayName: 超频碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			释放捕猎碟时会将其掷出
+			画出完整图形时获得额外伤害
+			'是时候换挡了!'
+			''' */
+	}
+
+	ChlorotechDisc: {
+		// DisplayName: 叶绿碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			伤害随画出图像花费的时间增加
+			''' */
+	}
+
+	Overgrowth: {
+		// DisplayName: 野蛮生长
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			攻击视野外的敌怪伤害不会降低
+			伤害敌怪能暂时增加生命恢复
+			''' */
+	}
+
+	Supercharger: {
+		// DisplayName: 增压器
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			可以通过充能大幅增加伤害
+			保持光标不动可以充能一段时间
+			连续充能可以进一步增加伤害
+			'最大功率!'
+			''' */
+	}
+
+	AuraTracer: {
+		// DisplayName: 灵能描绘仪
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			释放捕猎碟时制造一个幽魂克隆体
+			克隆体将围绕自身绘制圆圈
+			一次只能存在一个克隆体
+			''' */
+	}
+
+	TreeLighter: {
+		// DisplayName: 圣诞树灯
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			在轨迹上留下一串伤害性的彩灯
+			'非常适合装饰圣诞树...还有战场!'
+			''' */
+	}
+
+	PagansRitual: {
+		// DisplayName: 异教仪式
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			画出形状会产生造成伤害的五角星
+			'尽量不要召唤任何恶魔'
+			''' */
+	}
+
+	SolarcellDisc: {
+		// DisplayName: 太阳能电池碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			对附近敌怪发射激光
+			被圈过的敌怪受到更高的激光伤害，更容易被选为激光的目标 
+			''' */
+	}
+
+	CollisionCourse: {
+		// DisplayName: 碰撞路线
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			在接触敌怪时爆炸
+			''' */
+	}
+
+	Maelstrom: {
+		// DisplayName: 大漩涡
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			捕猎碟被撕裂台风环绕
+			被圈入的敌怪会堆叠台风撕裂
+			台风撕裂堆叠数会迅速降低,但会增加大漩涡的伤害
+			'把它们拖到深处'
+			''' */
+	}
+
+	Geocentrism: {
+		// DisplayName: 地心说
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			对未接触到轨迹的敌怪造成额外伤害
+			敌怪接触轨迹时会被日耀射线焚烧
+			'绕着地球转'
+			''' */
+	}
+
+	EventHorizon: {
+		// DisplayName: 事件视界
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			将圈入的敌怪拉向图形的中心
+			无视敌怪防御
+			'无路可逃'
+			''' */
+	}
+
+	NebulousEcho: {
+		// DisplayName: 星云回声
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			画出一个形状会创建一个反向移动的克隆体
+			克隆体会伤害接触到的敌怪
+			'宇宙记得...'
+			''' */
+	}
+
+	Constellation: {
+		// DisplayName: 星座
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			轨迹上会出现星星
+			画出图形时星星会爆炸
+			''' */
+	}
+
+	OrbitalStriker: {
+		// DisplayName: 轨道打击者
+		/* Tooltip:
+			'''
+			捕猎碟会围绕光标转动
+			被轨迹画出的封闭图形圈入的敌怪会受到伤害
+			月曜会落向圈入的敌怪 
+			''' */
+	}
+
+	Stylesus: {
+		// DisplayName: 斯塔瑟斯
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			可以通过充能大幅增加伤害
+			保持光标不动可以充能一段时间
+			连续充能可以进一步增加伤害
+			'抓住他!'
+			''' */
+	}
+
+	GuardianDisc: {
+		// DisplayName: 护卫碟
+		/* Tooltip:
+			'''
+			{$CommonTooltips.DiscDesc}
+			画出图形会产生伤害敌怪的笔迹
+			''' */
+	}
+
+	RubyStar: {
+		// DisplayName: 红宝石之星
+		/* Tooltip:
+			'''
+			捕猎碟对未接触其轨迹的敌怪造成10%额外伤害
+			捕猎碟的轨迹颜色变成彩虹渐变
+			''' */
+	}
+
+	DiscEmblem: {
+		// DisplayName: 捕猎纹章
+		// Tooltip: 增加15%捕获伤害
+	}
+
+	DarkStar: {
+		// DisplayName: 黑暗之星
+		/* Tooltip:
+			'''
+			捕猎碟对接触其轨迹的敌怪造成15%额外伤害
+			将捕猎碟的轨迹颜色反相
+			''' */
+	}
+
+	ModifiedEmitter: {
+		// DisplayName: 改良发射仪
+		/* Tooltip:
+			'''
+			增加5%捕猎碟轨迹长度
+			捕猎碟的轨迹会发光
+			''' */
+	}
+
+	BlackEmitter: {
+		// DisplayName: 黑发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	BlueEmitter: {
+		// DisplayName: 蓝发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	BrownEmitter: {
+		// DisplayName: 棕发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	CyanEmitter: {
+		// DisplayName: 青发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	GreenEmitter: {
+		// DisplayName: 绿发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	LimeEmitter: {
+		// DisplayName: 橙绿发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	OrangeEmitter: {
+		// DisplayName: 橙发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	PinkEmitter: {
+		// DisplayName: 粉发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	PurpleEmitter: {
+		// DisplayName: 紫发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	RedEmitter: {
+		// DisplayName: 红发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	SkyBlueEmitter: {
+		// DisplayName: 天蓝发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	TealEmitter: {
+		// DisplayName: 青绿发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	VioletEmitter: {
+		// DisplayName: 蓝紫发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	WhiteEmitter: {
+		// DisplayName: 白发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	YellowEmitter: {
+		// DisplayName: 黄发射仪
+		// Tooltip: "{$CommonTooltips.ColoredEmitterTip}"
+	}
+
+	CrystalEmitter: {
+		// DisplayName: 水晶发射仪
+		/* Tooltip:
+			'''
+			增加15%捕猎碟轨迹长度
+			捕猎碟与其轨迹会发光
+			''' */
+	}
+
+	CrystalStar: {
+		// DisplayName: 水晶之星
+		/* Tooltip:
+			'''
+			增加15%捕猎碟轨迹长度
+			捕猎碟对未接触其轨迹的敌怪造成10%额外伤害
+			捕猎碟会发光
+			捕猎碟的轨迹颜色变成水晶渐变
+			'看上去似乎有千年的历史...但实际上只是你刚做出来的'
+			''' */
+	}
+
+	AuraEmitter: {
+		// DisplayName: 光环发射仪
+		/* Tooltip:
+			'''
+			增加15%捕猎碟轨迹长度
+			捕猎碟周围出现对敌怪造成轻微伤害的光环
+			捕猎碟与其轨迹会发光
+			''' */
+	}
+
+	VitalityDynamo: {
+		// DisplayName: 生命力发电机
+		/* Tooltip:
+			'''
+			增加5%捕获攻击速度
+			捕猎碟的伤害随画出封闭图形花费的时间提高，最高1.5倍
+			用捕猎碟圈入敌怪时回复生命值，根据花费的时间最多回复2点
+			''' */
+	}
+
+	RangerCore: {
+		// DisplayName: 巡护员核心
+		/* Tooltip:
+			'''
+			增加15%捕获伤害
+			增加5%捕获攻击速度
+			捕猎碟的伤害随画出封闭图形花费的时间提高，最高1.5倍
+			''' */
+	}
+
+	DynamoCore: {
+		// DisplayName: 发电机核心
+		/* Tooltip:
+			'''
+			增加5%捕获攻击速度
+			捕猎碟的伤害随画出封闭图形花费的时间提高，最高1.5倍
+			''' */
+	}
+
+	ChlorophyteVisor: {
+		// DisplayName: 叶绿面甲
+		/* Tooltip:
+			'''
+			增加16%捕获伤害
+			增加10%捕猎碟轨迹长度
+			''' */
+	}
+
+	HallowedHeadpiece: {
+		// DisplayName: 神圣兜盔
+		/* Tooltip:
+			'''
+			增加14%捕获伤害
+			增加9%捕获暴击率
+			增加10%捕获攻击速度
+			''' */
+	}
+
+	AncientHallowedHeadpiece: {
+		// DisplayName: 远古神圣兜盔
+		/* Tooltip:
+			'''
+			增加14%捕获伤害
+			增加9%捕获暴击率
+			增加10%捕获攻击速度
+			''' */
+	}
+
+	WayfarerCowl: {
+		// DisplayName: 徒步者兜帽
+		// Tooltip: 增加3%捕获暴击率
+	}
+
+	WayfarerChestguard: {
+		// DisplayName: 徒步者护胸
+		// Tooltip: 增加4%捕获伤害
+	}
+
+	WayfarerLeggings: {
+		// DisplayName: 徒步者护腿
+		/* Tooltip:
+			'''
+			增加2%捕获伤害
+			增加5%移动速度
+			''' */
+	}
+
+	ExoticHeadgear: {
+		// DisplayName: 异国头饰
+		/* Tooltip:
+			'''
+			增加3%捕获伤害
+			增加4%捕获暴击率
+			''' */
+	}
+
+	ExoticBreastplate: {
+		// DisplayName: 异国胸甲
+		/* Tooltip:
+			'''
+			增加5%捕获伤害
+			增加5%捕猎碟轨迹长度
+			''' */
+	}
+
+	ExoticPants: {
+		// DisplayName: 异国裤
+		// Tooltip: 增加6%捕获伤害
+	}
+
+	AlloyHelmet: {
+		// DisplayName: 合金头盔
+		/* Tooltip:
+			'''
+			增加8%捕获伤害
+			增加6%捕获暴击率
+			''' */
+	}
+
+	AlloyBreastplate: {
+		// DisplayName: 合金胸甲
+		/* Tooltip:
+			'''
+			增加6%捕获伤害
+			增加4%捕获暴击率
+			增加5%捕获攻击速度
+			''' */
+	}
+
+	AlloyGreaves: {
+		// DisplayName: 合金护腿
+		/* Tooltip:
+			'''
+			增加7%捕获伤害
+			增加5%捕获暴击率
+			增加9%移动速度
+			''' */
+	}
+
+	AncientHeadgear: {
+		// DisplayName: 古代头饰
+		/* Tooltip:
+			'''
+			增加10%捕获伤害
+			增加4%捕获暴击率
+			增加5%捕获攻击速度与捕猎碟轨迹长度
+			''' */
+	}
+
+	AncientMail: {
+		// DisplayName: 古代链甲
+		/* Tooltip:
+			'''
+			增加10%捕获伤害
+			增加9%捕获暴击率
+			''' */
+	}
+
+	AncientGreaves: {
+		// DisplayName: 古代护腿
+		/* Tooltip:
+			'''
+			增加10%捕获伤害
+			增加5%捕获暴击率
+			增加14%移动速度
+			''' */
+	}
+
+	LunarVisor: {
+		// DisplayName: 月之面甲
+		/* Tooltip:
+			'''
+			增加7%捕获伤害
+			增加14%捕获暴击率
+			增加5%捕猎碟轨迹长度
+			''' */
+	}
+
+	LunarPlate: {
+		// DisplayName: 月之板甲
+		/* Tooltip:
+			'''
+			增加15%捕获伤害
+			增加7%捕获暴击率
+			增加5%捕获攻击速度
+			''' */
+	}
+
+	LunarGreaves: {
+		// DisplayName: 月之护腿
+		/* Tooltip:
+			'''
+			增加10%捕获伤害
+			增加9%捕获暴击率
+			增加16%移动速度
+			''' */
+	}
+
+	AffinityPotion: {
+		// DisplayName: 亲和力药水
+		/* Tooltip:
+			'''
+			增加10%捕获攻击速度
+			增加5%捕猎碟轨迹长度
+			''' */
+	}
+
+	DiscCharger: {
+		// DisplayName: 捕猎碟充电器
+		// Tooltip: 增加捕获攻击速度、捕获暴击率与捕猎碟轨迹长度
+	}
+
+	SynergyPotion: {
+		// DisplayName: 协同作战药水
+		// Tooltip: 召唤攻击使敌怪被捕猎碟圈入时受到更多伤害
+	}
+}
+
+Projectiles: {
+	// DiscOnStringProj.DisplayName: 栓线碟
+	// DiscOnStringStrike.DisplayName: 栓线碟
+	// EnchantedDiscProj.DisplayName: 附魔碟
+	// EnchantedDiscStrike.DisplayName: 附魔碟
+	// GemtechDiscProj.DisplayName: 宝石碟
+	// GemtechDiscStrike.DisplayName: 宝石碟
+	// HighTestStrike.DisplayName: 优质鱼线碟
+	// HighTestProj.DisplayName: 优质鱼线碟
+	// SilverLiningProj.DisplayName: 一线曙光
+	// SilverLiningStrike.DisplayName: 一线曙光
+	// ShortFuseStrike.DisplayName: 短引线
+	// ShortFuseProj.DisplayName: 短引线
+	// TinkeredDiscProj.DisplayName: 工匠碟
+	// TinkeredDiscStrike.DisplayName: 工匠碟
+	// DarkPathTrailStrike.DisplayName: 黑暗道路轨迹
+	// DarkPathStrike.DisplayName: 黑暗道路
+	// DarkPathProj.DisplayName: 黑暗道路
+	// BloodlineProj.DisplayName:血线
+	// Bloodline线Strike.DisplayName:血线
+	// ArtAttackStrike.DisplayName: 艺术创想
+	// ArtAttackProj.DisplayName: 艺术创想
+	// WildVineProj.DisplayName: 狂野藤蔓
+	// WildVineStrike.DisplayName: 狂野藤蔓
+	// PartyPopperBlast.DisplayName: 派对彩纸
+	// PartyPopperProj.DisplayName: 派对拉炮
+	// PartyPopperStrike.DisplayName: 派对拉炮
+	// LivewireProj.DisplayName: 输电线
+	// LivewireShock.DisplayName: 电线电击
+	// LivewireStrike.DisplayName: 电线触电
+	// CursedBinderProj.DisplayName: 诅咒装订机
+	// CursedBinderStrike.DisplayName: 诅咒装订机
+	// HotStreakStrike.DisplayName: 热痕
+	// HotStreakProj.DisplayName: 热痕
+	// DiscOfAncientsStrike.DisplayName: 古老碟
+	// DiscOfAncientsSoul.DisplayName: 远古之魂
+	// DiscOfAncientsProj.DisplayName: 古老碟
+	// MagicDiscProj.DisplayName: 魔法碟
+	// MagicDiscStrike.DisplayName: 魔法碟
+	// StringSpinnerProj.DisplayName: 纺丝机
+	// StringSpinnerStrike.DisplayName: 纺丝机
+	// IcingDiscProj.DisplayName: 冰糕碟
+	// IcingDiscStrike.DisplayName: 冰糕碟
+	// SandLinerProj.DisplayName: 沙漠划
+	// SandLinerStrike.DisplayName: 沙漠划
+	// HallowedFocusStrike.DisplayName: 神圣焦点
+	// HallowedFocusProj.DisplayName: 神圣焦点
+	// RazoredgeDiscStrike.DisplayName: 锋刃碟
+	// RazoredgeDiscProj.DisplayName: 锋刃碟
+	// AnnulusProj.DisplayName: 日环食
+	// AnnulusStrike.DisplayName: 日环食
+	// OverclockDiscProj.DisplayName: 超频碟
+	// OverclockDiscStrike.DisplayName: 超频碟
+	// ChlorotechDiscProj.DisplayName: 叶绿碟
+	// ChlorotechDiscStrike.DisplayName: 叶绿碟
+	// OvergrowthProj.DisplayName: 野蛮生长
+	// OvergrowthStrike.DisplayName: 野蛮生长
+	// SuperchargerStrike.DisplayName: 增压器
+	// SuperchargerProj.DisplayName: 增压器
+	// AuraTracerStrike.DisplayName: 灵能描绘仪
+	// AuraTracerProj.DisplayName: 灵能描绘仪
+	// AuraTracerClone.DisplayName: 灵能描绘仪
+	// TreeLighterStrike.DisplayName: 圣诞树灯
+	// TreeLighterProj.DisplayName: 圣诞树灯
+	// TreeLighterStar.DisplayName: 圣诞树灯
+	// PagansRitualProj.DisplayName: 异教仪式
+	// PagansRitualSigil.DisplayName: 异教仪式
+	// PagansRitualStrike.DisplayName: 异教仪式
+	// SolarcellDiscProj.DisplayName: 太阳能电池碟
+	// SolarcellBeam.DisplayName: 太阳能激光
+	// SolarcellDiscStrike.DisplayName: 太阳能电池碟
+	// CollisionCourseProj.DisplayName: 碰撞路线
+	// CollisionCourseStrike.DisplayName: 碰撞路线
+	// MaelstromProj.DisplayName: 大漩涡
+	// MaelstromShred.DisplayName: 大漩涡
+	// MaelstromStrike.DisplayName: 大漩涡
+	// GeocentrismProj.DisplayName: 地心说
+	// GeocentrismStrike.DisplayName: 地心说
+	// EventHorizonProj.DisplayName: 事件视界
+	// EventHorizonStrike.DisplayName: 事件视界
+	// NebulousEchoClone.DisplayName: 星云回声
+	// NebulousEchoProj.DisplayName: 星云回声
+	// NebulousEchoStrike.DisplayName: 星云回声
+	// ConstellationProj.DisplayName: 星座
+	// ConstellationStar.DisplayName: 星辰
+	// ConstellationStrike.DisplayName: 星座
+	// OrbitalStrikerProj.DisplayName: 轨道打击者
+	// OrbitalStrikerStrike.DisplayName: 轨道打击者
+	// StylesusProj.DisplayName: 斯塔瑟斯
+	// StylesusStrike.DisplayName: 斯塔瑟斯
+	// GuardianDiscProj.DisplayName: 护卫碟
+	// GuardianDiscSigil.DisplayName: 护卫笔迹
+	// GuardianDiscStrike.DisplayName: 护卫碟
+	// EmitterAura.DisplayName: 发射仪光环
+	// ExoticResonance.DisplayName: 异国谐振
+	// MetalBlast.DisplayName: 合金冲击
+	// TerraBlade.DisplayName: 泰拉刀
+}
+
+Buffs: {
+	CombatRegenTRM1: {
+		// DisplayName: 捕获兴奋
+		// Description: 允许在真巡护员模式中略微恢复生命
+	}
+
+	CombatRegenTRM2: {
+		// DisplayName: 捕获肾上腺素
+		// Description: 允许在真巡护员模式中恢复生命
+	}
+
+	BloodInheritance: {
+		// DisplayName: 血亲遗产
+		// Description: 增加生命恢复
+	}
+
+	Cursed: {
+		// DisplayName: 诅咒
+		// Description: 降低移动速度接触伤害
+	}
+
+	StickyWeb: {
+		// DisplayName: 粘网
+		// Description: 降低移动速度
+	}
+
+	SweetIcing: {
+		// DisplayName: 甜美冰糕
+		// Description: 增加生命恢复与移动速度
+	}
+
+	VerdantBoon: {
+		// DisplayName: 葱茏恩惠
+		// Description: 增加生命恢复
+	}
+
+	Overgrown: {
+		// DisplayName: 野蛮生长
+		// Description: 受到伤害并降低速度
+	}
+
+	SolarcellTargeting: {
+		// DisplayName: 太阳能电池目标
+		// Description: 太阳能电池碟将对其发射太阳能激光，并受到激光更多伤害
+	}
+
+	TyphoonTear: {
+		// DisplayName: 台风撕裂
+		// Description: 被大漩涡圈入时受到更高伤害
+	}
+
+	BattleHardened: {
+		// DisplayName: 战斗硬化
+		// Description: 增加防御
+	}
+
+	MetalBurst: {
+		// DisplayName: 合金爆发
+		// Description: 增加捕获伤害
+	}
+
+	CaptureAssist: {
+		// DisplayName: 强力捕获助手
+		// Description: 受到更高的捕获伤害
+	}
+
+	AssistCooldown: {
+		// DisplayName: 助手冷却
+		// Description: 泰拉刃正在冷却
+	}
+
+	LunarDefense: {
+		// DisplayName: 月之防守
+		// Description: 大幅增加生命恢复,但降低捕获伤害
+	}
+
+	LunarOffense: {
+		// DisplayName: 月之进攻
+		// Description: 捕获暴击造成更高伤害,但会受到更高伤害
+	}
+
+	CaptureAssist2: {
+		// DisplayName: 捕获助手
+		// Description: 受到更高的捕获伤害
+	}
+
+	ChargedDisc: {
+		// DisplayName: 充电
+		// Description: 增加捕获攻击速度、捕获暴击率与捕猎碟轨迹长度
+	}
+
+	DiscAffinity: {
+		// DisplayName: 亲和力
+		// Description: 增加捕获攻击速度与捕猎碟轨迹长度
+	}
+
+	SynergyAssist: {
+		// DisplayName: 协同作战
+		// Description: 你仆从的攻击使捕猎碟对敌怪更有效 
+	}
+}
+
+DamageClasses: {
+	// TrueCaptureDamage.DisplayName: 捕获伤害
+	// CaptureDamage.DisplayName: 捕获伤害
+}
+
+Prefixes: {
+	// Extended.DisplayName: 延长
+	// Energized.DisplayName: 充能
+	// Conductive.DisplayName: 导电
+	// Boosted.DisplayName: 加强
+	// Faulty.DisplayName: 故障
+	// Focused.DisplayName: 聚焦
+	// Reactive.DisplayName: 反应
+	// Reckless.DisplayName: 鲁莽
+	// Rreaching.DisplayName: 伸展
+	// Shortened.DisplayName: 缩短
+	// Ultimate.DisplayName: 终极
+	// Unresponsive.DisplayName: 死机
+}
+
+Configs: {
+	ClientConfig: {
+		// DisplayName: 用户设置
+
+		autoDeployDiscs: {
+			// Label: 默认自动使用
+			/* Tooltip:
+				'''
+				让捕猎碟默认为自动使用模式
+				进入世界时，这个功能通常是关闭的，需要手动打开
+				自动使用模式可以让你手持捕猎碟即可使用，不需要按住鼠标
+				适合觉得按住鼠标画圈很麻烦的人 (例如画圈时误触UI导致攻击中断)
+				要停止使用捕猎碟,需要使用热键切换物品栏 (滚轮在正在使用物品时无效)!
+				你也可以通过热键进行自动使用模式的开关(请在控件菜单里绑定按键!)
+				''' */
+		}
+
+		rangerMode: {
+			// Label: 巡护员模式
+			/* Tooltip:
+				'''
+				让游玩体验更接近MOD的灵感来源：《宝可梦巡护员》系列;
+				- 轨迹中断: 捕猎碟接触敌怪时轨迹会被重置
+				- 脆弱捕猎碟: 捕猎碟接触敌怪或敌对射弹时，捕猎碟的轨迹会被重置。此外,捕猎碟受到攻击会损毁，需要重新使用。
+				- 共享伤害: 与脆弱捕猎碟类似, 但敌对射弹击中你的捕猎碟或捕猎碟轨迹,或是敌怪接触到捕猎碟时，你会受到伤害!!!
+				只是为了玩起来更像《宝可梦巡护员》，并没有对应的奖励。
+				''' */
+		}
+
+		trueRangerMode: {
+			// Label: 真巡护员模式
+			/* Tooltip:
+				'''
+				在巡护员模式中选择'共享伤害' 才会正常生效
+				共享伤害还会造成以下影响;
+				- 大多数治疗方式(比如治疗药水)没有效果
+				- 只有捕猎碟与鞭子以外的召唤武器可以造成伤害.
+				- 使用捕猎碟时,玩家本体不会受伤(但会通过捕猎碟受伤)
+				- 战斗中生命恢复降低，使用捕猎碟会阻止生命自然恢复.
+				- 圈入敌怪时暂时允许生命恢复. 用捕获伤害击杀敌怪时效果更高
+				为了玩起来更像《宝可梦巡护员》而设计的受伤方式
+				弱化生命恢复是为了阻止玩家利用无敌时间拖延来使用药水
+				同样，命中再生是为了鼓励持续攻击的风险回报
+				警告: 此模式没有特殊奖励，纯粹为了特殊挑战而设计，请不要指望平衡性
+				''' */
+		}
+
+		damageTimeScaling: {
+			// Label: 随画图时间增加伤害
+			/* Tooltip:
+				'''
+				激活时，将根据画出封闭图形所花的时间按比例增加伤害
+				更长时间画出的图形最高可以造成3倍伤害，使得快速画出图形效率更低
+				你的DPS与手速关系更小，防止你为了打出伤害损伤你的手。
+				注意，这并不是预期的游戏方式，会影响平衡性。
+				总体而言，此设置会降低游玩的劳累程度，但对平衡有负面影响
+				这个设定与MOD的一些武器与饰品类似，可以与之叠加
+				''' */
+		}
+
+		doubleCaptureSpd: {
+			// Label: 更快的捕猎碟
+			/* Tooltip:
+				'''
+				启用时，+100%捕获攻击速度
+				捕猎碟的速度决定了它跟随光标的速度，这也会影响它的手感
+				更快的捕猎碟也意味着更容易操作, 这个设置可以提升所有捕猎碟的操作手感
+				这种影响在早期捕猎碟上最为明显，这些光盘故意设计得操控性较差
+				与'随画图时间增加伤害'一样，这不是预期的游戏方式，但可能有助于降低游玩的劳累程度
+				''' */
+		}
+	}
+}
+
+// "Keybinds.Toggle Disc Auto-Deploy.DisplayName": 开关捕猎碟自动使用模式

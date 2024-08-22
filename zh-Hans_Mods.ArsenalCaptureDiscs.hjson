@@ -1,0 +1,156 @@
+/* CommonDiscDesc:
+	'''
+	用追随光标的捕猎碟画出轨迹
+	被轨迹画出的封闭图形圈入的敌怪会受到伤害
+	''' */
+
+Items: {
+	Lightshow: {
+		// DisplayName: 灯光秀
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			可以通过充能获得对圈入的敌怪发射七彩矢的能力
+			保持光标不动可以充能一段时间
+			'碰上彩虹，吃定彩虹!'
+			''' */
+		// PrismaNerf: 泰拉棱镜存在时，伤害减少
+	}
+
+	LunarDisc: {
+		// DisplayName: 月之碟
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			会定期变换不同的颜色
+			发青绿色光时,对未接触轨迹的敌怪伤害显著增加
+			发橙色光时, 对接触轨迹的敌怪伤害显著增加
+			''' */
+	}
+
+	TerraDisc: {
+		// DisplayName: 泰拉碟
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			敌怪接触到轨迹时受到伤害
+			向最近攻击到的敌怪发射泰拉射线
+			可以通过充能强化射线和轨迹
+			保持光标不动可以充能一段时间
+			连续充能可以进一步强化射线和轨迹
+			''' */
+	}
+
+	TrueHallowedFocus: {
+		// DisplayName: 真·神圣焦点
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			可以通过充能大幅增加伤害
+			保持光标不动可以充能一段时间
+			连续充能可以进一步增加伤害
+			''' */
+	}
+
+	TrueUmbralCyclone: {
+		// DisplayName: 真·暗影风暴
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			敌怪接触到轨迹时受到伤害
+			最近攻击的敌怪从所有来源受到额外伤害
+			''' */
+	}
+
+	UmbralCyclone: {
+		// DisplayName: 暗影风暴
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			敌怪接触到轨迹时受到伤害
+			最近攻击的敌怪受到额外的捕获伤害
+			''' */
+	}
+
+	Vertexus: {
+		// DisplayName: 顶点
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			画出图形后生成多个附属的捕猎碟
+			''' */
+	}
+
+	WorthiestDisc: {
+		// DisplayName: 至尊之碟
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			对击中的敌怪造成多种不同的减益
+			目标身上的减益越多，伤害更高
+			玩家触碰轨迹可以获得多种不同的增益
+			'用来对付那些配不上的人'
+			传奇
+			''' */
+	}
+
+	WorthyDisc: {
+		// DisplayName: 敬仰之碟
+		/* Tooltip:
+			'''
+			{$CommonDiscDesc}
+			对击中的敌怪造成多种不同的减益
+			'仅献给配得上的人'
+			''' */
+	}
+}
+
+Projectiles: {
+	// LightshowProj.DisplayName: 灯光秀
+	// LightshowStrike.DisplayName: 灯光秀
+	// LunarDiscProj.DisplayName: 月之碟
+	// LunarDiscStrike.DisplayName: 月之碟
+	// TerraDiscProj.DisplayName: 泰拉碟
+	// TerraDiscStrike.DisplayName: 泰拉碟
+	// TerraLaser.DisplayName: 泰拉射线
+	// TrueHallowedFocusProj.DisplayName: 真·神圣焦点
+	// TrueHallowedFocusStrike.DisplayName: 真·神圣焦点
+	// TrueUmbralCycloneProj.DisplayName: 真·暗影风暴
+	// TrueUmbralCycloneStrike.DisplayName: 真·暗影风暴
+	// TrueUmbralCycloneTrailStrike.DisplayName: 真·暗影风暴
+	// UmbralCycloneProj.DisplayName: 暗影风暴
+	// UmbralCycloneStrike.DisplayName: 暗影风暴
+	// UmbralCycloneTrailStrike.DisplayName: 暗影风暴
+	// VertexusProj.DisplayName: 顶点
+	// VertexusStrike.DisplayName: 顶点
+	// VertexusWingman.DisplayName: 顶点
+	// VertexusWingmanStrike.DisplayName: 顶点
+	// WorthiestDiscProj.DisplayName: 至尊之碟
+	// WorthiestDiscStrike.DisplayName: 至尊之碟
+	// WorthyDiscProj.DisplayName: 敬仰之碟
+	// WorthyDiscStrike.DisplayName: 敬仰之碟
+	// LightshowBolt.DisplayName: 七彩矢
+	// TerraDiscTrailStrike.DisplayName: 泰拉碟轨迹
+}
+
+Buffs: {
+	TerraTargeting: {
+		// DisplayName: 泰拉目标
+		// Description: 泰拉碟将对其发射泰拉射线
+	}
+
+	NightShred: {
+		// DisplayName: 暗夜撕裂
+		// Description: 这个敌怪受到捕获攻击时受到额外的伤害
+	}
+
+	LegendaryFlames: {
+		// DisplayName: 传奇烈焰
+		// Description: 这家伙配不上!
+	}
+
+	UmbralRend: {
+		// DisplayName: 阴影破碎
+		// Description: 这个敌怪从所有伤害来源受到额外伤害
+	}
+}

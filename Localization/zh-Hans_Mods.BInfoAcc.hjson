@@ -1,275 +1,275 @@
 CommonItemtooltip: {
-	// ScannerCondition: ÔÚÑªÔÂ¡¢ÈÕÊ³»òÔÚµØÏÂÉúÎïÈºÂäÖĞ
-	// MerchantSaleCondition: ÒÑÔÚÄ£×éÉèÖÃÖĞÆôÓÃ
-	// MerchantAccConditionG: "{$CommonItemtooltip.MerchantSaleCondition} & Ó¯Í¹ÔÂ/¿÷Í¹ÔÂ"
-	// MerchantAccConditionQ: "{$CommonItemtooltip.MerchantSaleCondition} & ÉÏÏÒÔÂ/ÏÂÏÒÔÂ"
-	// MerchantAccConditionC: "{$CommonItemtooltip.MerchantSaleCondition} & ¶ëÃ¼ÔÂ/²ĞÔÂ"
-	// LuckDisplay: "{0} ÔËÆø"
-	// MinionDisplay: "{0}/{1} ÆÍ´ÓÀ¸"
-	// SentryDisplay: "{0}/{1} ÉÚ±øÀ¸"
-	// RegenDisplayFull: ÉúÃüÖµÒÑÂú
-	// RegenDisplayPos: +{0} ÉúÃüÖµ/Ãë
-	// RegenDisplayNeg: "{0 }ÉúÃüÖµ/Ãë"
-	// SpawnRateDisplayS: ~{0} Ã¿ÃëÉú³É
-	// SpawnRateDisplayP: ~{0} Ã¿ÃëÉú³É
-	// SpawnCapDisplay: ~{0} µĞ¹ÖÉú³ÉÉÏÏŞ
-	// SpawnRateDisplayError: ´íÎó: ¼«µÍ/¼«¸ßµÄÉú³ÉÂÊ!
-	// ComboDisplayNone: Î´¹¥»÷
-	// ComboDisplayTime: "{0} ´Î¹¥»÷£¨ÀúÊ±: {1}£©"
-	// ComboDisplayDmg: "{0} ´Î¹¥»÷£¨×ÜÉËº¦: {1}£©"
-	// ComboError: ´íÎó: ÊıÖµÒç³ö
-	// AggroDisplay: "{0} ³ğºŞ"
-	// ManaDisplayFull: Ä§Á¦ÖµÒÑÂú
-	// ManaDisplayPos: +{0} Ä§Á¦Öµ/Ãë
-	// ManaDisplayNeg: "{0} Ä§Á¦Öµ/Ãë"
-	// SuffixThousand: " Ç§"
-	// SuffixMillion: " °ÙÍò"
-	// SuffixBillion: " Ê®ÒÚ"
-	// SuffixSeconds: " Ãë"
-	// SuffixMinutes: " ·Ö"
-	// SuffixHours: " Ê±"
-	// BrokenSpawnRate: ¾¯¸æ: Éú³ÉÂÊÓëÉú³ÉÉÏÏŞÏÔÊ¾ÔÚ¶àÈËÓÎÏ·ÖĞ»á³ö´í!
+	ScannerCondition: åœ¨è¡€æœˆã€æ—¥é£Ÿæˆ–åœ¨åœ°ä¸‹ç”Ÿç‰©ç¾¤è½ä¸­
+	MerchantSaleCondition: å·²åœ¨æ¨¡ç»„è®¾ç½®ä¸­å¯ç”¨
+	MerchantAccConditionG: "{$CommonItemtooltip.MerchantSaleCondition} & ç›ˆå‡¸æœˆ/äºå‡¸æœˆ"
+	MerchantAccConditionQ: "{$CommonItemtooltip.MerchantSaleCondition} & ä¸Šå¼¦æœˆ/ä¸‹å¼¦æœˆ"
+	MerchantAccConditionC: "{$CommonItemtooltip.MerchantSaleCondition} & å³¨çœ‰æœˆ/æ®‹æœˆ"
+	LuckDisplay: "{0} è¿æ°”"
+	MinionDisplay: "{0}/{1} ä»†ä»æ "
+	SentryDisplay: "{0}/{1} å“¨å…µæ "
+	RegenDisplayFull: ç”Ÿå‘½å€¼å·²æ»¡
+	RegenDisplayPos: +{0} ç”Ÿå‘½å€¼/ç§’
+	RegenDisplayNeg: "{0}ç”Ÿå‘½å€¼/ç§’"
+	SpawnRateDisplayS: ~{0} æ¯ç§’ç”Ÿæˆ
+	SpawnRateDisplayP: ~{0} æ¯ç§’ç”Ÿæˆ
+	SpawnCapDisplay: ~{0} æ•Œæ€ªç”Ÿæˆä¸Šé™
+	SpawnRateDisplayError: é”™è¯¯: æä½/æé«˜çš„ç”Ÿæˆç‡!
+	ComboDisplayNone: æœªæ”»å‡»
+	ComboDisplayTime: "{0} æ¬¡æ”»å‡»ï¼ˆå†æ—¶: {1}ï¼‰"
+	ComboDisplayDmg: "{0} æ¬¡æ”»å‡»ï¼ˆæ€»ä¼¤å®³: {1}ï¼‰"
+	ComboError: é”™è¯¯: æ•°å€¼æº¢å‡º
+	AggroDisplay: "{0} ä»‡æ¨"
+	ManaDisplayFull: é­”åŠ›å€¼å·²æ»¡
+	ManaDisplayPos: +{0} é­”åŠ›å€¼/ç§’
+	ManaDisplayNeg: "{0} é­”åŠ›å€¼/ç§’"
+	SuffixThousand: " åƒ"
+	SuffixMillion: " ç™¾ä¸‡"
+	SuffixBillion: " åäº¿"
+	SuffixSeconds: " ç§’"
+	SuffixMinutes: " åˆ†"
+	SuffixHours: " æ—¶"
+	BrokenSpawnRate: è­¦å‘Š: ç”Ÿæˆç‡ä¸ç”Ÿæˆä¸Šé™æ˜¾ç¤ºåœ¨å¤šäººæ¸¸æˆä¸­ä¼šå‡ºé”™!
 }
 
 Biomes: {
-	// Neutral: Î´ÖªÉúÎïÈºÏµ
+	Neutral: æœªçŸ¥ç”Ÿç‰©ç¾¤ç³»
 
 	Vanilla: {
-		// Space: Ì«¿Õ
-		// Underworld: µØÓü
-		// Underground: µØÏÂ
-		// Solar: ÈÕÒ«Öù
-		// Vortex: ĞÇĞıÖù
-		// Nebula: ĞÇÔÆÖù
-		// Stardust: ĞÇ³¾Öù
-		// Meteor: ÔÉÊ¯
-		// Dungeon: µØÀÎ
-		// Temple: ´ÔÁÖÉñÃí
-		// Aether: ÒÔÌ«
-		// Spider: Ö©ÖëÎÑ
-		// Corruption: ¸¯»¯
-		// Crimson: ĞÉºì
-		// Shroom: ·¢¹âÄ¢¹½
-		// Jungle: ´ÔÁÖ
-		// Hallow: ÉñÊ¥
-		// Ocean: º£Ñó
-		// Snow: Ñ©Ô­
-		// Desert: É³Ä®
-		// Beehive: ·ä³²
-		// Granite: »¨¸ÚÑÒ¶´
-		// Marble: ´óÀíÊ¯¶´
-		// Graveyard: Ä¹µØ
-		// Forest: É­ÁÖ
-		// Town: ³ÇÕò
+		Space: å¤ªç©º
+		Underworld: åœ°ç‹±
+		Underground: åœ°ä¸‹
+		Solar: æ—¥è€€æŸ±
+		Vortex: æ˜Ÿæ—‹æŸ±
+		Nebula: æ˜Ÿäº‘æŸ±
+		Stardust: æ˜Ÿå°˜æŸ±
+		Meteor: é™¨çŸ³
+		Dungeon: åœ°ç‰¢
+		Temple: ä¸›æ—ç¥åº™
+		Aether: ä»¥å¤ª
+		Spider: èœ˜è››çª
+		Corruption: è…åŒ–
+		Crimson: çŒ©çº¢
+		Shroom: å‘å…‰è˜‘è‡
+		Jungle: ä¸›æ—
+		Hallow: ç¥åœ£
+		Ocean: æµ·æ´‹
+		Snow: é›ªåŸ
+		Desert: æ²™æ¼ 
+		Beehive: èœ‚å·¢
+		Granite: èŠ±å²—å²©æ´
+		Marble: å¤§ç†çŸ³æ´
+		Graveyard: å¢“åœ°
+		Forest: æ£®æ—
+		Town: åŸé•‡
 	}
 
-	// Thorium.Depths: Éîº£
+	Thorium.Depths: æ·±æµ·
 
 	Calamity: {
-		// Astral: ĞÇ»ÔÎÁÒß
-		// Crags: Áò»ğÖ®ÑÂ
-		// SulphurousSea: Áò»Çº£
-		// SunkenSea: ³ÁÂÙÖ®º£
-		// AbyssMain: ÉîÔ¨
-		// Abyss1: Áòº£Éî´¦
-		// Abyss2: »ë×ÇË®Óò
-		// Abyss3: ÈÈÈªÇøÓò
-		// Abyss4: Ğé¿Õ
+		Astral: æ˜Ÿè¾‰ç˜Ÿç–«
+		Crags: ç¡«ç«ä¹‹å´–
+		SulphurousSea: ç¡«ç£ºæµ·
+		SunkenSea: æ²‰æ²¦ä¹‹æµ·
+		AbyssMain: æ·±æ¸Š
+		Abyss1: ç¡«æµ·æ·±å¤„
+		Abyss2: æµ‘æµŠæ°´åŸŸ
+		Abyss3: çƒ­æ³‰åŒºåŸŸ
+		Abyss4: è™šç©º
 	}
 
 	Redemption: {
-		// Lab: ·ÏÆúÊµÑéÊÒ
-		// Soulless: Ê§»ê¶´Ñ¨
-		// Wasteland: ·ÏÍÁ
+		Lab: åºŸå¼ƒå®éªŒå®¤
+		Soulless: å¤±é­‚æ´ç©´
+		Wasteland: åºŸåœŸ
 	}
 
-	// Aequus.Crevice: Ğ··üÑÒÏ¶
-	// Confection.Confection: ÌÇ¹ûÖ®µØ
+	Aequus.Crevice: èŸ¹ä¼å²©éš™
+	Confection.Confection: ç³–æœä¹‹åœ°
 
 	FFF: {
-		// Celestial: Ìì½ç
-		// Garden: »¨Ô°
+		Celestial: å¤©ç•Œ
+		Garden: èŠ±å›­
 	}
 
 	Spirit: {
-		// Reach: ¾£¼¬Ö®µØ
-		// Spirit: »êÁéÖ®µØ
-		// Asteroid: Ğ¡ĞĞĞÇ´ø
+		Reach: è†æ£˜ä¹‹åœ°
+		Spirit: é­‚çµä¹‹åœ°
+		Asteroid: å°è¡Œæ˜Ÿå¸¦
 	}
 
 	StarsAbove: {
-		// Observatory: ¼«±±ÌìÎÄÌ¨
-		// Astarte: °¢Ë¹ËşµÙ¼İÔ¦
-		// Bleached: ÍÊÉ«ÊÀ½ç
-		// Corvus: ÎÚÑ»ĞÇ
-		// Lyra: ÌìÇÙĞÇ
-		// Pyxis: ÂŞÅÌºÅ
-		// Moon: ÔÂÇò
-		// StarSea: ĞÇº£
+		Observatory: æåŒ—å¤©æ–‡å°
+		Astarte: é˜¿æ–¯å¡”è’‚é©¾é©­
+		Bleached: è¤ªè‰²ä¸–ç•Œ
+		Corvus: ä¹Œé¸¦æ˜Ÿ
+		Lyra: å¤©ç´æ˜Ÿ
+		Pyxis: ç½—ç›˜å·
+		Moon: æœˆçƒ
+		StarSea: æ˜Ÿæµ·
 	}
 
-	// Depths.Depths: ËÀÔ¨
+	Depths.Depths: æ­»æ¸Š
 
 	Spooky: {
-		// Spooky: ¾ª¾åÖ®µØ
-		// Catacomb: ÁêÄ¹
+		Spooky: æƒŠæƒ§ä¹‹åœ°
+		Catacomb: é™µå¢“
 	}
 
-	// Verdant.Verdant: ´ĞÜ×Ö®µØ
-	// Valhalla.Tar: ½¹ÓÍ¶´Ñ¨
+	Verdant.Verdant: è‘±èŒä¹‹åœ°
+	Valhalla.Tar: ç„¦æ²¹æ´ç©´
 }
 
 Items: {
 	EngiRegistry: {
-		// DisplayName: ¹¤³ÌÊ¦µÇ¼ÇÒÇ
+		DisplayName: å·¥ç¨‹å¸ˆç™»è®°ä»ª
 		/* Tooltip:
 			'''
-			ÏÔÊ¾ÉÚ±øÀ¸ÊıÁ¿ÓëÊ¹ÓÃÇé¿ö
-			'ÒıÇæ½Ó½üÄãµÄ(ÉÚ±ø)ÉÏÏŞÁË'
+			æ˜¾ç¤ºå“¨å…µæ æ•°é‡ä¸ä½¿ç”¨æƒ…å†µ
+			'å¼•æ“æ¥è¿‘ä½ çš„(å“¨å…µ)ä¸Šé™äº†'
 			''' */
 	}
 
 	AttendanceLog: {
-		// DisplayName: ¿¼ÇÚ¼ÇÂ¼
-		// Tooltip: ÏÔÊ¾ÆÍ´ÓÀ¸ÊıÁ¿ÓëÊ¹ÓÃÇé¿ö
+		DisplayName: è€ƒå‹¤è®°å½•
+		Tooltip: æ˜¾ç¤ºä»†ä»æ æ•°é‡ä¸ä½¿ç”¨æƒ…å†µ
 	}
 
 	FortuneMirror: {
-		// DisplayName: ĞÒÔË¾µ
-		// Tooltip: ÏÔÊ¾ÔËÆøÖµ
+		DisplayName: å¹¸è¿é•œ
+		Tooltip: æ˜¾ç¤ºè¿æ°”å€¼
 	}
 
 	HitMarker: {
-		// DisplayName: ¹¥»÷±ê¼Ç
+		DisplayName: æ”»å‡»æ ‡è®°
 		/* Tooltip:
 			'''
-			ÏÔÊ¾¹¥»÷´ÎÊı¡¢Ê±¼äºÍ×ÜÉËº¦
-			Í£Ö¹¹¥»÷ÈıÃëºóÍ³¼Æ½áÊø
+			æ˜¾ç¤ºæ”»å‡»æ¬¡æ•°ã€æ—¶é—´å’Œæ€»ä¼¤å®³
+			åœæ­¢æ”»å‡»ä¸‰ç§’åç»Ÿè®¡ç»“æŸ
 			''' */
 	}
 
 	RSH: {
-		// DisplayName: C.R.M.¼ÆÊıÆ÷
-		// Tooltip: ÏÔÊ¾¹¥»÷´ÎÊı,ÉúÃüºÍÄ§Á¦µÄ±ä»¯×´Ì¬
+		DisplayName: C.R.M.è®¡æ•°å™¨
+		Tooltip: æ˜¾ç¤ºæ”»å‡»æ¬¡æ•°,ç”Ÿå‘½å’Œé­”åŠ›çš„å˜åŒ–çŠ¶æ€
 	}
 
 	SafteyScanner: {
-		// DisplayName: °²È«É¨ÃèÒÇ
-		// Tooltip: ÏÔÊ¾µĞ¹ÖÉú³ÉÂÊ
+		DisplayName: å®‰å…¨æ‰«æä»ª
+		Tooltip: æ˜¾ç¤ºæ•Œæ€ªç”Ÿæˆç‡
 	}
 
 	ScryingMirror: {
-		// DisplayName: Õ¼²·¾µ
-		// Tooltip: ÏÔÊ¾ÔËÆøÖµ¡¢ÉÚ±øÀ¸ÊıÁ¿ºÍÆÍ´ÓÀ¸ÊıÁ¿
+		DisplayName: å åœé•œ
+		Tooltip: æ˜¾ç¤ºè¿æ°”å€¼ã€å“¨å…µæ æ•°é‡å’Œä»†ä»æ æ•°é‡
 	}
 
 	SmartHeart: {
-		// DisplayName: ÖÇ»ÛÖ®ĞÄ
+		DisplayName: æ™ºæ…§ä¹‹å¿ƒ
 		/* Tooltip:
 			'''
-			ÏÔÊ¾ÉúÃüÔÙÉú/¼õÉÙËÙÂÊ
-			'È·±£ÄãµÄÃ¿Ò»²½'
+			æ˜¾ç¤ºç”Ÿå‘½å†ç”Ÿ/å‡å°‘é€Ÿç‡
+			'ç¡®ä¿ä½ çš„æ¯ä¸€æ­¥'
 			''' */
 	}
 
 	BiomeCrystal: {
-		// DisplayName: ÉúÎïÈºÏµË®¾§
-		// Tooltip: ÏÔÊ¾ÄãËùÔÚµÄÉúÎïÈºÏµ
+		DisplayName: ç”Ÿç‰©ç¾¤ç³»æ°´æ™¶
+		Tooltip: æ˜¾ç¤ºä½ æ‰€åœ¨çš„ç”Ÿç‰©ç¾¤ç³»
 	}
 
 	Magimeter: {
-		// DisplayName: Ä§Á¦¼Æ
-		// Tooltip: ÏÔÊ¾Ä§Á¦µÄ»Ö¸´ºÍÏûºÄÇé¿ö
+		DisplayName: é­”åŠ›è®¡
+		Tooltip: æ˜¾ç¤ºé­”åŠ›çš„æ¢å¤å’Œæ¶ˆè€—æƒ…å†µ
 	}
 
 	WantedPoster: {
-		// DisplayName: Í¨¼©Áî
+		DisplayName: é€šç¼‰ä»¤
 		/* Tooltip:
 			'''
-			ÏÔÊ¾³ğºŞ,µĞÈËÓĞ¶àÃ´Ô¸ÒâÒÔÄãÎªÄ¿±ê
-			'"²»ÂÛËÀ»î "µÄÍ¨¼©ÁîÒªÀ´µÄ»ù±¾¶¼ÊÇËÀµÄ...'
+			æ˜¾ç¤ºä»‡æ¨,æ•Œäººæœ‰å¤šä¹ˆæ„¿æ„ä»¥ä½ ä¸ºç›®æ ‡
+			'"ä¸è®ºæ­»æ´» "çš„é€šç¼‰ä»¤è¦æ¥çš„åŸºæœ¬éƒ½æ˜¯æ­»çš„...'
 			''' */
 	}
 
 	ThreatAnalyzer: {
-		// DisplayName: ÍşĞ²·ÖÎöÒÇ
-		// Tooltip: ÏÔÊ¾Ë¢¹ÖÂÊ,³ğºŞ,ËùÔÚÉúÎïÈºÏµ
+		DisplayName: å¨èƒåˆ†æä»ª
+		Tooltip: æ˜¾ç¤ºåˆ·æ€ªç‡,ä»‡æ¨,æ‰€åœ¨ç”Ÿç‰©ç¾¤ç³»
 	}
 }
 
 InfoDisplays: {
-	// SentryInfoDisplay.DisplayName: ÉÚ±øÀ¸
-	// MinionInfoDisplay.DisplayName: ÆÍ´ÓÀ¸
-	// LuckInfoDisplay.DisplayName: ÔËÆø
-	// SpawnRateInfoDisplay.DisplayName: Ë¢ĞÂÂÊ
-	// RegenInfoDisplay.DisplayName: ÉúÃüÔÙÉú
-	// ComboInfoDisplay.DisplayName: ¹¥»÷´ÎÊı
-	// BiomeInfoDisplay.DisplayName: ËùÔÚÉúÎïÈºÏµ
-	// AggroInfoDisplay.DisplayName: ³ğºŞ
-	// ManaInfoDisplay.DisplayName: Ä§Á¦Çé¿ö
+	SentryInfoDisplay.DisplayName: å“¨å…µæ 
+	MinionInfoDisplay.DisplayName: ä»†ä»æ 
+	LuckInfoDisplay.DisplayName: è¿æ°”
+	SpawnRateInfoDisplay.DisplayName: åˆ·æ–°ç‡
+	RegenInfoDisplay.DisplayName: ç”Ÿå‘½å†ç”Ÿ
+	ComboInfoDisplay.DisplayName: æ”»å‡»æ¬¡æ•°
+	BiomeInfoDisplay.DisplayName: æ‰€åœ¨ç”Ÿç‰©ç¾¤ç³»
+	AggroInfoDisplay.DisplayName: ä»‡æ¨
+	ManaInfoDisplay.DisplayName: é­”åŠ›æƒ…å†µ
 }
 
 Configs: {
 	ConfigServer: {
-		// DisplayName: Ö÷ÒªÉèÖÃ
+		DisplayName: ä¸»è¦è®¾ç½®
 
 		easySell: {
-			// Label: ÉÌÈËÊÛÂôĞÅÏ¢ÊÎÆ·
+			Label: å•†äººå”®å–ä¿¡æ¯é¥°å“
 			/* Tooltip:
 				'''
-				¿ªÆôºó£¬ÉÌÈË»á¸ù¾İÔÂÏàÊÛÂôÄ£×éÌí¼ÓµÄĞÅÏ¢ÊÎÆ·
-				ÈÃÄã¿ÉÒÔÍ¨¹ı¸ü¼òµ¥µÄ·½Ê½»ñÈ¡ĞÂµÄĞÅÏ¢ÊÎÆ·
+				å¼€å¯åï¼Œå•†äººä¼šæ ¹æ®æœˆç›¸å”®å–æ¨¡ç»„æ·»åŠ çš„ä¿¡æ¯é¥°å“
+				è®©ä½ å¯ä»¥é€šè¿‡æ›´ç®€å•çš„æ–¹å¼è·å–æ–°çš„ä¿¡æ¯é¥°å“
 				''' */
 		}
 
 		extendedRecipe: {
-			// Label: ºÏ³É¸öÈËÊı×ÖÖúÊÖĞèÒªÄ£×éÊÎÆ·
+			Label: åˆæˆä¸ªäººæ•°å­—åŠ©æ‰‹éœ€è¦æ¨¡ç»„é¥°å“
 			/* Tooltip:
 				'''
-				¿ªÆôºó£¬ºÏ³É¸öÈËÊı×ÖÖúÊÖĞèÒªÄ£×éÌí¼ÓµÄÕ¼²·¾µ, C.R.M.¼ÆÊıÆ÷,ºÍÍşĞ²·ÖÎöÒÇ
-				Èç¹û²»ÏëÈÃ±´¿Çµç»°µÄºÏ³É¸üÂé·³£¬¿ÉÒÔ¹Ø±Õ´ËÑ¡Ïî
+				å¼€å¯åï¼Œåˆæˆä¸ªäººæ•°å­—åŠ©æ‰‹éœ€è¦æ¨¡ç»„æ·»åŠ çš„å åœé•œ, C.R.M.è®¡æ•°å™¨,å’Œå¨èƒåˆ†æä»ª
+				å¦‚æœä¸æƒ³è®©è´å£³ç”µè¯çš„åˆæˆæ›´éº»çƒ¦ï¼Œå¯ä»¥å…³é—­æ­¤é€‰é¡¹
 				''' */
 		}
 
 		updatedPhones: {
-			// Label: ¸öÈËÊı×ÖÖúÊÖ¡¢ÊÖ»ú¡¢±´¿Çµç»°ÏÔÊ¾¸ü¶àĞÅÏ¢
+			Label: ä¸ªäººæ•°å­—åŠ©æ‰‹ã€æ‰‹æœºã€è´å£³ç”µè¯æ˜¾ç¤ºæ›´å¤šä¿¡æ¯
 			/* Tooltip:
 				'''
-				¿ªÆôºó£¬¸öÈËÊı×ÖÖúÊÖ¼°ÆäÉı¼¶Îï»áÏÔÊ¾Ä£×éÌí¼ÓµÄĞÅÏ¢
-				ÉªÒøMODµÄÔ¸ÍûÄ§¾µÒ²»áÌí¼Ó¶ÔÓ¦ĞÅÏ¢
+				å¼€å¯åï¼Œä¸ªäººæ•°å­—åŠ©æ‰‹åŠå…¶å‡çº§ç‰©ä¼šæ˜¾ç¤ºæ¨¡ç»„æ·»åŠ çš„ä¿¡æ¯
+				ç‘Ÿé“¶MODçš„æ„¿æœ›é­”é•œä¹Ÿä¼šæ·»åŠ å¯¹åº”ä¿¡æ¯
 				''' */
 		}
 
 		refreshRate: {
-			// Label: ĞÅÏ¢Ë¢ĞÂËÙÂÊ
+			Label: ä¿¡æ¯åˆ·æ–°é€Ÿç‡
 			/* Tooltip:
 				'''
-				Ä³Ğ©ĞÅÏ¢ÏÔÊ¾²»»áÃ¿Ö¡Ë¢ĞÂ(Éú³ÉÂÊ¡¢Éú³ÉÉÏÏŞÒÔ¼°ÉúÎïÈºÏµ)
-				ÕâÊÇÎªÁË·ÀÖ¹ÎÄ±¾ÉÁË¸£¬²¢¼õÉÙÑÓ³Ù
-				Ë¢ĞÂËùĞèÊ±¼ä¿ÉÒÔÔÚ´Ë´¦×Ô¶¨Òå£»¸ÃÖµÊÇÃ¿´ÎË¢ĞÂÖ®¼äµÄµÎ´ğÊı
-				×÷Îª²Î¿¼£¬1Ãë=60µÎ´ğ
+				æŸäº›ä¿¡æ¯æ˜¾ç¤ºä¸ä¼šæ¯å¸§åˆ·æ–°(ç”Ÿæˆç‡ã€ç”Ÿæˆä¸Šé™ä»¥åŠç”Ÿç‰©ç¾¤ç³»)
+				è¿™æ˜¯ä¸ºäº†é˜²æ­¢æ–‡æœ¬é—ªçƒï¼Œå¹¶å‡å°‘å»¶è¿Ÿ
+				åˆ·æ–°æ‰€éœ€æ—¶é—´å¯ä»¥åœ¨æ­¤å¤„è‡ªå®šä¹‰ï¼›è¯¥å€¼æ˜¯æ¯æ¬¡åˆ·æ–°ä¹‹é—´çš„æ»´ç­”æ•°
+				ä½œä¸ºå‚è€ƒï¼Œ1ç§’=60æ»´ç­”
 				''' */
 		}
 
 		cycleRate: {
-			// Label: ĞÅÏ¢Ñ­»·ËÙÂÊ
+			Label: ä¿¡æ¯å¾ªç¯é€Ÿç‡
 			/* Tooltip:
 				'''
-				Ä³Ğ©ĞÅÏ¢ÏÔÊ¾»áÔÚ¼¸¸öĞÅÏ¢¼äÑ­»·(Éú³ÉÂÊ¡¢Éú³ÉÉÏÏŞ¡¢¹¥»÷´ÎÊıÒÔ¼°ÉúÎïÈºÏµ)
-				ÀàËÆÓÚÉ³³¾±©Ê±Ô­°æÌìÆøÊÕÒô»úµÄÏÔÊ¾·½Ê½
-				´ËÉèÖÃ¿Éµ÷½Ú²»Í¬ĞÅÏ¢Ñ­»·µÄËÙ¶È±¶Êı
+				æŸäº›ä¿¡æ¯æ˜¾ç¤ºä¼šåœ¨å‡ ä¸ªä¿¡æ¯é—´å¾ªç¯(ç”Ÿæˆç‡ã€ç”Ÿæˆä¸Šé™ã€æ”»å‡»æ¬¡æ•°ä»¥åŠç”Ÿç‰©ç¾¤ç³»)
+				ç±»ä¼¼äºæ²™å°˜æš´æ—¶åŸç‰ˆå¤©æ°”æ”¶éŸ³æœºçš„æ˜¾ç¤ºæ–¹å¼
+				æ­¤è®¾ç½®å¯è°ƒèŠ‚ä¸åŒä¿¡æ¯å¾ªç¯çš„é€Ÿåº¦å€æ•°
 				''' */
 		}
 
 		prioModBiomes: {
-			// Label: ÓÅÏÈÏÔÊ¾MODÉúÎïÈºÏµ
+			Label: ä¼˜å…ˆæ˜¾ç¤ºMODç”Ÿç‰©ç¾¤ç³»
 			/* Tooltip:
 				'''
-				Ê¹Ö§³ÖµÄMODÉúÎïÈºÏµÏÈÓÚÔ­°æÉúÎïÈºÏµÏÔÊ¾
-				ËùÓĞ¸½½üµÄÉúÎïÈºÏµ¶¼»áÑ­»·ÏÔÊ¾;ÓÅÏÈ¼¶¸ü¸ßµÄ»áÔÚÑ­»·µÄÇ°¼¸Î»ÏÔÊ¾
-				Ö§³ÖÒÔÏÂMODµÄÉúÎïÈºÏµ:
-				'ÉªÒø', 'ÔÖ¶ò', '¾ÈÊê', 'ĞÇº£²Ôñ·', '»êÁé', '¾ª¾å', 'ÌÇ¹ûÖ®µØ', 
-				'ËÀÔ¨', 'Aequus', 'Verdant', 'Food, Furniture & Fun', '¹Å¼£ÒÅ´æ'
+				ä½¿æ”¯æŒçš„MODç”Ÿç‰©ç¾¤ç³»å…ˆäºåŸç‰ˆç”Ÿç‰©ç¾¤ç³»æ˜¾ç¤º
+				æ‰€æœ‰é™„è¿‘çš„ç”Ÿç‰©ç¾¤ç³»éƒ½ä¼šå¾ªç¯æ˜¾ç¤º;ä¼˜å…ˆçº§æ›´é«˜çš„ä¼šåœ¨å¾ªç¯çš„å‰å‡ ä½æ˜¾ç¤º
+				æ”¯æŒä»¥ä¸‹MODçš„ç”Ÿç‰©ç¾¤ç³»:
+				'ç‘Ÿé“¶', 'ç¾å„', 'æ•‘èµ', 'æ˜Ÿæµ·è‹ç©¹', 'é­‚çµ', 'æƒŠæƒ§', 'ç³–æœä¹‹åœ°', 
+				'æ­»æ¸Š', 'Aequus', 'Verdant', 'Food, Furniture & Fun', 'å¤è¿¹é—å­˜'
 				''' */
 		}
 	}

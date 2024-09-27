@@ -1,0 +1,276 @@
+CommonItemtooltip: {
+	ScannerCondition: 在血月、日食或在地下生物群落中
+	MerchantSaleCondition: 已在模组设置中启用
+	MerchantAccConditionG: "{$CommonItemtooltip.MerchantSaleCondition} & 盈凸月/亏凸月"
+	MerchantAccConditionQ: "{$CommonItemtooltip.MerchantSaleCondition} & 上弦月/下弦月"
+	MerchantAccConditionC: "{$CommonItemtooltip.MerchantSaleCondition} & 峨眉月/残月"
+	LuckDisplay: "{0} 运气"
+	MinionDisplay: "{0}/{1} 仆从栏"
+	SentryDisplay: "{0}/{1} 哨兵栏"
+	RegenDisplayFull: 生命值已满
+	RegenDisplayPos: +{0} 生命值/秒
+	RegenDisplayNeg: "{0}生命值/秒"
+	SpawnRateDisplayS: ~{0} 每秒生成
+	SpawnRateDisplayP: ~{0} 每秒生成
+	SpawnCapDisplay: ~{0} 敌怪生成上限
+	SpawnRateDisplayError: 错误: 极低/极高的生成率!
+	ComboDisplayNone: 未攻击
+	ComboDisplayTime: "{0} 次攻击（历时: {1}）"
+	ComboDisplayDmg: "{0} 次攻击（总伤害: {1}）"
+	ComboError: 错误: 数值溢出
+	AggroDisplay: "{0} 仇恨"
+	ManaDisplayFull: 魔力值已满
+	ManaDisplayPos: +{0} 魔力值/秒
+	ManaDisplayNeg: "{0} 魔力值/秒"
+	SuffixThousand: " 千"
+	SuffixMillion: " 百万"
+	SuffixBillion: " 十亿"
+	SuffixSeconds: " 秒"
+	SuffixMinutes: " 分"
+	SuffixHours: " 时"
+	BrokenSpawnRate: 警告: 生成率与生成上限显示在多人游戏中会出错!
+}
+
+Biomes: {
+	Neutral: 未知生物群系
+
+	Vanilla: {
+		Space: 太空
+		Underworld: 地狱
+		Underground: 地下
+		Solar: 日耀柱
+		Vortex: 星旋柱
+		Nebula: 星云柱
+		Stardust: 星尘柱
+		Meteor: 陨石
+		Dungeon: 地牢
+		Temple: 丛林神庙
+		Aether: 以太
+		Spider: 蜘蛛窝
+		Corruption: 腐化
+		Crimson: 猩红
+		Shroom: 发光蘑菇
+		Jungle: 丛林
+		Hallow: 神圣
+		Ocean: 海洋
+		Snow: 雪原
+		Desert: 沙漠
+		Beehive: 蜂巢
+		Granite: 花岗岩洞
+		Marble: 大理石洞
+		Graveyard: 墓地
+		Forest: 森林
+		Town: 城镇
+	}
+
+	Thorium.Depths: 深海
+
+	Calamity: {
+		Astral: 星辉瘟疫
+		Crags: 硫火之崖
+		SulphurousSea: 硫磺海
+		SunkenSea: 沉沦之海
+		AbyssMain: 深渊
+		Abyss1: 硫海深处
+		Abyss2: 浑浊水域
+		Abyss3: 热泉区域
+		Abyss4: 虚空
+	}
+
+	Redemption: {
+		Lab: 废弃实验室
+		Soulless: 失魂洞穴
+		Wasteland: 废土
+	}
+
+	Aequus.Crevice: 蟹伏岩隙
+	Confection.Confection: 糖果之地
+
+	FFF: {
+		Celestial: 天界
+		Garden: 花园
+	}
+
+	Spirit: {
+		Reach: 荆棘之地
+		Spirit: 魂灵之地
+		Asteroid: 小行星带
+	}
+
+	StarsAbove: {
+		Observatory: 极北天文台
+		Astarte: 阿斯塔蒂驾驭
+		Bleached: 褪色世界
+		Corvus: 乌鸦星
+		Lyra: 天琴星
+		Pyxis: 罗盘号
+		Moon: 月球
+		StarSea: 星海
+	}
+
+	Depths.Depths: 死渊
+
+	Spooky: {
+		Spooky: 惊惧之地
+		Catacomb: 陵墓
+	}
+
+	Verdant.Verdant: 葱茏之地
+	Valhalla.Tar: 焦油洞穴
+}
+
+Items: {
+	EngiRegistry: {
+		DisplayName: 工程师登记仪
+		/* Tooltip:
+			'''
+			显示哨兵栏数量与使用情况
+			'引擎接近你的(哨兵)上限了'
+			''' */
+	}
+
+	AttendanceLog: {
+		DisplayName: 考勤记录
+		Tooltip: 显示仆从栏数量与使用情况
+	}
+
+	FortuneMirror: {
+		DisplayName: 幸运镜
+		Tooltip: 显示运气值
+	}
+
+	HitMarker: {
+		DisplayName: 攻击标记
+		/* Tooltip:
+			'''
+			显示攻击次数、时间和总伤害
+			停止攻击三秒后统计结束
+			''' */
+	}
+
+	RSH: {
+		DisplayName: C.R.M.计数器
+		Tooltip: 显示攻击次数,生命和魔力的变化状态
+	}
+
+	SafteyScanner: {
+		DisplayName: 安全扫描仪
+		Tooltip: 显示敌怪生成率
+	}
+
+	ScryingMirror: {
+		DisplayName: 占卜镜
+		Tooltip: 显示运气值、哨兵栏数量和仆从栏数量
+	}
+
+	SmartHeart: {
+		DisplayName: 智慧之心
+		/* Tooltip:
+			'''
+			显示生命再生/减少速率
+			'确保你的每一步'
+			''' */
+	}
+
+	BiomeCrystal: {
+		DisplayName: 生物群系水晶
+		Tooltip: 显示你所在的生物群系
+	}
+
+	Magimeter: {
+		DisplayName: 魔力计
+		Tooltip: 显示魔力的恢复和消耗情况
+	}
+
+	WantedPoster: {
+		DisplayName: 通缉令
+		/* Tooltip:
+			'''
+			显示仇恨,敌人有多么愿意以你为目标
+			'"不论死活 "的通缉令要来的基本都是死的...'
+			''' */
+	}
+
+	ThreatAnalyzer: {
+		DisplayName: 威胁分析仪
+		Tooltip: 显示刷怪率,仇恨,所在生物群系
+	}
+}
+
+InfoDisplays: {
+	SentryInfoDisplay.DisplayName: 哨兵栏
+	MinionInfoDisplay.DisplayName: 仆从栏
+	LuckInfoDisplay.DisplayName: 运气
+	SpawnRateInfoDisplay.DisplayName: 刷新率
+	RegenInfoDisplay.DisplayName: 生命再生
+	ComboInfoDisplay.DisplayName: 攻击次数
+	BiomeInfoDisplay.DisplayName: 所在生物群系
+	AggroInfoDisplay.DisplayName: 仇恨
+	ManaInfoDisplay.DisplayName: 魔力情况
+}
+
+Configs: {
+	ConfigServer: {
+		DisplayName: 主要设置
+
+		easySell: {
+			Label: 商人售卖信息饰品
+			/* Tooltip:
+				'''
+				开启后，商人会根据月相售卖模组添加的信息饰品
+				让你可以通过更简单的方式获取新的信息饰品
+				''' */
+		}
+
+		extendedRecipe: {
+			Label: 合成个人数字助手需要模组饰品
+			/* Tooltip:
+				'''
+				开启后，合成个人数字助手需要模组添加的占卜镜, C.R.M.计数器,和威胁分析仪
+				如果不想让贝壳电话的合成更麻烦，可以关闭此选项
+				''' */
+		}
+
+		updatedPhones: {
+			Label: 个人数字助手、手机、贝壳电话显示更多信息
+			/* Tooltip:
+				'''
+				开启后，个人数字助手及其升级物会显示模组添加的信息
+				瑟银MOD的愿望魔镜也会添加对应信息
+				''' */
+		}
+
+		refreshRate: {
+			Label: 信息刷新速率
+			/* Tooltip:
+				'''
+				某些信息显示不会每帧刷新(生成率、生成上限以及生物群系)
+				这是为了防止文本闪烁，并减少延迟
+				刷新所需时间可以在此处自定义；该值是每次刷新之间的滴答数
+				作为参考，1秒=60滴答
+				''' */
+		}
+
+		cycleRate: {
+			Label: 信息循环速率
+			/* Tooltip:
+				'''
+				某些信息显示会在几个信息间循环(生成率、生成上限、攻击次数以及生物群系)
+				类似于沙尘暴时原版天气收音机的显示方式
+				此设置可调节不同信息循环的速度倍数
+				''' */
+		}
+
+		prioModBiomes: {
+			Label: 优先显示MOD生物群系
+			/* Tooltip:
+				'''
+				使支持的MOD生物群系先于原版生物群系显示
+				所有附近的生物群系都会循环显示;优先级更高的会在循环的前几位显示
+				支持以下MOD的生物群系:
+				'瑟银', '灾厄', '救赎', '星海苍穹', '魂灵', '惊惧', '糖果之地', 
+				'死渊', 'Aequus', 'Verdant', 'Food, Furniture & Fun', '古迹遗存'
+				''' */
+		}
+	}
+}

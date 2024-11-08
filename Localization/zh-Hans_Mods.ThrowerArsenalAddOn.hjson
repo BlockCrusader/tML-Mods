@@ -1,6 +1,6 @@
 Configs: {
 	Config: {
-		DisplayName: 阿森纳-投手拓展设置
+		DisplayName: 阿森纳-投手拓展配置
 
 		hhgRework: {
 			Label: 神圣手雷重做
@@ -43,26 +43,26 @@ Configs: {
 }
 
 Projectiles: {
-	HolyHandGrenadeProj.DisplayName: 神圣手雷
-	TrueTwilightPlungeClone.DisplayName: 真永夜投刀
-	TrueTwilightPlungeProj.DisplayName: 真永夜投刀
-	TwilightPlungeClone.DisplayName: 永夜投刀
-	TwilightPlungeProj.DisplayName: 永夜投刀
-	TrueDivineStarProj.DisplayName: 真神圣手里剑
-	TrueDivineStarBeam.DisplayName: 真神圣手里剑
-	TerraCutterSlash.DisplayName: 泰拉旋刃
-	TerraCutterProj.DisplayName: 泰拉旋刃
-	ChimeraMine.DisplayName: 喀迈拉
-	ChimeraProj.DisplayName: 喀迈拉
-	MechimeraLance.DisplayName: 机械奇美拉
-	MechimeraMayhemProj.DisplayName: 机械奇美拉
-	MechimeraMine.DisplayName: 机械奇美拉
-	EmpressChargeClone.DisplayName: 女皇的空灵之枪
-	EmpressChargeProj.DisplayName: 女皇的空灵之枪
-	BlockThrowerProj.DisplayName: Block的手套
-	UltimaProj.DisplayName: 天顶手里剑
-	UltimaOrbital.DisplayName: 天顶手里剑
-	VoidFissure.DisplayName: Void Fissure
+HolyHandGrenadeProj.DisplayName: 神圣手雷
+	TrueTwilightPlungeClone.DisplayName: 真·暮色飞刀
+	TrueTwilightPlungeProj.DisplayName: 真·暮色飞刀
+	TwilightPlungeClone.DisplayName: 暮色飞刀
+	TwilightPlungeProj.DisplayName: 暮色飞刀
+	TrueDivineStarProj.DisplayName: 真·神圣手里剑
+	TrueDivineStarBeam.DisplayName: 真·神圣手里剑
+	TerraCutterSlash.DisplayName: 泰拉斩切刃
+	TerraCutterProj.DisplayName: 泰拉斩切刃
+	ChimeraMine.DisplayName: 奇美拉
+	ChimeraProj.DisplayName: 奇美拉
+	MechimeraLance.DisplayName: 机械混战奇美拉
+	MechimeraMayhemProj.DisplayName: 机械混战奇美拉
+	MechimeraMine.DisplayName: 机械混战奇美拉
+	EmpressChargeClone.DisplayName: 七彩长枪
+	EmpressChargeProj.DisplayName: 空灵长枪
+	BlockThrowerProj.DisplayName: 土块
+	UltimaProj.DisplayName: 究极手里剑
+	UltimaOrbital.DisplayName: 究极手里剑
+	VoidFissure.DisplayName: 虚空裂缝
 	SpacialRendProj.DisplayName: 虚空投斧
 	HorizonRazorProj.DisplayName: 虚空快刀
 	VoidEnergy.DisplayName: 虚空标枪
@@ -76,57 +76,62 @@ Projectiles: {
 	GrandStarMini.DisplayName: 至高手里剑
 	LunarFuryProj.DisplayName: 夜明投刀
 	LunarFurySpark.DisplayName: 夜明投刀
+	// OmegaBladeProj.DisplayName: 热寂飞刀
 }
 
 Items: {
 	TwilightPlunge: {
-		DisplayName: 永夜投刀
+		DisplayName: 暮色飞刀
 		Tooltip: ""
 	}
 
 	TrueTwilightPlunge: {
-		DisplayName: 真永夜投刀
+		DisplayName: 真·暮色飞刀
 		Tooltip: ""
 	}
 
 	TrueDivineStar: {
-		DisplayName: 真神圣手里剑
+		DisplayName: 真·神圣手里剑
 		Tooltip: ""
 	}
 
 	TerraCutter: {
-		DisplayName: 泰拉旋刃
+		DisplayName: 泰拉斩切刃
 		Tooltip: ""
 	}
 
 	MechimeraMayhem: {
-		DisplayName: 机械奇美拉
-		Tooltip: "'于混乱中重建秩序，在瑕疵中追求完美……'"
+		DisplayName: 机械混战奇美拉
+		Tooltip:
+			'''
+			'于混乱中重建秩序，在瑕疵中追求完美...'
+			传奇
+			'''
 	}
 
 	Chimera: {
-		DisplayName: 喀迈拉
-		Tooltip: "'这太疯狂了……可能还更离谱！'"
+		DisplayName: 奇美拉
+		Tooltip: "'这太疯狂了……可能还附带膨胀螺栓!'"
 	}
 
 	EmpressCharge: {
-		DisplayName: 女皇的空灵之枪
-		Tooltip: 投掷与棱镜一同贯穿敌人得到标枪
-		PrismaNerf: 泰拉棱镜存在时，减少伤害
+		DisplayName: 女皇的冲锋
+		Tooltip: 投掷被七彩长矛包围的空灵长枪
+		PrismaNerf: 正在召唤泰拉棱镜时降低伤害
 	}
 
 	BlockThrower: {
-		DisplayName: Block的手套
+		DisplayName: Block的投手手套
 		Tooltip:
 			'''
 			扔出土块
 			'非常适合冒充开发者！'
-			'Block的投手模组！'
+			'这下真是Block的投手模组了！'
 			'''
 	}
 
 	Ultima: {
-		DisplayName: 天顶手里剑
+		DisplayName: 究极手里剑
 		Tooltip: ""
 	}
 
@@ -135,7 +140,7 @@ Items: {
 		Tooltip:
 			'''
 			能够撕裂空间本身，以便对目标进行一系列叠加打击
-			'对皮克西非常有效，为什么不呢？'
+			'对小妖精非常有效，为什么不呢？'
 			'''
 	}
 
@@ -167,8 +172,8 @@ Items: {
 		DisplayName: 熵能迸发
 		Tooltip:
 			'''
-			发射一团不稳定的物质，其精度不高，受玩家移动速度的影响
-			'将收容天体能量的不稳定碎片武器化？好吧，这似乎很安全'
+			发射一团精度不高的不稳定物质，飞行速度受玩家移速的影响
+			'将包含天体能量的不稳定碎片武器化？好吧，这似乎很安全'
 			'''
 	}
 
@@ -181,21 +186,32 @@ Items: {
 		DisplayName: 夜明投刀
 		Tooltip: "'如今，陨落者升至天堂'"
 	}
+
+	OmegaBlades: {
+		DisplayName: 热寂飞刀
+		Tooltip:
+			'''
+			发射 3 把高速飞刀
+			击中地形或击中敌人后会停下
+			停下的飞刀会在短时间后重新飞向光标的方向
+			'拥抱时间的终点吧... 抵抗是无用的'
+			'''
+	}
 }
 
 Buffs: {
 	TrueTwilightPlungeDebuff: {
-		DisplayName: 永夜吞噬
+		DisplayName: 暮色之刺
 		Description: 黑暗能量逐渐侵蚀这个敌人的生命力
 	}
 
 	TerraCutterDebuff: {
-		DisplayName: 泰拉之怒
+		DisplayName: 泰拉切割
 		Description: 泰拉之力重击这个敌人
 	}
 
 	EmpressChargeDebuff: {
 		DisplayName: 光辉审判
-		Description: 棱镜般的光芒灼烧这个敌人
+		Description: 七彩光芒灼烧这个敌人
 	}
 }

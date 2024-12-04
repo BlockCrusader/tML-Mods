@@ -1,0 +1,491 @@
+Projectiles: {
+	ShadowBlast.DisplayName: 影爆
+	NightBomb.DisplayName: 暗夜炸弹
+	CursedFire.DisplayName: 咒火
+	CorePet.DisplayName: 腐化核心
+	CorePetCrim.DisplayName: 猩红核心
+	InfernoDart.DisplayName: 狱火镖
+	SeekerDart.DisplayName: 追踪镖
+	ShadowflameDart.DisplayName: 暗影焰镖
+	GoreGuanadoProj.DisplayName: 血腥偃月刀
+	PunishmentCoreProj.DisplayName: 惩戒之核
+	DarkGuillotine.DisplayName: 黑暗斩首刃
+	CrimsonBlast.DisplayName: 血爆
+	ShadeBlast.DisplayName: 影爆
+	ShatterShard.DisplayName: 破片
+	NightBombFriendly.DisplayName: 暗夜炸弹
+	RingOrbitalCorrupt.DisplayName: 腐化卫核
+	RingOrbitalCrim.DisplayName: 猩红卫核
+	TaintedTrajectoryProj.DisplayName: 血污轨迹
+	TaintedWisp.DisplayName: 污灵
+	CoreMinion.DisplayName: 核心仆从
+	MinionFire.DisplayName: 咒火
+	BloodOrbital.DisplayName: 血腥卫核
+	DefiledSpikeProj.DisplayName: 绝命刺
+}
+
+NPCs: {
+	CoreBoss.DisplayName: 腐化核心
+	CoreBossCrim.DisplayName: 猩红核心
+	OrbitalI.DisplayName: 腐化卫核
+	OrbitalICrim.DisplayName: 猩红卫核
+	OrbitalII.DisplayName: 诅咒卫核
+	OrbitalIICrim.DisplayName: 污染卫核
+	ShadeWisp.DisplayName: 影灵
+	SpawnerOrbCrim.DisplayName: 可疑的球体
+	SpawnerOrb.DisplayName: 可疑的球体
+}
+
+CommonItemTooltip: {
+	BestiaryEntryCorruptCore: 黑暗原能的恶意漩涡化身为了这个超载的暗影核心。当核心被卫核围绕时，它是无法被击中的。
+	BestiaryEntryCorruptOrbitalI: 一个由古老黑暗灵魂支配的凶恶暗影珠。利用创造它的核心的力量，通过防御和进攻措施保护其主人。
+	BestiaryEntryCorruptOrbitalII: 卫核的一种不稳定的变体。诅咒且不稳定的属性似乎是其支配者绝望的产物。讽刺的是，诅咒卫核比正常卫核更脆弱。
+	BestiaryEntryCorruptSpawnerOrb: 这个暗影珠莫名其妙地偏离了腐化地表的裂隙，并散发出不祥的光芒。它引诱着泰拉人破坏自己，但谁知道后果有多可怕？
+	BestiaryEntryCrimCore: 在猩红之地的浸染下，核心的力量和颜色发生了变化。尽管核心被污染了，但在其同样被污染的卫核围绕时，核心仍然不会受到攻击。
+	BestiaryEntryCrimOrbitalI: 一个由黑暗灵能控制的的残暴猩红珠。操纵召唤它的核心的力量，通过防御和进攻措施保护其领袖。
+	BestiaryEntryCrimOrbitalII: 猩红卫核的一种不稳定的变体。卫核的不稳定和腐蚀性是其创造者的鲁莽造成的。讽刺的是，这些变化使污染卫核更加弱小。
+	BestiaryEntryCrimSpawnerOrb: 在克苏鲁的阴谋被摧毁后，一个不祥的球体神秘地出现在猩红深处。里面有什么邪恶的力量？
+	SummonTipCorrupt: "'它对黑夜的黑暗和腐化的邪恶做出反应'"
+	SummonTipCrim: "'它对黑夜的黑暗和猩红的邪恶做出反应'"
+	AvailableHintCorrupt: 黑暗的气息渗透到了腐化的深处...
+	AvailableHintCrim: 猩红的洞穴中弥漫着邪恶的气息...
+	ChecklistDespawnCorrupt: 核心发泄愤怒后，莫名其妙地从视野中消失了
+	ChecklistDespawnCrim: 在释放了怒火之后，核心不知怎么地消失得无影无踪
+	ChecklistSpawnCorrupt: 在地下腐化找到并摧毁可疑的球体，或在晚上或腐化使用[i:CorruptionBoss/ChargedOrb]充能宝珠。只能存在于腐化世界
+	ChecklistSpawnCrim: 在地下猩红找到并摧毁可疑的球体，或在晚上或猩红使用[i:CorruptionBoss/ChargedOrbCrim]充能宝珠。只能存在于猩红世界
+	EquipPerksTipCorrupt:
+		'''
+		增益:
+		免疫诅咒狱火
+		提升少量防御
+		''' 
+	EquipPerksTipCrim:
+		'''
+		增益:
+		免疫灵液
+		提升少量生命恢复
+		''' 
+	EquipPerksTipMulti:
+		'''
+		增益:
+		免疫诅咒狱火与灵液
+		提升少量防御与生命恢复
+		''' 
+}
+
+Items: {
+	ChargedOrbCrim: {
+		DisplayName: 充能宝珠
+		Tooltip:
+			'''
+			召唤猩红核心
+			{$CommonItemTooltip.MechdusaSummonNotDuringEverything}
+			''' 
+	}
+
+	ChargedOrb: {
+		DisplayName: 充能宝珠
+		Tooltip:
+			'''
+			召唤腐化核心
+			{$CommonItemTooltip.MechdusaSummonNotDuringEverything}
+			''' 
+	}
+
+	CrimsonShard: {
+		DisplayName: Crimson Shard
+		Tooltip:
+			'''
+			可以在强大灵魂的催化下拼凑起来
+			'看着像一坨白花花的烂肉...哕...'
+			''' 
+	}
+
+	ShadowShard: {
+		DisplayName: Shadow Shard
+		Tooltip:
+			'''
+			可以在强大灵魂的催化下拼凑起来
+			'它邪恶的光芒中蕴含着诡异的力量...'
+			''' 
+	}
+
+	CoreMaskCrim: {
+		DisplayName: 猩红核心面具
+		Tooltip: ""
+	}
+
+	CoreMask: {
+		DisplayName: 腐化核心面具
+		Tooltip: ""
+	}
+
+	CoreBossBag: {
+		DisplayName: 宝藏袋(腐化核心)
+		Tooltip: ""
+	}
+
+	CoreBossBagCrim: {
+		DisplayName: 宝藏袋(猩红核心)
+		Tooltip: ""
+	}
+
+	CoreRelicItem: {
+		DisplayName: 核心圣物
+		Tooltip: ""
+	}
+
+	CoreTrophyItem: {
+		DisplayName: 腐化核心纪念章
+		Tooltip: ""
+	}
+
+	CoreTrophyItemCrim: {
+		DisplayName: 猩红核心纪念章
+		Tooltip: ""
+	}
+
+	CorePetItem: {
+		DisplayName: 腐化核
+		Tooltip:
+			'''
+			召唤一个能照明的微型腐化核心
+			'但不是已经有人为你而战了吗?'
+			''' 
+	}
+
+	CorePetItemCrim: {
+		DisplayName: 猩红核
+		Tooltip:
+			'''
+			召唤一个能照明的微型猩红核心
+			'想象一下，你不是腐化核心享受者...'
+			''' 
+	}
+
+	MultiPetItem: {
+		DisplayName: 黑暗平衡
+		Tooltip:
+			'''
+			召唤迷你腐化核心和迷你猩红核心
+			'两世愿望，一次满足?'
+			''' 
+	}
+
+	CursedCarbine: {
+		DisplayName: 诅咒卡宾枪
+		Tooltip:
+			'''
+			将毒镖、水晶镖、诅咒镖转化为它们的强化版本
+			'火枪 3.0?'
+			''' 
+	}
+
+	CrimIron: {
+		DisplayName: 猩红铁炮
+		Tooltip:
+			'''
+			暴击时吸取生命
+			'快枪手射杀了歹徒，全剧终'
+			''' 
+	}
+
+	GoreGuanado: {
+		DisplayName: 血腥偃月刀
+		Tooltip: 在快速刺出的同时搅动
+	}
+
+	PunishmentCore: {
+		DisplayName: 惩戒之核
+		Tooltip: 命中时放出黑暗斩首刃
+	}
+
+	ShadeSplinter: {
+		DisplayName: 影裂
+		Tooltip:
+			'''
+			增加5%暴击率
+			减少魔力再生延迟
+			暴击有50%几率消耗魔力产生造成额外伤害的爆炸
+			魔力使用量随魔力消耗降低效果和武器的攻击速度和暴击几率变化
+			''' 
+	}
+
+	Heartbreak: {
+		DisplayName: 碎心
+		Tooltip:
+			'''
+			免疫击退
+			能将伤害反弹给攻击者
+			受伤时抛出爆炸碎片
+			受伤后增加移动速度
+			'回味伤悲不如快意恩仇'
+			''' 
+	}
+
+	CrystallineUmbra: {
+		DisplayName: 本影结晶
+		Tooltip:
+			'''
+			增加10%暴击率
+			减少魔力再生延迟
+			敌人不太可能以你为目标
+			暴击有50%几率消耗魔力产生造成额外伤害的爆炸
+			魔力使用量随魔力消耗降低效果和武器的攻击速度和暴击几率变化
+			'他们永远不会知道它的到来'
+			''' 
+	}
+
+	ShatteredShell: {
+		DisplayName: 破碎外壳
+		Tooltip:
+			'''
+			免疫击退
+			能将伤害反弹给攻击者
+			受伤时抛出爆炸碎片
+			'它不会阻止敌人攻击你，但能让敌人后悔攻击你'
+			''' 
+	}
+
+	ShatterspikeBracer: {
+		DisplayName: 碎钉护腕
+		Tooltip:
+			'''
+			免疫击退
+			能将伤害反弹给攻击者
+			受伤时抛出爆炸碎片
+			敌人更可能以你为目标
+			'最好的防守，就是最好的进攻加上最好的防守'
+			''' 
+	}
+
+	SiphonStone: {
+		DisplayName: 虹吸石
+		Tooltip:
+			'''
+			增加5%魔法暴击率
+			最大魔力增加40
+			大幅减少魔力再生延迟
+			暴击有50%几率消耗魔力产生造成额外伤害的爆炸
+			魔力使用量随魔力消耗降低效果和武器的攻击速度和暴击几率变化
+			''' 
+	}
+
+	ShadowRing: {
+		DisplayName: 暗影戒指
+		Tooltip:
+			'''
+			召唤3个腐化卫核保护你并提高防御
+			卫核能对接触的敌人造成伤害，并对敌人发出射弹
+			卫核会受到敌人的伤害，伤害到达一定值后卫核会暂时破碎
+			卫核受到的射弹伤害降低
+			'尽管采用了极简主义的设计，但其优雅的外观仍具有强大的力量'
+			''' 
+	}
+
+	BloodyRing: {
+		DisplayName: 血腥戒指
+		Tooltip:
+			'''
+			召唤3个猩红卫核保护你并提高防御
+			卫核能对接触的敌人造成伤害，并对敌人发出射弹
+			卫核会受到敌人的伤害，伤害到达一定值后卫核会暂时破碎
+			卫核受到的射弹伤害降低
+			'这可不是时尚展示'
+			''' 
+	}
+
+	TaintedTrajectory: {
+		DisplayName: 血污轨迹
+		Tooltip:
+			'''
+			6% 召唤标记暴击率
+			你的召唤物将集中攻击被打中的敌人
+			击中敌人会在鞭子末端释放污秽的灵魂
+			''' 
+	}
+
+	OrbitalStaff: {
+		DisplayName: 卫核法杖
+		Tooltip:
+			'''
+			召唤微型腐化核心为你而战
+			反复召唤给核心添加更多的卫核
+			'该法杖由腐化团队赞助'
+			''' 
+	}
+
+	Bloodlust: {
+		DisplayName: 嗜血
+		Tooltip:
+			'''
+			释放带有吸取敌人生命光环的血珠
+			光环根据伤害增加玩家的生命回复
+			按住攻击键时血珠受到强化
+			'你知道只有一件事是真的'
+			''' 
+	}
+
+	DefiledSpike: {
+		DisplayName: 亵渎之刺
+		Tooltip:
+			'''
+			释放绝命刺
+			按住攻击键蓄能，释放更强大的绝命刺
+			在攻击开始时造成额外伤害
+			''' 
+	}
+}
+
+Buffs: {
+	CorePetBuff: {
+		DisplayName: 腐化核心
+		Description: 和仆从的差异只有外面的环
+	}
+
+	CorePetBuffCrim: {
+		DisplayName: 猩红核心
+		Description: 最强的猩红粉丝?
+	}
+
+	CorePetsBuff: {
+		DisplayName: 邪恶核心
+		Description: 两个比一个好!
+	}
+
+	TaintedTrajectoryTag: {
+		DisplayName: 血污轨迹标记
+		Description: 仆从可以对其造成暴击
+	}
+
+	CoreMinionBuff: {
+		DisplayName: 核心仆从
+		Description: 最弱的腐化享受者
+	}
+
+	BloodlustBuff: {
+		DisplayName: 嗜血
+		Description: 增加生命再生
+	}
+}
+
+Configs: {
+	Config: {
+		DisplayName: 配置
+
+		Headers: {
+			HeaderWeapons: 武器设定
+			HeaderBoss: Boss设定
+		}
+
+		bossHealthMultiplier: {
+			Label: 核心生命倍率
+			Tooltip:
+				'''
+				腐化核心与猩红核心血量的倍率
+				也会影响卫核的血量，不影响影灵
+				如果觉得核心战太难或太简单，可以调整该项.
+				''' 
+		}
+
+		wispHealthMultiplier: {
+			Label: 影灵生命倍率
+			Tooltip:
+				'''
+				核心召唤的影灵血量的倍率
+				如果觉得核心战太难或太简单，可以调整该项.
+				''' 
+		}
+
+		bossDefenseMultiplier: {
+			Label: 核心防御倍率
+			Tooltip:
+				'''
+				腐化核心与猩红核心防御的倍率
+				也会影响卫核和影灵
+				如果觉得核心战太难或太简单，可以调整该项.
+				''' 
+		}
+
+		bossDamageMultiplier: {
+			Label: 核心伤害倍率
+			Tooltip:
+				'''
+				腐化核心与猩红核心伤害的倍率
+				也会影响卫核和影灵,以及所有相关射弹
+				如果觉得核心战太难或太简单，可以调整该项.
+				''' 
+		}
+
+		attackVelocityMultiplier: {
+			Label: 核心弹速倍率
+			Tooltip:
+				'''
+				腐化核心与猩红核心发射的射弹速度的倍率
+				也会影响卫核发射的射弹和影灵的移速
+				还能改变影灵和暗夜炸弹的转向速度
+				如果觉得核心战太难或太简单，可以调整该项.
+				''' 
+		}
+
+		bossSpeedMultiplier: {
+			Label: 核心速度倍率
+			Tooltip:
+				'''
+				腐化核心与猩红核心速度的倍率
+				同时调整核心的惯性，这决定了核心转弯的速度和幅度
+				如果觉得核心战太难或太简单，可以调整该项.
+				''' 
+		}
+
+		rangedWepDmgMultiplier: {
+			Label: 远程武器伤害倍率
+			Tooltip:
+				'''
+				诅咒卡宾枪和猩红铁炮伤害的倍率
+				对其他武器无效
+				猩红铁炮的生命吸取不与伤害成正比增加
+				用于手动平衡武器的强度（可与BOSS倍率配合调整BOSS时期）
+				''' 
+		}
+
+		meleeWepDmgMultiplier: {
+			Label: 近战武器伤害倍率
+			Tooltip:
+				'''
+				惩戒之核与血腥偃月刀伤害的倍率
+				对其他武器无效
+				用于手动平衡武器的强度（可与BOSS倍率配合调整BOSS时期）
+				''' 
+		}
+
+		magicWepDmgMultiplier: {
+			Label: 魔法武器伤害倍率
+			Tooltip:
+				'''
+				亵渎之刺与嗜血伤害的倍率
+				对其他武器无效
+				嗜血的生命回复效果不会改变
+				用于手动平衡武器的强度（可与BOSS倍率配合调整BOSS时期）
+				''' 
+		}
+
+		summonWepDmgMultiplier: {
+			Label: 召唤武器伤害倍率
+			Tooltip:
+				'''
+				卫核法杖与血污轨迹伤害的倍率
+				对其他武器无效
+				血污轨迹的标记暴击不受影响
+				卫核法杖的仆从需要重新召唤更新其伤害
+				用于手动平衡武器的强度（可与BOSS倍率配合调整BOSS时期）
+				召唤武器往往随着伤害的增加而指数级增强，因此建议将倍率设置得低于其他武器
+				''' 
+		}
+	}
+}
+
+Emotes: {
+	CoreEmote.Command: 腐核
+	CoreEmoteCrim.Command: 血核
+}

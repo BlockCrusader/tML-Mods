@@ -150,11 +150,6 @@ CommonTooltips: {
 		DamageRebalance: 此武器的伤害数值也会相应调整，以与其他投掷武器保持一致
 		ArmorChange: 将这套盔甲的属性/套装效果更改为投手专用
 		ConvertWarning: 由于其原始的伤害类型，该武器在转换后只能获得通用（即非特定职业）词缀
-		ArsenalWarning:
-			'''
-			该武器来自“阿森纳：武器扩展模组”
-			如果未启用阿森纳模组，则此设置选项无效
-			'''
 	}
 
 	Shop: {
@@ -616,13 +611,13 @@ Items: {
 	}
 
 	ShadeStar: {
-		DisplayName: 腐化手里剑
+		DisplayName: 暗影忍镖
 		Tooltip: 忽视敌人少量防御
 	}
 
 	GoreGouger: {
-		DisplayName: 猩红投刀
-		Tooltip: 穿透敌人
+		DisplayName: 血腥开膛刀
+		Tooltip: 钉在敌人身上
 	}
 
 	Rosethorn: {
@@ -668,17 +663,17 @@ Items: {
 	}
 
 	SkyMine: {
-		DisplayName: 掘天尖球
+		DisplayName: 浮空雷
 		Tooltip: 可以在空中悬浮
 	}
 
 	EtherianJavelin: {
-		DisplayName: 天国标枪
+		DisplayName: 埃特尼亚标枪
 		Tooltip: ""
 	}
 
 	Pyrosparker: {
-		DisplayName: 狱火弹珠
+		DisplayName: 狱火珠
 		Tooltip:
 			'''
 			投出沿地面反弹的火球
@@ -722,7 +717,7 @@ Items: {
 	}
 
 	FireyPitchfork: {
-		DisplayName: 狱火叉
+		DisplayName: 烈火叉
 		Tooltip: 点燃敌人
 	}
 
@@ -741,7 +736,7 @@ Items: {
 	}
 
 	ChargedSkyMine: {
-		DisplayName: 碎天尖球
+		DisplayName: 过载浮空雷
 		Tooltip:
 			'''
 			在空中悬浮一段时间后爆炸
@@ -787,17 +782,17 @@ Items: {
 	}
 
 	Glaive: {
-		DisplayName: 圆盘飞刃
-		Tooltip: "'别和长柄武器搞混了'"
+		DisplayName: 风车
+		Tooltip: "'别和动力机械搞混了'"
 	}
 
 	SandShuriken: {
-		DisplayName: 禁戒飞刃
+		DisplayName: 沙尘手里剑
 		Tooltip: 碰撞后释放沙尘
 	}
 
 	JotunHatchet: {
-		DisplayName: 寒霜飞斧
+		DisplayName: 冰巨人飞斧
 		Tooltip: 黏附在敌人身上，短暂降低其防御
 	}
 
@@ -806,7 +801,7 @@ Items: {
 		Tooltip:
 			'''
 			交替扔出黑白标枪
-			黑色标枪钉住敌人
+			黑色标枪钉在敌人身上
 			白色标枪穿透敌人
 			'''
 	}
@@ -841,7 +836,7 @@ Items: {
 	}
 
 	ReinforcedEtherianJavelin: {
-		DisplayName: 强力天国标枪
+		DisplayName: 强力埃特尼亚标枪
 		Tooltip: "'一点额外的金属显然会有很大的帮助'"
 	}
 
@@ -870,7 +865,7 @@ Items: {
 	}
 
 	SeekerLance: {
-		DisplayName: 求索标枪
+		DisplayName: 寻踪标枪
 		Tooltip:
 			'''
 			扔出追踪的标枪
@@ -905,7 +900,7 @@ Items: {
 	}
 
 	UmbraBite: {
-		DisplayName: 黯影尖球
+		DisplayName: 黯影咬噬
 		Tooltip: 速度越慢，伤害越高
 	}
 
@@ -919,13 +914,13 @@ Items: {
 	}
 
 	FishronFang: {
-		DisplayName: 锋鲨投刀
-		Tooltip: 有几率对附近的敌人产生影响
+		DisplayName: 猪鲨獠牙
+		Tooltip: 有几率对附近的敌人反复冲刺
 	}
 
 	Eternity: {
 		DisplayName: 不朽
-		Tooltip: 消失时释放迷你永不消失的彩虹
+		Tooltip: 消失时在原地释放的滞留彩虹
 	}
 
 	Sporenade: {
@@ -947,10 +942,10 @@ Items: {
 	}
 
 	FrostFang: {
-		DisplayName: 碎雪投刀
+		DisplayName: 寒霜之牙
 		Tooltip:
 			'''
-			穿透敌人并施加冻伤
+			钉在敌人身上并施加冻伤
 			破碎成寒冰碎片，有可能造成额外伤害
 			'不仅仅是粘在舌头上……'
 			'''
@@ -969,23 +964,23 @@ Items: {
 		DisplayName: 崩解标枪
 		Tooltip:
 			'''
-			扔出粘附在敌人身上的标枪头
+			扔出钉在敌人身上的标枪头
 			敌人随时间受到持续伤害，并可能陷入困惑状态
 			'''
 	}
 
 	FracturedSpike: {
-		DisplayName: 断裂英雄尖球
+		DisplayName: 碎裂尖钉
 		Tooltip: 扔出产生额外碎片的尖球
 	}
 
 	FallenFury: {
-		DisplayName: 断裂英雄投刀
+		DisplayName: 陨落之怒
 		Tooltip: 扔出随距离降低伤害的投刀
 	}
 
 	EnchantedEtherianJavelin: {
-		DisplayName: 附魔天国标枪
+		DisplayName: 附魔埃特尼亚标枪
 		Tooltip: "'实际使用之前，很难分辨出它们的不同之处'"
 	}
 
@@ -1009,7 +1004,7 @@ Items: {
 	}
 
 	ShockMine: {
-		DisplayName: 电离尖球
+		DisplayName: 闪电浮空雷
 		Tooltip:
 			'''
 			扔出空中悬浮的尖球，尖球之间由电光束连接
@@ -1018,7 +1013,7 @@ Items: {
 	}
 
 	OblivionPiercer: {
-		DisplayName: 虚空投刀
+		DisplayName: 湮灭穿刺者
 		Tooltip:
 			'''
 			倾斜穿透敌人和墙壁的投刀
@@ -1027,7 +1022,7 @@ Items: {
 	}
 
 	DarkStar: {
-		DisplayName: 虚空手里剑
+		DisplayName: 黑暗之星
 		Tooltip:
 			'''
 			命中时额外产生较小的手里剑和撕碎敌人的空间漩涡
@@ -1037,7 +1032,7 @@ Items: {
 	}
 
 	LuminiteBit: {
-		DisplayName: 夜明尖球
+		DisplayName: 夜明碎石
 		Tooltip:
 			'''
 			扔出空中悬浮的夜明矿，命中时可能产生较小的碎片
@@ -1047,18 +1042,18 @@ Items: {
 	}
 
 	MoonRune: {
-		DisplayName: 夜明符咒
+		DisplayName: 月亮符文
 		Tooltip:
 			'''
-			扔出追踪的夜明符咒，这些符咒会粘附在敌人身上并爆炸
+			扔出追踪的月亮符文，这些符咒会粘附在敌人身上并爆炸
 			连续将多个符咒粘附在敌人身上会延迟并同步爆炸
 			根据同时引爆的符咒数量增加爆炸的伤害和半径，并有几率召唤幻影矢攻击敌人
-			'夜明符咒！夜明符咒真的存在！'
+			'月亮符文！月亮符文真的存在！'
 			'''
 	}
 
 	LunaticLance: {
-		DisplayName: 夜明标枪
+		DisplayName: 狂月标枪
 		Tooltip:
 			'''
 			扔出注入日耀、旋涡、星云、星尘或虚空力量的标枪
@@ -1076,7 +1071,7 @@ Items: {
 	}
 
 	CopyrightInfringementMissile: {
-		DisplayName: 红牙火箭
+		DisplayName: 可盖火箭
 		Tooltip:
 			'''
 			扔出一个逐渐加速并爆炸的大型导弹
@@ -1086,10 +1081,10 @@ Items: {
 	}
 
 	JadeStar: {
-		DisplayName: 翡翠苦无
+		DisplayName: 翡翠忍镖
 		Tooltip:
 			'''
-			一次扔出大量苦无
+			一次扔出大量手里剑
 			'只有被选中的少数人才能掌握'
 			'''
 	}
@@ -1109,21 +1104,21 @@ Items: {
 	}
 
 	SpikyBomb: {
-		DisplayName: 感应粘弹
+		DisplayName: 尖刺炸弹
 		Tooltip:
 			'''
-			扔出最多十颗粘在物块上的粘弹，有敌人靠近时会自动爆炸
-			<right>手动引爆所有粘弹以造成额外伤害
-			粘弹在粘附到表面之前爆炸造成的伤害会减少
+			扔出最多十颗粘在物块上的炸弹，有敌人靠近时会自动爆炸
+			<right>手动引爆所有炸弹以造成额外伤害
+			炸弹在粘附到表面之前爆炸造成的伤害会减少
 			'……还有卡布利-Y！'
 			'''
 	}
 
 	WiseMysticTome: {
-		DisplayName: 智慧神秘符咒
+		DisplayName: 智慧魔法书
 		Tooltip:
 			'''
-			扔出一个魔法符咒，命中时释放出挥发性的元素攻击
+			扔出一本魔法书，命中时释放出挥发性的元素攻击
 			'里面的咒语难以理解，所以你不妨直接把它扔给你的敌人'
 			'''
 	}
@@ -1252,7 +1247,7 @@ Buffs: {
 
 	RosethornDebuff: {
 		DisplayName: 玫瑰花刺
-		Description: 敌人被花刺钉在原地
+		Description: 花刺钉在敌人身上
 	}
 
 	GoreGougerDebuff: {
@@ -1262,7 +1257,7 @@ Buffs: {
 
 	FireyPitchforkDebuff: {
 		DisplayName: 狱火禁锢
-		Description: 敌人被狱火叉钉在原地
+		Description: 烈火叉钉在敌人身上
 	}
 
 	JotunHatchetDebuff: {
@@ -1277,7 +1272,7 @@ Buffs: {
 
 	FrostFangDebuff: {
 		DisplayName: 碎雪禁锢
-		Description: 敌人被碎雪投刀钉在原地
+		Description: 寒霜之牙钉在敌人身上
 	}
 
 	DisruptionLanceDebuff: {
@@ -1287,7 +1282,7 @@ Buffs: {
 
 	LunaticLanceDebuff: {
 		DisplayName: 虚空禁锢
-		Description: 敌人被夜明标枪钉在原地
+		Description: 狂月标枪钉在敌人身上
 	}
 
 	Dirty: {
@@ -1302,18 +1297,18 @@ Projectiles: {
 	FeatherArmorProj.DisplayName: 天羽
 	AkumaArmorProj.DisplayName: 恶魔炸弹
 	VoidArmorProj.DisplayName: 空间裂隙
-	ShadeStarProj.DisplayName: 腐化手里剑
+	ShadeStarProj.DisplayName: 暗影忍镖
 	ThrowingStarProj.DisplayName: 附魔手里剑
-	GoreGougerProj.DisplayName: 猩红投刀
+	GoreGougerProj.DisplayName: 血腥开膛刀
 	RosethornProj.DisplayName: 玫瑰花刺
 	RosethornSpike.DisplayName: 玫瑰花刺
 	DarkSpikeProj.DisplayName: 暗黑尖球
 	AirBurstProj.DisplayName: 空爆手榴弹
 	BrimstoneProj.DisplayName: 硫磺粘弹
 	FlyingSunProj.DisplayName: 向日飞盘
-	SkyMineProj.DisplayName: 掘天尖球
-	EtherianJavelinProj.DisplayName: 天国标枪
-	PyrosparkerProj.DisplayName: 狱火弹珠
+	SkyMineProj.DisplayName: 浮空雷
+	EtherianJavelinProj.DisplayName: 埃特尼亚标枪
+	PyrosparkerProj.DisplayName: 狱火珠
 	BouncySpikyBallProj.DisplayName: 弹力尖球
 	StickySpikyBallProj.DisplayName: 粘性尖球
 	BrittleShivProj.DisplayName: 脆骨投刀
@@ -1322,11 +1317,11 @@ Projectiles: {
 	JungleBombGas.DisplayName: 孢子炸弹
 	JungleBombProj.DisplayName: 孢子炸弹
 	StunBombProj.DisplayName: 迷魂炸弹
-	FireyPitchforkProj.DisplayName: 狱火叉
+	FireyPitchforkProj.DisplayName: 烈火叉
 	StingerStarProj.DisplayName: 毒刺手里剑
 	StingerStarStinger.DisplayName: 毒刺手里剑
 	CaltropProj.DisplayName: 蒺藜
-	ChargedSkyMineProj.DisplayName: 碎天尖球
+	ChargedSkyMineProj.DisplayName: 过载浮空雷
 	ShadowspikeBallProj.DisplayName: 暗影焰尖球
 	KunaiProj.DisplayName: 苦无
 	BlastCrystalProj.DisplayName: 水晶摔炮
@@ -1335,10 +1330,10 @@ Projectiles: {
 	CursedMolotovProj.DisplayName: 莫洛托夫咒焰酒
 	GoldenJarIchor.DisplayName: 黄金罐
 	GoldenJarProj.DisplayName: 黄金罐
-	GlaiveProj.DisplayName: 圆盘飞刃
-	SandShurikenSand.DisplayName: 禁戒飞刃
-	SandShurikenProj.DisplayName: 禁戒飞刃
-	JotunHatchetProj.DisplayName: 寒霜飞斧
+	GlaiveProj.DisplayName: 风车
+	SandShurikenSand.DisplayName: 沙尘手里剑
+	SandShurikenProj.DisplayName: 沙尘手里剑
+	JotunHatchetProj.DisplayName: 冰巨人飞斧
 	EquilibriumProjB.DisplayName: 黑色标枪
 	EquilibriumProjW.DisplayName: 白色标枪
 	AssassinNeedleProj.DisplayName: 刺客飞针
@@ -1346,69 +1341,69 @@ Projectiles: {
 	SlimeslayerSpike.DisplayName: 史莱姆飞刀
 	SlimeslayerGlob.DisplayName: 史莱姆飞刀
 	DivineStarProj.DisplayName: 神圣手里剑
-	ReinforcedEtherianJavelinProj.DisplayName: 强力天国标枪
+	ReinforcedEtherianJavelinProj.DisplayName: 强力埃特尼亚标枪
 	BlastCapProj.DisplayName: 真菌摔炮
 	BlastCapFungi.DisplayName: 真菌摔炮
 	SawbladeCleaverSpark.DisplayName: 锯片切割机
 	SawbladeCleaverProj.DisplayName: 锯片切割机
 	EnergyCoreProj.DisplayName: 械能核心
-	SeekerLanceProj.DisplayName: 求索标枪
+	SeekerLanceProj.DisplayName: 寻踪标枪
 	ShadowboundTalismanProj.DisplayName: 黯影符咒
 	EclipseCutterProj.DisplayName: 黯影屠刀
 	ChlorophyteJavelinProj.DisplayName: 叶绿标枪
 	ChlorophyteDaggerProj.DisplayName: 叶绿投刀
-	UmbraBiteProj.DisplayName: 黯影尖球
+	UmbraBiteProj.DisplayName: 黯影咬噬
 	MourningMolotovFire.DisplayName: 希腊火
 	MourningMolotovProj.DisplayName: 莫洛托夫哀悼酒
-	FishronFangProj.DisplayName: 锋鲨投刀
+	FishronFangProj.DisplayName: 猪鲨獠牙
 	EternityProj.DisplayName: 不朽
 	EternityStar.DisplayName: 永不消失的彩虹
 	SporenadeSpore.DisplayName: 孢子手榴弹
 	SporenadeProj.DisplayName: 孢子手榴弹
 	BlastBaubleShard.DisplayName: 彩球手榴弹
 	BlastBaubleProj.DisplayName: 彩球手榴弹
-	FrostFangProj.DisplayName: 碎雪投刀
-	FrostFangShard.DisplayName: 碎雪投刀
+	FrostFangProj.DisplayName: 寒霜之牙
+	FrostFangShard.DisplayName: 寒霜之牙
 	FlockoMittProj.DisplayName: 碎雪手套
 	DisruptionLanceProj.DisplayName: 崩解标枪
-	FracturedSpikeProj.DisplayName: 断裂英雄尖球
-	FracturedSpikeShard.DisplayName: 断裂英雄尖球
-	FallenFuryProj.DisplayName: 断裂英雄投刀
-	EnchantedEtherianJavelinProj.DisplayName: 附魔天国标枪
+	FracturedSpikeProj.DisplayName: 碎裂尖钉
+	FracturedSpikeShard.DisplayName: 碎裂尖钉
+	FallenFuryProj.DisplayName: 陨落之怒
+	EnchantedEtherianJavelinProj.DisplayName: 附魔埃特尼亚标枪
 	PlasmaGrenadeProj.DisplayName: 等离子手榴弹
 	HypercutterProj.DisplayName: 超速切割刀
-	ShockMineProj.DisplayName: 电离尖球
-	OblivionPiercerProj.DisplayName: 虚空投刀
-	DarkStarMini.DisplayName: 虚空手里剑
-	DarkStarProj.DisplayName: 虚空手里剑
-	DarkStarVortex.DisplayName: 虚空手里剑
-	LuminiteBitShard.DisplayName: 夜明尖球
-	LuminiteBitProj.DisplayName: 夜明尖球
-	MoonRuneSphere.DisplayName: 夜明符咒
-	MoonRuneProj.DisplayName: 夜明符咒
-	MoonRuneEye.DisplayName: 夜明符咒
-	LunaticLanceBlast.DisplayName: 日耀夜明标枪
-	LunaticLanceClone.DisplayName: 星云夜明标枪
-	LunaticLanceFireball.DisplayName: 日耀夜明标枪
-	LunaticLanceHead.DisplayName: 星尘夜明标枪
-	LunaticLanceNebula.DisplayName: 星云夜明标枪
-	LunaticLanceSolar.DisplayName: 日耀夜明标枪
-	LunaticLanceStardust.DisplayName: 星尘夜明标枪
-	LunaticLanceVoid.DisplayName: 虚空夜明标枪
-	LunaticLanceVortex.DisplayName: 星璇夜明标枪
+	ShockMineProj.DisplayName: 闪电浮空雷
+	OblivionPiercerProj.DisplayName: 湮灭穿刺者
+	DarkStarMini.DisplayName: 黑暗之星
+	DarkStarProj.DisplayName: 黑暗之星
+	DarkStarVortex.DisplayName: 黑暗之星
+	LuminiteBitShard.DisplayName: 夜明碎石
+	LuminiteBitProj.DisplayName: 夜明碎石
+	MoonRuneSphere.DisplayName: 月亮符文
+	MoonRuneProj.DisplayName: 月亮符文
+	MoonRuneEye.DisplayName: 月亮符文
+	LunaticLanceBlast.DisplayName: 日耀狂月标枪
+	LunaticLanceClone.DisplayName: 星云狂月标枪
+	LunaticLanceFireball.DisplayName: 日耀狂月标枪
+	LunaticLanceHead.DisplayName: 星尘狂月标枪
+	LunaticLanceNebula.DisplayName: 星云狂月标枪
+	LunaticLanceSolar.DisplayName: 日耀狂月标枪
+	LunaticLanceStardust.DisplayName: 星尘狂月标枪
+	LunaticLanceVoid.DisplayName: 虚空狂月标枪
+	LunaticLanceVortex.DisplayName: 星璇狂月标枪
 	JarOfDirtProj.DisplayName: 泥土罐
-	CopyrightInfringementProj.DisplayName: 红牙火箭
+	CopyrightInfringementProj.DisplayName: 可盖火箭
 	SuperSpikyBallProj.DisplayName: 超级尖球
-	JadeStarMini.DisplayName: 翡翠苦无
-	JadeStarProj.DisplayName: 翡翠苦无
+	JadeStarMini.DisplayName: 翡翠忍镖
+	JadeStarProj.DisplayName: 翡翠忍镖
 	HungeringSpearHeal.DisplayName: 饥渴标枪
 	HungeringSpearProj.DisplayName: 饥渴标枪
-	SpikyBombProj.DisplayName: 感应粘弹
-	WiseMysticTomeProj.DisplayName: 智慧神秘符咒
-	WiseMysticTomeLightning.DisplayName: 智慧神秘符咒
-	SplitshotPellet.DisplayName: 智慧神秘符咒
-	WiseMysticTomeSplitshot.DisplayName: 智慧神秘符咒
-	WiseMysticTomeWaterspout.DisplayName: 智慧神秘符咒
+	SpikyBombProj.DisplayName: 尖刺炸弹
+	WiseMysticTomeProj.DisplayName: 智慧魔法书
+	WiseMysticTomeLightning.DisplayName: 智慧魔法书
+	SplitshotPellet.DisplayName: 智慧魔法书
+	WiseMysticTomeSplitshot.DisplayName: 智慧魔法书
+	WiseMysticTomeWaterspout.DisplayName: 智慧魔法书
 	ChlorophyteJavelinCloud.DisplayName: 叶绿标枪孢子云
 }
 
@@ -1586,6 +1581,17 @@ Configs: {
 			Label: "[i:3197] 回调寒霜飞鱼"
 			Tooltip: "{$CommonTooltips.Config.DamageChange}"
 		}
+
+		globalConversion: {
+			 Label: 转化所有消耗远程武器
+			 Tooltip:
+				'''
+				自动将所有消耗性远程武器（包括原版和MOD）转换为投掷武器
+				这不会转换可作为弹药的物品，比如原版的雪球
+				由于没有进行统计调整来适配类型更改，因此可能会破坏平衡
+				此设置将覆盖下面的许多单独转换设置
+				''' 
+		}
 	}
 
 	TweaksConfig: {
@@ -1632,6 +1638,15 @@ Configs: {
 				同时调整灌注瓶的物品提示以符合更改（Buff栏的提示没有更改）
 				此选项不影响由其它模组添加的灌注瓶
 				'''
+		}
+
+		safeNinja: {
+			 Label: 黏黏忍者保护
+			 Tooltip:
+				'''
+				让黏黏忍者（不是普通的忍者NPC）只受到25%普通史莱姆和尖刺史莱姆的伤害
+				这有助于防止忍者被史莱姆王死后生成的史莱姆杀死
+				''' 
 		}
 	}
 }

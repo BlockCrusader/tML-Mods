@@ -213,7 +213,7 @@ Items: {
 		DisplayName: 深渊凝视
 		Tooltip:
 			'''
-			扔出将敌人钉在原地的高速标枪
+			扔出能钉在敌人身上的高速标枪
 			被钉住的敌人会将它们的痛苦传播给附近的敌人
 			'我可以告诉你为什么人们会发疯...'
 			'''
@@ -295,10 +295,10 @@ Items: {
 	}
 
 	SkyShard: {
-		DisplayName: 苍穹尖球
+		DisplayName: 苍穹碎片
 		Tooltip:
 			'''
-			扔出悬浮的尖球，击中目标或消失时会分裂成更小的碎片
+			扔出悬浮的碎片，击中目标或消失时会分裂成更小的碎片
 			击中后召唤从天而降的刀刃粉碎目标周围的空间，造成巨大的伤害
 			目标会在一段时间内持续受到额外的伤害
 			'天空正在坠落！当然，是对你的敌人而言'
@@ -306,12 +306,12 @@ Items: {
 	}
 
 	AuraOrbs: {
-		DisplayName: 飞升之珠
+		DisplayName: 元气弹
 		Tooltip:
 			'''
 			积蓄光环能量的球体
-			随着蓄力，飞升之珠的大小和伤害会提高
-			受到伤害会使飞升之珠变得更强
+			随着蓄力，元气弹的大小和伤害会提高
+			受到伤害会使元气弹变得更强
 			'愿光环与你同在'
 			'''
 	}
@@ -378,7 +378,7 @@ Projectiles: {
 	NihilRazor.DisplayName: 虚黯
 	NihilClone.DisplayName: 虚黯幻象
 	AscendedSpirit.DisplayName: 升华之灵
-	SpiritBolt.DisplayName: Spirit Bolt
+	SpiritBolt.DisplayName: 灵魂闪电
 	DualityProjW.DisplayName: 二元性
 	DualityProjB.DisplayName: 二元性
 	SmolStinger.DisplayName: 千机针
@@ -395,8 +395,8 @@ Projectiles: {
 	AbyssGazeProj.DisplayName: 深渊凝视
 	SkadooshProj.DisplayName: 无极拈花指
 	AscendedShurikenProj.DisplayName: 飞升手里剑
-	SkyFractal.DisplayName: 苍穹尖球
-	SkyShardFrag.DisplayName: 苍穹尖球
-	SkyShardProj.DisplayName: 苍穹尖球
-	AuraSphere.DisplayName: 飞升之珠
+	SkyFractal.DisplayName: 苍穹碎片
+	SkyShardFrag.DisplayName: 苍穹碎片
+	SkyShardProj.DisplayName: 苍穹碎片
+	AuraSphere.DisplayName: 元气弹
 }

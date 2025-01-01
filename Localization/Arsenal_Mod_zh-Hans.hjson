@@ -382,41 +382,41 @@ Mods: {
 		Items: {
 			CommanderBadge: {
 				DisplayName: 星际指挥官徽章
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 15% 召唤伤害和击退
 					增加 2 个哨兵数量上限
 					'你是说你想向星际指挥部投诉吗？'
-					''' */
+					'''
 			}
 
 			DemomanPack: {
 				DisplayName: 爆破手背包
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射器有 33% 的几率不消耗弹药
 					减少 33% 火箭弹对自己的伤害
 					'优秀的爆破手如何造就？'
-					''' */
+					'''
 			}
 
 			DirePoint: {
 				DisplayName: 极点锋芒
-				/* Tooltip:
+				Tooltip:
 					'''
 					长矛与短剑的暴击率和击退增加 20% 
 					'尖锐得看一眼都会戳到自己'
-					''' */
+					'''
 			}
 
 			FlameTank: {
 				DisplayName: 火焰罐
-				/* Tooltip:
+				Tooltip:
 					'''
 					喷火器伤害增加 10% 
 					增加 20% 火焰速度
 					喷火器有 50% 几率不消耗弹药
-					''' */
+					'''
 			}
 
 			FuelTank: {
@@ -426,83 +426,83 @@ Mods: {
 
 			HeavyWarhead: {
 				DisplayName: 重型弹头
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 10% 火箭伤害
 					增加 20% 火箭击退
-					''' */
+					'''
 			}
 
 			NuclearPack: {
 				DisplayName: 核弹背包
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 10% 火箭伤害
 					增加 20% 火箭击退
 					发射器有 33% 的几率不消耗弹药
 					减少 67% 火箭弹对自己的伤害
 					'简直就是天堂...'
-					''' */
+					'''
 			}
 
 			ShiningPoint: {
 				DisplayName: 闪亮锋芒
-				/* Tooltip:
+				Tooltip:
 					'''
 					长矛与短剑的暴击率和击退增加 10%
 					'哦, 亮闪闪!'
-					''' */
+					'''
 			}
 
 			SolarEmblem: {
 				DisplayName: 日耀徽章
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 16% 近战伤害
 					增加 5% 近战攻速
-					''' */
+					'''
 			}
 
 			StarGauntlet: {
 				DisplayName: 星尘手套
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 12% 召唤伤害与近战攻速
 					增加 20% 鞭子范围与击退
 					鞭子标记减少敌人防御
 					为鞭子和近战武器启用自动挥舞
 					'让你的敌人遭受明星的敲打吧!'
-					''' */
+					'''
 			}
 
 			AncientKylie: {
 				DisplayName: 远古回飞棒
-				/* Tooltip:
+				Tooltip:
 					'''
 					有几率投出强力的禁戒回旋镖
 					投出禁戒回旋镖的几率随暴击率增加而增加
 					'袋鼠队加油!哦！哦！哦!'
-					''' */
+					'''
 			}
 
 			Antlerang: {
 				DisplayName: 鹿角回旋镖
-				/* Tooltip:
+				Tooltip:
 					'''
 					扔出鹿角制成的回旋镖，鹿角穿透敌人而不是击中后返回
 					前三次命中造成的伤害最大
 					同时最多存在 2 根鹿角回旋镖
 					'没有饥荒的语录吗?'
-					''' */
+					'''
 			}
 
 			BlazingDisc: {
 				DisplayName: 烈焰轮盘
-				/* Tooltip:
+				Tooltip:
 					'''
 					返回前可穿透 1 个敌人
 					'这些轮盘真够火的!'
-					''' */
+					'''
 			}
 
 			ChlorothornChakram: {
@@ -512,12 +512,12 @@ Mods: {
 
 			Cosmicutter: {
 				DisplayName: 寰宇斩切刃
-				/* Tooltip:
+				Tooltip:
 					'''
 					同时最多存在 4 个飞刃
 					按住攻击键可以引导斩切刃停留在原地旋转, 增强返回时的伤害和大小
 					'将你的敌人...还有现实的构造全部斩断!'
-					''' */
+					'''
 			}
 
 			CreeperDisc: {
@@ -527,11 +527,11 @@ Mods: {
 
 			Divinity: {
 				DisplayName: 神性飞盘
-				/* Tooltip:
+				Tooltip:
 					'''
 					扔出无限数量的神性飞盘
 					飞盘定期造成神圣风暴攻击而不是返回
-					''' */
+					'''
 			}
 
 			GlaiveGauntlet: {
@@ -541,11 +541,11 @@ Mods: {
 
 			GlaiveGauntletMK2: {
 				DisplayName: 风车手套 MK2
-				/* Tooltip:
+				Tooltip:
 					'''
 					扔出向附近敌人反弹的风魔手里剑
 					'通过多项目标弹射高端科技改造!'
-					''' */
+					'''
 			}
 
 			Monsoon: {
@@ -555,40 +555,40 @@ Mods: {
 
 			ScaleShredder: {
 				DisplayName: 暗鳞撕碎者
-				/* Tooltip:
+				Tooltip:
 					'''
 					忽略敌人少量防御，穿透敌人而不是击中后返回
 					'致命的机智...'
-					''' */
+					'''
 			}
 
 			TwinFlares: {
 				DisplayName: 双子耀斑
-				/* Tooltip:
+				Tooltip:
 					'''
 					每次扔出两个旋刃
 					'它们飞起来很有趣...前提是把它们扔出去的是你'
-					''' */
+					'''
 			}
 
 			BFR8000: {
 				DisplayName: B.F.R. 8000
-				/* Tooltip:
+				Tooltip:
 					'''
 					连续发射三组箭
 					只有第一轮消耗弹药
 					'屌炸天连弩8000，保证将你的敌人撕成碎片'
-					''' */
+					'''
 			}
 
 			CandyCaneBow: {
 				DisplayName: 糖棒弓
-				/* Tooltip:
+				Tooltip:
 					'''
 					将木箭转化为烈焰箭
 					33% 几率不消耗弹药
 					'他是绿色圣诞先生，他是太阳先生...'
-					''' */
+					'''
 			}
 
 			CoralCrossbow: {
@@ -598,46 +598,43 @@ Mods: {
 
 			CthulhusGaze: {
 				DisplayName: 克苏鲁的注视
-				/* Tooltip:
+				Tooltip:
 					'''
 					将木箭转化为诡异之箭，其向光标或敌人方向略微弯曲，命中时召唤小幻影眼
 					使用时额外射出幻影箭攻击最近敌人
 					有 50% 几率不消耗弹药
-					''' */
+					'''
 			}
 
 			EnergyRepeater: {
 				DisplayName: 能量连弩
-				/* Tooltip:
+				Tooltip:
 					'''
 					将木箭转化为充能箭
 					连续发射五根箭
 					只有第一轮消耗弹药
 					'箭矢的新时代到来了!'
-					''' */
+					'''
 			}
 
 			Junglefury: {
 				DisplayName: 丛林之怒
-				/* Tooltip:
+				Tooltip:
 					'''
 					连续发射三组箭
 					33% 几率不消耗弹药
 					'释放植物群落的怒火!'
-					''' */
+					'''
 			}
 
 			MechanizedBow: {
 				DisplayName: 机械弓
-				/* Tooltip:
-					'''
-					随使用时间增加射速
-					''' */
+				Tooltip: 随使用时间增加射速
 			}
 
 			Mooncrescent: {
 				DisplayName: 新月弓
-				Tooltip:  将木箭转化为黑夜箭
+				Tooltip: 将木箭转化为黑夜箭
 			}
 
 			Omega: {
@@ -652,67 +649,67 @@ Mods: {
 
 			PillagingCrossbow: {
 				DisplayName: 劫掠弩
-				/* Tooltip:
+				Tooltip:
 					'''
 					点燃木箭
 					偶尔射出劫掠箭
-					''' */
+					'''
 			}
 
 			Plasmcaster: {
 				DisplayName: 等离子投射器
-				/* Tooltip:
+				Tooltip:
 					'''
 					将弹药转化为制造星旋漩涡的等离子箭
 					有 33% 几率不消耗弹药
-					''' */
+					'''
 			}
 
 			Sandblast: {
 				DisplayName: 沙爆
-				/* Tooltip:
+				Tooltip:
 					'''
 					将弹药转化为强力的沙导弹
 					'所以你看到了伊万...'
-					''' */
+					'''
 			}
 
 			SkullBow: {
 				DisplayName: 头骨弓
-				/* Tooltip:
+				Tooltip:
 					'''
 					有几率额外射出骨箭
 					'死而复生'
-					''' */
+					'''
 			}
 
 			TerraBow: {
 				DisplayName: 泰拉弓
-				/* Tooltip:
+				Tooltip:
 					'''
 					将木箭转化为泰拉箭
 					额外射出 2 根泰拉箭
 					有 33% 几率不消耗弹药
-					''' */
+					'''
 			}
 
 			TrueHallowedRepeater: {
 				DisplayName: 真·神圣连弩
-				/* Tooltip:
+				Tooltip:
 					'''
 					定期射出神圣箭
 					有 20% 几率不消耗弹药
-					''' */
+					'''
 			}
 
 			TrueMooncrescent: {
 				DisplayName: 真·新月弓
-				/* Tooltip:
+				Tooltip:
 					'''
 					不消耗弹药射出黑夜箭
 					有几率射出午夜箭
 					射出午夜箭的几率随暴击率增加而增加
-					''' */
+					'''
 			}
 
 			AssassinsBlowgun: {
@@ -722,11 +719,11 @@ Mods: {
 
 			Bloodletter: {
 				DisplayName: 放血者
-				/* Tooltip:
+				Tooltip:
 					'''
 					连续发射两发飞镖
 					只有第一轮消耗弹药
-					''' */
+					'''
 			}
 
 			BottomlessDartMagazine: {
@@ -741,29 +738,29 @@ Mods: {
 
 			DarkmoonGauntlet: {
 				DisplayName: 暗月手套
-				/* Tooltip:
+				Tooltip:
 					'''
 					75% 几率不消耗弹药
 					'充满来自月球暗面的幻影能量'
-					''' */
+					'''
 			}
 
 			DartlingGun: {
 				DisplayName: 镖特林机枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					有 50% 几率不消耗弹药
 					'呀哒哒哒哒哒...'
-					''' */
+					'''
 			}
 
 			DartMitt: {
 				DisplayName: 飞镖手套
-				/* Tooltip:
+				Tooltip:
 					'''
 					有 20% 几率不消耗弹药
 					'大概适合用来扎气球'
-					''' */
+					'''
 			}
 
 			Dart: {
@@ -778,11 +775,11 @@ Mods: {
 
 			GildedDart: {
 				DisplayName: 镀金镖
-				/* Tooltip:
+				Tooltip:
 					'''
 					杀死的敌人会掉落更多的钱
 					'叮叮铃，叮铃，叮叮铃!'
-					''' */
+					'''
 			}
 
 			IncendiaryDart: {
@@ -792,51 +789,51 @@ Mods: {
 
 			LuminiteDart: {
 				DisplayName: 夜明镖
-				/* Tooltip:
+				Tooltip:
 					'''
 					可以穿透物块
 					发现敌人时会转变方向并变成能量箭
 					'你都死了多少次了？我真的很沮丧'
-					''' */
+					'''
 			}
 
 			NanoDart: {
 				DisplayName: 纳米镖
-				/* Tooltip:
+				Tooltip:
 					'''
 					对目标造成混乱，并忽略敌人大量防御
 					'纳米机器，小子！'
-					''' */
+					'''
 			}
 
 			NovaCarbine: {
 				DisplayName: 新星卡宾枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					连续发射三发飞镖
 					只有第一发消耗弹药
 					有几率额外射出夜明镖
 					'给他们看看赛博突击队的风范'
-					''' */
+					'''
 			}
 
 			Predator: {
 				DisplayName: 捕食者
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射的飞镖在命中时会产生额外的捕食者镖
 					'你躲哪里去了?'
-					''' */
+					'''
 			}
 
 			SuperTrapGun: {
 				DisplayName: 超级陷阱枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					不会消耗毒镖与毒液镖
 					没有弹药时发射毒镖
 					将种子转化为毒镖
-					''' */
+					'''
 			}
 
 			TrapCannon: {
@@ -846,12 +843,12 @@ Mods: {
 
 			TribalGlove: {
 				DisplayName: 部落手套
-				/* Tooltip:
+				Tooltip:
 					'''
 					投掷一把飞镖
 					无视20防御
 					'拒绝机械发射，回归原始投标'
-					''' */
+					'''
 			}
 
 			VenomDart: {
@@ -861,20 +858,20 @@ Mods: {
 
 			Avalanche: {
 				DisplayName: 雪崩
-				/* Tooltip:
+				Tooltip:
 					'''
 					随着挥舞变得更大更强
 					'这个链球是个冷雪笑话!'
-					''' */
+					'''
 			}
 
 			BeetlesBoulder: {
 				DisplayName: 甲虫的巨石
-				/* Tooltip:
+				Tooltip:
 					'''
 					有几率射出强力巨石
 					'还有什么比巨石更好的呢？当然是系在链子上的巨石!'
-					''' */
+					'''
 			}
 
 			ChainKunai: {
@@ -884,11 +881,11 @@ Mods: {
 
 			Deathspin: {
 				DisplayName: 死亡回旋
-				/* Tooltip:
+				Tooltip:
 					'''
 					机械骷髅王手臂会回旋造成额外伤害
 					'螺旋走向胜利'
-					''' */
+					'''
 			}
 
 			DungeonsRavager: {
@@ -908,20 +905,20 @@ Mods: {
 
 			LittleSnatcher: {
 				DisplayName: 小型抓人草
-				/* Tooltip:
+				Tooltip:
 					'''
 					击中2个敌人后才会返回
 					'它也没有*那么*小...'
-					''' */
+					'''
 			}
 
 			MoonFist: {
 				DisplayName: 月球铁拳
-				/* Tooltip:
+				Tooltip:
 					'''
 					在命中时大大降低敌人的击退抗性
 					'总之，月总的一拳究竟有多重呢?'
-					''' */
+					'''
 			}
 
 			RockRope: {
@@ -951,107 +948,107 @@ Mods: {
 
 			TameTrapper: {
 				DisplayName: 温顺捕手
-				/* Tooltip:
+				Tooltip:
 					'''
 					中途命中敌人不会返回
 					'这是一株很乖的食肉植物，好，真听话!'
-					''' */
+					'''
 			}
 
 			Thornball: {
 				DisplayName: 荆棘刺球
-				/* Tooltip:
+				Tooltip:
 					'''
 					有几率对目标造成中毒
 					'不要和向日葵混淆...'
-					''' */
+					'''
 			}
 
 			Bloodboil: {
 				DisplayName: 热血沸腾
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 30 点防御
 					火焰可以进入液体
-					''' */
+					'''
 			}
 
 			BoneSinger: {
 				DisplayName: 骨歌者
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 15 点防御
 					火焰可以进入液体
-					''' */
+					'''
 			}
 
 			BottomlessGelTank: {
 				DisplayName: 无底凝胶罐
-				/* Tooltip:
+				Tooltip:
 					'''
 					为喷火器提供无限的凝胶燃料
 					'不好吃，但易燃!'
-					''' */
+					'''
 			}
 
 			CursedFlamer: {
 				DisplayName: 咒焰喷射器
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 15 点防御
 					诅咒焰可以进入液体
 					20%几率不消耗弹药
-					''' */
+					'''
 			}
 
 			DistortionAfterburner: {
 				DisplayName: 扭曲后燃器
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 40 点防御
 					火焰可以进入液体
 					有几率射出希腊火
 					有 25% 几率不消耗弹药
-					''' */
+					'''
 			}
 
 			Frostbite: {
 				DisplayName: 霜火喷射器
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 15 点防御
 					火焰可以进入液体
 					'冷得发烫!'
-					''' */
+					'''
 			}
 
 			GelFlamer: {
 				DisplayName: 凝胶喷火器
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 10 点防御
-					''' */
+					'''
 			}
 
 			Hellfire: {
 				DisplayName: 冥界狱火
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 10 点防御
 					火焰可以进入液体
-					''' */
+					'''
 			}
 
 			IchorSpray: {
 				DisplayName: 灵液喷雾
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 5 点防御
@@ -1059,67 +1056,67 @@ Mods: {
 					灵液喷雾可以进入液体并穿透物块
 					20% 几率不消耗弹药
 					'极其恶心，但有效'
-					''' */
+					'''
 			}
 
 			JunglesBane: {
 				DisplayName: 丛林之祸
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 15 点防御
 					火焰会粘在物块上并停留一会
 					'我喜欢弥漫在清晨空气中的汽油弹味道...'
-					''' */
+					'''
 			}
 
 			LihzahrdFlameGun: {
 				DisplayName: 蜥蜴喷火枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 15 点防御
 					33% 几率不消耗弹药
-					''' */
+					'''
 			}
 
 			Moonrazer: {
 				DisplayName: 月石俱焚
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 25 点防御
 					火焰可以进入液体，穿透物块
 					50% 几率不消耗弹药
 					'你无法在月球表面生火'
-					''' */
+					'''
 			}
 
 			Waterflame: {
 				DisplayName: 水焰
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 15 点防御
 					火焰可以进入液体
 					16% 几率不消耗弹药
 					'非常适合处理多余的关注'
-					''' */
+					'''
 			}
 
 			Wildfire: {
 				DisplayName: 野火
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					忽略敌人 10 点防御
 					'由惊人的阻燃木材制成'
-					''' */
+					'''
 			}
 
 			Antimatter: {
 				DisplayName: 反物质狙击枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					将火枪子弹转化为夜明弹
 					可以蓄能大幅增加威力
@@ -1127,27 +1124,27 @@ Mods: {
 					20% 几率不消耗弹药
 					右键点击可拉远视野
 					'礼貌. 高效. 计划杀死你遇到的每一个人'
-					''' */
+					'''
 			}
 
 			Captain: {
 				DisplayName: 船长的枪炮
-				/* Tooltip:
+				Tooltip:
 					'''
 					25% 几率不消耗弹药
 					偶尔发射加农炮弹
 					'呀哈，嘟嘟嘟嘟!'
-					''' */
+					'''
 			}
 
 			CryoclockCarbine: {
 				DisplayName: 低温发条枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					连续发射三发子弹
 					随着使用而减慢射速，增加威力
 					在最低射速时，会发射寒霜火花
-					''' */
+					'''
 			}
 
 			Deadeye: {
@@ -1162,40 +1159,40 @@ Mods: {
 
 			QuickDraw: {
 				DisplayName: 快枪手
-				/* Tooltip:
+				Tooltip:
 					'''
 					连续发射六发子弹
 					只有第一发消耗弹药
 					'午时已到'
-					''' */
+					'''
 			}
 
 			ShroomiteGrenadier: {
 				DisplayName: 蘑菇榴弹枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					右键发射榴弹,使用火箭作为弹药
 					25% 几率不消耗弹药
 					'哦啦!'
-					''' */
+					'''
 			}
 
 			Stormdiver: {
 				DisplayName: 璇泥枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					可以蓄能增加精准度和威力
 					25% 几率不消耗弹药
-					''' */
+					'''
 			}
 
 			SuperShotgun: {
 				DisplayName: 超级霰弹枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					射出一大片子弹
 					'大闹一场!'
-					''' */
+					'''
 			}
 
 			TommyGun: {
@@ -1205,32 +1202,32 @@ Mods: {
 
 			TwinPulsar: {
 				DisplayName: 双脉冲星
-				/* Tooltip:
+				Tooltip:
 					'''
 					将弹药转化为穿透敌人的激光弹
 					右键使用喷火器攻击
 					'半衰期'
-					''' */
+					'''
 			}
 
 			BeggarsBazooka: {
 				DisplayName: 街友火箭炮
-				/* Tooltip:
+				Tooltip:
 					'''
 					每次发射三发火箭
 					准头极差
 					'很不幸，你不能用它来火箭跳'
-					''' */
+					'''
 			}
 
 			BlackholeBlaster: {
 				DisplayName: 黑洞爆破炮
-				/* Tooltip:
+				Tooltip:
 					'''
 					每次发射四发火箭
 					只有第一发消耗弹药
 					'只是一大堆爆炸'
-					''' */
+					'''
 			}
 
 			BoneBlasta: {
@@ -1240,41 +1237,41 @@ Mods: {
 
 			Bunzooka: {
 				DisplayName: 巴兔卡火箭筒
-				/* Tooltip:
+				Tooltip:
 					'''
 					降低对自己的伤害
 					偶尔射出爆炸兔
 					发射爆炸兔的几率随暴击率增加
 					'杀害兔兔太残忍了，没有了。'
-					''' */
+					'''
 			}
 
 			Firestorm: {
 				DisplayName: 火焰风暴
-				/* Tooltip:
+				Tooltip:
 					'''
 					25% 几率不消耗弹药
 					发射的火箭会点燃敌人
 					'它射的是火箭，OK?'
-					''' */
+					'''
 			}
 
 			HandCannon: {
 				DisplayName: 手炮
-				/* Tooltip:
+				Tooltip:
 					'''
 					将火箭转化成加农炮弹
 					'你是海盗!'
-					''' */
+					'''
 			}
 
 			PrimeCannon: {
 				DisplayName: 机械炮
-				/* Tooltip:
+				Tooltip:
 					'''
 					将弹药转化为机械炸弹
 					'别把战斗平台给炸了'
-					''' */
+					'''
 			}
 
 			Radiance: {
@@ -1294,22 +1291,22 @@ Mods: {
 
 			Tsar: {
 				DisplayName: 沙皇
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射具有巨大破坏潜力的小型核弹
 					直接命中造成额外伤害
 					小型核弹在飞行时增加额外伤害
 					'成为死神，世界的毁灭者'
-					''' */
+					'''
 			}
 
 			CrystalCarbine: {
 				DisplayName: 水晶卡宾枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射可以在物块上反弹的光束
 					'可以用来射史莱姆的优雅'
-					''' */
+					'''
 			}
 
 			DeathLaser: {
@@ -1319,11 +1316,11 @@ Mods: {
 
 			Deathray: {
 				DisplayName: 死亡射线
-				/* Tooltip:
+				Tooltip:
 					'''
 					充能发射一道巨大的毁灭激光炮
 					'哟'
-					''' */
+					'''
 			}
 
 			FireBeamer: {
@@ -1363,11 +1360,11 @@ Mods: {
 
 			EvilEye: {
 				DisplayName: 邪恶之眼
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射一束能召唤恶魔眼造成额外伤害的短距离光束
 					'给我看这里!'
-					''' */
+					'''
 			}
 
 			GleamingBall: {
@@ -1377,22 +1374,22 @@ Mods: {
 
 			GrandCrystal: {
 				DisplayName: 宏伟水晶
-				/* Tooltip:
+				Tooltip:
 					'''
 					生成一个持续发射挥发凝胶的水晶，水晶会分解成水晶碎片
 					'赞美水晶!'
-					''' */
+					'''
 			}
 
 			Honeyhive: {
 				DisplayName: 蜂巢
-				/* Tooltip:
+				Tooltip:
 					'''
 					抛出弹跳蜂蜜球
 					对敌人造成伤害将治疗生命值最低的玩家
 					使用武器或受到治疗会短暂增加生命再生
 					'含有银河系最甜的蜂蜜'
-					''' */
+					'''
 			}
 
 			IcicleFan: {
@@ -1417,39 +1414,39 @@ Mods: {
 
 			ViciousHarp: {
 				DisplayName: 恶毒竖琴
-				/* Tooltip:
+				Tooltip:
 					'''
 					攻击暂时降低敌人的接触伤害
 					'神秘的预兆，好像一直在嘲讽你...'
-					''' */
+					'''
 			}
 
 			VileBreach: {
 				DisplayName: 卑鄙裂口
-				/* Tooltip:
+				Tooltip:
 					'''
 					挥舞可伸缩的弧形链锤头
 					'用愤怒的深渊蠕虫攻击'
-					''' */
+					'''
 			}
 
 			BallaStaff: {
 				DisplayName: 巴拉法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					召唤巴拉雪人为你而战
 					'赢得了每一场雪仗的胜利!'
-					''' */
+					'''
 			}
 
 			GuardiansGrasp: {
 				DisplayName: 守卫之握
-				/* Tooltip:
+				Tooltip:
 					'''
 					召唤守卫骷髅旋转攻击你的敌人
 					标记伤害降低25%
 					'我是骷髅王!'
-					''' */
+					'''
 			}
 
 			JungleCreeperStaff: {
@@ -1469,68 +1466,68 @@ Mods: {
 
 			Terraultima: {
 				DisplayName: 泰拉终末
-				/* Tooltip:
+				Tooltip:
 					'''
 					召唤夜明泰拉棱镜为你而战
 					可以像剑一样挥舞来伤害并标记敌人
 					'用夜明锭重铸后, 泰拉棱镜变得更加强大了'
-					''' */
+					'''
 			}
 
 			AccursedTrident: {
 				DisplayName: 诅咒三叉戟
-				/* Tooltip:
+				Tooltip:
 					'''
 					三叉戟会扎在敌人身上，造成额外伤害
 					三叉戟可能会在命中时引发闪电爆裂
 					'即使被深渊的肮脏烂泥污染，这把三叉戟依然强大'
-					''' */
+					'''
 			}
 
 			AncientSpiritCatalyst: {
 				DisplayName: 远古之魂催化剂
-				/* Tooltip:
+				Tooltip:
 					'''
 					用于制作大多数血肉之墙掉落的武器或徽章
 					'满满溢出的强大远古能量'
-					''' */
+					'''
 			}
 
 			BlocksHat: {
 				DisplayName: BlockCrusader的土块
-				/* Tooltip:
+				Tooltip:
 					'''
 					'非常适合冒充模组开发者!'
 					'你见过的最昂贵、最时尚的土块'
-					''' */
+					'''
 			}
 
 			BlocksPants: {
 				DisplayName: BlockCrusader的冲锋护腿
-				/* Tooltip:
+				Tooltip:
 					'''
 					'非常适合冒充模组开发者!'
 					'但愿这个换色新星护胫能帮你应付敌人的攻击...'
-					''' */
+					'''
 			}
 
 			BlocksShirt: {
 				DisplayName: BlockCrusader的新星护甲
-				/* Tooltip:
+				Tooltip:
 					'''
 					'非常适合冒充模组开发者!'
 					'来自最新的新星时尚品牌！不过，防御力依旧不如木材。'
-					''' */
+					'''
 			}
 
 			BlocksWings: {
 				DisplayName: BlockCrusader的外挂土块
-				/* Tooltip:
+				Tooltip:
 					'''
 					'非常适合冒充模组开发者!'
 					允许飞行和缓慢降落
 					'配备了全息滑翔机技术，来自巧匠的最新技术!'
-					''' */
+					'''
 			}
 
 			ChargedGranite: {
@@ -1540,57 +1537,57 @@ Mods: {
 
 			ForgottenHeroShards: {
 				DisplayName: 失落英雄碎片
-				/* Tooltip:
+				Tooltip:
 					'''
 					用于制作泰拉武器
 					'蕴含古代英雄的强大力量'
-					''' */
+					'''
 			}
 
 			GrandGrenadier: {
 				DisplayName: 皇家近卫步枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					可以用刺刀伤害敌人
 					33% 几率不消耗弹药
 					'西摩，为什么你的火枪在冒烟?'
-					''' */
+					'''
 			}
 
 			HolyHandGrenade: {
 				DisplayName: 神圣手雷
-				/* Tooltip:
+				Tooltip:
 					'''
 					制造大范围、毁灭性的神圣爆炸，不会炸死自己
 					'将汝之敌手炸成碎片'
-					''' */
+					'''
 			}
 
 			LostWhip: {
 				DisplayName: 失落之鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					用合适的材料可以修复成强力的武器
 					'在丛林中丢失的破旧的鞭子残迹'
-					''' */
+					'''
 			}
 
 			PhantasmalJewel: {
 				DisplayName: 幻影宝石
-				/* Tooltip:
+				Tooltip:
 					'''
 					用于制作大多数月亮领主掉落的武器
 					'月亮领主残存力量的结晶，给强大英雄的奖赏'
-					''' */
+					'''
 			}
 
 			PrismaticEssence: {
 				DisplayName: 棱镜精华
-				/* Tooltip:
+				Tooltip:
 					'''
 					用于制造强大的棱镜武器
 					'蕴含泰拉棱镜的强大力量'
-					''' */
+					'''
 			}
 
 			SanguineDagger: {
@@ -1600,12 +1597,12 @@ Mods: {
 
 			SecondAmendment: {
 				DisplayName: 第二修正案
-				/* Tooltip:
+				Tooltip:
 					'''
 					可以用刺刀伤害敌人
 					20% 几率不消耗弹药
 					'正如开国元勋们所希望的那样...'
-					''' */
+					'''
 			}
 
 			ShroomiteHood: {
@@ -1615,11 +1612,11 @@ Mods: {
 
 			ShroomiteVisage: {
 				DisplayName: 蘑菇矿覆面
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 10% 远程伤害
 					增加 5% 远程暴击率
-					''' */
+					'''
 			}
 
 			ShroomiteVisor: {
@@ -1629,174 +1626,174 @@ Mods: {
 
 			SSSU: {
 				DisplayName: 超至尊星星风暴
-				/* Tooltip:
+				Tooltip:
 					'''
 					连续发射三发星星
 					只有第一发消耗弹药
 					可以发射奇异星，命中敌人时召唤落星
 					40%几率不消耗弹药
 					'就这么大一个, 能用掉多少星星呢?'
-					''' */
+					'''
 			}
 
 			Terrasama: {
-				DisplayName: 泰拉真
-				/* Tooltip:
+				DisplayName: 泰拉真空刃
+				Tooltip:
 					'''
 					发动一连串的快速攻击，彻底突破敌人的防御
 					'又名大红剑克里弗'
-					''' */
+					'''
 			}
 
 			Slimenobi: {
 				DisplayName: 史莱姆忍镖
-				/* Tooltip:
+				Tooltip:
 					'''
 					扔出无限的弹力手里剑
 					'不知何故，被黏液泡了这么长时间，使得手里剑比以前更强大了...'
-					''' */
+					'''
 			}
 
 			CasterStaff: {
 				DisplayName: 暗黑法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤小型暗黑法师向你的敌人发射水球
 					暗黑法师在离开一定距离后可能传送到玩家身边
 					'诡异恐怖的骷髅!'
-					''' */
+					'''
 			}
 
 			CerebralScepter: {
 				DisplayName: 大脑权杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤能召唤飞眼怪攻击敌人的飞脑怪
 					'这是大脑大时代'
-					''' */
+					'''
 			}
 
 			CursedStaff: {
 				DisplayName: 诅咒法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤在敌人靠近时喷出诅咒焰的爬藤怪
-					''' */
+					'''
 			}
 
 			DestroyerUplink: {
 				DisplayName: 毁灭者星链
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤毁灭者无人机用探测器摧毁标记的敌人
 					'是时候倾泻火力了!'
-					''' */
+					'''
 			}
 
 			EruptionStaff: {
 				DisplayName: 火山法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤在敌人靠近时喷发滞留火焰的火山
 					'喀拉喀托!'
-					''' */
+					'''
 			}
 
 			ForbiddenStaff: {
 				DisplayName: 禁戒法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤禁戒之眼抵御和攻击敌人
-					''' */
+					'''
 			}
 
 			IchorStaff: {
 				DisplayName: 灵液法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤灵液黏黏怪向敌人喷射灵液
-					''' */
+					'''
 			}
 
 			InvaderStaff: {
 				DisplayName: 星尘入侵怪法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤能召唤迷你入侵怪攻击敌人的流体入侵怪
-					''' */
+					'''
 			}
 
 			JungleStaff: {
 				DisplayName: 丛林法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤在敌人靠近时投掷孢子炸弹的丛林灌木
 					'Ni!'
-					''' */
+					'''
 			}
 
 			SoulStaff: {
 				DisplayName: 机魂法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤机魂旋风对敌人发射激光
-					''' */
+					'''
 			}
 
 			TeslaWrench: {
 				DisplayName: 特斯拉扳手
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤特斯拉炮塔向附近敌人射出电弧
 					标记伤害减少50%
-					''' */
+					'''
 			}
 
 			TotemStaff: {
 				DisplayName: 图腾法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤提基图腾支援玩家，并用巫咒攻击敌人
-					''' */
+					'''
 			}
 
 			TwinkleStaff: {
 				DisplayName: 闪耀炮手法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤一个在敌人靠近时生出闪耀怪的闪耀炮手
-					''' */
+					'''
 			}
 
 			VengefulTorch: {
 				DisplayName: 复仇火把
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤火把神的复仇之灵向敌人发射火球
-					''' */
+					'''
 			}
 
 			VindictiveTorch: {
 				DisplayName: 怨恨火把
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤火把神的怨恨之灵向敌人发射火球
-					''' */
+					'''
 			}
 
 			AdamantiteRapier: {
@@ -1806,11 +1803,11 @@ Mods: {
 
 			BoneRattler: {
 				DisplayName: 关节弹响
-				/* Tooltip:
+				Tooltip:
 					'''
 					命中时发射十字骨
 					'把骨头弄得嘎嘎响!'
-					''' */
+					'''
 			}
 
 			Bramblethorn: {
@@ -1845,20 +1842,20 @@ Mods: {
 
 			FancyFoil: {
 				DisplayName: 花剑
-				/* Tooltip:
+				Tooltip:
 					'''
 					杀死的敌人会掉落更多的钱
 					'你好！我喜欢钱!'
-					''' */
+					'''
 			}
 
 			Firebrand: {
 				DisplayName: 1000度刀
-				/* Tooltip:
+				Tooltip:
 					'''
 					点燃敌人，有几率造成狱火
 					'史莱姆 vs 1000度刀'
-					''' */
+					'''
 			}
 
 			GraniteGauntlet: {
@@ -1868,11 +1865,11 @@ Mods: {
 
 			LilPokey: {
 				DisplayName: 戳刺小刀
-				/* Tooltip:
+				Tooltip:
 					'''
 					造成霜火
 					'他是冰锥先生，他是零下十度先生'
-					''' */
+					'''
 			}
 
 			MythrilRapier: {
@@ -1882,11 +1879,11 @@ Mods: {
 
 			NecroticDagger: {
 				DisplayName: 坏疽匕首
-				/* Tooltip:
+				Tooltip:
 					'''
 					向前发出真空波
 					造成伤害可能会导致额外的匕首出现
-					''' */
+					'''
 			}
 
 			OrichalcumRapier: {
@@ -1911,11 +1908,11 @@ Mods: {
 
 			RG24: {
 				DisplayName: 原型机-RG24
-				/* Tooltip:
+				Tooltip:
 					'''
 					射出能量弹
 					'最新的枪剑技术'
-					''' */
+					'''
 			}
 
 			ShadowsStabber: {
@@ -1925,11 +1922,11 @@ Mods: {
 
 			SpookyStick: {
 				DisplayName: 阴森树枝
-				/* Tooltip:
+				Tooltip:
 					'''
 					可能射出希腊火
 					'又黑又阴森'
-					''' */
+					'''
 			}
 
 			Starblazer: {
@@ -1959,20 +1956,20 @@ Mods: {
 
 			FemurBreaker: {
 				DisplayName: 股骨破碎叉
-				/* Tooltip:
+				Tooltip:
 					'''
 					命中时发射骨头裂片
 					'欢迎来到另一周目的FTW...'
-					''' */
+					'''
 			}
 
 			Gigazapper: {
 				DisplayName: 千兆灭杀
-				/* Tooltip:
+				Tooltip:
 					'''
 					强力的能量长矛，足以把一切东西裂解成原子
 					'也被称为闪电矛'
-					''' */
+					'''
 			}
 
 			GraniteGlaive: {
@@ -1982,11 +1979,11 @@ Mods: {
 
 			HeavensHalberd: {
 				DisplayName: 天堂之戟
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射灵能戟头追踪敌人
 					'最强的戟'
-					''' */
+					'''
 			}
 
 			LihzahrdSpear: {
@@ -2021,11 +2018,11 @@ Mods: {
 
 			BorealisStaff: {
 				DisplayName: 北极光法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射北极光束，在命中敌人时产生防御能量
 					'你要知道这不是第一次，也不是最后一次，北极光被武器化'
-					''' */
+					'''
 			}
 
 			CobaltStaff: {
@@ -2065,11 +2062,11 @@ Mods: {
 
 			LunacyNew: {
 				DisplayName: 疯狂月神
-				/* Tooltip:
+				Tooltip:
 					'''
 					随机施放拜月邪教徒的魔法
 					'它会射出火、冰还是更不妙的东西?'
-					''' */
+					'''
 			}
 
 			Midnight: {
@@ -2099,21 +2096,21 @@ Mods: {
 
 			PrismaticStaff: {
 				DisplayName: 棱镜法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					释放宝石魔法的波涛
 					'我们的力量聚合在一起'
-					''' */
+					'''
 			}
 
 			Snowsplosion: {
 				DisplayName: 雪花飞溅
-				/* Tooltip:
+				Tooltip:
 					'''
 					召唤一个猛烈弹跳的爆炸雪人
 					对直接命中的敌人造成两次伤害
 					'记住，不要在家里尝试!'
-					''' */
+					'''
 			}
 
 			SporeScepter: {
@@ -2143,13 +2140,13 @@ Mods: {
 
 			BeetleBlade: {
 				DisplayName: 甲虫之刃
-				/* Tooltip:
+				Tooltip:
 					'''
 					忽略敌人大量防御
 					有几率混乱敌人并降低其击退抗性
 					造成伤害有几率增强耐力或近战能力
 					获得增强后，此剑的威力和特殊效果加强
-					''' */
+					'''
 			}
 
 			CoralCutter: {
@@ -2159,50 +2156,50 @@ Mods: {
 
 			Corsaerial: {
 				DisplayName: 空贼弯刀
-				/* Tooltip:
+				Tooltip:
 					'''
 					当你在半空或移动足够快时，提高伤害
 					'有抱负的空中劫匪的绝佳武器之选'
-					''' */
+					'''
 			}
 
 			PrismaticPhaseblade: {
 				DisplayName: 棱镜相位剑
-				/* Tooltip:
+				Tooltip:
 					'''
 					无视10点防御
 					'最好在高处使用'
-					''' */
+					'''
 			}
 
 			PrismaticPhasesaber: {
 				DisplayName: 棱镜晶光刃
-				/* Tooltip:
+				Tooltip:
 					'''
 					右键缓慢挥舞，发射高击退的冲击波
 					'力量增强了两倍'
-					''' */
+					'''
 			}
 
 			Sabrewing: {
 				DisplayName: 翼刃
-				/* Tooltip:
+				Tooltip:
 					'''
 					左键旋转，右键扔出
 					当你在半空或移动足够快时，提高伤害
 					拥有两种加成时，伤害随速度进一步上升
 					手持时提高移动速度
 					'横扫天空和星辰!'
-					''' */
+					'''
 			}
 
 			SandstormScimitar: {
 				DisplayName: 沙暴弯刀
-				/* Tooltip:
+				Tooltip:
 					'''
 					有几率射出一团沙尘
 					'沙子... 粗糙又烦人...而且无处不在'
-					''' */
+					'''
 			}
 
 			Soladius: {
@@ -2212,12 +2209,12 @@ Mods: {
 
 			SoulBreaker: {
 				DisplayName: 灵魂毁灭刃
-				/* Tooltip:
+				Tooltip:
 					'''
 					对满血的敌人造成更多伤害
 					忽略敌人少量防御
 					'比它的小表弟无情得多'
-					''' */
+					'''
 			}
 
 			Techblade: {
@@ -2232,11 +2229,11 @@ Mods: {
 
 			Boulderpult: {
 				DisplayName: 巨石抛射
-				/* Tooltip:
+				Tooltip:
 					'''
 					释放强力的巨石雨
 					'现在轮到他们为巨石恐惧了!'
-					''' */
+					'''
 			}
 
 			BurningSphere: {
@@ -2286,11 +2283,11 @@ Mods: {
 
 			SoulBurst: {
 				DisplayName: 机魂冲击
-				/* Tooltip:
+				Tooltip:
 					'''
 					释放一排机魂
 					不同颜色的机魂具有不同的效果
-					''' */
+					'''
 			}
 
 			SpectralBurst: {
@@ -2300,18 +2297,18 @@ Mods: {
 
 			AncientChains: {
 				DisplayName: 远古锁链
-				/* Tooltip:
+				Tooltip:
 					'''
 					20 召唤标记伤害
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以召唤石巨人之头
 					'难以理解...?'
-					''' */
+					'''
 			}
 
 			Aurora: {
 				DisplayName: 极光
-				/* Tooltip:
+				Tooltip:
 					'''
 					15 召唤标记伤害
 					15% 召唤标记暴击率
@@ -2319,153 +2316,153 @@ Mods: {
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以增加防御、生命再生和鞭子攻击速度
 					'额...这个鞭子里塞进了北极光?'
-					''' */
+					'''
 			}
 
 			BlocksWhip: {
 				DisplayName: 区块链
-				/* Tooltip:
+				Tooltip:
 					'''
 					15% 召唤标记暴击率
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以增加鞭子攻击速度
 					'非常适合冒充模组开发者!'
 					'你为什么惹了召唤师?'
-					''' */
+					'''
 			}
 
 			Constellation: {
 				DisplayName: 星座
-				/* Tooltip:
+				Tooltip:
 					'''
 					普通召唤标记击退力
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以生成星尘爆炸造成额外伤害
 					'愿星星指引你走向胜利'
-					''' */
+					'''
 			}
 
 			CorruptionsScourge: {
 				DisplayName: 腐化灾鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					5 召唤标记伤害
 					极低召唤标记击退力
 					你的召唤物将集中攻击被标记的敌人
 					挥舞两根鞭子
 					'不要与腐化者之戟混淆'
-					''' */
+					'''
 			}
 
 			DusksBite: {
 				DisplayName: 黄昏咬噬
-				/* Tooltip:
+				Tooltip:
 					'''
 					8 召唤标记伤害
 					3% 召唤标记暴击率
 					你的召唤物将集中攻击被标记的敌人
-					''' */
+					'''
 			}
 
 			EmberingScourge: {
 				DisplayName: 缚魔者
-				/* Tooltip:
+				Tooltip:
 					'''
 					你的召唤物将集中攻击被标记的敌人
 					敌人可能会被锁链绑定
 					召唤物的攻击会传递给锁链绑定的敌人
-					''' */
+					'''
 			}
 
 			Lacerator: {
 				DisplayName: 撕裂者
-				/* Tooltip:
+				Tooltip:
 					'''
 					4 召唤标记伤害
 					2% 召唤标记暴击率
 					你的召唤物将集中攻击被标记的敌人
-					''' */
+					'''
 			}
 
 			LostRaider: {
 				DisplayName: 夺宝奇鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					12 召唤标记伤害
 					你的召唤物将集中攻击被标记的敌人
 					召唤物的攻击可能对被标记的敌人造成酸性毒液
 					攻击敌人以增加鞭子攻击速度
 					'印第安纳·琼斯...?'
-					''' */
+					'''
 			}
 
 			MoonBite: {
 				DisplayName: 月噬
-				/* Tooltip:
+				Tooltip:
 					'''
 					30 召唤标记伤害
 					很强召唤标记击退力
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以汲取生命
 					'别被舔了'
-					''' */
+					'''
 			}
 
 			PlasmaScourge: {
 				DisplayName: 等离子酷刑鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					25 召唤标记伤害
 					普通召唤标记击退力
 					你的召唤物将集中攻击被标记的敌人
 					挥舞三根鞭子
 					'如此精密的技术，如此野蛮的用途...'
-					''' */
+					'''
 			}
 
 			RopeWhip: {
 				DisplayName: 绳鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					2 召唤标记伤害
 					你的召唤物将集中攻击被标记的敌人
-					''' */
+					'''
 			}
 
 			ScrapHook: {
 				DisplayName: 报废抓钩
-				/* Tooltip:
+				Tooltip:
 					'''
 					5 召唤标记伤害
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以发出电火花
-					''' */
+					'''
 			}
 
 			SeaScourge: {
 				DisplayName: 大海之鞭挞
-				/* Tooltip:
+				Tooltip:
 					'''
 					10 召唤标记伤害
 					普通召唤标记击退力
 					你的召唤物将集中攻击被标记的敌人
 					挥舞两根鞭子
-					''' */
+					'''
 			}
 
 			ShadowflameWhip: {
 				DisplayName: 暗影焰鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					很弱召唤标记击退力
 					你的召唤物将集中攻击被标记的敌人
 					召唤物攻击可能对被标记的敌人造成暗影焰
-					''' */
+					'''
 			}
 
 			Summit: {
 				DisplayName: 巅峰鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					20 召唤标记伤害
 					15% 召唤标记暴击率
@@ -2473,12 +2470,12 @@ Mods: {
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以增加鞭子攻击速度
 					击中的敌人会受到升华之刃攻击
-					''' */
+					'''
 			}
 
 			TerraWhip: {
 				DisplayName: 泰拉鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					10 召唤标记伤害
 					5% 召唤标记暴击率
@@ -2486,40 +2483,40 @@ Mods: {
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以增加鞭子攻击速度
 					鞭子会释放能标记敌人的泰拉冲击波
-					''' */
+					'''
 			}
 
 			TrueDurendal: {
 				DisplayName: 真·迪朗达尔
-				/* Tooltip:
+				Tooltip:
 					'''
 					11 召唤标记伤害
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以增加鞭子攻击速度，并生成能量斩击造成额外伤害
-					''' */
+					'''
 			}
 
 			TrueDusksBite: {
 				DisplayName: 真·黄昏咬噬
-				/* Tooltip:
+				Tooltip:
 					'''
 					10% 召唤标记暴击率
 					你的召唤物将集中攻击被标记的敌人
 					使用黄昏能量打击敌人
 					黄昏能量在敌人被召唤物击中时爆炸
 					鞭子释放撕裂能量刃，造成额外伤害
-					''' */
+					'''
 			}
 
 			WeaverWhip: {
 				DisplayName: 织妖之鞭
-				/* Tooltip:
+				Tooltip:
 					'''
 					10 召唤标记伤害
 					20% 召唤标记暴击率
 					你的召唤物将集中攻击被标记的敌人
 					'编织你自己的命运!'
-					''' */
+					'''
 			}
 
 			Angel: {
@@ -2534,11 +2531,11 @@ Mods: {
 
 			Empress: {
 				DisplayName: 女皇球
-				/* Tooltip:
+				Tooltip:
 					'''
 					生成光之刃伤害附近的敌人
 					'行使你的神圣权利'
-					''' */
+					'''
 			}
 
 			Fireball: {
@@ -2558,11 +2555,11 @@ Mods: {
 
 			SpinninSkull: {
 				DisplayName: 旋转头骨
-				/* Tooltip:
+				Tooltip:
 					'''
 					有几率产生追踪头骨
 					'多少头骨?!'
-					''' */
+					'''
 			}
 
 			SunSroller: {
@@ -2577,41 +2574,41 @@ Mods: {
 
 			AscendedKnives: {
 				DisplayName: 飞升小刀
-				/* Tooltip:
+				Tooltip:
 					'''
 					快速扔出匕首，命中后额外分裂成偷取生命的匕首
 					'献给 Jason 'Lienfors' Parker'
 					'飞升天际，即使坟墓也无法束缚你'
-					''' */
+					'''
 			}
 
 			LegendJewel: {
 				DisplayName: 传奇宝石
-				/* Tooltip:
+				Tooltip:
 					'''
 					用于制作特殊的强大武器r
 					'最强大姿态的黑暗月亮领主被摧毁时，留下的潜力无限的遗物...'
 					'只有最可敬的英雄才能获得的终极奖励'
 					传奇
-					''' */
+					'''
 			}
 
 			LegendaryPan: {
 				DisplayName: 传奇煎锅
-				/* Tooltip:
+				Tooltip:
 					'''
 					'你喜欢华夫饼吗?'
 					传奇
-					''' */
+					'''
 			}
 
 			Revengance: {
 				DisplayName: 奥库瑞姆的复仇
-				/* Tooltip:
+				Tooltip:
 					'''
 					'这代表奥库瑞姆日渐增长的怒气!'
 					传奇
-					''' */
+					'''
 			}
 
 			OcramsRevenge: {
@@ -2625,33 +2622,33 @@ Mods: {
 			}
 
 			RedigitRifle: {
-				/* Tooltip:
+				Tooltip:
 					'''
 					'他被开发者...暗杀了!'
 					传奇
-					''' */
+					'''
 				DisplayName: Redigit的步枪
 			}
 
 			FixedStaff: {
 				DisplayName: GFB法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤一个可怕敌人的不详雕塑
 					'天顶世界'
-					''' */
+					'''
 			}
 
 			TrueFixedStaff: {
 				DisplayName: 真·GFB法杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					哨兵召唤杖
 					召唤一个危险的被月球能量加持的机械美杜莎，将敌人送往奥库瑞姆之家
 					'机械混战'
 					传奇
-					''' */
+					'''
 			}
 
 			PartycandleMK2: {
@@ -2661,16 +2658,16 @@ Mods: {
 
 			CommanderBroach: {
 				DisplayName: 指挥官胸针
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 15% 召唤伤害和击退
 					增加 1 哨兵栏位
-					''' */
+					'''
 			}
 
 			FearmongerGauntlet: {
 				DisplayName: 恐惧散布手套
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 12% 鞭子伤害
 					增加 12% 近战与鞭子攻速
@@ -2678,34 +2675,34 @@ Mods: {
 					增加 20% 鞭子范围
 					鞭子附加火焰效果
 					为鞭子和近战武器启用自动挥舞
-					''' */
+					'''
 			}
 
 			BeeVeil: {
 				DisplayName: 蜜蜂面纱
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 5% 召唤伤害
 					增加 1 哨兵栏位
-					''' */
+					'''
 			}
 
 			SpiderVisor: {
 				DisplayName: 蜘蛛面甲
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 7% 召唤伤害
 					增加 1 哨兵栏位
-					''' */
+					'''
 			}
 
 			TikiHeadress: {
 				DisplayName: 提基头饰
-				/* Tooltip:
+				Tooltip:
 					'''
 					增加 12% 召唤伤害
 					增加 1 哨兵栏位
-					''' */
+					'''
 			}
 
 			FlareCannon: {
@@ -2715,16 +2712,16 @@ Mods: {
 
 			GolfCannon: {
 				DisplayName: 高尔夫炮
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射造成伤害的高尔夫球
 					'看球!!!'
-					''' */
+					'''
 			}
 
 			Vertex: {
 				DisplayName: 极点球
-				Tooltip: 释放粉碎涡流Unleashes shredding vortices
+				Tooltip: 释放粉碎涡流
 			}
 
 			Battlestaff: {
@@ -2734,11 +2731,11 @@ Mods: {
 
 			Inferno: {
 				DisplayName: 火焰烙印
-				/* Tooltip:
+				Tooltip:
 					'''
 					产生燃烧的光环，点燃附近的敌人
 					'燃烧的火焰之环!'
-					''' */
+					'''
 			}
 
 			FingerGun: {
@@ -2748,20 +2745,20 @@ Mods: {
 
 			BeamScepter: {
 				DisplayName: 光束权杖
-				/* Tooltip:
+				Tooltip:
 					'''
 					抽出能量鞭
 					'光束攻击!'
-					''' */
+					'''
 			}
 
 			AstralHarmony: {
 				DisplayName: 星光调谐
-				/* Tooltip:
+				Tooltip:
 					'''
 					在你周围产生过一段世界冲向敌人的星光
 					'释放出一颗天佑新星!'
-					''' */
+					'''
 			}
 
 			CombustionFlask: {
@@ -2771,20 +2768,20 @@ Mods: {
 
 			MakeshiftMissile: {
 				DisplayName: 手搓导弹
-				/* Tooltip:
+				Tooltip:
 					'''
 					一小段时间后受重力影响
 					爆炸半径微小.不会破坏图格
-					''' */
+					'''
 			}
 
 			MisshappenMissile: {
 				DisplayName: 次品导弹
-				/* Tooltip:
+				Tooltip:
 					'''
 					一小段时间后受重力影响
 					爆炸半径微小.有几率破坏图格
-					''' */
+					'''
 			}
 
 			ProtoRocket: {
@@ -2799,11 +2796,11 @@ Mods: {
 
 			RocketDispenser: {
 				DisplayName: 火箭配送器
-				/* Tooltip:
+				Tooltip:
 					'''
 					爆炸半径很小.不会破坏图格
 					'足够夷平星球的火力...?'
-					''' */
+					'''
 			}
 
 			Rapier: {
@@ -2813,29 +2810,29 @@ Mods: {
 
 			Cogblade: {
 				DisplayName: 发条剑
-				/* Tooltip:
+				Tooltip:
 					'''
 					迅速碾碎它接触到的敌人
 					'看着像电锯，但不是电锯!'
-					''' */
+					'''
 			}
 
 			ThousandfoldCutter: {
 				DisplayName: 千倍切
-				/* Tooltip:
+				Tooltip:
 					'''
 					慌乱的快速戳刺
 					'据说把蜻蜓干净利落地切成两半'
-					''' */
+					'''
 			}
 
 			SoulStriker: {
 				DisplayName: 不朽之矛
-				/* Tooltip:
+				Tooltip:
 					'''
 					在突刺和命中敌人时生成幽灵矛尖
 					'正在寻找第七个灵魂...'
-					''' */
+					'''
 			}
 
 			Fiesta: {
@@ -2855,30 +2852,30 @@ Mods: {
 
 			ShootingStar: {
 				DisplayName: 流星球
-				/* Tooltip:
+				Tooltip:
 					'''
 					快速移动时造成额外伤害
 					'许个愿吧!'
-					''' */
+					'''
 			}
 
 			Clockwork: {
 				DisplayName: 发条球
-				/* Tooltip:
+				Tooltip:
 					'''
 					会卡在敌人身上而不是反弹
 					'拿这个打磨我的齿轮'
-					''' */
+					'''
 			}
 
 			Ricochet: {
 				DisplayName: 弹射球
-				/* Tooltip:
+				Tooltip:
 					'''
 					尝试反弹到周围的敌人身上
 					自动锁定光标旁的敌人
 					'*三维弹球*'
-					''' */
+					'''
 			}
 
 			TalonDart: {
@@ -2888,31 +2885,31 @@ Mods: {
 
 			GrappleDart: {
 				DisplayName: 绳镖钩爪
-				/* Tooltip:
+				Tooltip:
 					'''
 					无视大量防御 
 					可能短暂混乱敌人
 					可以作为钩爪，但从钩爪栏使用时造成的伤害较小
-					''' */
+					'''
 			}
 
 			BoarderHook: {
 				DisplayName: 跳帮抓钩
-				/* Tooltip:
+				Tooltip:
 					'''
 					将远处的敌人拉近
 					近距离内的敌人会被击退并受到额外伤害
 					'把他们拉进死亡的怀抱!'
-					''' */
+					'''
 			}
 
 			SoulSlayer: {
 				DisplayName: 灵魂屠刀
-				/* Tooltip:
+				Tooltip:
 					'''
 					对满血敌人造成更大伤害的灵体大刀
 					'撕碎一切，直到什么也不剩'
-					''' */
+					'''
 			}
 
 			GaleWindblade: {
@@ -2922,12 +2919,12 @@ Mods: {
 
 			DarklightEdge: {
 				DisplayName: 暗光刃
-				/* Tooltip:
+				Tooltip:
 					'''
 					右键向光标方向突刺
 					坐骑上不能突刺
 					'这就是道'
-					''' */
+					'''
 			}
 
 			Throngler: {
@@ -2937,11 +2934,11 @@ Mods: {
 
 			Navarch: {
 				DisplayName: 提督剑
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射短程水刀
 					用刀身砍中敌人后，下一次挥舞发射更多水刀
-					''' */
+					'''
 			}
 
 			PoisonArrow: {
@@ -2951,11 +2948,11 @@ Mods: {
 
 			PillagerArrowItem: {
 				DisplayName: 劫掠箭
-				/* Tooltip:
+				Tooltip:
 					'''
 					杀死的敌人掉落更多钱币
 					'乡亲们快跑!'
-					''' */
+					'''
 			}
 
 			AerodynamicArrow: {
@@ -3025,11 +3022,11 @@ Mods: {
 
 			NeedleDart: {
 				DisplayName: 针刺镖
-				/* Tooltip:
+				Tooltip:
 					'''
 					扎到敌人身上，过一段时间爆炸产生额外伤害
 					敌人身上的多个飞镖会同步爆炸并增加威力
-					''' */
+					'''
 			}
 
 			OverclockDart: {
@@ -3049,11 +3046,11 @@ Mods: {
 
 			ToyDart: {
 				DisplayName: 玩具镖
-				/* Tooltip:
+				Tooltip:
 					'''
 					粘在敌人身上，暂时削弱他们的接触伤害和防御
 					'不削弱就删除!'
-					''' */
+					'''
 			}
 
 			TrackerDart: {
@@ -3068,20 +3065,20 @@ Mods: {
 
 			ChargedRecurve: {
 				DisplayName: 充能反曲弓
-				/* Tooltip:
+				Tooltip:
 					'''
 					射出充能箭
 					每 5 次射击后，会射出额外 2 根箭并释放强大的冲击
-					''' */
+					'''
 			}
 
 			ToyGun: {
 				DisplayName: 玩具枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射玩具镖
 					'经典传统'
-					''' */
+					'''
 			}
 
 			Aerosassin: {
@@ -3101,148 +3098,148 @@ Mods: {
 
 			FlyingStaff: {
 				DisplayName: 飞翔长棍
-				/* Tooltip:
+				Tooltip:
 					'''
 					旋转时发出真空波
 					'有技巧的使用者可以通过折弯棍子飞起来'
-					''' */
+					'''
 			}
 
 			PrimordialBostaff: {
 				DisplayName: 始原长棒
-				/* Tooltip:
+				Tooltip:
 					'''
 					左键旋转，右键突刺
 					会随着旋转时间而变大增强
 					'猴子非常擅长使用这东西，真令人惊讶'
-					''' */
+					'''
 			}
 
 			DualPhaseblade: {
 				DisplayName: 双刃相位剑
-				/* Tooltip:
+				Tooltip:
 					'''
 					左键旋转，右键扔出
 					'非常适合重创你的敌人'
-					''' */
+					'''
 			}
 
 			DualPhasesaber: {
 				DisplayName: 双刃晶光刃
-				/* Tooltip:
+				Tooltip:
 					'''
 					左键旋转，右键扔出
 					'非常适合重创你的敌人'
-					''' */
+					'''
 			}
 
 			BlazingCoronation: {
 				DisplayName: 炽热加冕
-				/* Tooltip:
+				Tooltip:
 					'''
 					挥舞一段时间后，权杖会重重砸下,召唤强大的飞龙
 					'统御的熔拳!'
-					''' */
+					'''
 			}
 
 			CoconutCannon: {
 				DisplayName: 椰子加农炮
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射一连串的爆炸椰子
 					只有第一发消耗弹药
 					'...被射中的话，你可能会死'
-					''' */
+					'''
 			}
 
 			ShellShock: {
 				DisplayName: 龟壳冲击
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射多种颜色的龟壳
 					不同颜色的龟壳稀有度和效果各不相同
 					'莫名的对卡丁车极具破坏力'
-					''' */
+					'''
 			}
 
 			AssuredDestruction: {
 				DisplayName: 互毁原则
-				/* Tooltip:
+				Tooltip:
 					'''
 					发射跟随光标的导弹
 					导弹爆炸后会分裂成许多集束炸弹，造成额外伤害
 					'疯狂报复!'
-					''' */
+					'''
 			}
 
 			Steamshot: {
 				DisplayName: 蒸汽喷射器
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					无视 30 点防御
 					喷出扩散后短暂停留的滚烫蒸汽
 					50%几率不消耗弹药
 					'...说是凝胶蒸汽，倒不如说是烤凝胶'
-					''' */
+					'''
 			}
 
 			AtmosphereicIgnition: {
 				DisplayName: 大气点火器
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					无视 25 点防御
 					喷射接触时可能分裂的不稳定火焰
-					'We DID start the fire!'
-					''' */
+					'是我们放的火!'
+					'''
 			}
 
 			Hyperflare: {
 				DisplayName: 炽焰喷射器
-				/* Tooltip:
+				Tooltip:
 					'''
 					使用凝胶作为弹药
 					无视 15 点防御
 					喷出扩散的火焰而不是火焰束
-					''' */
+					'''
 			}
 
 			ForceBlaster: {
 				DisplayName: 力量冲击
-				/* Tooltip:
+				Tooltip:
 					'''
 					不消耗弹药发射超强击退的冲击波
 					'嗨，小毛球'
-					''' */
+					'''
 			}
 
 			EnergyRailgun: {
 				DisplayName: 能量轨道炮
-				/* Tooltip:
+				Tooltip:
 					'''
 					蓄能发射毁灭性的高速强光束
 					不需要弹药
 					'后坐力为什么没有杀死你，这是个问题'
-					''' */
+					'''
 			}
 
 			SlingerShooter: {
 				DisplayName: 投枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					扔出能射出子弹外观的子弹的枪外观的子弹
 					'永别了武器'
-					''' */
+					'''
 			}
 
 			Crackshot: {
 				DisplayName: 神射枪
-				/* Tooltip:
+				Tooltip:
 					'''
 					扔出会爆炸并射出反弹子弹的枪
 					'你现在真的百发百中了!'
-					''' */
+					'''
 			}
 
 			StarfallObliterator: {

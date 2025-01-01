@@ -39,11 +39,16 @@ Configs: {
 				此武器重铸时只会获得通用词缀
 				'''
 		}
+
+		slimenobiConv: {
+			 Label: 史莱姆忍镖转化为投掷武器
+			 Tooltip: 将此物品转化为投掷武器
+		}
 	}
 }
 
 Projectiles: {
-HolyHandGrenadeProj.DisplayName: 神圣手雷
+	HolyHandGrenadeProj.DisplayName: 神圣手雷
 	TrueTwilightPlungeClone.DisplayName: 真·暮色飞刀
 	TrueTwilightPlungeProj.DisplayName: 真·暮色飞刀
 	TwilightPlungeClone.DisplayName: 暮色飞刀
@@ -63,20 +68,20 @@ HolyHandGrenadeProj.DisplayName: 神圣手雷
 	UltimaProj.DisplayName: 究极手里剑
 	UltimaOrbital.DisplayName: 究极手里剑
 	VoidFissure.DisplayName: 虚空裂缝
-	SpacialRendProj.DisplayName: 虚空投斧
-	HorizonRazorProj.DisplayName: 虚空快刀
-	VoidEnergy.DisplayName: 虚空标枪
-	VoidbringerProj.DisplayName: 虚空标枪
+	SpacialRendProj.DisplayName: 亚空裂斩
+	HorizonRazorProj.DisplayName: 境界快刀
+	VoidEnergy.DisplayName: 虚空使者
+	VoidbringerProj.DisplayName: 虚空使者
 	VoidBlast.DisplayName: 虚空冲击波
 	DimensionalCollapseProj.DisplayName: 二向箔
-	SingularityMineProj.DisplayName: 奇点尖球
+	SingularityMineProj.DisplayName: 奇点地雷
 	SingularityVortex.DisplayName: 奇点风暴
 	EntropicMatterProj.DisplayName: 熵能迸发
 	GrandStarProj.DisplayName: 至高手里剑
 	GrandStarMini.DisplayName: 至高手里剑
 	LunarFuryProj.DisplayName: 夜明投刀
 	LunarFurySpark.DisplayName: 夜明投刀
-	// OmegaBladeProj.DisplayName: 热寂飞刀
+	 OmegaBladeProj.DisplayName: 热寂飞刀
 }
 
 Items: {
@@ -121,12 +126,12 @@ Items: {
 	}
 
 	BlockThrower: {
-		DisplayName: Block的投手手套
+		DisplayName: 土块投掷手套
 		Tooltip:
 			'''
 			扔出土块
 			'非常适合冒充开发者！'
-			'这下真是Block的投手模组了！'
+			'这下真是Block投手模组了！'
 			'''
 	}
 
@@ -136,7 +141,7 @@ Items: {
 	}
 
 	SpacialRend: {
-		DisplayName: 虚空投斧
+		DisplayName: 亚空裂斩
 		Tooltip:
 			'''
 			能够撕裂空间本身，以便对目标进行一系列叠加打击
@@ -145,12 +150,12 @@ Items: {
 	}
 
 	HorizonRazor: {
-		DisplayName: 虚空快刀
+		DisplayName: 境界快刀
 		Tooltip: ""
 	}
 
 	Voidbringer: {
-		DisplayName: 虚空标枪
+		DisplayName: 虚空使者
 		Tooltip:
 			'''
 			粘附在敌人和物块上，持续释放自动追踪的能量矢
@@ -164,7 +169,7 @@ Items: {
 	}
 
 	SingularityMine: {
-		DisplayName: 奇点尖球
+		DisplayName: 奇点地雷
 		Tooltip: ""
 	}
 
@@ -183,7 +188,7 @@ Items: {
 	}
 
 	LunarFury: {
-		DisplayName: 夜明投刀
+		DisplayName: 狂月之怒
 		Tooltip: "'如今，陨落者升至天堂'"
 	}
 

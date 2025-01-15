@@ -755,7 +755,7 @@ Items: {
 	}
 
 	BlastCrystal: {
-		DisplayName: 水晶摔炮
+		DisplayName: 爆裂水晶
 		Tooltip:
 			'''
 			产生耀眼的爆炸，释放破坏性碎片，有几率使敌人困惑
@@ -841,7 +841,7 @@ Items: {
 	}
 
 	BlastCap: {
-		DisplayName: 真菌摔炮
+		DisplayName: 爆裂菌盖
 		Tooltip:
 			'''
 			释放真菌孢子
@@ -1122,6 +1122,76 @@ Items: {
 			'里面的咒语难以理解，所以你不妨直接把它扔给你的敌人'
 			'''
 	}
+
+	SlingStone: {
+		DisplayName: 弹丸
+		Tooltip:
+			'''
+			投出短距离石块攻击敌人
+			'难以想象的酷刑'
+			''' 
+	}
+
+	EnchantedDagger: {
+		DisplayName: 附魔飞刀
+		Tooltip:
+			'''
+			投出无限量的小刀
+			'不要和魔法飞刀混淆'
+			''' 
+	}
+
+	GildedShuriken: {
+		DisplayName: 镀金手里剑
+		Tooltip: "'虽然是仪仗器，但它的刀刃仍然很锋利'"
+	}
+
+	Cryonade: {
+		DisplayName: 冷冻手榴弹
+		Tooltip:
+			'''
+			让大多数敌人被寒冷侵蚀
+			'冷静!'
+			''' 
+	}
+
+	ThrowingSpear: {
+		DisplayName: 标枪
+		Tooltip: ""
+	}
+
+	SmartStriker: {
+		DisplayName: 智能飞刀
+		Tooltip: 掉落之前会追随鼠标
+	}
+
+	CyberCutter: {
+		DisplayName: 赛博割刀
+		Tooltip: 无视重力，在物块间反弹
+	}
+
+	FossilShard: {
+		DisplayName: 化石碎片
+		Tooltip: 投出两块留在地上的化石碎片
+	}
+
+	WebTrap: {
+		DisplayName: 蛛网陷阱
+		Tooltip:
+			'''
+			粘在物块上，接触时引发小型粘网爆炸
+			暂时削弱大多数敌人的移动能力
+			''' 
+	}
+
+	BloodyHarpoon: {
+		DisplayName: 血腥鱼叉
+		Tooltip:
+			'''
+			钩住敌人，使其无法逃离
+			'你需要一艘更大的船。'
+			''' 
+	}
 }
 
 NPCs: {
@@ -1289,6 +1359,21 @@ Buffs: {
 		DisplayName: 脏脏
 		Description: 你受到额外伤害，因为你脏了！
 	}
+
+	CryoChill: {
+		DisplayName: 寒颤
+		Description: 敌人移速降低
+	}
+
+	StickyWeb: {
+		DisplayName: 黏黏蛛网
+		Description: 敌人移动力严重损伤
+	}
+
+	BloodyHarpoonDebuff: {
+		DisplayName: 血腥捕获
+		Description: 这个敌人被血腥的鱼叉钩住
+	}
 }
 
 Emotes.NinjaEmote.Command: 忍者
@@ -1324,8 +1409,8 @@ Projectiles: {
 	ChargedSkyMineProj.DisplayName: 过载浮空雷
 	ShadowspikeBallProj.DisplayName: 暗影焰尖球
 	KunaiProj.DisplayName: 苦无
-	BlastCrystalProj.DisplayName: 水晶摔炮
-	BlastCrystalShard.DisplayName: 水晶摔炮
+	BlastCrystalProj.DisplayName: 爆裂水晶
+	BlastCrystalShard.DisplayName: 水晶碎片
 	CursedMolotovFire.DisplayName: 莫洛托夫咒焰酒
 	CursedMolotovProj.DisplayName: 莫洛托夫咒焰酒
 	GoldenJarIchor.DisplayName: 黄金罐
@@ -1342,8 +1427,8 @@ Projectiles: {
 	SlimeslayerGlob.DisplayName: 史莱姆飞刀
 	DivineStarProj.DisplayName: 神圣手里剑
 	ReinforcedEtherianJavelinProj.DisplayName: 强力埃特尼亚标枪
-	BlastCapProj.DisplayName: 真菌摔炮
-	BlastCapFungi.DisplayName: 真菌摔炮
+	BlastCapProj.DisplayName: 爆裂菌盖
+	BlastCapFungi.DisplayName: 真菌
 	SawbladeCleaverSpark.DisplayName: 锯片切割机
 	SawbladeCleaverProj.DisplayName: 锯片切割机
 	EnergyCoreProj.DisplayName: 械能核心
@@ -1405,6 +1490,16 @@ Projectiles: {
 	WiseMysticTomeSplitshot.DisplayName: 智慧魔法书
 	WiseMysticTomeWaterspout.DisplayName: 智慧魔法书
 	ChlorophyteJavelinCloud.DisplayName: 叶绿标枪孢子云
+	EnchantedDaggerProj.DisplayName: 附魔飞刀
+	SlingStoneProj.DisplayName: Stone
+	GildedShurikenProj.DisplayName: 镀金手里剑
+	CryonadeProj.DisplayName: 冷冻手榴弹
+	ThrowingSpearProj.DisplayName: 标枪
+	SmartStrikerProj.DisplayName: 智能飞刀
+	CyberCutterProj.DisplayName: 赛博割刀
+	FossilShardProj.DisplayName: 化石碎片
+	WebTrapProj.DisplayName: 蛛网陷阱
+	BloodyHarpoonProj.DisplayName: 血腥鱼叉
 }
 
 Configs: {
@@ -1583,14 +1678,14 @@ Configs: {
 		}
 
 		globalConversion: {
-			 Label: 转化所有消耗远程武器
-			 Tooltip:
+			Label: 转化所有消耗远程武器
+			Tooltip:
 				'''
 				自动将所有消耗性远程武器（包括原版和MOD）转换为投掷武器
 				这不会转换可作为弹药的物品，比如原版的雪球
 				由于没有进行统计调整来适配类型更改，因此可能会破坏平衡
 				此设置将覆盖下面的许多单独转换设置
-				''' 
+				'''
 		}
 	}
 
@@ -1641,12 +1736,12 @@ Configs: {
 		}
 
 		safeNinja: {
-			 Label: 黏黏忍者保护
-			 Tooltip:
+			Label: 黏黏忍者保护
+			Tooltip:
 				'''
 				让黏黏忍者（不是普通的忍者NPC）只受到25%普通史莱姆和尖刺史莱姆的伤害
 				这有助于防止忍者被史莱姆王死后生成的史莱姆杀死
-				''' 
+				'''
 		}
 	}
 }

@@ -1,0 +1,97 @@
+Mods: {
+	RoboDummy: {
+		Items: {
+			DummyRemote: {
+				 DisplayName: 假人遥控器
+				 Tooltip:
+					'''
+					在光标处生成机械假人
+					机械假人能被追踪效果追踪，并能正常触发武器和射弹的额外效果
+					按住shift键查看详细描述
+					''' 
+			}
+		}
+
+		NPCs: {
+			 RoboDummyG.DisplayName: 机械假人
+			 RoboDummyF.DisplayName: 机械假人
+		}
+
+		 Projectiles.DummySpawn.DisplayName: 假人生成
+
+		CommonItemtooltip: {
+			 RightClickDesc: 右键收回所有假人
+			 ShiftClickDesc: 按住Shift键点击物品切换地面与浮空模式
+			 AltDesc: 按住alt键生成有防御力的假人
+			 CtrlDesc: 按住ctrl键生成会受到击退的假人
+			 RemoteTypeHovering:
+				'''
+				机械假人模式: 浮空
+				浮空假人浮于空中，不受物块影响，位置变化后会向原位置移动
+				''' 
+			 RemoteTypeGrounded:
+				'''
+				机械假人模式: 地面
+				地面假人受重力影响，类似原版训练假人
+				''' 
+		}
+
+		Configs: {
+			Config: {
+				dummyKB: {
+					 Label: 假人击退抗性
+					 Tooltip:
+						'''
+						调整会受到击退的假人的击退抗性
+						数值越高，受到的击退越小
+						按住ctrl键生成的机械假人才会受到击退
+						对不受击退的机械假人没有影响
+						''' 
+				}
+
+				dummyDmgVar: {
+					 Label: 假人伤害浮动
+					 Tooltip:
+						'''
+						正常情况下伤害具有-15%到+15%的浮动范围
+						这个设定可以为机械假人调整浮动的范围
+						设为0时没有伤害浮动，用于测试理想状态的伤害
+						''' 
+				}
+
+				 DisplayName: 配置
+
+				dummyDef: {
+					 Label: 假人防御
+					 Tooltip:
+						'''
+						调整有防御的机械假人的具体防御数值
+						设为9999时,机械假人只会受到1-2点伤害
+						按住alt生成的机械假人才具有防御力
+						对没有防御力的机械假人没有影响
+						''' 
+				}
+
+				sellRemote: {
+					 Label: 商店出售假人遥控器
+					 Tooltip:
+						'''
+						默认状态下假人遥控器只能通过作弊模组获得
+						开启后哥布林工匠将以5金币出售假人遥控器
+						''' 
+				}
+
+				fDummyReturnSpd: {
+					 Label: 假人归位速度
+					 Tooltip:
+						'''
+						浮空假人返回原位时的加速度和最大速度的乘数
+						请注意，由于加速度的性质，使用此设置时，加速度的增加比例大于最大速度
+						''' 
+				}
+			}
+		}
+
+		 Conditions.SellRemote: 在配置中开启
+	}
+}

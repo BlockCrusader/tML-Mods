@@ -254,8 +254,8 @@ Mods: {
 			}
 
 			Throngled: {
-				DisplayName: 卬
-				Description: 世上只有一种卬的方式
+				DisplayName: 彁
+				Description: 世上只有一种彁的方式
 			}
 
 			Revealed: {
@@ -500,9 +500,11 @@ Mods: {
 				DisplayName: 烈焰轮盘
 				Tooltip:
 					'''
-					返回前可穿透 1 个敌人
+					
 					'这些轮盘真够火的!'
 					'''
+				 TooltipNormal: 返回前可穿透 1 个敌人
+				 TooltipRemix: 穿透敌人而不是在命中后返回
 			}
 
 			ChlorothornChakram: {
@@ -610,11 +612,21 @@ Mods: {
 				DisplayName: 能量连弩
 				Tooltip:
 					'''
+					
+					'箭矢的新时代到来了!'
+					'''
+				 TooltipNormal:
+					'''
 					将木箭转化为充能箭
 					连续发射五根箭
 					只有第一轮消耗弹药
-					'箭矢的新时代到来了!'
+					''' 
+				 TooltipRemix:
 					'''
+					将木箭转化为充能箭
+					连续发射三根箭
+					只有第一轮消耗弹药
+					''' 
 			}
 
 			Junglefury: {
@@ -629,7 +641,13 @@ Mods: {
 
 			MechanizedBow: {
 				DisplayName: 机械弓
-				Tooltip: 随使用时间增加射速
+				Tooltip: 
+				 TooltipNormal: 随使用时间增加射速
+				 TooltipRemix:
+					'''
+					随使用时间增加射速
+					50%几率不消耗弹药
+					''' 
 			}
 
 			Mooncrescent: {
@@ -2433,10 +2451,12 @@ Mods: {
 				DisplayName: 报废抓钩
 				Tooltip:
 					'''
-					5 召唤标记伤害
+					
 					你的召唤物将集中攻击被标记的敌人
 					攻击敌人以发出电火花
 					'''
+				 TooltipNormal: 5 召唤标记伤害
+				 TooltipRemix: 21 召唤标记伤害
 			}
 
 			SeaScourge: {
@@ -2928,7 +2948,7 @@ Mods: {
 			}
 
 			Throngler: {
-				DisplayName: 卬
+				DisplayName: 彁
 				Tooltip: "'一把魔剑的名字越短，代表它越危险'"
 			}
 
@@ -3454,10 +3474,19 @@ Mods: {
 				DisplayName: 充电线
 				Tooltip:
 					'''
-					6 召唤标记伤害
-					召唤标记能叠加 5 次
+					
 					你的召唤物将集中攻击被标记的敌人
 					'''
+				 TooltipNormal:
+					'''
+					6 召唤标记伤害
+					召唤标记能叠加 5 次
+					''' 
+				 TooltipRemix:
+					'''
+					2 召唤标记伤害
+					召唤标记能叠加 4 次
+					''' 
 			}
 
 			EnergizedStaff: {
@@ -4044,10 +4073,10 @@ Mods: {
 			SoulSlayerSlash2.DisplayName: 灵魂屠刀
 			WindbladeSecondary.DisplayName: 烈风斩击
 			DarklightSlash.DisplayName: 暗光剑
-			ThronglerSlash.DisplayName: 卬
-			ThronglerSlash2.DisplayName: 卬
+			ThronglerSlash.DisplayName: 彁
+			ThronglerSlash2.DisplayName: 彁
 			DarklightSecondary.DisplayName: 暗光斩
-			ThrongledBlast.DisplayName: 卬
+			ThrongledBlast.DisplayName: 彁
 			NavarchCutter.DisplayName: 水刀
 			AerodynamicArrowProjectile.DisplayName: 动力箭
 			SpectralArrowProjectile.DisplayName: 幽灵箭
@@ -4267,6 +4296,23 @@ Mods: {
 						关闭此效果不会影响微光独有武器，比如泰拉棱镜转化物和创世手炮
 						这有助于减少刷取某些武器的时间
 						'''
+				}
+
+				AllowRemixSwaps: {
+					 Label: 颠倒世界武器互换
+					 Tooltip:
+						'''
+						确定某些阿森纳武器是否在颠倒世界中发生属性与来源互换
+						'默认'表示只在颠倒与天顶世界生效
+						'从不' 表示不会发生互换
+						'总是'表示在所有世界都生效
+
+						注意:tML尚未正确支持物品变体，因此目前武器互换不会影响武器价格
+						预计交换的武器在获得时会非常便宜/昂贵！
+
+						虽然这个设置可以随时更改，但很明显，它不会影响世界生成后的宝箱战利品
+						此外，与互换武器相关的物品的稀有度和微光变体在离开世界再重新加入之前不会更新
+						''' 
 				}
 			}
 		}

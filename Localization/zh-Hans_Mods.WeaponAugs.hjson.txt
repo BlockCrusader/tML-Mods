@@ -3911,10 +3911,698 @@ ResurgenceJewelUnu: {
 		/* Tooltip:
 			'''	
 			在您的物品栏中时，打开物品栏时会显示附魔工作站界面
-			也适用于猪猪存钱罐、虚空保险库、保险箱和防御者熔炉
+			也适用于猪猪存钱罐、虚空保险库、保险箱和护卫熔炉
 			无法获得；用于测试目的
 			''' */
 	}
 }
 
-// ...（其他部分：Buff、弹幕、条件、UI等）
+
+Configs: {
+	ConfigServer: {
+		DisplayName: 武器附魔高级设置
+
+		AugmentLimit: {
+			Label: 附魔次数限制
+			Tooltip:
+				'''
+				调整武器能同时拥有的最大附魔数量限制
+				一旦达到限制数量，则不能再对武器添加更多的附魔
+				如果以某种方式超过了限制（如先提高数量获得附魔，再在设置中降低数量），多出的附魔将被禁用
+				如果同时启用了 Block's Weapon Leveling（打怪升级）模组，此选项将使用两者中更高的限制次数
+				'''
+		}
+
+		CustomDeathMessages: {
+			Label: 特殊死亡信息
+			Tooltip:
+				'''
+				切换当玩家死于以血代言的效果时，是否显示特殊的死亡信息
+				注意：过热也可以杀死玩家，但使用对应的火焰/烧伤死亡信息
+				默认开启
+				'''
+		}
+
+		PatchTooltips: {
+			Label: 正确的工具提示
+			Tooltip:
+				'''
+				通常情况下，使用时间和魔力消耗的显示值不会随着武器附魔效果而变化
+				然而，当此选项打开时，模组将覆盖默认的工具提示并更正此错误
+				如果你同时启用本模组和其他模组，遇到与工具提示相关的问题或崩溃，你应该关闭此选项
+				默认开启
+				'''
+		}
+
+		MoreShards: {
+			Label: 额外力量碎片掉落
+			Tooltip:
+				'''
+				切换力量碎片的整体额外掉落加成是否开启，这会提高其整体掉落率
+				如果你像进行多次附魔、正在进行多人游戏或者只是不想刻意收集碎片，这会很有帮助
+				和其它同类设置兼容
+				默认关闭
+				'''
+		}
+
+		ProgressShards: {
+			Label: 慷慨的力量碎片掉落（Boss进度）
+			Tooltip:
+				'''
+				切换力量碎片的两个进度额外掉落加成是否开启，分别是世纪之花后和月亮领主后
+				开启后，击败世纪之花后最低掉落高级的碎片，月亮领主后最低掉落稀有的碎片
+				总的来说，这将大大提高碎片掉落率，并使游戏后期更容易获得高级别的附魔
+				和其它同类设置兼容
+				默认开启
+				'''
+		}
+
+		MasterShards: {
+			Label: 慷慨的力量碎片掉落（大师模式）
+			Tooltip:
+				'''
+				切换力量碎片的大师模式额外掉落加成是否开启
+				开启后，最低掉落高级的碎片
+				总的来说，这将大大提高碎片掉落率，并使玩家更容易获得高级别的附魔
+				和其它同类设置兼容，也适配专家模式（其同样有额外掉落加成）
+				默认关闭
+				'''
+		}
+
+		MorePrestige: {
+			Label: 额外声望宝石掉落
+			Tooltip:
+				'''
+				切换声望宝石的额外掉落加成是否开启
+				声望宝石的掉落独立于力量碎片掉落池
+				声望宝石是月亮领主后的超稀有掉落物，可将终极附魔提升至终极+层级
+				总体而言，这会增加声望宝石的掉落率，使终极+附魔更易获取
+				因独立于常规碎片掉落池，不与同类设置叠加；但与专家模式（提升声望宝石掉落率）兼容
+				默认关闭
+				'''
+		}
+
+		MoreExotics: {
+			Label: 额外奇异力量碎片掉落
+			Tooltip:
+				'''
+				切换奇异力量碎片的额外掉落加成是否开启
+				奇异碎片与其他层级不同，其掉落独立于其他层级
+				从这些碎片获得的奇异附魔独特之处在于它们适用于配饰而非武器
+				总体而言，这会增加奇异碎片的掉落率，使奇异附魔更易获取
+				因独立于常规碎片掉落池，不与同类设置叠加；但与专家模式（提升奇异碎片掉落率）兼容
+				默认关闭
+				'''
+		}
+
+		CraftAugments: {
+			Label: 改为直接制作附魔宝石
+			Tooltip:
+				'''
+				使附魔宝石可直接用力量碎片制作
+				不同附魔需要额外材料
+				高级附魔需用低级宝石与更多材料升级获得
+				注意：材料需求可能导致某些附魔进度较常规更慢
+				同时启用时允许掉落'奇异宝石'，作为稀有层级附魔的替代来源
+				注意：启用此设置时无法制作力量水晶！可通过'同时制作与掉落附魔'设置覆盖
+				默认关闭
+				'''
+		}
+
+		CraftAndLoot: {
+			Label: 同时制作与掉落附魔
+			Tooltip:
+				'''
+				'改为直接制作附魔宝石'设置默认禁用力量水晶制作
+				此设置启用时，力量水晶仍可制作
+				若'改为直接制作附魔宝石'未启用，此设置无效
+				默认关闭
+				'''
+		}
+
+		NonLinearCraft: {
+			Label: 非线性附魔制作
+			Tooltip:
+				'''
+				当'改为直接制作附魔宝石'启用时，激活额外制作配方
+				替代配方允许直接制作高级附魔而无需低级升级，但材料消耗更高
+				若'改为直接制作附魔宝石'未启用，此设置无效
+				默认关闭
+				'''
+		}
+
+		HideRecipes: {
+			Label: 隐藏直接附魔制作配方
+			Tooltip:
+				'''
+				加载模组时，若'改为直接制作附魔宝石'未启用，则完全禁用其相关配方
+				通常配方虽不可用但仍显示于配方列表（如向导菜单）
+				启用此设置可防止配方显示，避免新配方过多导致界面混乱
+				注意：启用后无法在游戏中切换'改为直接制作附魔宝石'！需重载游戏才能恢复设置
+				'''
+		}
+
+		OverhaulNerf: {
+			Label: Terraria Overhaul 整合削弱
+			Tooltip:
+				'''
+				启用Terraria Overhaul模组时，特定附魔在纯近战武器上效果减半
+				以平衡Overhaul的'终结一击'和'劈砍'机制
+				受影响的附魔：
+				溢流、终结者、发泄、死亡回响、破坏者、无情、终极切割者、稀有战欲
+				'''
+		}
+
+		orphanFosterLinks: {
+			Label: 手动物品-抛射物同步
+			Tooltip:
+				'''
+				允许设置特定类型抛射物尝试链接到对应类型物品
+				仅当抛射物无法自动找到源物品时触发
+				触发时，'孤儿'抛射物将链接至其所有者物品栏中首个匹配的'寄养'物品
+				大多数抛射物无需此设置。原版中，阿比盖尔之花和风暴虎杖因此机制存在此问题
+				'''
+		}
+
+		Headers: {
+			Drops: 掉落
+			Crafting: 制作
+			Etc: 杂项
+		}
+
+		MoreUnusuals: {
+			Label: 更多稀有附魔
+			Tooltip:
+				'''
+				从力量水晶提取附魔宝石时，稀有附魔出现概率提升
+				稀有附魔是特殊层级，其效果改变而非属性提升
+				若'改为直接制作附魔宝石'启用，则额外增加奇异宝石掉落概率
+				'''
+		}
+	}
+
+	ConfigClient: {
+		DisplayName: 武器附魔基础设置
+
+		AugmentDust: {
+			Label: 附魔武器粒子
+			Tooltip:
+				'''
+				切换附魔武器是否在攻击时发出额外的粒子，类似于近战武器上的灌注效果
+				这只是一个外观的变化，用来反映附魔武器的稀有性，而且会让你的武器看起来更酷
+				默认开启
+				'''
+		}
+
+		ColoredDust: {
+			Label: 自定义附魔特效
+			Tooltip:
+				'''
+				使大多数附魔相关特效（无论来源）使用自定义颜色
+				仅影响你的客户端；他人屏幕上的特效颜色不变
+				通过下方'自定义特效颜色'设置具体颜色
+				'''
+		}
+
+		DustColor: {
+			Label: 自定义特效颜色
+			Tooltip:
+				'''
+				当'自定义附魔特效'启用时，附魔特效将显示此颜色（仅对你生效）
+				提示：Alpha值影响透明度（值越高越不透明，越低越透明）
+				注意：深色或低透明度颜色可能显示不佳或完全不可见
+				'''
+		}
+
+		Headers: {
+			UI: 界面
+			Dust: 粒子
+		}
+
+		uiDisplacement: {
+			Label: 界面位移
+			Tooltip:
+				'''
+				通过像素值（x,y）微调附魔工作站界面位置
+				负值向屏幕左上角移动，正值向屏幕右下角移动
+				默认为物品栏垃圾桶下方
+				极端值可能导致界面移出屏幕！
+				'''
+		}
+
+		altUiDisplacement: {
+			Label: 覆盖矢量位移
+			Tooltip:
+				'''
+				选择使用矢量设置（上方）或整数设置（下方）进行界面位移
+				设为false时使用矢量设置，true时使用整数设置
+				整数设置可精确输入数值（非滑动条）
+				'''
+		}
+
+		uiNudgeX: {
+			Label: 整数位移（X轴）
+			Tooltip:
+				'''
+				按此处设置的像素值水平移动界面
+				负值向左移动，正值向右移动
+				0值默认为物品栏右侧附近
+				仅当'覆盖矢量位移'为true时生效
+				'''
+		}
+
+		uiNudgeY: {
+			Label: 整数位移（Y轴）
+			Tooltip:
+				'''
+				按此处设置的像素值垂直移动界面
+				负值向上移动，正值向下移动
+				0值默认为物品栏垃圾桶下方
+				仅当'覆盖矢量位移'为true时生效
+				'''
+		}
+
+		AnnoyingIntroMessage: {
+			Label: 加入世界提示
+			Tooltip:
+				'''
+				切换每次加入世界时出现的模组聊天提示
+				此提示确保新玩家了解如何开始使用模组内容及配置
+				注意：多数配置位于服务器端设置
+				'''
+		}
+	}
+}
+
+Buffs: {
+	RendEpi: {
+		DisplayName: "{$Items.Rend}{$Items.Epic}"
+		Description: 减少敌人的防御
+	}
+
+	Powertheft: {
+		DisplayName: 强盗
+		Description: 降低敌人的攻击伤害
+	}
+
+	Overheat: {
+		DisplayName: 过热
+		Description: 手持过热的对武器会烫伤你！
+		/* DescCool:
+			'''
+			使用过载武器会积累热量；积累过多将造成灼伤！
+			当前热度等级：{0}%
+			''' */
+		/* DescHot:
+			'''
+			手持过载武器会灼伤你！停止使用以冷却！
+			当前热度等级：{0}%
+			''' */
+	}
+
+	Deathshroud: {
+		DisplayName: 裹尸布
+		Description: 手持裹尸布武器允许你闪避下一次攻击
+	}
+
+	Charge: {
+		DisplayName: 充电
+		Description: ""
+	}
+
+	Battlelust: {
+		DisplayName: 好战
+		Description: 好战武器已增加伤害
+	}
+
+	RendRar: {
+		DisplayName: "{$Items.Rend}{$Items.Rare}"
+		Description: 减少敌人防御
+	}
+
+	RendUlt: {
+		DisplayName: "{$Items.Rend}{$Items.Ultimate}"
+		Description: 减少敌人防御
+	}
+
+	RendUnc: {
+		DisplayName: "{$Items.Rend}{$Items.Uncommon}"
+		Description: 减少敌人防御
+	}
+
+	ResurgenceCooldown: {
+		DisplayName: 复活冷却
+		Description: 冷却结束前，复活效果不能再次触发
+	}
+
+	Resurgence: {
+		DisplayName: 复活
+		Description: 你暂时免疫伤害，复活武器的攻击会回复生命值
+	}
+
+	RunicBlaze: {
+		DisplayName: 卢恩火焰
+		Description: 烧烬敌人
+	}
+
+	RunicTaint: {
+		DisplayName: 卢恩腐蚀
+		Description: 削减敌人的生命值
+	}
+
+	Frenzy: {
+		DisplayName: 狂怒
+		Description: 狂怒武器攻速更快
+	}
+
+	Heartsurge: {
+		DisplayName: 输血
+		Description: 增加生命再生速度，手持输血武器会增强此效果
+	}
+
+	Momentum: {
+		DisplayName: 动量
+		Description: 你的动量武器已增加攻击速度
+	}
+
+	RunicForce: {
+		DisplayName: 强力卢恩
+		Description: 增加击退
+	}
+
+	RunicMight: {
+		DisplayName: 力量卢恩
+		Description: 增加伤害
+	}
+
+	RunicPrecision: {
+		DisplayName: 精密卢恩
+		Description: 增加暴击率
+	}
+
+	RunicRush: {
+		DisplayName: 急迫卢恩
+		Description: 增加攻击速度
+	}
+
+	Supercharge: {
+		DisplayName: 增压
+		Description: 增压武器获得巨大的伤害加成！
+	}
+
+	Unleash: {
+		DisplayName: 发泄
+		Description: 使用发泄武器的下一次攻击造成额外伤害
+		Desc:
+			'''
+			下一次发泄武器攻击将造成额外伤害
+			当前武器充能：{0}%
+			'''
+	}
+
+	Ward: {
+		DisplayName: 守护
+		Description: 手持守护武器会减少受到的伤害
+	}
+
+	PowertheftBuff: {
+		DisplayName: 强盗
+		Description: 你的强盗武器已经从敌人身上窃取了力量
+	}
+
+	RallyUlt: {
+		DisplayName: "{$Items.Rally}{$Items.Ultimate}"
+		Description: 敌人受到召唤物的伤害
+	}
+
+	RallyRar: {
+		DisplayName: "{$Items.Rally}{$Items.Rare}"
+		Description: 敌人受到召唤物的伤害
+	}
+
+	RallyEpi: {
+		DisplayName: "{$Items.Rally}{$Items.Epic}"
+		Description: 敌人受到更多召唤物的伤害
+	}
+
+	RunicBlaze2: {
+		DisplayName: 卢恩火焰+
+		Description: 烧烬敌人
+	}
+
+	RallyUnu: {
+		DisplayName: "{$Items.Rally}{$Items.Unusual}"
+		Description: 敌人可能被召唤物暴击
+	}
+
+	RallyUlt2: {
+		DisplayName: "{$Items.Rally}{$Items.Ultimate2}"
+		Description: 敌人受到更多召唤物伤害
+	}
+
+	Awestruck: {
+		DisplayName: 威慑
+		Description: 敌人防御降低
+	}
+
+	RendUlt2: {
+		DisplayName: "{$Items.Rend}{$Items.Ultimate2}"
+		Description: 敌人防御降低
+	}
+
+	RendUnu: {
+		DisplayName: "{$Items.Rend}{$Items.Unusual}"
+		Description: 敌人防御降低
+	}
+
+	RunicDecay: {
+		DisplayName: 卢恩腐蚀
+		Description: 削减敌人生命值并使其承受额外伤害
+	}
+
+	UnusualPowertheft: {
+		DisplayName: 稀有强盗
+		Description: 敌人防御降低
+	}
+
+		PowertheftDef: {
+			DisplayName: 稀有强盗
+			Description: 你的稀有强盗武器已窃取敌人防御
+	}
+
+	UnuUnleash: {
+		DisplayName: 潜力释放
+		Description: 稀有发泄武器根据充能获得额外伤害
+		/* Desc:
+			'''
+			稀有发泄武器根据充能获得额外伤害
+			持续造成伤害以积累充能
+			当前充能：{0}%
+			''' */
+	}
+
+	UnuDetermination: {
+		DisplayName: 灵魂决心
+		Description: ""
+		/* Desc:
+			'''
+			手持稀有决心武器时，根据生命值提升防御效果
+			防御效能：+{0}%
+			''' */
+	}
+
+	Determination: {
+		DisplayName: 决心
+		Description: ""
+		/* Desc:
+			'''
+			决心武器根据低生命值造成额外伤害
+			效能：{0}%
+			''' */
+	}
+
+	Vigor: {
+		DisplayName: 活力
+		Description: ""
+		/* Desc:
+			'''
+			决心武器根据高生命值造成额外伤害
+			效能：{0}%
+			''' */
+	}
+
+	RunicDecay2: {
+		DisplayName: 卢恩腐蚀+
+		Description: 削减敌人生命值并使其承受额外伤害
+	}
+
+	RallyUnu2: {
+			DisplayName: "{$Items.Rally}{$Items.Unusual2}"
+			Description: 敌人可能被召唤物暴击
+	}
+}
+
+Projectiles: {
+	BarrageProj.DisplayName: 掩护符文
+	BlastProj.DisplayName: 卢恩爆炸
+	CollateralSlash.DisplayName: 影刀光
+	OverflowProj.DisplayName: 回收符文
+	ResourceProj.DisplayName: 魔力恢复符文
+	UnusualSlash.DisplayName: 稀有斩击
+}
+
+Conditions: {
+	// DirectCraftOff: 直接附魔制作禁用，或同时启用制作与掉落
+	// DirectCraftOn: 直接附魔制作启用
+	// NonLinearCraftOn: 非线性附魔制作启用
+	}
+
+UI: {
+	/* GetStartedTip:
+		'''
+		[i:WeaponAugs/PowerShardBas] 感谢游玩武器附魔模组！[i:WeaponAugs/PowerShardBas]
+		开始使用：用重型工作台和3颗坠落之星制作[i:WeaponAugs/AugStationItem]附魔工作站
+
+		可在客户端配置中禁用此聊天提示
+		模组配置位于设置菜单→'模组配置'
+		''' */
+
+	Labels: {
+		Title: 管理附魔
+		AugList: 附魔列表：
+	}
+
+	//WeaponSlot.Tooltip: 在此插入武器、配饰或附魔印章
+	//AugSlot.Tooltip: 在此插入附魔宝石、附魔印章或虚空碎片
+	//CloseButton: 关闭
+
+	AugmentList: {
+		//NoAugment: 无
+		//NoAugmentDesc: 此槽位当前无附魔
+		//NoGear: 左侧插入有效物品以显示其附魔
+		//InvalidSlot: 槽位不可用。武器最大附魔槽位可在配置中调整
+	}
+
+	ApplyButton: {
+		//Name: 应用
+
+		Tooltip: {
+			// Generic: 将提供的附魔应用到插入的武器/配饰
+			# ================
+			# 操作提示
+			# ================
+                        ValidAug: 将{0}应用到{1}
+			/* ValidVoidShard:
+				'''
+				将{0}应用到{1}
+				此操作将移除选中的附魔
+				''' */
+			/* ValidStampCut:
+				'''
+				将{0}应用到{1}
+				此操作将移除选中的附魔并添加到印章
+				注：印章将添加至背包而非留在界面
+				''' */
+			/* ValidStampPaste:
+				'''
+				将{0}应用到{1}
+				此操作将移除选中的附魔，并用印章上的附魔填充空槽
+				印章附魔按列表顶部优先添加
+				警告：印章上不兼容或多余的附魔将丢失！
+				''' */
+                        # =============
+			# 所需物品提示
+			# =============
+			/* NeedGear:
+				'''
+				请在左侧插入有效物品。有效物品包括：
+				- 非消耗性武器（非弹药类）
+				- 任意配饰
+				- 含附魔的附魔印章
+				''' */
+			/* NeedAugment:
+				'''
+				请在右侧插入附魔宝石（或含附魔的附魔印章）
+				附魔宝石可从力量水晶获取
+				水晶可在此工作站用力量碎片制作
+				碎片由敌人稀有掉落
+				根据设置，部分（或全部）宝石也可直接制作
+				''' */
+			/* NeedOtherItem:
+				'''
+				请在右侧插入兼容物品
+				此工作站可将以下物品应用到含附魔的装备：
+				- 虚空碎片
+				- 附魔印章
+				''' */
+			/* NeedOtherItemOrAug:
+				'''
+				请在右侧插入附魔宝石或其他兼容物品
+				此工作站可将以下物品应用到含附魔的装备：
+				- 虚空碎片
+				- 附魔印章
+				''' */
+			/* StampNeedsItem:
+				'''
+				可使用虚空碎片或空白印章移除附魔印章上的附魔
+				注意：含附魔的印章无法完全清空
+				''' */
+                        # ====================
+			# Incompatibility Tips
+			# ====================
+                        /* NoSpace:
+				'''
+				此装备无空闲附魔槽位，无法添加更多
+				可通过虚空碎片或附魔印章移除附魔
+				武器最大附魔槽位可在配置中调整
+				''' */
+			// IncompatibleJewel: 此武器与该宝石上的附魔不兼容
+			// NoAugments: 此装备无附魔，{0}无效
+			/* NeedSelection: 
+                                ''' 
+                                尚未选择要移除/替换的附魔
+                                点击附魔列表名称旁的标记选择
+				''' */
+                        // NeedExotic: 配饰仅接受奇异附魔（及特定稀有附魔）
+			// NeedExoticStamp: 剪切/粘贴配饰附魔需要奇异印章
+			// NeedNonExotic: 仅配饰可接受此附魔
+			/* NeedNonExoticStamp: 
+                                '''
+                                奇异印章仅能剪切/粘贴配饰附魔
+                                使用其他印章处理其他等级附魔
+                                ''' */
+			/* NeedBetterStampSpace: 
+                                '''
+                                选中过多附魔，无法全部加入印章
+                                使用更高层级印章以剪切/粘贴更多附魔
+                                ''' */
+			/* NeedBetterStampQuality: 
+                                '''
+                                附魔稀有度过高，此印章无法容纳
+                                使用更高稀有度印章以切割/粘贴高级附魔
+			        ''' */
+                         /* CantEmptyStamp: 
+                                '''
+                                含附魔的印章必须至少保留一个附魔
+                                故无法移除选中附魔
+				''' */
+                        /* CantEmptyExoStamp: 
+                                '''
+                                含附魔的印章必须至少保留一个附魔
+                                故无法移除此印章的附魔
+                                ''' */
+		}
+	}
+
+	Feedback: {
+		// Success: 成功将{0}应用到{1}！
+		Fail: {
+			// MissingGear: 左侧需有效物品（武器、配饰或附魔印章）
+			// MissingAug: 右侧需有效物品（附魔宝石、印章或虚空碎片）
+			// Incompatible: 无效操作。请查看应用按钮提示
+			// Error: 错误：应用过程失败！
+		}
+	}
+}
+
+// Tiles.AugStationTile.MapEntry: 附魔工作站 

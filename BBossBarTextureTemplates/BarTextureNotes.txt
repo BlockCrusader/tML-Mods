@@ -1,5 +1,5 @@
 =======================================
- NOTEs FOR MAKING CUSTOM BAR TEXTURES:
+ NOTES FOR MAKING CUSTOM BAR TEXTURES:
 =======================================
 
 NEVER alter the file's dimensions! Otherwise your bar's drawing will get offset and messed up.
@@ -15,4 +15,5 @@ Keep in mind that players can customize the transparency of the Fill and Back.
 
 Optional details:
 - You don't need a Back piece if you don't want one on your bar
+
 - Decorations at the 75%/50%/25% marks of the bar aren't mandatory, but serve as a helpful visual for quickly gauging boss HP at a glance

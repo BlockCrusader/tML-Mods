@@ -1,0 +1,18 @@
+=======================================
+ NOTEs FOR MAKING CUSTOM BAR TEXTURES:
+=======================================
+
+NEVER alter the file's dimensions! Otherwise your bar's drawing will get offset and messed up.
+
+The texture is split vertically into 3 segments, each 90 pixels tall; the Frame, Fill, and Back.
+Make sure each part of the bar stays in its respective section, lest it bleed into other parts of bar.
+The Back is drawn first, then the Fill, and finally the Frame.
+
+The fill 'drains' in-game by drawing less and less of the left end of the fill texture.
+Thus, there can't really be a 'cap' on the left end of the fill; it'll be chopped off once the bar starts draining.
+
+Keep in mind that players can customize the transparency of the Fill and Back.
+
+Optional details:
+- You don't need a Back piece if you don't want one on your bar
+- Decorations at the 75%/50%/25% marks of the bar aren't mandatory, but serve as a helpful visual for quickly gauging boss HP at a glance

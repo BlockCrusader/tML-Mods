@@ -67,7 +67,7 @@ Mods: {
 			}
 
 			Clicker: {
-				IncClickRadius: 直接{0}基础点击半径
+				IncClickRadius: 基础点击半径增加{0}
 				CheaperEffect: 点击特效所需点击数减少{0}
 			}
 
@@ -780,7 +780,7 @@ Mods: {
 				DisplayName: 魔力充能器
 				Tooltip:
 					'''
-					{$CommonItemtooltip.ForItems.ActivatedAbility}充能10秒后回复150生命值
+					{$CommonItemtooltip.ForItems.ActivatedAbility}充能10秒后回复150魔力值
 					受到伤害会打断充能，无法回复魔力
 					[placeholder]
 					'''
@@ -2147,7 +2147,7 @@ Mods: {
 					小幅增加翅膀的飞行时间
 					增加摔落抗性
 					获得垂直冲刺能力
-                    双击向上或向下冲刺
+					双击向上或向下冲刺
 					垂直冲刺消耗飞行时间，没有翅膀时只能从地面冲刺
 					'''
 			}

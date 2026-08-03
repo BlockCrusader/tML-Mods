@@ -18,21 +18,21 @@ CommonTooltips: {
 			用捕猎碟画出形状时生成异国谐振
 			异国谐振会跟随光标并攻击附近的敌人
 			'''
-		 Exotic2:
+		Exotic2:
 			'''
 			用捕猎碟造成暴击时生成异国谐振
 			异国谐振会跟随你并略微增加你的生命再生
-			''' 
+			'''
 		Alloy:
 			'''
 			用捕猎碟圈入敌人时获得8点额外防御
 			受到伤害时失去一些额外防御并释放反击冲击波
 			'''
-		 Alloy2:
+		Alloy2:
 			'''
 			用捕猎碟圈入敌人时获得16点护甲穿透力
 			受到伤害时失去一些护甲穿透力,但会短暂增加捕获伤害
-			''' 
+			'''
 		Ancient:
 			'''
 			双击{0}召唤一个最初分形帮助你
@@ -40,13 +40,13 @@ CommonTooltips: {
 			击中敌人会暂时增加捕获伤害
 			召唤最初分形有30秒冷却
 			'''
-		 Aquarian:
+		Aquarian:
 			'''
 			潮湿时略微增加防御和生命再生
 			生命值低于一半时,获得20秒龙怒效果
 			龙怒会降低防御，但会提升巨量伤害
 			龙怒效果结束后有60秒冷却
-			''' 
+			'''
 		Lunar:
 			'''
 			双击{0}转换进攻模式与防守模式
@@ -712,11 +712,11 @@ Items: {
 
 	ExoticHat: {
 		DisplayName: 异国帽
-		 Tooltip:
+		Tooltip:
 			'''
 			增加6%捕获暴击率
 			增加5%捕获攻击速度
-			''' 
+			'''
 	}
 
 	ExoticBreastplate: {
@@ -744,11 +744,11 @@ Items: {
 
 	AlloyMask: {
 		DisplayName: 合金面具
-		 Tooltip:
+		Tooltip:
 			'''
 			增加7%捕获伤害
 			增加9%捕获暴击率
-			''' 
+			'''
 	}
 
 	AlloyBreastplate: {
@@ -776,8 +776,8 @@ Items: {
 		Tooltip:
 			'''
 			增加10%捕获伤害
-			增加5%捕获暴击率
-
+			增加5%捕获暴击率和速度
+			增加5%捕猎碟轨迹长度
 			'''
 	}
 
@@ -787,7 +787,6 @@ Items: {
 			'''
 			增加10%捕获伤害
 			增加8%捕获暴击率
-			增加10%捕猎碟轨迹长度
 			'''
 	}
 
@@ -833,34 +832,34 @@ Items: {
 
 	AquarianMask: {
 		DisplayName: 水族面具
-		 Tooltip:
+		Tooltip:
 			'''
 			增加9%捕获伤害
 			增加5%捕获暴击率
 			极大延长水下呼吸时间
-			''' 
+			'''
 	}
 
 	AquarianScalemail: {
 		DisplayName: 水族链甲
-		 Tooltip:
+		Tooltip:
 			'''
 			增加6%捕获伤害
 			增加13%捕获暴击率
 			增加10%捕获攻击速度
 			可以在液体中灵活运动
-			''' 
+			'''
 	}
 
 	AquarianLeggings: {
 		DisplayName: 水族护胫
-		 Tooltip:
+		Tooltip:
 			'''
 			增加5%捕获伤害
 			增加7%捕获暴击率
 			增加13%移动速度
 			获得游泳能力
-			''' 
+			'''
 	}
 
 	AffinityPotion: {
@@ -906,116 +905,116 @@ Items: {
 
 	Cometail: {
 		DisplayName: 彗星尾
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			触碰捕猎碟轨迹的敌人会冻伤
-			''' 
+			'''
 	}
 
 	Bleedout: {
 		DisplayName: 渗血碟
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			使用一段时间后自然破裂
 			'把城镇染成血色!'
-			''' 
+			'''
 	}
 
 	HellCircle: {
 		DisplayName: 地狱环
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			每七次攻击会出现一次强化攻击
-			''' 
+			'''
 	}
 
 	TruffleTrail: {
 		DisplayName: 松露轨迹
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			在轨迹上留下孢子
-			''' 
+			'''
 	}
 
 	StaticScarab: {
 		DisplayName: 圣甲虫
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			无视10点防御
-			''' 
+			'''
 	}
 
 	IcingDisc2: {
 		DisplayName: 冰糕碟
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			接触轨迹会暂时提升移速
 			'甜的!'
-			''' 
+			'''
 	}
 
 	SwarmSpinner: {
 		DisplayName: 旋转蜂群
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			画出封闭图形生成一只攻击敌人的蜜蜂
-			''' 
+			'''
 	}
 
 	AquaRing: {
 		DisplayName: 水环碟
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			画出封闭图形释放一个脉冲，暂时提高玩家的生命再生
-			''' 
+			'''
 	}
 
 	RadicalTop: {
 		DisplayName: 炫酷连击
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			反复造成伤害会堆叠捕猎碟的伤害
 			堆叠伤害随着时间降低，攻击未能造成伤害，也会降低堆叠效果
 			'过于花哨了'
-			''' 
+			'''
 	}
 
 	FaultyDisc: {
 		DisplayName: 次品碟
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			捕猎碟轨迹会随机断裂
 			'吝啬鬼的狐朋狗友'
-			''' 
+			'''
 	}
 
 	DrizzleDisc: {
 		DisplayName: 细雨碟
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			画出封闭图形会喷出有伤害的雨滴
-			''' 
+			'''
 	}
 
 	DarkLegacy: {
 		DisplayName: 黑暗遗产
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			画出封闭图形后轨迹会残留在原地
 			轨迹会伤害敌人并造成暗影焰
-			''' 
+			'''
 	}
 
 	AlloyDisc: {
@@ -1025,71 +1024,71 @@ Items: {
 
 	Triad: {
 		DisplayName: 三王碟
-		 Tooltip:
+		Tooltip:
 			'''
 			用三个追随光标的捕猎碟画出轨迹
 			被轨迹画出的封闭图形圈入的敌人会受到伤害
 			无视15点防御
 			'三重威胁'
-			''' 
+			'''
 	}
 
 	NatureEmbrace: {
 		DisplayName: 自然拥抱
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			被捕猎碟圈入的玩家会受到强化
 			增强玩家的生命再生和捕猎伤害
-			''' 
+			'''
 	}
 
 	DoubloonDisc: {
 		DisplayName: 金币碟
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			伤害敌人掉落钱币
 			'钱是万能的'
-			''' 
+			'''
 	}
 
 	SuperHappyFunDisc: {
 		DisplayName: 欢乐碟
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			暂时降低被击中敌人的接触伤害和对捕猎碟的防御
 			'我被乐死啦!'
-			''' 
+			'''
 	}
 
 	IlluminantIllustrator: {
 		DisplayName: 光芒画师
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			移动时留下残影
 			'画个圈圈诅咒你!'
-			''' 
+			'''
 	}
 
 	CausticCapture: {
 		DisplayName: 腐蚀碟
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			随机造成咒火和灵液效果
-			''' 
+			'''
 	}
 
 	EverlastingEllipse: {
 		DisplayName: 永恒椭圆
-		 Tooltip:
+		Tooltip:
 			'''
 			{$CommonTooltips.DiscDesc}
 			接触轨迹的敌人会受到伤害
-			''' 
+			'''
 	}
 }
 
@@ -1378,7 +1377,16 @@ Buffs: {
 
 DamageClasses: {
 	TrueCaptureDamage.DisplayName: 捕获伤害
-	CaptureDamage.DisplayName: 捕获伤害
+
+	CaptureDamage: {
+		DisplayName: 捕获伤害
+		RecipeBrowserName: 捕猎碟
+
+		ThoriumMod_TerrariumArmorAddClassFocus: {
+			Name: 捕猎碟专注
+			Description: 捕猎碟专注: 增加10%捕猎碟轨迹长度和速度
+		}
+	}
 }
 
 Prefixes: {
@@ -1464,7 +1472,7 @@ Configs: {
 
 		captureSpdMult: {
 			Label: 捕猎碟速度倍率
-			 Tooltip:
+			Tooltip:
 				'''
 				调整捕猎碟速度的倍率
 				捕猎碟的速度决定其随着光标移动的能力，从而影响其手感
@@ -1472,48 +1480,48 @@ Configs: {
 				对游戏前期的捕猎碟尤其明显，因为其有意设计得不好操作
 				类似'随画图时间增加伤害'选项,这不是预期的游戏方式,但是可以降低游玩的劳累程度
 				如果试图用触屏或数位板游玩，强烈建议提高倍率，因为捕猎碟对它们的反应很差
-				''' 
+				'''
 		}
 
 		captureDmgMult: {
 			Label: 捕猎碟伤害倍率
-			 Tooltip:
+			Tooltip:
 				'''
 				调整捕猎碟伤害的倍率
 				如果觉得捕猎碟强度太强或太弱，可以在这里调整
 				注意捕猎碟的单体伤害特意设计得比较低 
 				这是因为其有强大的群体控制效果且能攻击整个屏幕
-				''' 
+				'''
 		}
 
 		rangerModeDmg: {
 			Label: 巡护员模式伤害倍率
-			 Tooltip:
+			Tooltip:
 				'''
 				和 '捕猎碟伤害倍率'选项一样，但只在巡护员模式生效
 				两个选项效果可叠加
 				推荐使用，因为巡护员模式圈入敌人的难度更高
-				''' 
+				'''
 		}
 
 		rangerModeBossDmg: {
 			Label: 巡护员模式BOSS伤害倍率
-			 Tooltip:
+			Tooltip:
 				'''
 				调整巡护员模式对BOSS造成伤害的倍率
 				可以与其他伤害倍率叠加
 				推荐使用，因为巡护员模式圈入BOSS的难度显著的高
-				''' 
+				'''
 		}
 
 		rangerModeSpd: {
 			Label: 巡护员模式速度倍率
-			 Tooltip:
+			Tooltip:
 				'''
 				和 '捕猎碟速度倍率'选项一样，但只在巡护员模式生效
 				两个选项效果可叠加
 				推荐使用，因为巡护员模式圈入敌人的难度更高
-				''' 
+				'''
 		}
 	}
 }

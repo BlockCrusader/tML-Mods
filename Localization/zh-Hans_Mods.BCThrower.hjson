@@ -68,6 +68,13 @@ CommonTooltips: {
 			增加 20% 召唤伤害
 			增加 15% 投掷暴击率
 			'''
+		 MonkHead: 哨兵数量上限增加1，投掷速度增加15%
+		 MonkBody:
+			'''
+			增加20%召唤伤害
+			增加15%投掷伤害
+			''' 
+		 MonkLegs: 增加12%投掷暴击率，增加20%移动速度
 	}
 
 	SetBonus: {
@@ -1129,7 +1136,7 @@ Items: {
 			'''
 			投出短距离石块攻击敌人
 			'难以想象的酷刑'
-			''' 
+			'''
 	}
 
 	EnchantedDagger: {
@@ -1138,7 +1145,7 @@ Items: {
 			'''
 			投出无限量的小刀
 			'不要和魔法飞刀混淆'
-			''' 
+			'''
 	}
 
 	GildedShuriken: {
@@ -1152,7 +1159,7 @@ Items: {
 			'''
 			让大多数敌人被寒冷侵蚀
 			'冷静!'
-			''' 
+			'''
 	}
 
 	ThrowingSpear: {
@@ -1181,7 +1188,7 @@ Items: {
 			'''
 			粘在物块上，接触时引发小型粘网爆炸
 			暂时削弱大多数敌人的移动能力
-			''' 
+			'''
 	}
 
 	BloodyHarpoon: {
@@ -1190,6 +1197,15 @@ Items: {
 			'''
 			钩住敌人，使其无法逃离
 			'你需要一艘更大的船。'
+			'''
+	}
+
+	Twinnail: {
+		 DisplayName: 双子尖钉
+		 Tooltip:
+			'''
+			投掷永久扎进敌人或物块的强大尖钉
+			最多投出两个尖钉，右键召回离光标最近的尖钉
 			''' 
 	}
 }
@@ -1374,6 +1390,11 @@ Buffs: {
 		DisplayName: 血腥捕获
 		Description: 这个敌人被血腥的鱼叉钩住
 	}
+
+	TwinnailDebuff: {
+		 Description: Mods.BCThrower.Buffs.TwinnailDebuff.Description
+		 DisplayName: 双子尖钉
+	}
 }
 
 Emotes.NinjaEmote.Command: 忍者
@@ -1500,6 +1521,7 @@ Projectiles: {
 	FossilShardProj.DisplayName: 化石碎片
 	WebTrapProj.DisplayName: 蛛网陷阱
 	BloodyHarpoonProj.DisplayName: 血腥鱼叉
+	TwinnailProj.DisplayName: 双子尖钉
 }
 
 Configs: {
@@ -1521,7 +1543,7 @@ Configs: {
 			Tooltip:
 				'''
 				{$CommonTooltips.Config.ArmorChange}
-				召唤伤害加成不变，近战攻速加成变为 boosts are kept, but melee speed (Which benefits whips) isn't
+				保留召唤加成，但取消近战和鞭子攻速加成
 				套装效果和防御力不变
 				'''
 		}
@@ -1686,6 +1708,16 @@ Configs: {
 				由于没有进行统计调整来适配类型更改，因此可能会破坏平衡
 				此设置将覆盖下面的许多单独转换设置
 				'''
+		}
+
+		monkArmorConv: {
+			 Label: "[i:3806]武僧盔甲重做"
+			 Tooltip:
+				'''
+				{$CommonTooltips.Config.ArmorChange}
+				保留召唤加成, 但取消近战和鞭子攻速加成
+				套装效果和防御力不变
+				''' 
 		}
 	}
 
